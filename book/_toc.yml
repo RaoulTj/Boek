@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: H1/H1_0_intro
+root: intro
 options:
   numbered: false
 
