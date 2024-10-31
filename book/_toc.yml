@@ -21,6 +21,7 @@ chapters:
   - file: H2/H2_2
   - file: H2/H2_3_opgaven
   - file: H2/H2_4_uitwerkingen
+
 - file: H3/H3_0_intro
   sections:
   - file: H3/H3_1
