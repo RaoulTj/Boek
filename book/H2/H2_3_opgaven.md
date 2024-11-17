@@ -14,6 +14,13 @@ Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijkin
  e^{-x}y^2\dfrac{dy}{dx} = 1
 \end{align*}
 
+## Opgave 2.1c
+
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
+\begin{align*}
+ \dfrac{dy}{dx} = y\sin(x)
+\end{align*}
+
 ## Opgave 2.1d
 
 Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
