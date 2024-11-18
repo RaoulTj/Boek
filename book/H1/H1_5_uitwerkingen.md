@@ -67,8 +67,8 @@ Diﬀerentiëren van de functie geeft:
 Substitutie in de D.V. geeft dan:
 \begin{align*}
  \dfrac{1}{t}\dfrac{dx}{dt} + 2x &= 1\\
- \dfrac{1}{t} -2tCe^{-t^2} + 2 (\dfrac{1}{2} + Ce^{-t^2}) &= 1 \\
- -2Ce^{-t^2} + 2\dfrac{1}{2} + 2Ce^{-t^2}) &= 1 \\
+ \dfrac{1}{t} (-2tCe^{-t^2}) + 2 (\dfrac{1}{2} + Ce^{-t^2}) &= 1 \\
+ -2Ce^{-t^2} + 2 \cdot \dfrac{1}{2} + 2Ce^{-t^2}) &= 1 \\
  1 &= 1
 \end{align*}
 
@@ -80,14 +80,14 @@ een oplossing.
 Geef van de volgende differentiaalvergelijking aan of dit een lineaire differentiaalvergelijking is of niet. Geef als het een lineaire differentiaalvergelijking betreft ook aan of deze homogeen of inhomogeen is.  Toon vervolgens aan dat de gegeven oplossing voldoet aan de differentiaalvergelijking.
 
 \begin{align*}
- \dfrac{d^2y}{dt^2} - \dfrac{dy}{dt} - 2y &= 4t \qquad \text{geeft} \qquad y(x)= -2t - 1 + C_1e^{t} + C_2e^{-2t}
+ \dfrac{d^2y}{dt^2} + \dfrac{dy}{dt} - 2y &= 4t \qquad \text{geeft} \qquad y(x)= -2t - 1 + C_1e^{t} + C_2e^{-2t}
 \end{align*}
 
 De differentiaalvergelijking staat al in de goede vorm. Hieruit volgt dat de vergelijking lineair is. De differentiaalvergelijking is ongeljik aan 0, dus de vergelijking is inhomogeen.
 
 Gegeven de differentiaalvergelijking:
 \begin{align*}
- \dfrac{d^2y}{dt^2} - \dfrac{dy}{dt} - 2y &= 4t
+ \dfrac{d^2y}{dt^2} + \dfrac{dy}{dt} - 2y &= 4t
 \end{align*}
 
 Stel de diﬀerentiaalvergelijking heeft als oplossing:
@@ -104,10 +104,49 @@ Diﬀerentiëren van de functie geeft:
 Substitutie in de D.V. geeft dan:
 \begin{align*}
  \dfrac{d^2y}{dt^2} - \dfrac{dy}{dt} - 2y &= 4t \\
- (C_1e^{t} + 4C_2e^{-2t}) - (-2 + C_1e^{t} -2C_2e^{-2t} ) - 2(-2t - 1 + C_1e^{t} + C_2e^{-2t}) &= 4t  \\
-(C_1e^{t} + 4C_2e^{-2t}) + 2 - C_1e^{t} + 2C_2e^{-2t} ) + 4t + 2  - 2C_1e^{t} - 2C_2e^{-2t}) &= 4t  \\
- 1 &= 1
+ (C_1e^{t} + 4C_2e^{-2t}) + (-2 + C_1e^{t} -2C_2e^{-2t} ) - 2(-2t - 1 + C_1e^{t} + C_2e^{-2t}) &= 4t  \\
+(C_1e^{t} + 4C_2e^{-2t}) - 2 + C_1e^{t} - 2C_2e^{-2t}  + 4t + 2  - 2C_1e^{t} - 2C_2e^{-2t} &= 4t  \\
+C_1e^{t} + C_1e^{t}  - 2C_1e^{t}  + 4C_2e^{-2t} - 2C_2e^{-2t} - 2C_2e^{-2t} - 2  + 2 + 4t   &= 4t \\
+ 4t &= 4t
 \end{align*}
 
-Oftewel $1$ = $1$ dus deze functie voldoet aan de diﬀerentiaalvergelijking en is
+Oftewel $4t$ = $4t$ dus deze functie voldoet aan de diﬀerentiaalvergelijking en is
+een oplossing.
+
+## Opgave 1.1d
+
+Geef van de volgende differentiaalvergelijking aan of dit een lineaire differentiaalvergelijking is of niet. Geef als het een lineaire differentiaalvergelijking betreft ook aan of deze homogeen of inhomogeen is.  Toon vervolgens aan dat de gegeven oplossing voldoet aan de differentiaalvergelijking.
+
+\begin{align*}
+ \dfrac{dy}{dx} + y^2\sin(x) &= 0 \qquad \text{geeft} \qquad y(x)= \dfrac{1}{1-\cos(x)}
+\end{align*}
+
+De differentiaalvergelijking staat al in de goede vorm. Hieruit volgt dat de vergelijking niet-lineair is.
+
+Gegeven de differentiaalvergelijking:
+\begin{align*}
+ \dfrac{dy}{dx} + y^2\sin(x) &= 0
+\end{align*}
+
+Stel de diﬀerentiaalvergelijking heeft als oplossing:
+\begin{align*}
+ y(x)= -2t - 1 + C_1e^{t} + C_2e^{-2t}
+\end{align*}
+
+Diﬀerentiëren van de functie geeft:
+\begin{align*}
+ \dfrac{dy}{dx} &= -2 + C_1e^{t} -2C_2e^{-2t} \\
+ \dfrac{d^2y}{dx^2} &= + C_1e^{t} + 4C_2e^{-2t}
+\end{align*}
+
+Substitutie in de D.V. geeft dan:
+\begin{align*}
+ \dfrac{d^2y}{dt^2} - \dfrac{dy}{dt} - 2y &= 4t \\
+ (C_1e^{t} + 4C_2e^{-2t}) + (-2 + C_1e^{t} -2C_2e^{-2t} ) - 2(-2t - 1 + C_1e^{t} + C_2e^{-2t}) &= 4t  \\
+(C_1e^{t} + 4C_2e^{-2t}) - 2 + C_1e^{t} - 2C_2e^{-2t}  + 4t + 2  - 2C_1e^{t} - 2C_2e^{-2t} &= 4t  \\
+C_1e^{t} + C_1e^{t}  - 2C_1e^{t}  + 4C_2e^{-2t} - 2C_2e^{-2t} - 2C_2e^{-2t} - 2  + 2 + 4t   &= 4t \\
+ 4t &= 4t
+\end{align*}
+
+Oftewel $4t$ = $4t$ dus deze functie voldoet aan de diﬀerentiaalvergelijking en is
 een oplossing.

@@ -21,7 +21,7 @@ Geef van de volgende differentiaalvergelijking aan of dit een lineaire different
 Geef van de volgende differentiaalvergelijking aan of dit een lineaire differentiaalvergelijking is of niet. Geef als het een lineaire differentiaalvergelijking betreft ook aan of deze homogeen of inhomogeen is.  Toon vervolgens aan dat de gegeven oplossing voldoet aan de differentiaalvergelijking.
 
 \begin{align*}
- \dfrac{d^2y}{dt^2} - \dfrac{dy}{dt} - 2y &= 4t \qquad \text{geeft} \qquad y(x)= -2t - 1 + C_1e^{t} + C_2e^{-2t}
+ \dfrac{d^2y}{dt^2} + \dfrac{dy}{dt} - 2y &= 4t \qquad \text{geeft} \qquad y(x)= -2t - 1 + C_1e^{t} + C_2e^{-2t}
 \end{align*}
 
 ## Opgave 1.1d
