@@ -4,6 +4,9 @@ Toon aan dat de gegeven oplossing voldoet aan de differentiaalvergelijking.
 
 ## Opgaven 1.1a
 
+```{admonition} Uitwerkingen
+:class: dropdown
+
 Geef van de volgende differentiaalvergelijking aan of dit een lineaire differentiaalvergelijking is of niet. Geef als het een lineaire differentiaalvergelijking betreft ook aan of deze homogeen of inhomogeen is.  Toon vervolgens aan dat de gegeven oplossing voldoet aan de differentiaalvergelijking.
 
 \begin{align*}
@@ -38,8 +41,12 @@ Substitutie in de D.V. geeft dan:
 
 Oftewel $e^{3x}$ = $e^{3x}$ dus deze functie voldoet aan de diﬀerentiaalvergelijking en is
 een oplossing.
+```
 
 ## Opgaven 1.1b
+
+```{admonition} Uitwerkingen
+:class: dropdown
 
 Geef van de volgende differentiaalvergelijking aan of dit een lineaire differentiaalvergelijking is of niet. Geef als het een lineaire differentiaalvergelijking betreft ook aan of deze homogeen of inhomogeen is.  Toon vervolgens aan dat de gegeven oplossing voldoet aan de differentiaalvergelijking.
 
@@ -74,8 +81,12 @@ Substitutie in de D.V. geeft dan:
 
 Oftewel $1$ = $1$ dus deze functie voldoet aan de diﬀerentiaalvergelijking en is
 een oplossing.
+```
 
 ## Opgave 1.1c
+
+```{admonition} Uitwerkingen
+:class: dropdown
 
 Geef van de volgende differentiaalvergelijking aan of dit een lineaire differentiaalvergelijking is of niet. Geef als het een lineaire differentiaalvergelijking betreft ook aan of deze homogeen of inhomogeen is.  Toon vervolgens aan dat de gegeven oplossing voldoet aan de differentiaalvergelijking.
 
@@ -112,8 +123,12 @@ C_1e^{t} + C_1e^{t}  - 2C_1e^{t}  + 4C_2e^{-2t} - 2C_2e^{-2t} - 2C_2e^{-2t} - 2 
 
 Oftewel $4t$ = $4t$ dus deze functie voldoet aan de diﬀerentiaalvergelijking en is
 een oplossing.
+```
 
 ## Opgave 1.1d
+
+```{admonition} Uitwerkingen
+:class: dropdown
 
 Geef van de volgende differentiaalvergelijking aan of dit een lineaire differentiaalvergelijking is of niet. Geef als het een lineaire differentiaalvergelijking betreft ook aan of deze homogeen of inhomogeen is.  Toon vervolgens aan dat de gegeven oplossing voldoet aan de differentiaalvergelijking.
 
@@ -130,23 +145,23 @@ Gegeven de differentiaalvergelijking:
 
 Stel de diﬀerentiaalvergelijking heeft als oplossing:
 \begin{align*}
- y(x)= -2t - 1 + C_1e^{t} + C_2e^{-2t}
+ y(x)= \dfrac{1}{1-\cos(x)} \\
+ y(x)= (1-\cos(x))^{-1}
 \end{align*}
 
 Diﬀerentiëren van de functie geeft:
 \begin{align*}
- \dfrac{dy}{dx} &= -2 + C_1e^{t} -2C_2e^{-2t} \\
- \dfrac{d^2y}{dx^2} &= + C_1e^{t} + 4C_2e^{-2t}
+ \dfrac{dy}{dx} &= -(1-\cos(x))^{-2} \cdot sin(x) \\
+ \dfrac{dy}{dx} &= - \dfrac{sin(x)}{ (1-\cos(x))^{2}}
 \end{align*}
 
 Substitutie in de D.V. geeft dan:
 \begin{align*}
- \dfrac{d^2y}{dt^2} - \dfrac{dy}{dt} - 2y &= 4t \\
- (C_1e^{t} + 4C_2e^{-2t}) + (-2 + C_1e^{t} -2C_2e^{-2t} ) - 2(-2t - 1 + C_1e^{t} + C_2e^{-2t}) &= 4t  \\
-(C_1e^{t} + 4C_2e^{-2t}) - 2 + C_1e^{t} - 2C_2e^{-2t}  + 4t + 2  - 2C_1e^{t} - 2C_2e^{-2t} &= 4t  \\
-C_1e^{t} + C_1e^{t}  - 2C_1e^{t}  + 4C_2e^{-2t} - 2C_2e^{-2t} - 2C_2e^{-2t} - 2  + 2 + 4t   &= 4t \\
+ - \dfrac{sin(x)}{ (1-\cos(x))^{2}} + (\dfrac{1}{1-\cos(x)})^2 \cdot  \sin(x) &= 0 \\
+ \dfrac{dy}{dx} + y^2\sin(x) &= 0 \\
  4t &= 4t
 \end{align*}
 
 Oftewel $4t$ = $4t$ dus deze functie voldoet aan de diﬀerentiaalvergelijking en is
 een oplossing.
+```
