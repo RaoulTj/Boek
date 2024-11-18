@@ -158,10 +158,53 @@ Diﬀerentiëren van de functie geeft:
 Substitutie in de D.V. geeft dan:
 \begin{align*}
  - \dfrac{sin(x)}{ (1-\cos(x))^{2}} + (\dfrac{1}{1-\cos(x)})^2 \cdot  \sin(x) &= 0 \\
- \dfrac{dy}{dx} + y^2\sin(x) &= 0 \\
- 4t &= 4t
+  - \dfrac{sin(x)}{ (1-\cos(x))^{2}} + \dfrac{\sin(x)}{(1-\cos(x))^{2}} \cdot  \sin(x) &= 0 \\
+ 0 &= 0
 \end{align*}
 
-Oftewel $4t$ = $4t$ dus deze functie voldoet aan de diﬀerentiaalvergelijking en is
+Oftewel $0$ = $0$ dus deze functie voldoet aan de diﬀerentiaalvergelijking en is
 een oplossing.
 ```
+
+## Opgave 1.2a
+
+```{admonition} Uitwerkingen
+:class: dropdown
+
+Bepaal door integratie de algemene oplossing van de volgende
+diﬀerentiaalvergelijking.
+
+\begin{align*}
+ \dfrac{dy}{dx} &= -3x^2
+\end{align*}
+
+Aan beide kanten de integraal nemen naar $dx$.
+\begin{align}
+ y &= \int -3x^2 dx \\
+ y &= -x^3 + C \qquad \text{met } C \in \mathbb{R}
+\end{align}
+```
+
+## Opgave 1.2b
+
+```{admonition} Uitwerkingen
+:class: dropdown
+
+Bepaal door integratie de algemene oplossing van de volgende
+diﬀerentiaalvergelijking.
+
+\begin{align*}
+ \dfrac{d^2y}{dx^2} &= - \cos(2x)
+\end{align*}
+
+Aan beide kanten de integraal nemen naar $dx$.
+\begin{align}
+ \dfrac{dy}{dx} &= \int - \cos(2x) dx \\
+ \dfrac{dy}{dx} &= -\dfrac{1}{2} \sin(2x) + C_1 \\
+\end{align}
+
+Aan beide kanten de integraal nemen naar $dx$.
+\begin{align}
+ y &= \int -\dfrac{1}{2} \sin(2x) + C_1 dx \\
+ y &= \dfrac{1}{4} \cos(2x) + C_1x + C_2 \qquad \text{met } C_{1,2} \in \mathbb{R}
+\end{align}
