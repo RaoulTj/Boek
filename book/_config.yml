@@ -41,9 +41,15 @@ parse:
     - substitution
     - amsmath
 
+launch_buttons:
+  thebe: true
+
 sphinx:
   config:
     html_js_files:
     - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
+    thebe_config:
+      use_thebe_lite: true
+      exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
   extra_extensions:
     - sphinx_proof
