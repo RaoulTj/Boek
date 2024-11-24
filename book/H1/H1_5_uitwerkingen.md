@@ -208,3 +208,71 @@ Aan beide kanten de integraal nemen naar $dx$.
  y &= \int -\dfrac{1}{2} \sin(2x) + C_1 dx \\
  y &= \dfrac{1}{4} \cos(2x) + C_1x + C_2 \qquad \text{met } C_{1,2} \in \mathbb{R}
 \end{align}
+```
+
+## Opgave 1.2c
+
+```{admonition} Uitwerkingen
+:class: dropdown
+
+Bepaal door integratie de algemene oplossing van de volgende
+diﬀerentiaalvergelijking.
+
+\begin{align*}
+ \dfrac{1}{x}\dfrac{dy}{dx} = e^x
+\end{align*}
+
+Herschrijf de vergelijking.
+\begin{align*}
+ \dfrac{dy}{dx} = x \cdot  e^x
+\end{align*}
+
+Oplossen door partieel integreren.
+De algemene methode voor partieel integreren is;
+\begin{align*}
+ & \int f \cdot g' dx \\
+ &= \int f  dg \\
+ &= f \cdot g - \int g \cdot df
+\end{align*}
+
+Dit invullen voor de vergelijking geeft;
+\begin{align*}
+& \int x \cdot e^x dx \\
+&= \int e  de^x \\
+&= e \cdot e^x - \int e^x \cdot d1 \\
+&= e \cdot e^x - \int e^x \cdot 1 dx \\
+&= e \cdot e^x - e^x + C \text{met } C \in \mathbb{R}
+\end{align*}
+```
+
+## Opgave 1.2d
+
+```{admonition} Uitwerkingen
+:class: dropdown
+
+Bepaal door integratie de algemene oplossing van de volgende
+diﬀerentiaalvergelijking.
+
+\begin{align*}
+ \dfrac{d^3y}{dx^3}  &= 0
+\end{align*}
+
+Aan beide kanten de integraal nemen naar $dx$.
+\begin{align}
+ \dfrac{d^2y}{dx^2} &= \int 0 dx \\
+ \dfrac{d^2y}{dx^2} &= C_1 \\
+\end{align}
+
+Aan beide kanten de integraal nemen naar $dx$.
+\begin{align}
+ \dfrac{dy}{dx} &= \int C_1 dx \\
+ \dfrac{dy}{dx} &= C_1x + C_2 \\
+\end{align}
+
+Aan beide kanten de integraal nemen naar $dx$.
+\begin{align}
+ y &= \int C_1x + C_2 dx \\
+ y &= \dfrac{1}{2}C_1x^2 + C_2x + C_3 \\
+ y &= C_1x^2 + C_2x + C_3 \qquad \text{met } C_{1,2,3} \in \mathbb{R}
+\end{align}
+```
