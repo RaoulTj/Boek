@@ -238,10 +238,10 @@ De algemene methode voor partieel integreren is;
 Dit invullen voor de vergelijking geeft;
 \begin{align*}
 & \int x \cdot e^x dx \\
-&= \int e  de^x \\
-&= e \cdot e^x - \int e^x \cdot d1 \\
-&= e \cdot e^x - \int e^x \cdot 1 dx \\
-&= e \cdot e^x - e^x + C \text{met } C \in \mathbb{R}
+&= \int x \cdot  de^x \\
+&= x \cdot e^x - \int e^x \cdot d1 \\
+&= x \cdot e^x - \int e^x \cdot 1 dx \\
+&= x \cdot e^x - e^x + C \qquad \text{met } C \in \mathbb{R}
 \end{align*}
 ```
 
@@ -271,7 +271,7 @@ Aan beide kanten de integraal nemen naar $dx$.
 
 Aan beide kanten de integraal nemen naar $dx$.
 \begin{align}
- y &= \int C_1x + C_2 dx \\
+ y &= \int (C_1x + C_2) dx \\
  y &= \dfrac{1}{2}C_1x^2 + C_2x + C_3 \\
  y &= C_1x^2 + C_2x + C_3 \qquad \text{met } C_{1,2,3} \in \mathbb{R}
 \end{align}
