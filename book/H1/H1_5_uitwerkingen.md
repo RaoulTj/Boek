@@ -237,11 +237,11 @@ De algemene methode voor partieel integreren is;
 
 Dit invullen voor de vergelijking geeft;
 \begin{align*}
-& \int x \cdot e^x dx \\
+y&= \int x \cdot e^x dx \\
 &= \int x \cdot  de^x \\
 &= x \cdot e^x - \int e^x \cdot d1 \\
 &= x \cdot e^x - \int e^x \cdot 1 dx \\
-&= x \cdot e^x - e^x + C \qquad \text{met } C \in \mathbb{R}
+y&= x \cdot e^x - e^x + C \qquad \text{met } C \in \mathbb{R}
 \end{align*}
 ```
 
