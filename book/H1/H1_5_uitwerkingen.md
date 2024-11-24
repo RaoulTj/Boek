@@ -180,7 +180,7 @@ diﬀerentiaalvergelijking.
 
 Aan beide kanten de integraal nemen naar $dx$.
 \begin{align}
- y &= \int -3x^2 dx \\
+ y &= \int( -3x^2) dx \\
  y &= -x^3 + C \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
@@ -199,13 +199,13 @@ diﬀerentiaalvergelijking.
 
 Aan beide kanten de integraal nemen naar $dx$.
 \begin{align}
- \dfrac{dy}{dx} &= \int - \cos(2x) dx \\
+ \dfrac{dy}{dx} &= \int (- \cos(2x)) dx \\
  \dfrac{dy}{dx} &= -\dfrac{1}{2} \sin(2x) + C_1 \\
 \end{align}
 
 Aan beide kanten de integraal nemen naar $dx$.
 \begin{align}
- y &= \int -\dfrac{1}{2} \sin(2x) + C_1 dx \\
+ y &= \int (-\dfrac{1}{2} \sin(2x) + C_1) dx \\
  y &= \dfrac{1}{4} \cos(2x) + C_1x + C_2 \qquad \text{met } C_{1,2} \in \mathbb{R}
 \end{align}
 ```
