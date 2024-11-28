@@ -1,6 +1,10 @@
 # 2.6 Uitwerkingen les 2
 
 ## Opgave 1
+
+```{admonition} Uitwerkingen
+:class: dropdown
+
 \begin{align*}
  \dfrac{dy}{dx} = \dfrac{y^2}{x-3}
 \end{align*}
@@ -31,8 +35,12 @@ dus,
 \begin{align}
  y &=  \dfrac{-1}{\ln|x-3|  + C} \qquad \text{met } C \in \mathbb{R}
 \end{align}
+```
 
 ## Opgave 2
+
+```{admonition} Uitwerkingen
+:class: dropdown
 
 \begin{align*}
  \dfrac{dy}{dx} = y^3
@@ -66,8 +74,12 @@ dus,
 \begin{align}
  y  &= \pm \sqrt{\dfrac{1}{-2x  + C}} \qquad \text{met } C \in \mathbb{R}
 \end{align}
+```
 
 ## Opgave 3
+
+```{admonition} Uitwerkingen
+:class: dropdown
 
 \begin{align*}
  \dfrac{dy}{dx} = 3x^2e^{-y}
@@ -101,8 +113,12 @@ dus,
 \begin{align}
  y &= \ln( x^3  + C) \qquad \text{met } C \in \mathbb{R}
 \end{align}
+```
 
 ## Opgave 4
+
+```{admonition} Uitwerkingen
+:class: dropdown
 
 \begin{align*}
  ydx + xdy = 0
@@ -140,8 +156,12 @@ y=0 voldoet aan de dv dus,
 \begin{align}
  y &= C \cdot \dfrac{1}{x}  \qquad \text{met } C \in \mathbb{R}
 \end{align}
+```
 
 ## Opgave 5
+
+```{admonition} Uitwerkingen
+:class: dropdown
 
 \begin{align*}
  \dfrac{dy}{dx} = 6x^5y+y\\
@@ -177,3 +197,4 @@ y=0 voldoet aan de dv dus,
 \begin{align}
   y  &=  C \cdot e^{x^6 + x}  \qquad \text{met } C \in \mathbb{R}
 \end{align}
+```

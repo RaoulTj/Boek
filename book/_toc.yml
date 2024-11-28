@@ -7,8 +7,8 @@ options:
   numbered: false
 
 parts:
-  - caption: General design info
-    numbered: 2
+  - caption: Theorie
+    numbered: false
     chapters:
     - file: H1/H1_0_intro
       sections:
@@ -60,8 +60,8 @@ parts:
       - file: H7/H7_3
       - file: H7/H7_4
 
-  - caption: General design info
-    numbered: 2
+  - caption: Opgaven en Uitwerkingen lessen
+    numbered: false
     chapters:
     - file: H2/H2_les
       sections:
