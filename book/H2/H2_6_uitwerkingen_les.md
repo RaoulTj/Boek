@@ -5,27 +5,31 @@
 ```{admonition} Uitwerkingen
 :class: dropdown
 
-%Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijkigen.
-
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijkigen.
 \begin{align*}
-y\dfrac{dy}{dx} = x
+ \dfrac{dy}{dx} = \dfrac{x}{y}
+\end{align*}
+
+Alle variabelen met een $y$ naar links en variabelen met een $x$ naar rechts.
+\begin{align*}
+y\dfrac{dy}{dx} = x \qquad \text{met } C \in \mathbb{R} \quad {\color{blue}   \text{(1p)}}
 \end{align*}
 
 Aan beide kanten de integraal nemen naar $dx$.
 \begin{align}
- \int y\dfrac{dy}{dx} dx &= \int x dx
+ \int y\dfrac{dy}{dx} dx &= \int x dx \qquad \text{met } C \in \mathbb{R} \quad {\color{blue}   \text{(1p)}}
 \end{align}
 
 De integraal $\dfrac{dy}{dx}dx$ vereenvoudigen tot $dy$.
 \begin{align}
- \int y dy &= \int x dx
+ \int y dy &= \int x dx \qquad \text{met } C \in \mathbb{R} \quad {\color{blue}   \text{(1p)}}
 \end{align}
 
 De primitieven nemen van beide kanten.
 \begin{align}
  \frac{1}{2}y^2 + C_1&= \frac{1}{2}x^2 + C_2\\
  y^2 &= x^2 + C_3\\
- y &= \pm \sqrt{x^2 + C} \qquad \text{met } C \in \mathbb{R}
+ y &= \pm \sqrt{x^2 + C} \qquad \text{met } C \in \mathbb{R} \qquad \text{met } C \in \mathbb{R} \quad {\color{blue}   \text{(1p)}}
 \end{align}
 ```
 
