@@ -5,6 +5,35 @@
 ```{admonition} Uitwerkingen
 :class: dropdown
 
+%Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijkigen.
+
+\begin{align*}
+y\dfrac{dy}{dx} = x
+\end{align*}
+
+Aan beide kanten de integraal nemen naar $dx$.
+\begin{align}
+ \int y\dfrac{dy}{dx} dx &= \int x dx
+\end{align}
+
+De integraal $\dfrac{dy}{dx}dx$ vereenvoudigen tot $dy$.
+\begin{align}
+ \int y dy &= \int x dx
+\end{align}
+
+De primitieven nemen van beide kanten.
+\begin{align}
+ \frac{1}{2}y^2 + C_1&= \frac{1}{2}x^2 + C_2\\
+ y^2 &= x^2 + C_3\\
+ y &= \pm \sqrt{x^2 + C} \qquad \text{met } C \in \mathbb{R}
+\end{align}
+```
+
+## Opgave 2
+
+```{admonition} Uitwerkingen
+:class: dropdown
+
 \begin{align*}
  \dfrac{dy}{dx} = \dfrac{y^2}{x-3}
 \end{align*}
@@ -37,7 +66,7 @@ dus,
 \end{align}
 ```
 
-## Opgave 2
+## Opgave 3
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -62,7 +91,7 @@ De integraal $\dfrac{dy}{dx}dx$ vereenvoudigen tot $dy$.
 \end{align}
 
 De primitieven nemen van beide kanten.
-\begin{align
+\begin{align}
  -\dfrac{1}{2}\dfrac{1}{y^2}  + C_1 &=  x  + C_2\\
  -\dfrac{1}{2}\dfrac{1}{y^2}  &=  x  + C_3\\
   \dfrac{1}{y^2}  &=  -2x  + C_4\\
@@ -76,7 +105,7 @@ dus,
 \end{align}
 ```
 
-## Opgave 3
+## Opgave 4
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -115,7 +144,7 @@ dus,
 \end{align}
 ```
 
-## Opgave 4
+## Opgave 5
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -158,7 +187,7 @@ y=0 voldoet aan de dv dus,
 \end{align}
 ```
 
-## Opgave 5
+## Opgave 6
 
 ```{admonition} Uitwerkingen
 :class: dropdown
