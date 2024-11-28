@@ -10,7 +10,7 @@ In dit hoofdstuk wordt ingegaan op een speciaal type eerste orde lineaire differ
 
  ````{toggle}
  ```{eval-rst}
- .. literalinclude:: ../code/opgave1.py
+ .. literalinclude:: ../opgave1.py
     :language: python
  ```
  ````
