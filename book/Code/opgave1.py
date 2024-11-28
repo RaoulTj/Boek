@@ -10,3 +10,4 @@ plt.title('$y=\sin(x)$')
 plt.xlabel('$x$')
 plt.ylabel('$y$')
 plt.savefig('opgave1.svg')
+
