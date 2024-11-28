@@ -63,7 +63,7 @@ parts:
   - caption: General design info
     numbered: 2
     chapters:
-    - file: H7/H2_les
+    - file: H2/H2_les
       sections:
       - file: H2/H2_5_opgaven_les
       - file: H2/H2_6_uitwerkingen_les
