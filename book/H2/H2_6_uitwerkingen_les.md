@@ -27,9 +27,9 @@ De integraal $\dfrac{dy}{dx}dx$ vereenvoudigen tot $dy$.
 
 De primitieven nemen van beide kanten.
 \begin{align}
- \frac{1}{2}y^2 + C_1&= \frac{1}{2}x^2 + C_2\\
+ \frac{1}{2}y^2 + C_1&= \frac{1}{2}x^2 + C_2 \qquad {\color{blue}   \text{(2p)}} \\
  y^2 &= x^2 + C_3\\
- y &= \pm \sqrt{x^2 + C} \qquad \text{met } C \in \mathbb{R} \qquad \text{met } C \in \mathbb{R} \quad {\color{blue}   \text{(1p)}}
+ y &= \pm \sqrt{x^2 + C} \qquad \text{met } C \in \mathbb{R} \quad {\color{blue}   \text{(1p)}}
 \end{align}
 ```
 
