@@ -12,17 +12,17 @@ Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijkig
 
 Alle variabelen met een $y$ naar links en variabelen met een $x$ naar rechts.
 \begin{align*}
-y\dfrac{dy}{dx} = x \qquad \text{met } C \in \mathbb{R} \quad {\color{blue}   \text{(1p)}}
+y\dfrac{dy}{dx} = x \qquad {\color{blue} \text{(1p)}}
 \end{align*}
 
 Aan beide kanten de integraal nemen naar $dx$.
 \begin{align}
- \int y\dfrac{dy}{dx} dx &= \int x dx \qquad \text{met } C \in \mathbb{R} \quad {\color{blue}   \text{(1p)}}
+ \int y\dfrac{dy}{dx} dx &= \int x dx  \qquad {\color{blue}   \text{(1p)}}
 \end{align}
 
 De integraal $\dfrac{dy}{dx}dx$ vereenvoudigen tot $dy$.
 \begin{align}
- \int y dy &= \int x dx \qquad \text{met } C \in \mathbb{R} \quad {\color{blue}   \text{(1p)}}
+ \int y dy &= \int x dx \qquad {\color{blue}   \text{(1p)}}
 \end{align}
 
 De primitieven nemen van beide kanten.
