@@ -52,7 +52,7 @@ Als vorm voor de particuliere oplossing stel:
 
 Dus,
 \begin{align}
- \Dfrac{dy_p}{dx} = 2Ax + B
+ \dfrac{dy_p}{dx} = 2Ax + B
 \end{align}
 
 
