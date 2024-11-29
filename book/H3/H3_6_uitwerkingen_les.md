@@ -109,8 +109,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 :class: dropdown
 
 \begin{align*}
- 2\dfrac{dy}{dx} - 2y &= \dfrac{1}{e^x}\\
- 2\dfrac{dy}{dx} - 2y &= e^{-x}
+ 3\dfrac{dy}{dx} +9y &= 4e^{-3x}
 \end{align*}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
@@ -120,7 +119,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 De homogene D.V. wordt:
 \begin{align}
- 8\dfrac{dy}{dx} - 5y = 0
+ 3\dfrac{dy}{dx} + 9y = 0
 \end{align}
 
 Als oplossing voor de homogene D.V. stel:
@@ -130,8 +129,8 @@ Als oplossing voor de homogene D.V. stel:
 
 Invullen in de D.V. geeft:
 \begin{align}
- 2 \lambda \cdot Ce^{\lambda x} +2 \cdot Ce^{\lambda x} &= 0 \\
- (2\lambda -2 )\cdot Ce^{\lambda x}  &= 0
+ 3 \lambda \cdot Ce^{\lambda x} +9 \cdot Ce^{\lambda x} &= 0 \\
+ (3\lambda +9 )\cdot Ce^{\lambda x}  &= 0
 \end{align}
 
 De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \
@@ -162,32 +161,33 @@ Gelijk aan homogene oplossing dus kies,
 
 Dus,
 \begin{align}
- \dfrac{dy_p}{dx} = -3Ae^{-3x} \cdot x + Ae^{-3x} + 1
+ \dfrac{dy_p}{dx} = -3Ae^{-3x} \cdot x + Ae^{-3x} \cdot 1
 \end{align}
 
 
 
 Invullen in de D.V. geeft:
 \begin{align}
- 2 \cdot -Ae^{-x}   - 2 \cdot Ae^{-x} = e^{-x} \\
- -4Ae^{-x}=e^{-x}
+ 3 ( -3Ae^{-3x}x + Ae^{-3x} \cdot 1)   + 9 ( Ae^{-3x}x) = 4e^{-3x} \\
+ -9Ae^{-3x}x + 3Ae^{-3x} + 9Ae^{-3x}x = 4e^{-3x}\\
+ 3Ae^{-3x} = 4e^{-3x}
 \end{align}
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
-  -4A &= 1 \\
-    A &= -\dfrac{1}{4}
+  3A &= 4 \\
+    A &= \dfrac{4}{3}
 \end{align}
 
 
 De waarde voor $A$ invullen in de particuliere oplossing geeft:
 \begin{align}
- y_p = -\dfrac{1}{4} e^{-x}
+ y_p = \dfrac{4}{3} e^{-3x} x
 \end{align}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  y &= y_h + y_p \\
- y &= Ce^{x} -\dfrac{1}{4e^{x}}  \qquad \text{met } C \in \mathbb{R}
+ y &= Ce^{-3x} + \dfrac{4}{3} e^{-3x} x  \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
