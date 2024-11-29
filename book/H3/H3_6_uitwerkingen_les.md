@@ -81,7 +81,7 @@ $A $ invullen geeft:
  -\dfrac{4}{7} - 7B &= 4\\
   -7B &= 4 + \dfrac{4}{7}\\
   -7B &= \dfrac{32}{7}\\
-  B &= -\dfrac{32}{49} 
+  B &= -\dfrac{32}{49}
 \end{align}
 
 $B $ invullen geeft:
@@ -100,5 +100,94 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 \begin{align}
  y &= y_h + y_p \\
  y &= Ce^{7x} - \dfrac{2}{7}x^2 - \dfrac{32}{49}x - \dfrac{32}{343} \qquad \text{met } C \in \mathbb{R}
+\end{align}
+```
+
+## Opgave 2
+
+```{admonition} Uitwerkingen
+:class: dropdown
+
+\begin{align*}
+ 2\dfrac{dy}{dx} - 2y &= \dfrac{1}{e^x}\\
+ 2\dfrac{dy}{dx} - 2y &= e^{-x}
+\end{align*}
+
+De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
+\begin{align}
+ y = y_h + y_p
+\end{align}
+
+De homogene D.V. wordt:
+\begin{align}
+ 8\dfrac{dy}{dx} - 5y = 0
+\end{align}
+
+Als oplossing voor de homogene D.V. stel:
+\begin{align}
+ y_h = Ce^{\lambda x} \text{ met } C \in \mathbb{R}
+\end{align}
+
+Invullen in de D.V. geeft:
+\begin{align}
+ 2 \lambda \cdot Ce^{\lambda x} +2 \cdot Ce^{\lambda x} &= 0 \\
+ (2\lambda -2 )\cdot Ce^{\lambda x}  &= 0
+\end{align}
+
+De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \
+Verder geldt dat $e^{\lambda x} \neq 0 $ dus.
+
+Dus de karakteristieke vergelijking wordt gegeven door:
+\begin{align}
+ 3\lambda + 9   &= 0 \\
+ 3\lambda   &= -9\\
+ \lambda   &= -\dfrac{9}{3} = -3\\
+\end{align}
+
+De waarde voor $\lambda =-3$ invullen in de homogene oplossing geeft;
+\begin{align}
+ y_h = Ce^{-3x} \qquad \text{met } C \in \mathbb{R}
+\end{align}
+
+Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.
+Als vorm voor de particuliere oplossing stel:
+\begin{align}
+ y_p = Ae^{-3x}
+\end{align}
+
+Gelijk aan homogene oplossing dus kies,
+\begin{align}
+ y_p = Ae^{-3x} \cdot x
+\end{align}
+
+Dus,
+\begin{align}
+ \dfrac{dy_p}{dx} = -3Ae^{-3x} \cdot x + Ae^{-3x} + 1
+\end{align}
+
+
+
+Invullen in de D.V. geeft:
+\begin{align}
+ 2 \cdot -Ae^{-x}   - 2 \cdot Ae^{-x} = e^{-x} \\
+ -4Ae^{-x}=e^{-x}
+\end{align}
+
+De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
+\begin{align}
+  -4A &= 1 \\
+    A &= -\dfrac{1}{4}
+\end{align}
+
+
+De waarde voor $A$ invullen in de particuliere oplossing geeft:
+\begin{align}
+ y_p = -\dfrac{1}{4} e^{-x}
+\end{align}
+
+De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
+\begin{align}
+ y &= y_h + y_p \\
+ y &= Ce^{x} -\dfrac{1}{4e^{x}}  \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
