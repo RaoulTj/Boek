@@ -198,8 +198,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 :class: dropdown
 
 \begin{align*}
- \dfrac{dy}{dx} + 3y + sin(x) &= 0\\
- \dfrac{dy}{dx} + 3y &= -sin(x)
+ 3\dfrac{dy}{dx} - 5y &= 2 + \sin(3x)\\
 \end{align*}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
@@ -209,7 +208,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 De homogene D.V. wordt:
 \begin{align}
- \dfrac{dy}{dx} + 3y = 0
+ 3\dfrac{dy}{dx} - 5y = 0
 \end{align}
 
 Als oplossing voor de homogene D.V. stel:
@@ -219,8 +218,8 @@ Als oplossing voor de homogene D.V. stel:
 
 Invullen in de D.V. geeft:
 \begin{align}
- \lambda \cdot Ce^{\lambda x} +3 \cdot Ce^{\lambda x} &= 0 \\
- (\lambda +3 )\cdot Ce^{\lambda x}  &= 0
+ 3\lambda \cdot Ce^{\lambda x} -5 \cdot Ce^{\lambda x} &= 0 \\
+ (3\lambda -5 )\cdot Ce^{\lambda x}  &= 0
 \end{align}
 
 De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \
@@ -228,53 +227,60 @@ Verder geldt dat $e^{\lambda x} \neq 0 $.
 
 Dus de karakteristieke vergelijking wordt gegeven door:
 \begin{align}
- \lambda +3   &= 0 \\
- \lambda   &= -3
+ 3\lambda -5   &= 0 \\
+ 3\lambda   &= 5
+ \lambda   &= \dfrac{5}{3}
 \end{align}
 
-De waarde voor $\lambda =3$ invullen in de homogene oplossing geeft;
+De waarde voor $\lambda =\dfrac{5}{3}$ invullen in de homogene oplossing geeft;
 \begin{align}
- y_h = Ce^{-3x} \qquad \text{met } C \in \mathbb{R}
+ y_h = Ce^{\dfrac{5}{3}x} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.
 Als vorm voor de particuliere oplossing stel:
 \begin{align}
- y_p = Asin(x) + Bcos(x)
+ y_p = A\sin(3x) + B\cos(3x) + D
+\end{align}
+
+Dus,
+\begin{align}
+ \dfrac{dy_p}{dx} = 3A\cos(x) - 3B\sin(x)
 \end{align}
 
 Invullen in de D.V. geeft:
 \begin{align}
- (A\cos(x) - B\sin(x)) + 3 \cdot (A\sin(x) + B\cos(x))  &= - \sin(x) \\
- A\cos(x) - B\sin(x) + 3A\sin(x) + 3B\cos(x)  &= - \sin(x) \\
- (-B+3A)\sin(x) + (A+3B)\cos(x) &= - \sin(x)
+ 3(3A\cos(x) - 3B\sin(x)) - 5( A\sin(3x) + B\cos(3x) + D)  &= 2 + \sin(3x) \\
+ 9A\cos(3x) - 9B\sin(3x) - 5A\sin(3x) + 5B\cos(3x) + 5D  &= 2+ \sin(3x) \\
+ (-9B-5A)\sin(x) + (9A+5B)\cos(x) + 5D &= 2 + \sin(3x)
 \end{align}
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
- -B+3A = -1 \\
-  A+3B = 0
+ -9B-5A &= 1 \\
+  9A+5B &= 0 \\
+  5D &= 2
 \end{align}
 
 Hieruit volgt:
 \begin{align}
- B = -\dfrac{1}{3}A
+ B = -\dfrac{9}{5}A
 \end{align}
 
 $B $ invullen geeft:
 \begin{align}
- -(-\dfrac{1}{3}A) + 3A &= -1\\
- \dfrac{1}{3}A + \dfrac{9}{3}A &= -1\\
- \dfrac{1}{3}A + \dfrac{9}{3}A &= -1\\
- \dfrac{10}{3}A &= -1\\
-  A &= -\dfrac{3}{10}
+ 9(-\dfrac{9}{5}A) - 5A &= 1\\
+ -\dfrac{81}{5}A - \dfrac{25}{5}A &= 1\\
+  -\dfrac{81}{5}A - \dfrac{25}{5}A &= 1\\
+ -\dfrac{106}{5}A &= 1\\
+  A &= -\dfrac{5}{106}
 \end{align}
 
 $A $ invullen geeft:
 \begin{align}
- B &= -\dfrac{1}{3}A \\
- B &= -\dfrac{1}{3}\cdot -\dfrac{3}{10} \\
- B &= \dfrac{1}{10}
+ B &= -\dfrac{9}{5}A \\
+ B &= -\dfrac{9}{5}\cdot -\dfrac{5}{106} \\
+ B &= \dfrac{9}{106}
 \end{align}
 
 De waardes voor $A$, $B$ invullen in de particuliere oplossing geeft:
