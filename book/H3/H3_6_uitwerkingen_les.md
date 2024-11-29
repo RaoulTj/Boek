@@ -191,3 +191,100 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  y &= Ce^{-3x} + \dfrac{4}{3} e^{-3x} x  \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+
+## Opgave 3
+
+```{admonition} Uitwerkingen
+:class: dropdown
+
+\begin{align*}
+ \dfrac{dy}{dx} + 3y + sin(x) &= 0\\
+ \dfrac{dy}{dx} + 3y &= -sin(x)
+\end{align*}
+
+De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
+\begin{align}
+ y = y_h + y_p
+\end{align}
+
+De homogene D.V. wordt:
+\begin{align}
+ \dfrac{dy}{dx} + 3y = 0
+\end{align}
+
+Als oplossing voor de homogene D.V. stel:
+\begin{align}
+ y_h = Ce^{\lambda x} \text{ met } C \in \mathbb{R}
+\end{align}
+
+Invullen in de D.V. geeft:
+\begin{align}
+ \lambda \cdot Ce^{\lambda x} +3 \cdot Ce^{\lambda x} &= 0 \\
+ (\lambda +3 )\cdot Ce^{\lambda x}  &= 0
+\end{align}
+
+De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \
+Verder geldt dat $e^{\lambda x} \neq 0 $.
+
+Dus de karakteristieke vergelijking wordt gegeven door:
+\begin{align}
+ \lambda +3   &= 0 \\
+ \lambda   &= -3
+\end{align}
+
+De waarde voor $\lambda =3$ invullen in de homogene oplossing geeft;
+\begin{align}
+ y_h = Ce^{-3x} \qquad \text{met } C \in \mathbb{R}
+\end{align}
+
+Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.
+Als vorm voor de particuliere oplossing stel:
+\begin{align}
+ y_p = Asin(x) + Bcos(x)
+\end{align}
+
+Invullen in de D.V. geeft:
+\begin{align}
+ (A\cos(x) - B\sin(x)) + 3 \cdot (A\sin(x) + B\cos(x))  &= - \sin(x) \\
+ A\cos(x) - B\sin(x) + 3A\sin(x) + 3B\cos(x)  &= - \sin(x) \\
+ (-B+3A)\sin(x) + (A+3B)\cos(x) &= - \sin(x)
+\end{align}
+
+De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
+\begin{align}
+ -B+3A = -1 \\
+  A+3B = 0
+\end{align}
+
+Hieruit volgt:
+\begin{align}
+ B = -\dfrac{1}{3}A
+\end{align}
+
+$B $ invullen geeft:
+\begin{align}
+ -(-\dfrac{1}{3}A) + 3A &= -1\\
+ \dfrac{1}{3}A + \dfrac{9}{3}A &= -1\\
+ \dfrac{1}{3}A + \dfrac{9}{3}A &= -1\\
+ \dfrac{10}{3}A &= -1\\
+  A &= -\dfrac{3}{10}
+\end{align}
+
+$A $ invullen geeft:
+\begin{align}
+ B &= -\dfrac{1}{3}A \\
+ B &= -\dfrac{1}{3}\cdot -\dfrac{3}{10} \\
+ B &= \dfrac{1}{10}
+\end{align}
+
+De waardes voor $A$, $B$ invullen in de particuliere oplossing geeft:
+\begin{align}
+ y_p = -\dfrac{3}{10}\sin(x) + \dfrac{1}{10}\cos(x)
+\end{align}
+
+De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
+\begin{align}
+ y &= y_h + y_p \\
+ y &= Ce^{-3x} -\dfrac{3}{10}\sin(x) + \dfrac{1}{10}\cos(x) \qquad \text{met } C \in \mathbb{R}
+\end{align}
+```
