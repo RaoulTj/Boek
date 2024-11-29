@@ -251,20 +251,20 @@ Dus,
 Invullen in de D.V. geeft:
 \begin{align}
  3(3A\cos(x) - 3B\sin(x)) - 5( A\sin(3x) + B\cos(3x) + D)  &= 2 + \sin(3x) \\
- 9A\cos(3x) - 9B\sin(3x) - 5A\sin(3x) + 5B\cos(3x) + 5D  &= 2+ \sin(3x) \\
- (-9B-5A)\sin(x) + (9A+5B)\cos(x) + 5D &= 2 + \sin(3x)
+ 9A\cos(3x) - 9B\sin(3x) - 5A\sin(3x) - 5B\cos(3x) - 5D  &= 2+ \sin(3x) \\
+ (-9B-5A)\sin(x) + (9A-5B)\cos(x) - 5D &= 2 + \sin(3x)
 \end{align}
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
  -9B-5A &= 1 \\
-  9A+5B &= 0 \\
-  5D &= 2
+  9A-5B &= 0 \\
+  -5D &= 2
 \end{align}
 
 Hieruit volgt:
 \begin{align}
- B = -\dfrac{9}{5}A
+ B = \dfrac{9}{5}A
 \end{align}
 
 $B $ invullen geeft:
