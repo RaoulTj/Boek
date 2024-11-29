@@ -65,40 +65,40 @@ Invullen in de D.V. geeft:
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
- 7A &= 2 \\
+ -7A &= 2 \\
  2A-7B &= 4 \\
  B - 7D &= 0
 \end{align}
 
 Hieruit volgt:
 \begin{align}
- A = \dfrac{2}{7}
+ A = -\dfrac{2}{7}
 \end{align}
 
 $A $ invullen geeft:
 \begin{align}
- 2 \cdot \dfrac{2}{7} - 7B &= 0\\
- \dfrac{4}{7} - 7B &= 4\\
-  -7B &= 4 - \dfrac{4}{7}\\
-  -7B &= \dfrac{24}{7}\\
-  B &= -\dfrac{24}{49} 
+ 2 \cdot -\dfrac{2}{7} - 7B &= 0\\
+ -\dfrac{4}{7} - 7B &= 4\\
+  -7B &= 4 + \dfrac{4}{7}\\
+  -7B &= \dfrac{32}{7}\\
+  B &= -\dfrac{32}{49} 
 \end{align}
 
 $B $ invullen geeft:
 \begin{align}
- -\dfrac{24}{49} - 7D &= 0\\
- 7D &= -\dfrac{24}{49} \\
- D &= -\dfrac{24}{343}
+ -\dfrac{32}{49} - 7D &= 0\\
+ 7D &= -\dfrac{32}{49} \\
+ D &= -\dfrac{32}{343}
 \end{align}
 
 De waardes voor $A$, $B$ en $D$ invullen in de particuliere oplossing geeft:
 \begin{align}
- y_p = \dfrac{2}{7}x^2 - \dfrac{24}{49}x - \dfrac{24}{343}
+ y_p = -\dfrac{2}{7}x^2 - \dfrac{32}{49}x - \dfrac{32}{343}
 \end{align}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  y &= y_h + y_p \\
- y &= Ce^{7x} + \dfrac{2}{7}x^2 - \dfrac{24}{49}x - \dfrac{24}{343} \qquad \text{met } C \in \mathbb{R}
+ y &= Ce^{7x} - \dfrac{2}{7}x^2 - \dfrac{32}{49}x - \dfrac{32}{343} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
