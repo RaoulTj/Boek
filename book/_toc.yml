@@ -67,3 +67,7 @@ parts:
       sections:
       - file: H2/H2_5_opgaven_les
       - file: H2/H2_6_uitwerkingen_les
+    - file: H3/H3_les
+      sections:
+      - file: H3/H3_5_opgaven_les
+      - file: H3/H3_6_uitwerkingen_les
