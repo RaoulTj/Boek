@@ -269,7 +269,7 @@ Hieruit volgt:
 
 $B $ invullen geeft:
 \begin{align}
- 9(-\dfrac{9}{5}A) - 5A &= 1\\
+ -9(\dfrac{9}{5}A) - 5A &= 1\\
  -\dfrac{81}{5}A - \dfrac{25}{5}A &= 1\\
   -\dfrac{81}{5}A - \dfrac{25}{5}A &= 1\\
  -\dfrac{106}{5}A &= 1\\
@@ -278,19 +278,19 @@ $B $ invullen geeft:
 
 $A $ invullen geeft:
 \begin{align}
- B &= -\dfrac{9}{5}A \\
- B &= -\dfrac{9}{5}\cdot -\dfrac{5}{106} \\
- B &= \dfrac{9}{106}
+ B &= \dfrac{9}{5}A \\
+ B &= \dfrac{9}{5}\cdot -\dfrac{5}{106} \\
+ B &= -\dfrac{9}{106}
 \end{align}
 
 De waardes voor $A$, $B$ invullen in de particuliere oplossing geeft:
 \begin{align}
- y_p = -\dfrac{3}{10}\sin(x) + \dfrac{1}{10}\cos(x)
+ y_p = -\dfrac{5}{106}\sin(x) -\dfrac{9}{106}\cos(x)
 \end{align}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  y &= y_h + y_p \\
- y &= Ce^{-3x} -\dfrac{3}{10}\sin(x) + \dfrac{1}{10}\cos(x) \qquad \text{met } C \in \mathbb{R}
+ y &= Ce^{\dfrac{5}{3}x} -\dfrac{5}{106}\sin(x) -\dfrac{9}{106}\cos(x) \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
