@@ -6,6 +6,89 @@
 :class: dropdown
 
 \begin{align*}
+ \dfrac{dy}{dx} + 6y= \\
+ \dfrac{dy}{dx} = -6y\\
+\end{align*}
+
+Alle variabelen met een $y$ naar links en variabelen met een $x$ naar rechts.
+\begin{align}
+ \dfrac{1}{y}\dfrac{dy}{dx} &= -6\\
+\end{align}
+
+Aan beide kanten de integraal nemen naar $dx$.
+\begin{align}
+ \int \dfrac{1}{y}\dfrac{dy}{dx} dx &= \int -6 dx
+\end{align}
+
+De integraal $\dfrac{dy}{dx}dx$ vereenvoudigen tot $dy$.
+\begin{align}
+ \int  \dfrac{1}{y} dy &= \int -6 dx
+\end{align}
+
+De primitieven nemen van beide kanten.
+\begin{align}
+ \ln|y| + C_1 &=  -6x + C_2\\
+ \ln|y|  &=  -6x  + C_3\\
+ e^{\ln|y|}  &=  e^{-6x + C_3}\\
+ |y|  &=  e^{-6x + C_3}\\
+ |y|  &=  e^{-6x} \cdot e^{C_3}\\
+ y  &=  \pm e^{-6x} \cdot e^{C_3}
+\end{align}
+
+y=0 voldoet aan de dv dus,
+\begin{align}
+  y  &=  C \cdot e^{-6x}  \qquad \text{met } C \in \mathbb{R}
+\end{align}
+```
+
+## Opgave 2
+
+```{admonition} Uitwerkingen
+:class: dropdown
+
+\begin{align*}
+ \dfrac{dy}{dx} - 13y= \\
+ \dfrac{dy}{dx} = 13y\\
+\end{align*}
+
+Alle variabelen met een $y$ naar links en variabelen met een $x$ naar rechts.
+\begin{align}
+ \dfrac{1}{y}\dfrac{dy}{dx} &= 13\\
+\end{align}
+
+Aan beide kanten de integraal nemen naar $dx$.
+\begin{align}
+ \int \dfrac{1}{y}\dfrac{dy}{dx} dx &= \int 13 dx
+\end{align}
+
+De integraal $\dfrac{dy}{dx}dx$ vereenvoudigen tot $dy$.
+\begin{align}
+ \int  \dfrac{1}{y} dy &= \int 13 dx
+\end{align}
+
+De primitieven nemen van beide kanten.
+\begin{align}
+ \ln|y| + C_1 &=  13x + C_2\\
+ \ln|y|  &=  13x  + C_3\\
+ e^{\ln|y|}  &=  e^{13x + C_3}\\
+ |y|  &=  e^{13x + C_3}\\
+ |y|  &=  e^{13x} \cdot e^{C_3}\\
+ y  &=  \pm e^{13x} \cdot e^{C_3}
+\end{align}
+
+y=0 voldoet aan de dv dus,
+\begin{align}
+  y  &=  C \cdot e^{13x}  \qquad \text{met } C \in \mathbb{R}
+\end{align}
+```
+
+
+## Opgave 3
+
+```{admonition} Uitwerkingen
+:class: dropdown
+
+\begin{align*}
  \dfrac{dy}{dx} - 7y = 2x^2 + 4x
 \end{align*}
 
@@ -103,7 +186,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 \end{align}
 ```
 
-## Opgave 2
+## Opgave 4
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -192,7 +275,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 \end{align}
 ```
 
-## Opgave 3
+## Opgave 5
 
 ```{admonition} Uitwerkingen
 :class: dropdown
