@@ -109,17 +109,17 @@ De integraal $\dfrac{dy}{dx}dx$ vereenvoudigen tot $dy$.
 
 De primitieven nemen van beide kanten.
 \begin{align}
- \dfrac{1}{3}\ln|y| + C_1 &=  6x + C_2\\
- \dfrac{1}{3} \ln|y|  &=  6x  + C_3\\
- e^{\ln|y|}  &=  e^{6x + C_3}\\
- |3y|  &=  e^{6x + C_3}\\
- |3y|  &=  e^{6x} \cdot e^{C_3}\\
- 3y  &=  \pm e^{6x} \cdot e^{C_3}
+ 3\ln|y| + C_1 &=  6x + C_2\\
+ 3 \ln|y|  &=  6x  + C_3\\
+ e^{\ln|y|}  &=  e^{2x + C_3}\\
+ |y|  &=  e^{2x + C_3}\\
+ |y|  &=  e^{2x} \cdot e^{C_3}\\
+ y  &=  \pm e^{2x} \cdot e^{C_3}
 \end{align}
 
 y=0 voldoet aan de dv dus,
 \begin{align}
-  y  &=  C \cdot e^{13x}  \qquad \text{met } C \in \mathbb{R}
+  y  &=  C \cdot e^{2x}  \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
 
