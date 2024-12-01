@@ -290,12 +290,12 @@ $A $ invullen geeft:
 
 De waardes voor $A$, $B$ invullen in de particuliere oplossing geeft:
 \begin{align}
- y_p = -\dfrac{5}{106}\sin(x) -\dfrac{9}{106}\cos(x)
+ y_p = -\dfrac{5}{106}\sin(x) -\dfrac{9}{106}\cos(x) - \dfrac{2}{5}
 \end{align}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  y &= y_h + y_p \\
- y &= Ce^{\dfrac{5}{3}x} -\dfrac{5}{106}\sin(x) -\dfrac{9}{106}\cos(x) \qquad \text{met } C \in \mathbb{R}
+ y &= Ce^{\dfrac{5}{3}x} -\dfrac{5}{106}\sin(x) -\dfrac{9}{106}\cos(x) - \dfrac{2}{5} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
