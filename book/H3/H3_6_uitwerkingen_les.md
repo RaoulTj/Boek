@@ -264,6 +264,11 @@ De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
 
 Hieruit volgt:
 \begin{align}
+ D = -\dfrac{2}{5}
+\end{align}
+
+Hieruit volgt:
+\begin{align}
  B = \dfrac{9}{5}A
 \end{align}
 
