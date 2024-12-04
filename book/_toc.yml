@@ -21,6 +21,13 @@ parts:
  
     - file: D2_H4/D2_H4_0_intro
 
+    - file: D2_H5/D2_H5_0_intro
+
+    - file: D2_H6/D2_H6_0_intro
+
+    - file: D2_H7/D2_H7_0_intro
+
+    - file: D2_H8/D2_H8_0_intro
 
   - caption: Theorie
     numbered: false
