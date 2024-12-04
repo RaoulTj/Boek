@@ -7,7 +7,7 @@ options:
   numbered: false
 
 parts:
-  - caption: Theorie
+  - caption: Theorie 
     numbered: false
     chapters:
     - file: H1/H1_0_intro
