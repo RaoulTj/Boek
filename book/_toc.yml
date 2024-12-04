@@ -29,6 +29,8 @@ parts:
     - file: D2_H5/D2_H5_0_intro
       sections:
       - file: D2_H5/D2_H5_1
+      - file: D2_H5/D2_H5_2
+      - file: D2_H5/D2_H5_3
 
     - file: D2_H6/D2_H6_0_intro
       sections:
