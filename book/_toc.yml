@@ -7,7 +7,15 @@ options:
   numbered: false
 
 parts:
-  - caption: Theorie 
+  - caption: DEEL 2 - Functies en grafieken
+    numbered: false
+    chapters:
+    - file: D2/H1/D2_H1_0_intro
+      sections:
+      - file: D2/H1/D2_H1_1
+      - file: D2/H1/D2_H1_2
+
+  - caption: Theorie
     numbered: false
     chapters:
     - file: H1/H1_0_intro
