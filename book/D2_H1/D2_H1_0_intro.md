@@ -1,1 +1,1 @@
-# 2.2 Methode
+# 1. Lineaire functies
