@@ -1,6 +1,6 @@
 # 4.4 Uitwerkingen
 
-## Opgaven 4.1a
+## Opgave 4.1a
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -49,7 +49,7 @@ De waarde voor $\lambda$ invullen in de algemene oplossing geeft;
 \end{align}
 ```
 
-## Opgaven 4.1b
+## Opgave 4.1b
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -100,7 +100,7 @@ De waarde voor $\lambda$ invullen in de algemene oplossing geeft;
 \end{align}
 ```
 
-## Opgaven 4.1c
+## Opgave 4.1c
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -156,7 +156,7 @@ De waarde voor $p$ en $q$ invullen in de algemene oplossing geeft;
 \end{align}
 ```
 
-## Opgaven 4.1d
+## Opgave 4.1d
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -211,7 +211,7 @@ De waarde voor $\lambda$ invullen in de algemene oplossing geeft;
 \end{align}
 ```
 
-## Opgaven 4.2a
+## Opgave 4.2a
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -335,7 +335,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 \end{align}
 ```
 
-## Opgaven 4.2b
+## Opgave 4.2b
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -458,7 +458,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 \end{align}
 ```
 
-## Opgaven 4.2c
+## Opgave 4.2c
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -558,11 +558,11 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 \end{align}
 ```
 
-## Opgaven 4.2d
+## Opgave 4.2d
 
-## Opgaven 4.3a
+## Opgave 4.3a
 
-## Opgaven 4.3b
+## Opgave 4.3b
 
 ```{admonition} Uitwerkingen
 :class: dropdown

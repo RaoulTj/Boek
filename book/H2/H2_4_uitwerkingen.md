@@ -1,6 +1,6 @@
 # 2.4 Uitwerkingen
 
-## Opgaven 2.1a
+## Opgave 2.1a
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -29,7 +29,7 @@ De primitieven nemen van beide kanten.
 \end{align}
 ```
 
-## Opgaven 2.1b
+## Opgave 2.1b
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -63,7 +63,7 @@ De primitieven nemen van beide kanten.
 \end{align}
 ```
 
-## Opgaven 2.1c
+## Opgave 2.1c
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -103,7 +103,7 @@ $y = 0$ voldoet aan de dv, dus
 \end{align}
 ```
 
-## Opgaven 2.1d
+## Opgave 2.1d
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -146,7 +146,7 @@ $y+2 = 0$ voldoet aan de dv, dus
 \end{align}
 ```
 
-## Opgaven 2.2a
+## Opgave 2.2a
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -193,7 +193,7 @@ De constante invullen in de gevonden algemene oplossing geeft;
 \end{align}
 ```
 
-## Opgaven 2.2b
+## Opgave 2.2b
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -262,7 +262,7 @@ De constante invullen in de gevonden algemene oplossing geeft;
 \end{align}
 ```
 
-## Opgaven 2.2c
+## Opgave 2.2c
 
 ```{admonition} Uitwerkingen
 :class: dropdown

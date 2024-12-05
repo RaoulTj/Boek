@@ -1,6 +1,6 @@
 # 6.4 Uitwerkingen
 
-## Opgaven 6.1a
+## Opgave 6.1a
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -113,7 +113,7 @@ Dus $C_1$ en $C_2$ invullen in de  oplossing geeft:
 \end{align}
 ```
 
-## Opgaven 6.1b
+## Opgave 6.1b
 
 ```{admonition} Uitwerkingen
 :class: dropdown

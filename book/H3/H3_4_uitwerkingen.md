@@ -1,6 +1,6 @@
 # 3.4 Uitwerkingen
 
-## Opgaven 3.1a
+## Opgave 3.1a
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -35,7 +35,7 @@ De waarde voor $\lambda =3$ invullen in de algemene oplossing geeft;
 \end{align}
 ```
 
-## Opgaven 3.1b
+## Opgave 3.1b
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -71,7 +71,7 @@ De waarde voor $\lambda =-\dfrac{5}{4}$ invullen in de algemene oplossing geeft;
 \end{align}
 ```
 
-## Opgaven 3.1c
+## Opgave 3.1c
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -108,7 +108,7 @@ De waarde voor $\lambda =\dfrac{2}{3}$ invullen in de algemene oplossing geeft;
 \end{align}
 ```
 
-## Opgaven 3.1d
+## Opgave 3.1d
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -145,7 +145,7 @@ De waarde voor $\lambda =\dfrac{23}{10}$ invullen in de algemene oplossing geeft
 \end{align}
 ```
 
-## Opgaven 3.2a
+## Opgave 3.2a
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -241,7 +241,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 \end{align}
 ```
 
-## Opgaven 3.2b
+## Opgave 3.2b
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -318,7 +318,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 \end{align}
 ```
 
-## Opgaven 3.2c
+## Opgave 3.2c
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -415,7 +415,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 \end{align}
 ```
 
-## Opgaven 3.2d
+## Opgave 3.2d
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -517,7 +517,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 \end{align}
 ```
 
-## Opgaven 3.3a
+## Opgave 3.3a
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -622,7 +622,7 @@ Dus C invullen in de totale oplossing geeft:
 \end{align}
 ```
 
-## Opgaven 3.3b
+## Opgave 3.3b
 
 ```{admonition} Uitwerkingen
 :class: dropdown

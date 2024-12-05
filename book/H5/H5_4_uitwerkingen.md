@@ -1,6 +1,6 @@
 # 5.4 Uitwerkingen
 
-## Opgaven 5.1a
+## Opgave 5.1a
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -77,7 +77,7 @@ Dus C invullen in de totale oplossing geeft:
 \end{align}
 ```
 
-## Opgaven 5.1b
+## Opgave 5.1b
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -207,11 +207,11 @@ Dus C invullen in de totale oplossing geeft:
 \end{align}
 ```
 
-## Opgaven 5.2a
+## Opgave 5.2a
 
-## Opgaven 5.2b
+## Opgave 5.2b
 
-## Opgaven 5.3a
+## Opgave 5.3a
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -234,7 +234,7 @@ Dus C invullen in de totale oplossing geeft:
   \end{align}
 ```
 
-## Opgaven 5.3b
+## Opgave 5.3b
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -342,7 +342,7 @@ Dus C invullen in de totale oplossing geeft:
 \end{align}
 ```
 
-## Opgaven 5.4a
+## Opgave 5.4a
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -376,7 +376,7 @@ Dus C invullen in de totale oplossing geeft:
   \end{align}
 ```
 
-## Opgaven 5.4b
+## Opgave 5.4b
 
 ```{admonition} Uitwerkingen
 :class: dropdown

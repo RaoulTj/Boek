@@ -2,7 +2,7 @@
 
 Toon aan dat de gegeven oplossing voldoet aan de differentiaalvergelijking.
 
-## Opgaven 1.1a
+## Opgave 1.1a
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -43,7 +43,7 @@ Oftewel $e^{3x}$ = $e^{3x}$ dus deze functie voldoet aan de diﬀerentiaalvergel
 een oplossing.
 ```
 
-## Opgaven 1.1b
+## Opgave 1.1b
 
 ```{admonition} Uitwerkingen
 :class: dropdown
