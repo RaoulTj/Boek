@@ -5,13 +5,15 @@
 ````{admonition} Antwoord
 :class: dropdown
 
+De algemene oplossing van de differentiaalvergelijking is:
+
 \begin{align}
  y &= \pm \sqrt{x^2 + C} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 
 ```{dropdown} Uitwerking
 
-%Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijkigen.
+%Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijkingen.
 
 \begin{align*}
 y\dfrac{dy}{dx} = x
@@ -40,6 +42,8 @@ De primitieven nemen van beide kanten.
 
 ````{admonition} Antwoord
 :class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
 
 \begin{align}
  y  & = \sqrt[3]{3e^x + C} \qquad \text{met } C \in \mathbb{R}
@@ -79,8 +83,10 @@ De primitieven nemen van beide kanten.
 
 ## Opgave 2.1c
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
 
 \begin{align}
  y  &=  Ce^{-\cos(x)} \qquad \text{met } C \in \mathbb{R}
@@ -128,6 +134,8 @@ $y = 0$ voldoet aan de dv, dus
 
 ````{admonition} Antwoord
 :class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
 
 \begin{align}
  y &=  C\cdot  (x+3)^2 - 2 &\qquad \text{met } C \in \mathbb{R}
@@ -178,6 +186,8 @@ $y+2 = 0$ voldoet aan de dv, dus
 
 ````{admonition} Antwoord
 :class: dropdown
+
+De gevraagde oplossing van de differentiaalvergelijking is:
 
 \begin{align}
  y &= \frac{1}{\arcsin(x) + 2}
@@ -232,6 +242,8 @@ De constante invullen in de gevonden algemene oplossing geeft;
 
 ````{admonition} Antwoord
 :class: dropdown
+
+De gevraagde oplossing van de differentiaalvergelijking is:
 
 \begin{align}
  y &= \pm \sqrt{\dfrac{5}{x^2}  -1}
@@ -308,6 +320,8 @@ De constante invullen in de gevonden algemene oplossing geeft;
 
 ````{admonition} Antwoord
 :class: dropdown
+
+De gevraagde oplossing van de differentiaalvergelijking is:
 
 \begin{align}
  \frac{1}{3}y^3 + y &= x^2 + 8
