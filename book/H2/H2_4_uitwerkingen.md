@@ -2,9 +2,10 @@
 
 ## Opgave 2.1a
 
-```{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
+```{dropdown} Uitwerking
 
 %Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijkigen.
 
@@ -29,10 +30,11 @@ De primitieven nemen van beide kanten.
  y &= \pm \sqrt{x^2 + C} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 2.1b
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 ```{dropdown} Uitwerking
@@ -65,11 +67,14 @@ De primitieven nemen van beide kanten.
  y  & = \sqrt[3]{3e^x + C} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 2.1c
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  \dfrac{dy}{dx} = y\sin(x)
@@ -109,7 +114,7 @@ $y = 0$ voldoet aan de dv, dus
 
 ## Opgave 2.1d
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 ```{dropdown} Uitwerking
@@ -155,7 +160,7 @@ $y+2 = 0$ voldoet aan de dv, dus
 
 ## Opgave 2.2a
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 ```{dropdown} Uitwerking
@@ -205,7 +210,7 @@ De constante invullen in de gevonden algemene oplossing geeft;
 
 ## Opgave 2.2b
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 ```{dropdown} Uitwerking
@@ -277,7 +282,7 @@ De constante invullen in de gevonden algemene oplossing geeft;
 
 ## Opgave 2.2c
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 ```{dropdown} Uitwerking

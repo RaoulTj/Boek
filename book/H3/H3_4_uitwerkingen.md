@@ -46,7 +46,7 @@ De waarde voor $\lambda =3$ invullen in de algemene oplossing geeft;
 
 ## Opgave 3.1b
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 De algemene oplossing van de differentiaalvergelijking is:
@@ -91,7 +91,7 @@ De waarde voor $\lambda =-\dfrac{5}{4}$ invullen in de algemene oplossing geeft;
 
 ## Opgave 3.1c
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 De algemene oplossing van de differentiaalvergelijking is:
@@ -137,7 +137,7 @@ De waarde voor $\lambda =\dfrac{2}{3}$ invullen in de algemene oplossing geeft;
 
 ## Opgave 3.1d
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 De algemene oplossing van de differentiaalvergelijking is:
@@ -183,7 +183,7 @@ De waarde voor $\lambda =\dfrac{23}{10}$ invullen in de algemene oplossing geeft
 
 ## Opgave 3.2a
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 De algemene oplossing van de differentiaalvergelijking is:
@@ -288,7 +288,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 ## Opgave 3.2b
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 De algemene oplossing van de differentiaalvergelijking is:
@@ -374,7 +374,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 ## Opgave 3.2c
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 De algemene oplossing van de differentiaalvergelijking is:
@@ -480,7 +480,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 ## Opgave 3.2d
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 De algemene oplossing van de differentiaalvergelijking is:
@@ -591,7 +591,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 ## Opgave 3.3a
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 De gevraagde oplossing van de differentiaalvergelijking is:
@@ -705,7 +705,7 @@ Dus C invullen in de totale oplossing geeft:
 
 ## Opgave 3.3b
 
-```{admonition} Uitwerkingen
+```{admonition} Antwoord
 :class: dropdown
 
 De gevraagde oplossing van de differentiaalvergelijking is:
