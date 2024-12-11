@@ -5,6 +5,7 @@
 ```{admonition} Uitwerkingen
 :class: dropdown
 
+
 %Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijkigen.
 
 \begin{align*}
@@ -31,8 +32,10 @@ De primitieven nemen van beide kanten.
 
 ## Opgave 2.1b
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  e^{-x}y^2\dfrac{dy}{dx} = 1
@@ -102,11 +105,14 @@ $y = 0$ voldoet aan de dv, dus
  y  &=  Ce^{-\cos(x)} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 2.1d
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  (x+3)\dfrac{dy}{dx} = 2(y+2)
@@ -145,11 +151,14 @@ $y+2 = 0$ voldoet aan de dv, dus
  y &=  C\cdot  (x+3)^2 - 2 &\qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 2.2a
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  \sqrt{1-x^2}\dfrac{dy}{dx} = -y^2 \qquad y(0)=\frac{1}{2}
@@ -192,11 +201,14 @@ De constante invullen in de gevonden algemene oplossing geeft;
  y &= \frac{1}{\arcsin(x) + 2}
 \end{align}
 ```
+````
 
 ## Opgave 2.2b
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  -x\dfrac{dy}{dx} = \frac{1+y^2}{y}  \qquad y(1)=2
@@ -261,11 +273,14 @@ De constante invullen in de gevonden algemene oplossing geeft;
  y &= \pm \sqrt{\dfrac{5}{x^2}  -1}
 \end{align}
 ```
+````
 
 ## Opgave 2.2c
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  \dfrac{dy}{dx} = \dfrac{2x}{1+y^2} \qquad y(2)=3
@@ -307,3 +322,4 @@ De constante invullen in de gevonden algemene oplossing geeft;
  \frac{1}{3}y^3 + y &= x^2 + 8
 \end{align}
 ```
+````

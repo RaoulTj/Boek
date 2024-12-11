@@ -380,7 +380,6 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 De algemene oplossing van de differentiaalvergelijking is:
 
 \begin{align*}
- y &= y_h + y_p \\
  y &= Ce^{-3x} -\dfrac{3}{10}\sin(x) + \dfrac{1}{10}\cos(x) \qquad \text{met } C \in \mathbb{R}
 \end{align*}
 
@@ -595,7 +594,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 ````{admonition} Uitwerkingen
 :class: dropdown
 
-De algemene oplossing van de differentiaalvergelijking is:
+De gevraagde oplossing van de differentiaalvergelijking is:
 
 \begin{align*}
  y &= -\dfrac{9}{4}e^{-3x} +\dfrac{5}{4}e^x + 2
@@ -709,7 +708,7 @@ Dus C invullen in de totale oplossing geeft:
 ```{admonition} Uitwerkingen
 :class: dropdown
 
-De algemene oplossing van de differentiaalvergelijking is:
+De gevraagde oplossing van de differentiaalvergelijking is:
 
 \begin{align*}
  y &= \dfrac{9}{17}e^{\frac{1}{2}x} +\dfrac{2}{27}\sin(2x) - \dfrac{9}{17}\cos(2x)
