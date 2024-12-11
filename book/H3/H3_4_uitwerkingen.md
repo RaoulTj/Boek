@@ -13,6 +13,7 @@ De algemene oplossing van de differentiaalvergelijking is:
 
 ```{dropdown} Uitwerking
 
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 \begin{align*}
  \dfrac{dy}{dx} - 3y = 0
 \end{align*}
@@ -57,6 +58,7 @@ De algemene oplossing van de differentiaalvergelijking is:
 
 ```{dropdown} Uitwerking
 
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 \begin{align*}
  4\dfrac{dy}{dx} + 5y = 0
 \end{align*}
@@ -102,6 +104,7 @@ De algemene oplossing van de differentiaalvergelijking is:
 
 ```{dropdown} Uitwerking
 
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 \begin{align*}
  3\dfrac{dy}{dx} = 2y \\
  3\dfrac{dy}{dx} - 2y = 0
@@ -148,6 +151,7 @@ De algemene oplossing van de differentiaalvergelijking is:
 
 ```{dropdown} Uitwerking
 
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 \begin{align*}
  -10\dfrac{dy}{dx} = -23y \\
  -10\dfrac{dy}{dx} + 23y = 0
@@ -194,6 +198,7 @@ De algemene oplossing van de differentiaalvergelijking is:
 
 ```{dropdown} Uitwerking
 
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 \begin{align*}
  \dfrac{dy}{dx} + 4y = 3x^2
 \end{align*}
@@ -293,6 +298,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 De algemene oplossing van de differentiaalvergelijking is:
 
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 \begin{align*}
  y &= Ce^{x} -\dfrac{1}{4e^{x}}  \qquad \text{met } C \in \mathbb{R}
 \end{align*}
@@ -385,6 +391,7 @@ De algemene oplossing van de differentiaalvergelijking is:
 
 ```{dropdown} Uitwerking
 
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 \begin{align*}
  \dfrac{dy}{dx} + 3y + sin(x) &= 0\\
  \dfrac{dy}{dx} + 3y &= -sin(x)
@@ -486,11 +493,12 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 De algemene oplossing van de differentiaalvergelijking is:
 
 \begin{align*}
- y &= Ce^{\frac{1}{5}x} -\dfrac{2}{101}\cos(2x) + \dfrac{20}{101}\sin(2x) + \dfrac{1}{4} e^x \qquad \text{met } C \in \mathbb{R}  
+ y &= Ce^{\frac{1}{5}x} -\dfrac{2}{101}\cos(2x) + \dfrac{20}{101}\sin(2x) + \dfrac{1}{4} e^x \qquad \text{met } C \in \mathbb{R}
 \end{align*}
 
 ```{dropdown} Uitwerking
 
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 \begin{align*}
  5\dfrac{dy}{dx} -y &= 2\cos(2x) + e^x \\
 \end{align*}
