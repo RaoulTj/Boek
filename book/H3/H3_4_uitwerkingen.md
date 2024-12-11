@@ -5,6 +5,8 @@
 ````{admonition} Antwoord
 :class: dropdown
 
+De algemene oplossing van de differentiaalvergelijking is:
+
 \begin{align*}
  y = Ce^{3x} \qquad \text{met } C \in \mathbb{R}
 \end{align*}
@@ -44,8 +46,16 @@ De waarde voor $\lambda =3$ invullen in de algemene oplossing geeft;
 
 ## Opgave 3.1b
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
+
+\begin{align*}
+ y = Ce^{-\frac{5}{4}x} \qquad \text{met } C \in \mathbb{R}
+\end{align*}
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  4\dfrac{dy}{dx} + 5y = 0
@@ -77,11 +87,20 @@ De waarde voor $\lambda =-\dfrac{5}{4}$ invullen in de algemene oplossing geeft;
  y = Ce^{-\frac{5}{4}x} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 3.1c
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
+
+\begin{align*}
+ y = Ce^{\frac{2}{3}x} \qquad \text{met } C \in \mathbb{R}
+\end{align*}
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  3\dfrac{dy}{dx} = 2y \\
@@ -114,11 +133,20 @@ De waarde voor $\lambda =\dfrac{2}{3}$ invullen in de algemene oplossing geeft;
  y = Ce^{\frac{2}{3}x} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 3.1d
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
+
+\begin{align*}
+ y = Ce^{\frac{23}{10}x} \qquad \text{met } C \in \mathbb{R}
+\end{align*}
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  -10\dfrac{dy}{dx} = -23y \\
@@ -151,11 +179,20 @@ De waarde voor $\lambda =\dfrac{23}{10}$ invullen in de algemene oplossing geeft
  y = Ce^{\frac{23}{10}x} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 3.2a
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
+
+\begin{align*}
+ y &= Ce^{-4x} + \dfrac{3}{4}x^2 - \dfrac{3}{8}x + \dfrac{3}{32} \qquad \text{met } C \in \mathbb{R}
+\end{align*}
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  \dfrac{dy}{dx} + 4y = 3x^2
@@ -247,11 +284,20 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  y &= Ce^{-4x} + \dfrac{3}{4}x^2 - \dfrac{3}{8}x + \dfrac{3}{32} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 3.2b
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
+
+\begin{align*}
+ y &= Ce^{x} -\dfrac{1}{4e^{x}}  \qquad \text{met } C \in \mathbb{R}
+\end{align*}
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  2\dfrac{dy}{dx} - 2y &= \dfrac{1}{e^x}\\
@@ -324,11 +370,21 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  y &= Ce^{x} -\dfrac{1}{4e^{x}}  \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 3.2c
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
+
+\begin{align*}
+ y &= y_h + y_p \\
+ y &= Ce^{-3x} -\dfrac{3}{10}\sin(x) + \dfrac{1}{10}\cos(x) \qquad \text{met } C \in \mathbb{R}
+\end{align*}
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  \dfrac{dy}{dx} + 3y + sin(x) &= 0\\
@@ -421,11 +477,20 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  y &= Ce^{-3x} -\dfrac{3}{10}\sin(x) + \dfrac{1}{10}\cos(x) \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 3.2d
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
+
+\begin{align*}
+ y &= Ce^{\frac{1}{5}x} -\dfrac{2}{101}\cos(2x) + \dfrac{20}{101}\sin(2x) + \dfrac{1}{4} e^x \qquad \text{met } C \in \mathbb{R}  
+\end{align*}
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  5\dfrac{dy}{dx} -y &= 2\cos(2x) + e^x \\
@@ -523,11 +588,20 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  y &= Ce^{\frac{1}{5}x} -\dfrac{2}{101}\cos(2x) + \dfrac{20}{101}\sin(2x) + \dfrac{1}{4} e^x \qquad \text{met } C \in \mathbb{R}  
 \end{align}
 ```
+````
 
 ## Opgave 3.3a
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
+
+\begin{align*}
+ y &= -\dfrac{9}{4}e^{-3x} +\dfrac{5}{4}e^x + 2
+\end{align*}
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  \dfrac{dy}{dx} +3y &= 6 + 5e^x \\
@@ -628,11 +702,20 @@ Dus C invullen in de totale oplossing geeft:
  y &= -\dfrac{9}{4}e^{-3x} +\dfrac{5}{4}e^x + 2
 \end{align}
 ```
+````
 
 ## Opgave 3.3b
 
 ```{admonition} Uitwerkingen
 :class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
+
+\begin{align*}
+ y &= \dfrac{9}{17}e^{\frac{1}{2}x} +\dfrac{2}{27}\sin(2x) - \dfrac{9}{17}\cos(2x)
+\end{align*}
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  2\dfrac{dy}{dx} -y &= 2\sin(2x) + \cos(2x) \\
@@ -742,3 +825,4 @@ Dus C invullen in de totale oplossing geeft:
  y &= \dfrac{9}{17}e^{\frac{1}{2}x} +\dfrac{2}{27}\sin(2x) - \dfrac{9}{17}\cos(2x)
 \end{align}
 ```
+````
