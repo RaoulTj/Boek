@@ -1,6 +1,6 @@
 # 2.4 Uitwerkingen
 
-## Opgave 2.1a 
+## Opgave 2.1a
 
 ````{admonition} Antwoord
 :class: dropdown
