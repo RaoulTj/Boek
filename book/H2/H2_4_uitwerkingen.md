@@ -5,6 +5,10 @@
 ````{admonition} Antwoord
 :class: dropdown
 
+\begin{align}
+ y &= \pm \sqrt{x^2 + C} \qquad \text{met } C \in \mathbb{R}
+\end{align}
+
 ```{dropdown} Uitwerking
 
 %Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijkigen.
@@ -36,6 +40,10 @@ De primitieven nemen van beide kanten.
 
 ````{admonition} Antwoord
 :class: dropdown
+
+\begin{align}
+ y  & = \sqrt[3]{3e^x + C} \qquad \text{met } C \in \mathbb{R}
+\end{align}
 
 ```{dropdown} Uitwerking
 
@@ -73,6 +81,10 @@ De primitieven nemen van beide kanten.
 
 ````{admonition} Uitwerkingen
 :class: dropdown
+
+\begin{align}
+ y  &=  Ce^{-\cos(x)} \qquad \text{met } C \in \mathbb{R}
+\end{align}
 
 ```{dropdown} Uitwerking
 
@@ -116,6 +128,10 @@ $y = 0$ voldoet aan de dv, dus
 
 ````{admonition} Antwoord
 :class: dropdown
+
+\begin{align}
+ y &=  C\cdot  (x+3)^2 - 2 &\qquad \text{met } C \in \mathbb{R}
+\end{align}
 
 ```{dropdown} Uitwerking
 
@@ -162,6 +178,10 @@ $y+2 = 0$ voldoet aan de dv, dus
 
 ````{admonition} Antwoord
 :class: dropdown
+
+\begin{align}
+ y &= \frac{1}{\arcsin(x) + 2}
+\end{align}
 
 ```{dropdown} Uitwerking
 
@@ -212,6 +232,10 @@ De constante invullen in de gevonden algemene oplossing geeft;
 
 ````{admonition} Antwoord
 :class: dropdown
+
+\begin{align}
+ y &= \pm \sqrt{\dfrac{5}{x^2}  -1}
+\end{align}
 
 ```{dropdown} Uitwerking
 
@@ -284,6 +308,10 @@ De constante invullen in de gevonden algemene oplossing geeft;
 
 ````{admonition} Antwoord
 :class: dropdown
+
+\begin{align}
+ \frac{1}{3}y^3 + y &= x^2 + 8
+\end{align}
 
 ```{dropdown} Uitwerking
 
