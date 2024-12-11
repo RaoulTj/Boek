@@ -2,8 +2,14 @@
 
 ## Opgave 3.1a
 
-```{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
+
+\begin{align*}
+ y = Ce^{3x} \qquad \text{met } C \in \mathbb{R}
+\end{align*}
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  \dfrac{dy}{dx} - 3y = 0
@@ -34,6 +40,7 @@ De waarde voor $\lambda =3$ invullen in de algemene oplossing geeft;
  y = Ce^{3x} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 3.1b
 
