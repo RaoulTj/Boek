@@ -3,6 +3,7 @@
 ## Opgave 2.1a
 
 Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
+
 \begin{align*}
 y\dfrac{dy}{dx} = x
 \end{align*}

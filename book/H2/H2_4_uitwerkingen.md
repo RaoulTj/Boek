@@ -13,7 +13,7 @@ De algemene oplossing van de differentiaalvergelijking is:
 
 ```{dropdown} Uitwerking
 
-%Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijkingen.
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 
 \begin{align*}
 y\dfrac{dy}{dx} = x
@@ -50,6 +50,8 @@ De algemene oplossing van de differentiaalvergelijking is:
 \end{align}
 
 ```{dropdown} Uitwerking
+
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 
 \begin{align*}
  e^{-x}y^2\dfrac{dy}{dx} = 1
@@ -93,6 +95,8 @@ De algemene oplossing van de differentiaalvergelijking is:
 \end{align}
 
 ```{dropdown} Uitwerking
+
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 
 \begin{align*}
  \dfrac{dy}{dx} = y\sin(x)
@@ -142,6 +146,8 @@ De algemene oplossing van de differentiaalvergelijking is:
 \end{align}
 
 ```{dropdown} Uitwerking
+
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 
 \begin{align*}
  (x+3)\dfrac{dy}{dx} = 2(y+2)
@@ -194,6 +200,8 @@ De gevraagde oplossing van de differentiaalvergelijking is:
 \end{align}
 
 ```{dropdown} Uitwerking
+
+Bepaal analytisch de oplossing van de volgende differentiaalvergelijking met gegeven (begin-)voorwaarde.
 
 \begin{align*}
  \sqrt{1-x^2}\dfrac{dy}{dx} = -y^2 \qquad y(0)=\frac{1}{2}
@@ -250,6 +258,8 @@ De gevraagde oplossing van de differentiaalvergelijking is:
 \end{align}
 
 ```{dropdown} Uitwerking
+
+Bepaal analytisch de oplossing van de volgende differentiaalvergelijking met gegeven (begin-)voorwaarde.
 
 \begin{align*}
  -x\dfrac{dy}{dx} = \frac{1+y^2}{y}  \qquad y(1)=2
@@ -328,6 +338,8 @@ De gevraagde oplossing van de differentiaalvergelijking is:
 \end{align}
 
 ```{dropdown} Uitwerking
+
+Bepaal analytisch de oplossing van de volgende differentiaalvergelijking met gegeven (begin-)voorwaarde.
 
 \begin{align*}
  \dfrac{dy}{dx} = \dfrac{2x}{1+y^2} \qquad y(2)=3
