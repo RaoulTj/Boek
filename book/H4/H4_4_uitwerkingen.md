@@ -2,9 +2,17 @@
 
 ## Opgave 4.1a
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
 
+De algemene oplossing van de differentiaalvergelijking is:
+\begin{align*}
+ y = C_1e^{-6 x} + C_2e^{3 x} \qquad \text{met } C \in \mathbb{R}
+\end{align*}
+
+```{dropdown} Uitwerking
+
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 \begin{align*}
  \dfrac{d^2y}{dx^2} + 3\dfrac{dy}{dx} - 18y = 0
 \end{align*}
@@ -48,12 +56,21 @@ De waarde voor $\lambda$ invullen in de algemene oplossing geeft;
  y = C_1e^{-6 x} + C_2e^{3 x} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 4.1b
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
 
+De algemene oplossing van de differentiaalvergelijking is:
+\begin{align*}
+ y = C_1e^{-2 x} + C_2e^{2 x} \qquad \text{met } C \in \mathbb{R}
+\end{align*}
+
+```{dropdown} Uitwerking
+
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 \begin{align*}
  2\dfrac{d^2y}{dx^2} - 8y = 0
 \end{align*}
@@ -99,12 +116,21 @@ De waarde voor $\lambda$ invullen in de algemene oplossing geeft;
  y = C_1e^{-2 x} + C_2e^{2 x} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 4.1c
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
 
+De algemene oplossing van de differentiaalvergelijking is:
+\begin{align*}
+ y = e^{-\frac{1}{3}x}\left(C_1\cos\left(\dfrac{\sqrt{2}}{3}x\right) + C_2\sin \left( \dfrac{\sqrt{2}}{3}x \right)\right) \qquad  \text{met } C \in \mathbb{R}
+\end{align*}
+
+```{dropdown} Uitwerking
+
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 \begin{align*}
  3\dfrac{d^2y}{dx^2}+2\dfrac{dy}{dx} +y = 0
 \end{align*}
@@ -155,12 +181,22 @@ De waarde voor $p$ en $q$ invullen in de algemene oplossing geeft;
  y = e^{-\frac{1}{3}x}\left(C_1\cos\left(\dfrac{\sqrt{2}}{3}x\right) + C_2\sin \left( \dfrac{\sqrt{2}}{3}x \right)\right) \qquad  \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 4.1d
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
 
+De algemene oplossing van de differentiaalvergelijking is:
+\begin{align*}
+ y = C_1e^{4x} + C_2xe^{4x} \qquad \text{met } C \in \mathbb{R} \\
+ y = (C_1 + C_2x)e^{4x} \qquad \text{met } C \in \mathbb{R}
+\end{align*}
+
+```{dropdown} Uitwerking
+
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 \begin{align*}
  \dfrac{d^2y}{dx}-8\dfrac{dy}{dx} +16y = 0
 \end{align*}
@@ -210,12 +246,21 @@ De waarde voor $\lambda$ invullen in de algemene oplossing geeft;
  y = (C_1 + C_2x)e^{4x} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 4.2a
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
 
+De algemene oplossing van de differentiaalvergelijking is:
+\begin{align*}
+ y &= e^{x}\left(C_1\cos\left(2x\right) + C_2\sin \left( 2x \right)\right)  +  \dfrac{3}{5}x + \dfrac{16}{25} \qquad \text{met } C_{1,2} \in \mathbb{R}
+\end{align*}
+
+```{dropdown} Uitwerking
+
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 \begin{align*}
  \dfrac{d^2y}{dx}-2\dfrac{dy}{dx} +5y = 3x + 2
 \end{align*}
@@ -334,12 +379,21 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  y &= e^{x}\left(C_1\cos\left(2x\right) + C_2\sin \left( 2x \right)\right)  +  \dfrac{3}{5}x + \dfrac{16}{25} \qquad \text{met } C_{1,2} \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 4.2b
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
 
+De algemene oplossing van de differentiaalvergelijking is:
+\begin{align*}
+ y &= C_1e^{- x} + C_2e^{2 x} -\dfrac{3}{40}\sin(2x) + \dfrac{1}{40}\cos(2x)  \qquad \text{met } C_{1,2} \in \mathbb{R}
+\end{align*}
+
+```{dropdown} Uitwerking
+
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 \begin{align*}
  2\dfrac{d^2y}{dx^2}-2\dfrac{dy}{dx} -4y = \sin(2x)
 \end{align*}
@@ -457,12 +511,21 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  y &= C_1e^{- x} + C_2e^{2 x} -\dfrac{3}{40}\sin(2x) + \dfrac{1}{40}\cos(2x)  \qquad \text{met } C_{1,2} \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 4.2c
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
 
+De algemene oplossing van de differentiaalvergelijking is:
+\begin{align*}
+ y &=  C_1e^{-4x} + C_2xe^{-4x} + \dfrac{1}{36}e^{2x} \qquad \text{met } C_{1,2} \in \mathbb{R}
+\end{align*}
+
+```{dropdown} Uitwerking
+
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 \begin{align*}
  \dfrac{d^2y}{dx^2}+8\dfrac{dy}{dx} +16y = e^{2x}
 \end{align*}
@@ -557,6 +620,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  y &=  C_1e^{-4x} + C_2xe^{-4x} + \dfrac{1}{36}e^{2x} \qquad \text{met } C_{1,2} \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 4.2d
 
