@@ -63,63 +63,60 @@ De oplossingen van de karakteristieke vergelijking zijn:
 \end{align}
 
 De waarde voor $\lambda$ invullen in de algemene oplossing geeft;
-\begin{align*}
- y_h = C_1e^{\lambda_1 x} + C_2e^{\lambda_2 x} \qquad \text{met } C \in \mathbb{R}
-\end{align*}
-
 \begin{align}
- y_h = C_1e^{-4 x} + C_2e^{-3 x} \qquad \text{met } C \in \mathbb{R}
+ y_h &= C_1e^{\lambda_1 x} + C_2e^{\lambda_2 x} \qquad \text{met } C \in \mathbb{R}
+ y_h &= C_1e^{-4 x} + C_2e^{-3 x} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V. 
 Als vorm voor de particuliere oplossing stel:
 \begin{align}
- y_p =  C_1\sin(2x) + C_2\cos(2x)
+ y_p =  A\sin(2x) + B\cos(2x)
 \end{align}
 
 Dus,
 \begin{align}
- \dfrac{dy_p}{dx} &=  2C_1\cos(2x) - 2C_2\sin(2x) \\
- \dfrac{d^2y_p}{dx^2} &=  -4C_1\sin(2x) - 4C_2\cos(2x)
+ \dfrac{dy_p}{dx} &=  2A\cos(2x) - 2B\sin(2x) \\
+ \dfrac{d^2y_p}{dx^2} &=  -4A\sin(2x) - 4B\cos(2x)
 \end{align}
 
 Invullen in de D.V. geeft:
 \begin{align}
-  (-4C_1\sin(2x) - 4C_2\cos(2x))  +7 \cdot (2C_1\cos(2x) - 2C_2\sin(2x)) +12 \cdot (C_1\sin(2x) + C_2\cos(2x))  &= 10\cos(2x) \\
- -4C_1\sin(2x) - 4C_2\cos(2x)  + 14C_1\cos(2x) - 14C_2\sin(2x)) +  12 C_1\sin(2x) +12 C_2\cos(2x)  &= 10\cos(2x) \\
- (-4C_1  + 12C_1 - 14C_2) \sin(2x) + (14C_1-4C_2+12C_2)\cos(2x))   &= 10\cos(2x)\\
-  (8C_1 - 14C_2) \sin(2x) + (14C_1+8C_2)\cos(2x))   &= 10\cos(2x)
+  (-4A\sin(2x) - 4B\cos(2x))  +7 \cdot (2A\cos(2x) - 2B\sin(2x)) +12 \cdot (A\sin(2x) + B\cos(2x))  &= 10\cos(2x) \\
+ -4C_1\sin(2x) - 4B\cos(2x)  + 14A\cos(2x) - 14B\sin(2x)) +  12 A\sin(2x) +12 B\cos(2x)  &= 10\cos(2x) \\
+ (-4A  + 12A - 14B) \sin(2x) + (14A-4B+12B)\cos(2x))   &= 10\cos(2x)\\
+  (8A - 14B) \sin(2x) + (14A+8B)\cos(2x))   &= 10\cos(2x)
 \end{align}
 
-De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
+De coëfficiënten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
- 8C_1 - 14C_2 &= 0 \\
- 14C_1 + 8C_2 &= 10
+ 8A - 14B &= 0 \\
+ 14A + 8B &= 10
 \end{align}
 
 Hieruit volgt:
 \begin{align}
-8 C_1 - 14 C_2 &= 0 \\
-8 C_1 &= 14C_2 \\
- C_1 &= \dfrac{14}{8}C_2
+8 A - 14 B &= 0 \\
+8 A &= 14B \\
+ A &= \dfrac{14}{8}B
 \end{align}
 
 $C_1 $ invullen geeft:
 \begin{align}
- 14 \cdot \dfrac{14}{8}C_2 + 8C_2 &= 10\\
-  \dfrac{98}{4}C_2 + 8 C_2 &= 10\\
-  \dfrac{130}{4}C_2 &= 10\\
-  C_2 &= \dfrac{40}{130} = \dfrac{4}{13}
+ 14 \cdot \dfrac{14}{8}B + 8B &= 10\\
+  \dfrac{98}{4}B + 8 B &= 10\\
+  \dfrac{130}{4}B &= 10\\
+  B &= \dfrac{40}{130} = \dfrac{4}{13}
 \end{align}
 
-$C_2 $ invullen geeft:
+$B $ invullen geeft:
 \begin{align}
- C_1 &= \dfrac{14}{8}C_2
- C_1 &= \dfrac{14}{8} \cdot \dfrac{4}{13}
- C_1 &=  \dfrac{7}{13}
+ A &= \dfrac{14}{8}B \\
+ A &= \dfrac{14}{8} \cdot \dfrac{4}{13} \\
+ A &=  \dfrac{7}{13}
 \end{align}
 
-De waardes voor $C_1$, $C_2$  invullen in de particuliere oplossing geeft:
+De waardes voor $A$, $B$  invullen in de particuliere oplossing geeft:
 \begin{align}
   y_p = \dfrac{7}{13}\sin(2x) + \dfrac{4}{13}\cos(2x)
 \end{align}
@@ -136,6 +133,11 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 ````{admonition} Uitwerkingen
 :class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
+\begin{align}
+ y &= e^{-\frac{1}{8}x}\left(C_1\cos\left(\dfrac{3\sqrt{7}}{8}x\right) + C_2\sin \left( \dfrac{3\sqrt{7}}{8}x \right)\right)   +  \dfrac{5}{4}x - \dfrac{5}{16} \qquad \text{met } C_{1,2} \in \mathbb{R}
+\end{align}
 
 ```{dropdown} Uitwerking
 
@@ -227,7 +229,6 @@ $A $ invullen geeft:
   B &= -\dfrac{5}{16}
 \end{align}
 
-
 De waardes voor $C_1$, $C_2$ en $C_3$ invullen in de particuliere oplossing geeft:
 \begin{align}
  y_p = \dfrac{5}{4}x - \dfrac{5}{16}
@@ -245,6 +246,11 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 ````{admonition} Uitwerkingen
 :class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
+\begin{align}
+ y &= C_1 + C_2e^{3x} -\dfrac{1}{2}x^2 + \dfrac{1}{3}x  \qquad \text{met } C_{1,2} \in \mathbb{R}
+\end{align}
 
 ```{dropdown} Uitwerking
 
@@ -293,8 +299,8 @@ Hieruit volgt dat $\lambda_1=0$ en $\lambda_2=3$
 
 De waarde voor $\lambda_1$ en $\lambda_2$ invullen in de algemene oplossing geeft;
 \begin{align*}
- y_h &= C_1e^{\lambda_1x} + C_2e^{\lambda_2x} \qquad \text{met } C \in \mathbb{R}
- y_h &= C_1e^{0 \cdot x} + C_2e^{3x} \qquad \text{met } C \in \mathbb{R}
+ y_h &= C_1e^{\lambda_1x} + C_2e^{\lambda_2x} \qquad \text{met } C \in \mathbb{R} \\
+ y_h &= C_1e^{0 \cdot x} + C_2e^{3x} \qquad \text{met } C \in \mathbb{R} \\
  y_h &= C_1 + C_2e^{3x} \qquad \text{met } C \in \mathbb{R}
 \end{align*}
 
@@ -307,7 +313,7 @@ Als vorm voor de particuliere oplossing stel:
 
 B is al een oplossing van de homogene oplossing dus, 
 \begin{align}
- y_p &= (Ax + B)x
+ y_p &= (Ax + B)x \\
  y_p &= Ax^2 + Bx
 \end{align}
 
@@ -359,6 +365,11 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 ````{admonition} Uitwerkingen
 :class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
+\begin{align}
+ y &= (C_1 + C_2x)e^{3x} + \dfrac{5}{6}x^3e^{3x} \qquad \text{met } C_{1,2} \in \mathbb{R}
+\end{align}
 
 ```{dropdown} Uitwerking
 
@@ -441,7 +452,7 @@ Dus,
 Invullen in de D.V. geeft:
 \begin{align}
  (9Ax^3e^{3x} + 18Ax^2e^{3x} + 6Axe^{3x} + 9Bx^2e^{3x} + 12Bxe^{3x} + 2Be^{3x}) -6 (3Ax^2e^{3x} + 3Ax^3e^{3x}  + 2Bxe^{3x} + 3Bx^2e^{3x}) + 9(Ax^3e^{3x} + Bx^2e^{3x}) &= 5xe^{3x} \\
- 6Axe^{3x} + 2Be^{3x} = 5xe^{3x}
+ 6Axe^{3x} + 2Be^{3x} &= 5xe^{3x}
 \end{align}
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
@@ -477,6 +488,11 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 ````{admonition} Uitwerkingen
 :class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
+\begin{align}
+ y &=  C_1\cos(2x) + C_2\sin(2x) -\dfrac{1}{4}\sin(2x) \qquad \text{met } C_{1,2} \in \mathbb{R}
+\end{align}
 
 ```{dropdown} Uitwerking
 Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
@@ -539,16 +555,16 @@ Als vorm voor de particuliere oplossing stel:
  y_p = A\sin(2x) + B\cos(2x)
 \end{align}
 
-A\sin(2x) is al een oplossing van de homogene oplossing dus,
+$A\sin(2x)$ is al een oplossing van de homogene oplossing dus,
 \begin{align}
- y_p &= (A\sin(2x) + B\cos(2x))x
+ y_p &= (A\sin(2x) + B\cos(2x))x \\
  y_p &= Ax\sin(2x) + Bx\cos(2x)
 \end{align}
 
 Dus,
 \begin{align}
  \dfrac{dy_p}{dx} &= A\sin(2x) + 2Ax\cos(2x) + Bcos(2x) - 2Bx\sin(2x)  \\
- \dfrac{d^2y_p}{dx^2} &= 2A\cos(2x) + 2A\cos(2x) - 4Ax\sin(2x) -2B\sin(2x) -2B\sin(2x) - 4Bx\cos(2x)
+ \dfrac{d^2y_p}{dx^2} &= 2A\cos(2x) + 2A\cos(2x) - 4Ax\sin(2x) -2B\sin(2x) -2B\sin(2x) - 4Bx\cos(2x) \\
  \dfrac{d^2y_p}{dx^2} &= 4A\cos(2x) - 4Ax\sin(2x) -4B\sin(2x) - 4Bx\cos
 \end{align}
 
