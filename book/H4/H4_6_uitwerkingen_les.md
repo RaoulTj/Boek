@@ -78,20 +78,20 @@ Dus,
 Invullen in de D.V. geeft:
 \begin{align}
   (-4C_1\sin(2x) - 4C_2\cos(2x))  +7 \cdot (2C_1\cos(2x) - 2C_2\sin(2x)) +12 \cdot (C_1\sin(2x) + C_2\cos(2x))  &= 10\cos(2x) \\
- -4C_1\sin(2x) - 4C_2\cos(2x)  + 14C_1\cos(2x) + 14C_2\sin(2x)) +  12 C_1\sin(2x) +12 C_2\cos(2x)  &= 10\cos(2x) \\
- (-4C_1  + 12C_1 + 14C_2) \sin(2x) + (14C_1-4C_2+12C_2)\cos(2x))   &= 10\cos(2x)\\
-  (8C_1 + 14C_2) \sin(2x) + (14C_1+8C_2)\cos(2x))   &= 10\cos(2x)
+ -4C_1\sin(2x) - 4C_2\cos(2x)  + 14C_1\cos(2x) - 14C_2\sin(2x)) +  12 C_1\sin(2x) +12 C_2\cos(2x)  &= 10\cos(2x) \\
+ (-4C_1  + 12C_1 - 14C_2) \sin(2x) + (14C_1-4C_2+12C_2)\cos(2x))   &= 10\cos(2x)\\
+  (8C_1 - 14C_2) \sin(2x) + (14C_1+8C_2)\cos(2x))   &= 10\cos(2x)
 \end{align}
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
- 8C_1 + 14C_2 &= 0 \\
+ 8C_1 - 14C_2 &= 0 \\
  14C_1 + 8C_2 &= 10
 \end{align}
 
 Hieruit volgt:
 \begin{align}
-8 C_1 +14 C_2 &= 0 \\
+8 C_1 - 14 C_2 &= 0 \\
 8 C_1 &= 14C_2 \\
  C_1 &= \dfrac{14}{8}C_2
 \end{align}
@@ -99,26 +99,26 @@ Hieruit volgt:
 $C_1 $ invullen geeft:
 \begin{align}
  14 \cdot \dfrac{14}{8}C_2 + 8C_2 &= 10\\
-  \dfrac{49}{4}C_2 + 8 C_2 &= 10\\
-  \dfrac{81}{4}C_2 &= 10\\
-  C_2 &= \dfrac{40}{81}
+  \dfrac{98}{4}C_2 + 8 C_2 &= 10\\
+  \dfrac{130}{4}C_2 &= 10\\
+  C_2 &= \dfrac{40}{130} = \dfrac{4}{13}
 \end{align}
 
 $C_2 $ invullen geeft:
 \begin{align}
- C_1 &= -3C_2 \\
- C_1 &= -3 \cdot \dfrac{1}{40}\\
- C_1 &= - \dfrac{3}{40}
+ C_1 &= \dfrac{14}{8}C_2
+ C_1 &= \dfrac{14}{8} \cdot \dfrac{4}{13}
+ C_1 &=  \dfrac{7}{13}
 \end{align}
 
 De waardes voor $C_1$, $C_2$  invullen in de particuliere oplossing geeft:
 \begin{align}
-  y_p = -\dfrac{3}{40}\sin(2x) + \dfrac{1}{40}\cos(2x)
+  y_p = \dfrac{7}{13}\sin(2x) + \dfrac{4}{13}\cos(2x)
 \end{align}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  y &= y_h + y_p \\
- y &= C_1e^{- x} + C_2e^{2 x} -\dfrac{3}{40}\sin(2x) + \dfrac{1}{40}\cos(2x)  \qquad \text{met } C_{1,2} \in \mathbb{R}
+ y &= C_1e^{-4 x} + C_2e^{-3 x} + \dfrac{7}{13}\sin(2x) + \dfrac{4}{13}\cos(2x)  \qquad \text{met } C_{1,2} \in \mathbb{R}
 \end{align}
 ```
