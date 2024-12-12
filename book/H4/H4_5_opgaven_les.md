@@ -21,7 +21,7 @@ Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijkin
 Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 
 \begin{align*}
- \dfrac{d^2y}{dx^2}-3y = 3x-2
+ \dfrac{d^2y}{dx^2}-3\dfrac{dy}{dx} = 3x-2
 \end{align*}
 
 ## Opgave 4
@@ -37,5 +37,5 @@ Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijkin
 Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 
 \begin{align*}
- 2\dfrac{d^2y}{dx^2}+8\dfrac{dy}{dx} = 2\sin(2x)
+ 2\dfrac{d^2y}{dx^2}+8y = 2\sin(2x)
 \end{align*}

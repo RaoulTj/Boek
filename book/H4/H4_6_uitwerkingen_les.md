@@ -237,7 +237,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 
 \begin{align*}
- \dfrac{d^2y}{dx^2}-3y = 3x-2
+ \dfrac{d^2y}{dx^2}-3\dfrac{dy}{dx} = 3x-2
 \end{align*}
 
 Als algemene oplossing voor de D.V. stel:
@@ -457,10 +457,13 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 ## Opgave 5
 
+```{admonition} Uitwerkingen
+:class: dropdown
+
 Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 
 \begin{align*}
- 2\dfrac{d^2y}{dx^2}+8\dfrac{dy}{dx} = 2\sin(2x)
+ 2\dfrac{d^2y}{dx^2}+8y = 2\sin(2x)
 \end{align*}
 
 Als algemene oplossing voor de D.V. stel:
@@ -532,37 +535,36 @@ Dus,
 
 Invullen in de D.V. geeft:
 \begin{align}
- 4 \cdot (0) + (A) + 4 \cdot (Ax + B) &= 5x \\
- A + 4Ax + 4B &= 5x
+ 2 \cdot (4A\cos(2x) - 4Ax\sin(2x) -4B\sin(2x) - 4Bx\cos)  + 8 \cdot (Ax\sin(2x) + Bx\cos(2x)) &= 2\sin(2x) \\
+ (8A\cos(2x) - 8Ax\sin(2x) -8B\sin(2x) - 8Bx\cos)  + (8Ax\sin(2x) + 8Bx\cos(2x)) &= 2\sin(2x) \\
+ 8A\cos(2x) - 8Ax\sin(2x) &= 2\sin(2x)
 \end{align}
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
- 4A &= 5 \\
- A + 4B &= 0 
+ -8A &= 2 \\
+ 8B  &= 0
 \end{align}
 
 Hieruit volgt:
 \begin{align}
- A = \dfrac{5}{4}
+ A = -\dfrac{2}{8} = -\dfrac{1}{4}
 \end{align}
 
-$A $ invullen geeft:
+Hieruit volgt:
 \begin{align}
- \dfrac{5}{4} + 4B &= 0\\
-  4B &= -\dfrac{5}{4}\\
-  B &= -\dfrac{5}{16}
+ B = 0
 \end{align}
 
-
-De waardes voor $C_1$, $C_2$ en $C_3$ invullen in de particuliere oplossing geeft:
+De waardes voor $A$, $B$ invullen in de particuliere oplossing geeft:
 \begin{align}
- y_p = \dfrac{5}{4}x - \dfrac{5}{16}
+ y_p = -\dfrac{1}{4}\sin(2x)
 \end{align}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  y &= y_h + y_p \\
- y &= e^{-\frac{1}{8}x}\left(C_1\cos\left(\dfrac{3\sqrt{7}}{8}x\right) + C_2\sin \left( \dfrac{3\sqrt{7}}{8}x \right)\right)   +  \dfrac{5}{4}x - \dfrac{5}{16} \qquad \text{met } C_{1,2} \in \mathbb{R}
+ y &=  C_1\cos(2x) + C_2\sin(2x) -\dfrac{1}{4}\sin(2x) \qquad \text{met } C_{1,2} \in \mathbb{R}
 \end{align}
 ```
+
