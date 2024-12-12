@@ -2,8 +2,16 @@
 
 ## Opgave 1
 
-```{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
+
+\begin{align}
+ y &= C_1e^{-4 x} + C_2e^{-3 x} + \dfrac{7}{13}\sin(2x) + \dfrac{4}{13}\cos(2x)  \qquad \text{met } C_{1,2} \in \mathbb{R}
+\end{align}
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  \dfrac{d^2y}{dx^2} + 7\dfrac{dy}{dx} +12 y = 10\cos(2x)
@@ -122,11 +130,14 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  y &= C_1e^{-4 x} + C_2e^{-3 x} + \dfrac{7}{13}\sin(2x) + \dfrac{4}{13}\cos(2x)  \qquad \text{met } C_{1,2} \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 2
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
+
+```{dropdown} Uitwerking
 
 Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 
@@ -228,11 +239,14 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  y &= e^{-\frac{1}{8}x}\left(C_1\cos\left(\dfrac{3\sqrt{7}}{8}x\right) + C_2\sin \left( \dfrac{3\sqrt{7}}{8}x \right)\right)   +  \dfrac{5}{4}x - \dfrac{5}{16} \qquad \text{met } C_{1,2} \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 3
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
+
+```{dropdown} Uitwerking
 
 Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 
@@ -339,11 +353,14 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  y &= C_1 + C_2e^{3x} -\dfrac{1}{2}x^2 + \dfrac{1}{3}x  \qquad \text{met } C_{1,2} \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 4
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
+
+```{dropdown} Uitwerking
 
 Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 
@@ -454,12 +471,14 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  y &= (C_1 + C_2x)e^{3x} + \dfrac{5}{6}x^3e^{3x} \qquad \text{met } C_{1,2} \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 5
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
 
+```{dropdown} Uitwerking
 Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 
 \begin{align*}
@@ -567,4 +586,5 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  y &=  C_1\cos(2x) + C_2\sin(2x) -\dfrac{1}{4}\sin(2x) \qquad \text{met } C_{1,2} \in \mathbb{R}
 \end{align}
 ```
+````
 
