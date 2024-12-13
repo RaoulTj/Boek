@@ -904,24 +904,31 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  y &=  C_1e^{\dfrac{1}{3}x} + C_2e^{2x} + \dfrac{1}{2}x^2 + \dfrac{11}{2}x +\dfrac{71}{4} \qquad \text{met } C_{1,2} \in \mathbb{R}
 \end{align}
 
-De gegeven voorwaarden gebruiken om C te bepalen.  $y(0) = 0$ en $y'(0) = 0$
+De gegeven voorwaarden gebruiken om $C_1$ en $C_2$ te bepalen.  $y(0) = 0$ en $y'(0) = 0$
 
 Dus invullen voor $y(0) = 0$ geeft:
 \begin{align}
+ y &=  C_1e^{\dfrac{1}{3}x} + C_2e^{2x} + \dfrac{1}{2}x^2 + \dfrac{11}{2}x +\dfrac{71}{4} \\
  0 &= C_1e^{\dfrac{1}{3}\cdot0} + C_2e^{2\cdot0} + \dfrac{1}{2} \cdot 0^2 + \dfrac{11}{2} \cdot 0 +\dfrac{71}{4} \\
  0 &= C_1 + C_2 + \dfrac{71}{4}
 \end{align}
 
-Dus invullen voor $y'(0) = 0$ geeft:
+Hieruit volgt:
 \begin{align}
- 0 &= \dfrac{1}{3}C_1e^{\dfrac{1}{3}\cdot0} + 2C_2e^{2\cdot0} + 2 \cdot \dfrac{1}{2} \cdot 0 + \dfrac{11}{2} \\
- 0 &= \dfrac{1}{3}C_1 + 2C_2 + \dfrac{11}{2}
+ C_1 = - C_2 - \dfrac{71}{4}
 \end{align}
 
 
+Dus $C_1$ invullen voor $y'(0) = 0$ geeft:
+\begin{align}
+ y' &=  \dfrac{1}{3}C_1e^{\dfrac{1}{3}x} + 2C_2e^{2x} + x + \dfrac{11}{2} \\
+ 0 &= \dfrac{1}{3}C_1e^{\dfrac{1}{3}\cdot0} + 2C_2e^{2\cdot0} + 0 + \dfrac{11}{2} \\
+ 0 &= \dfrac{1}{3} (- C_2 - \dfrac{71}{4}) + 2C_2 + \dfrac{11}{2}
+\end{align}
+
 Hieruit volgt:
 \begin{align}
- C = \dfrac{9}{17}
+ 0 &= -\dfrac{1}{3}C_2 - \dfrac{1}{3} \cdot \dfrac{71}{4}) + 2C_2 + \dfrac{11}{2} \\
 \end{align}
 
 Dus C invullen in de totale oplossing geeft:
