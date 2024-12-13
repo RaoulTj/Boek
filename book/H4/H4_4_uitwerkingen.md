@@ -768,10 +768,10 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 ## Opgave 4.3a
 
-
-
 ````{admonition} Antwoord
 :class: dropdown
+
+De oplossing van de differentiaalvergelijking is:
 
 \begin{align}
  y &=  C_1e^{\dfrac{1}{3}x} + C_2e^{2x} + \dfrac{1}{2}x^2 + \dfrac{11}{2}x +\dfrac{71}{4} \qquad \text{met } C_{1,2} \in \mathbb{R}
@@ -876,10 +876,11 @@ Hieruit volgt:
 
 $A$ invullen geeft:
 \begin{align}
- -14 \cdot  \dfrac{1}{2} +2B= 0\\
- -\dfrac{14}{2} +2B= 0\\
- 2B= \dfrac{14}{2} \\
-  B= \dfrac{14}{4}  = \dfrac{7}{2}
+ -14 \cdot  \dfrac{1}{2} +2B= 4\\
+ -\dfrac{14}{2} +2B= 4\\
+ 2B= 4+ \dfrac{14}{2} \\
+ 2B= \dfrac{8}{2} + \dfrac{14}{2} \\
+  B= \dfrac{22}{4}  = \dfrac{11}{2}
 \end{align}
 
 $A$ en $B$ invullen geeft:
