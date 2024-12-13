@@ -491,7 +491,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 De algemene oplossing van de differentiaalvergelijking is:
 \begin{align}
- y &=  C_1\cos(2x) + C_2\sin(2x) -\dfrac{1}{4}\sin(2x) \qquad \text{met } C_{1,2} \in \mathbb{R}
+ y &=  C_1\cos(2x) + C_2\sin(2x) -\dfrac{1}{4}x\cos(2x) \qquad \text{met } C_{1,2} \in \mathbb{R}
 \end{align}
 
 ```{dropdown} Uitwerking
@@ -572,34 +572,34 @@ Invullen in de D.V. geeft:
 \begin{align}
  2 \cdot (4A\cos(2x) - 4Ax\sin(2x) -4B\sin(2x) - 4Bx\cos)  + 8 \cdot (Ax\sin(2x) + Bx\cos(2x)) &= 2\sin(2x) \\
  (8A\cos(2x) - 8Ax\sin(2x) -8B\sin(2x) - 8Bx\cos)  + (8Ax\sin(2x) + 8Bx\cos(2x)) &= 2\sin(2x) \\
- 8A\cos(2x) - 8Ax\sin(2x) &= 2\sin(2x)
+ 8A\cos(2x) - 8B\sin(2x) &= 2\sin(2x)
 \end{align}
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
- -8A &= 2 \\
- 8B  &= 0
+ 8A &= 0 \\
+ -8B  &= 2
 \end{align}
 
 Hieruit volgt:
 \begin{align}
- A = -\dfrac{2}{8} = -\dfrac{1}{4}
+ B = -\dfrac{2}{8} = -\dfrac{1}{4}
 \end{align}
 
 Hieruit volgt:
 \begin{align}
- B = 0
+ A = 0
 \end{align}
 
 De waardes voor $A$, $B$ invullen in de particuliere oplossing geeft:
 \begin{align}
- y_p = -\dfrac{1}{4}\sin(2x)
+ y_p = -\dfrac{1}{4}x\cos(2x)
 \end{align}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  y &= y_h + y_p \\
- y &=  C_1\cos(2x) + C_2\sin(2x) -\dfrac{1}{4}\sin(2x) \qquad \text{met } C_{1,2} \in \mathbb{R}
+ y &=  C_1\cos(2x) + C_2\sin(2x) -\dfrac{1}{4}x\cos(2x) \qquad \text{met } C_{1,2} \in \mathbb{R}
 \end{align}
 ```
 ````
