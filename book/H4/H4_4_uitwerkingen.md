@@ -771,10 +771,10 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 ````{admonition} Antwoord
 :class: dropdown
 
-De oplossing van de differentiaalvergelijking is:
+De gevraagde oplossing van de differentiaalvergelijking is:
 
 \begin{align}
- y &=  C_1e^{\dfrac{1}{3}x} + C_2e^{2x} + \dfrac{1}{2}x^2 + \dfrac{11}{2}x +\dfrac{71}{4} \qquad \text{met } C_{1,2} \in \mathbb{R}
+ y &= - \dfrac{72}{4}e^{\dfrac{1}{3}x} + \dfrac{1}{4}e^{2x} + \dfrac{1}{2}x^2 + \dfrac{11}{2}x +\dfrac{71}{4}
 \end{align}
 
 ```{dropdown} Uitwerking
@@ -929,11 +929,22 @@ Dus $C_1$ invullen voor $y'(0) = 0$ geeft:
 Hieruit volgt:
 \begin{align}
  0 &= -\dfrac{1}{3}C_2 - \dfrac{1}{3} \cdot \dfrac{71}{4}) + 2C_2 + \dfrac{11}{2} \\
+ 0 &= -\dfrac{1}{3}C_2 - \dfrac{71}{12} + 2C_2 + \dfrac{11}{2} \\
+ 0 &= -\dfrac{1}{3}C_2 + 2C_2 - \dfrac{71}{12}  + \dfrac{11}{2} \\
+ 0 &= \dfrac{5}{3}C_2 - \dfrac{5}{12} \\
+ \dfrac{5}{3}C_2 &= \dfrac{5}{12} \\
+ C_2 &= \dfrac{3}{12} = \dfrac{1}{4}
 \end{align}
 
-Dus C invullen in de totale oplossing geeft:
+$C_2$ invullen geeft:
 \begin{align}
- y &= \dfrac{9}{17}e^{\frac{1}{2}x} +\dfrac{2}{27}\sin(2x) - \dfrac{9}{17}\cos(2x)
+ C_1 = - \dfrac{1}{4} - \dfrac{71}{4}
+ C_1 = - \dfrac{72}{4}
+\end{align}
+
+Dus $C_1$ en $C_2$ invullen in de totale oplossing geeft:
+\begin{align}
+ y &= - \dfrac{72}{4}e^{\dfrac{1}{3}x} + \dfrac{1}{4}e^{2x} + \dfrac{1}{2}x^2 + \dfrac{11}{2}x +\dfrac{71}{4}
 \end{align}
 ```
 ````
