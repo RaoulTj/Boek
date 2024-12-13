@@ -773,6 +773,9 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 ````{admonition} Antwoord
 :class: dropdown
 
+\begin{align}
+ y &=  C_1e^{\dfrac{1}{3}x} + C_2e^{2x} + \dfrac{1}{2}x^2 + \dfrac{11}{2}x +\dfrac{71}{4} \qquad \text{met } C_{1,2} \in \mathbb{R}
+\end{align}
 
 ```{dropdown} Uitwerking
 
@@ -855,15 +858,15 @@ Dus,
 Invullen in de D.V. geeft:
 \begin{align}
  3(2A) - 7 \cdot (2Ax + B ) +2 \cdot (Ax^2 + Bx + D) &= x^2+e^{4x} \\
- (6A) +  (-14Ax - 14B ) + (2Ax^2 + 2Bx + 2D) &= x^2+4x \\
- 2Ax^2 + (-14A + 2B)x + (6A-14B+2D)&= x^2+4x
+ (6A) +  (-14Ax - 7B ) + (2Ax^2 + 2Bx + 2D) &= x^2+4x \\
+ 2Ax^2 + (-14A + 2B)x + (6A-7B+2D)&= x^2+4x
 \end{align}
 
 De coëfficiënten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
  2A &= 1 \\
  -14A + 2B &= 4 \\
- 6A-14B+2D &= 0 \\
+ 6A-7B+2D &= 0 \\
 \end{align}
 
 Hieruit volgt:
@@ -881,27 +884,23 @@ $A$ invullen geeft:
 
 $A$ en $B$ invullen geeft:
 \begin{align}
- 6 \cdot  \dfrac{1}{2} -14 \cdot \dfrac{11}{2} +2D &= 0\\
- 3 -\cdot \dfrac{154}{8} +2D &= 0\\
- 2D &= -3 +\cdot \dfrac{154}{8} \\
- 2D &= -\dfrac{64}{8} + \dfrac{154}{8} \\
- 2D &= \dfrac{90}{8}
+ 6 \cdot  \dfrac{1}{2} -7 \cdot \dfrac{11}{2} +2D &= 0\\
+ 3 -\cdot \dfrac{77}{2} +2D &= 0\\
+ 2D &= -3 +\cdot \dfrac{77}{2} \\
+ 2D &= -\dfrac{6}{2} + \dfrac{77}{2} \\
+ 2D &= \dfrac{71}{2}
+ D &= \dfrac{71}{4}
  end{align}
 
-Hieruit volgt:
+De waardes voor $A$, $B$ en $D$ invullen in de particuliere oplossing geeft:
 \begin{align}
- F = \dfrac{1}{9}
-\end{align}
-
-De waardes voor $A$, $B$ en $D$ en $F$ invullen in de particuliere oplossing geeft:
-\begin{align}
- y_p = -\dfrac{1}{4}x^2 + \dfrac{7}{8}x -\dfrac{57}{32} + \dfrac{1}{9}e^{4x}x
+ y_p = \dfrac{1}{2}x^2 + \dfrac{11}{2}x +\dfrac{71}{4}
 \end{align}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  y &= y_h + y_p \\
- y &= C_1e^{-\dfrac{1}{2}x} + C_2e^{4x} -\dfrac{1}{4}x^2 + \dfrac{7}{8}x -\dfrac{57}{32} + \dfrac{1}{9}e^{4x}x \qquad \text{met } C_{1,2} \in \mathbb{R}
+ y &=  C_1e^{\dfrac{1}{3}x} + C_2e^{2x} + \dfrac{1}{2}x^2 + \dfrac{11}{2}x +\dfrac{71}{4} \qquad \text{met } C_{1,2} \in \mathbb{R}
 \end{align}
 ```
 ````
