@@ -876,16 +876,16 @@ $A$ invullen geeft:
  -14 \cdot  \dfrac{1}{2} +2B= 0\\
  -\dfrac{14}{2} +2B= 0\\
  2B= \dfrac{14}{2} \\
-  B= \dfrac{14}{16}  = \dfrac{7}{8}
+  B= \dfrac{14}{4}  = \dfrac{7}{2}
 \end{align}
 
 $A$ en $B$ invullen geeft:
 \begin{align}
- 4 \cdot  -\dfrac{1}{4} -7 \cdot \dfrac{7}{8} -4D &= 0\\
- -1 -\cdot \dfrac{49}{8} -4D &= 0\\
- -4D &= 1 +\cdot \dfrac{49}{8} \\
- -4D &= \dfrac{57}{8} \\
- D &= -\dfrac{57}{32}
+ 6 \cdot  \dfrac{1}{2} -14 \cdot \dfrac{11}{2} +2D &= 0\\
+ 3 -\cdot \dfrac{154}{8} +2D &= 0\\
+ 2D &= -3 +\cdot \dfrac{154}{8} \\
+ 2D &= -\dfrac{64}{8} + \dfrac{154}{8} \\
+ 2D &= \dfrac{90}{8}
  end{align}
 
 Hieruit volgt:
