@@ -857,7 +857,7 @@ Dus,
 
 Invullen in de D.V. geeft:
 \begin{align}
- 3(2A) - 7 \cdot (2Ax + B ) +2 \cdot (Ax^2 + Bx + D) &= x^2+e^{4x} \\
+ 3(2A) - 7 \cdot (2Ax + B ) +2 \cdot (Ax^2 + Bx + D) &= x^2+4x \\
  (6A) +  (-14Ax - 7B ) + (2Ax^2 + 2Bx + 2D) &= x^2+4x \\
  2Ax^2 + (-14A + 2B)x + (6A-7B+2D)&= x^2+4x
 \end{align}
@@ -890,7 +890,7 @@ $A$ en $B$ invullen geeft:
  2D &= -\dfrac{6}{2} + \dfrac{77}{2} \\
  2D &= \dfrac{71}{2}
  D &= \dfrac{71}{4}
- end{align}
+\end{align}
 
 De waardes voor $A$, $B$ en $D$ invullen in de particuliere oplossing geeft:
 \begin{align}
