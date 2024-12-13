@@ -2,7 +2,7 @@
 
 ## Opgave 4.1a
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 De algemene oplossing van de differentiaalvergelijking is:
@@ -60,7 +60,7 @@ De waarde voor $\lambda$ invullen in de algemene oplossing geeft;
 
 ## Opgave 4.1b
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 De algemene oplossing van de differentiaalvergelijking is:
@@ -120,7 +120,7 @@ De waarde voor $\lambda$ invullen in de algemene oplossing geeft;
 
 ## Opgave 4.1c
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 De algemene oplossing van de differentiaalvergelijking is:
@@ -185,7 +185,7 @@ De waarde voor $p$ en $q$ invullen in de algemene oplossing geeft;
 
 ## Opgave 4.1d
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 De algemene oplossing van de differentiaalvergelijking is:
@@ -250,7 +250,7 @@ De waarde voor $\lambda$ invullen in de algemene oplossing geeft;
 
 ## Opgave 4.2a
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 De algemene oplossing van de differentiaalvergelijking is:
@@ -383,7 +383,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 ## Opgave 4.2b
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 De algemene oplossing van de differentiaalvergelijking is:
@@ -515,7 +515,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 ## Opgave 4.2c
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 De algemene oplossing van de differentiaalvergelijking is:
@@ -624,11 +624,153 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 ## Opgave 4.2d
 
+````{admonition} Antwoord
+:class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
+\begin{align*}
+ 2y &= e^{x}\left(C_1\cos\left(2x\right) + C_2\sin \left( 2x \right)\right)  +  \dfrac{3}{5}x + \dfrac{16}{25} \qquad \text{met } C_{1,2} \in \mathbb{R}
+\end{align*}
+
+```{dropdown} Uitwerking
+
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
+\begin{align*}
+ 2\dfrac{d^2y}{dx}-7\dfrac{dy}{dx} -4y = x^2 + e^{4x}
+\end{align*}
+
+De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
+\begin{align}
+ y = y_h + y_p
+\end{align}
+
+De homogene D.V. wordt:
+\begin{align}
+ \dfrac{d^2y}{dx^2}-7\dfrac{dy}{dx} -4y =  0
+\end{align}
+
+Als oplossing voor de homogene D.V. stel:
+\begin{align}
+ y_h = Ce^{\lambda x} \text{ met } C \in \mathbb{R}
+\end{align}
+
+Dus,
+\begin{align}
+  \dfrac{dy}{dx} &= \lambda Ce^{\lambda x} \text{ met } C \in \mathbb{R} \\
+  \dfrac{d^2y}{dx^2} &= \lambda^2 Ce^{\lambda x} \text{ met } C \in \mathbb{R}
+\end{align}
+
+Invullen in de D.V. geeft:
+\begin{align}
+ 2(\lambda^2 Ce^{\lambda x}) -7 (\lambda Ce^{\lambda x}) -4 (Ce^{\lambda x}) &= 0 \\
+ (2\lambda^2 -7 \lambda -4 )\cdot Ce^{\lambda x}  &= 0
+\end{align}
+
+De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \
+Verder geldt dat $e^{\lambda x} \neq 0 $ dus,
+\begin{align}
+ 2\lambda^2 -7 \lambda -4 &= 0
+\end{align}
+
+Dus de discriminant is,
+\begin{align}
+ D = (-7)^2 - 4 \cdot 2 \cdot -4 = 49 + 32 = 81
+\end{align}
+
+De oplossingen van de karakteristieke vergelijking zijn:
+\begin{align}
+  \lambda_{1,2} &= \dfrac{7 \pm \sqrt{81}}{2 \cdot 2}\\
+  \lambda_{1,2} &= \dfrac{7 \pm \sqrt{9}}{4}
+\end{align}
+
+Hieruit volgt dat $=\lambda_{1}= -\dfrac{1}{2} $ en $\lambda_{2} = 4$
+
+De waarde voor $\lambda_{1}$ en $\lambda_{2}$ invullen in de algemene oplossing geeft;
+\begin{align*}
+ y_h = C_1e^{\lambda_{1}x} + C_2e^{\lambda_{2}x}   \qquad \text{met } C \in \mathbb{R}
+\end{align*}
+
+\begin{align}
+ y_h = C_1e^{-\dfrac{1}{2}x} + C_2e^{4x} \qquad  \text{met } C \in \mathbb{R}
+\end{align}
+
+Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.  
+Als vorm voor de particuliere oplossing stel:
+\begin{align}
+ y_p = Ax^2 + Bx + D + Fe^{4x}
+\end{align}
+
+\begin{align}
+ y_p = Ax^2 + Bx + D + Fe^{4x}x
+\end{align}
+
+Dus,
+\begin{align}
+ \dfrac{dy_p}{dx} &= 2Ax + B + Fe^{4x} + 4Fe^{4x}x \\
+ \dfrac{d^2y_p}{dx^2} &= 2A + 4Fe^{4x} + 4Fe^{4x} + 16Fe^{4x}x
+\end{align}
+
+Invullen in de D.V. geeft:
+\begin{align}
+ 2(2A + 4Fe^{4x} + 4Fe^{4x}  + 16Fe^{4x}x) - 7 \cdot (2Ax + B + Fe^{4x} + 4Fe^{4x}x) -4 \cdot (Ax^2 + Bx + D + Fe^{4x}x) &= x^2+e^{4x} \\
+ (4A + 8Fe^{4x} + 8Fe^{4x} + 32Fe^{4x}x) + (-14Ax + -7B - 7Fe^{4x} - 28Fe^{4x}x) + (-4Ax^2  -4Bx  -4D  -4Fe^{4x}x) &= x^2+e^{4x} \\
+ (4A + 16Fe^{4x} + 32Fe^{4x}x) + (-14Ax + -7B - 7Fe^{4x} - 28Fe^{4x}x) + (-4Ax^2  -4Bx  -4D  -4Fe^{4x}x) &= x^2+e^{4x} \\
+ -4Ax^2 + (-14A-4B)x + (4A-7B -4D) + 9Fe^{4x} &= x^2+e^{4x}
+\end{align}
+
+De coëfficiënten moeten links en rechts gelijk zijn dus volgt:
+\begin{align}
+ -4A &= 1 \\
+ -14A-4B &= 0 \\
+ 4A-7B-4D &= 0 \\
+ 9F = 1
+\end{align}
+
+Hieruit volgt:
+\begin{align}
+ A = -\dfrac{1}{4}
+\end{align}
+
+$A$ invullen geeft:
+\begin{align}
+ -14 \cdot  -\dfrac{1}{4} -4B= 0\\
+ \dfrac{14}{4} -4B= 0\\
+ -4B= \dfrac{14}{4} \\
+  B= \dfrac{14}{16}  = \dfrac{7}{8}
+\end{align}
+
+$A$ en $B$ invullen geeft:
+\begin{align}
+ 4 \cdot  -\dfrac{1}{4} -7 \cdot \dfrac{7}{8} -4D &= 0\\
+ -1 -\cdot \dfrac{49}{8} -4D &= 0\\
+ -4D &= 1 +\cdot \dfrac{49}{8} \\
+ -4D &= \dfrac{57}{8} \\
+ D &= -\dfrac{57}{32}
+ end{align}
+
+Hieruit volgt:
+\begin{align}
+ F = \dfrac{1}{9}
+\end{align}
+
+De waardes voor $A$, $B$ en $D$ en $F$ invullen in de particuliere oplossing geeft:
+\begin{align}
+ y_p = -\dfrac{1}{4}x^2 + \dfrac{7}{8}x -\dfrac{57}{32} + \dfrac{1}{9}e^{4x}x
+\end{align}
+
+De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
+\begin{align}
+ y &= y_h + y_p \\
+ y &= C_1e^{-\dfrac{1}{2}x} + C_2e^{4x} -\dfrac{1}{4}x^2 + \dfrac{7}{8}x -\dfrac{57}{32} + \dfrac{1}{9}e^{4x}x \qquad \text{met } C_{1,2} \in \mathbb{R}
+\end{align}
+```
+````
+
 ## Opgave 4.3a
 
 ## Opgave 4.3b
 
-```{admonition} Uitwerkingen
+```{admonition} Antwoord
 :class: dropdown
 
 \begin{align*}
