@@ -951,11 +951,20 @@ Dus $C_1$ en $C_2$ invullen in de totale oplossing geeft:
 
 ## Opgave 4.3b
 
-```{admonition} Antwoord
+````{admonition} Antwoord
 :class: dropdown
+
+De gevraagde oplossing van de differentiaalvergelijking is:
 
 \begin{align*}
  3\dfrac{d^2y}{dx^2}+6\dfrac{dy}{dx} +15y = 5e^{x}
+\end{align*}
+
+```{dropdown} Uitwerking 
+
+Los de volgende differentiaalvergelijking met aanvullende voorwaarden exact op.
+\begin{align*}
+ 3\dfrac{d^2y}{dx^2} + 6\dfrac{dy}{dx} + 15y = 5e^x \qquad \text{ met } y(0)=2, y'(0)=4
 \end{align*}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
@@ -1014,7 +1023,7 @@ De waarde voor $p$ en $q$ invullen in de algemene oplossing geeft;
  y = e^{-x}(C_1\cos(2x) + C_2\sin ( 2x ) ) \qquad  \text{met } C \in \mathbb{R}
 \end{align}
 
-Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.  
+Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.
 Als vorm voor de particuliere oplossing stel:
 \begin{align}
  y_p =  C_1e^{x}
@@ -1056,41 +1065,29 @@ Dus invullen voor $y(0) = 2$ geeft:
 \begin{align}
  y &= e^{-x}(C_1\cos(2x) + C_2\sin ( 2x ) ) + \dfrac{5}{24}e^{x} \\
  2 &= e^{-0}(C_1\cos(2\cdot 0) + C_2\sin ( 2\cdot0 ) ) + \dfrac{5}{24}e^{0}\\
- 0 &= C_1 + \dfrac{5}{24}
+ 2 &= C_1 + \dfrac{5}{24}
+ C_1 &= \dfrac{43}{24}
 \end{align}
 
 Hieruit volgt:
 \begin{align}
- C_1 =  -\dfrac{5}{24}
+ C_1 =  \dfrac{43}{24}
 \end{align}
-
 
 Dus $C_1$ invullen voor $y'(0) = 4$ geeft:
 \begin{align}
- y' &=  \dfrac{1}{3}C_1e^{\dfrac{1}{3}x} + 2C_2e^{2x} + x + \dfrac{11}{2} \\
- 0 &= \dfrac{1}{3}C_1e^{\dfrac{1}{3}\cdot0} + 2C_2e^{2\cdot0} + 0 + \dfrac{11}{2} \\
- 0 &= \dfrac{1}{3} (- C_2 - \dfrac{71}{4}) + 2C_2 + \dfrac{11}{2}
-\end{align}
-
-Hieruit volgt:
-\begin{align}
- 0 &= -\dfrac{1}{3}C_2 - \dfrac{1}{3} \cdot \dfrac{71}{4}) + 2C_2 + \dfrac{11}{2} \\
- 0 &= -\dfrac{1}{3}C_2 - \dfrac{71}{12} + 2C_2 + \dfrac{11}{2} \\
- 0 &= -\dfrac{1}{3}C_2 + 2C_2 - \dfrac{71}{12}  + \dfrac{11}{2} \\
- 0 &= \dfrac{5}{3}C_2 - \dfrac{5}{12} \\
- \dfrac{5}{3}C_2 &= \dfrac{5}{12} \\
- C_2 &= \dfrac{3}{12} = \dfrac{1}{4}
-\end{align}
-
-$C_2$ invullen geeft:
-\begin{align}
- C_1 = - \dfrac{1}{4} - \dfrac{71}{4}
- C_1 = - \dfrac{72}{4}
+ y' &=  -e^{-x}(C_1\cos(2x) + C_2\sin ( 2x ) ) + e^{-x}(-2C_1\sin(2x) + 2C_2\cos ( 2x ) ) + \dfrac{5}{24}e^{x}\\
+ 4 &= -e^{-0}(C_1\cos(0) + C_2\sin ( 0 ) ) + e^{-0}(2C_1\cos(0) - 2C_2\sin ( 0 ) ) + \dfrac{5}{24}e^{0} \\
+ 4 &= -C_1 + 2C_2 + \dfrac{5}{24}
+ 4 &= -\dfrac{43}{24} + 2C_2 + \dfrac{5}{24}
+ 2C_2 &= \dfrac{96}{24} + \dfrac{38}{24}
+ 2C_2 &= \dfrac{134}{24}
+  C_2 &= \dfrac{67}{24}
 \end{align}
 
 Dus $C_1$ en $C_2$ invullen in de totale oplossing geeft:
 \begin{align}
- y &= - \dfrac{72}{4}e^{\dfrac{1}{3}x} + \dfrac{1}{4}e^{2x} + \dfrac{1}{2}x^2 + \dfrac{11}{2}x +\dfrac{71}{4}
+ y &=  e^{-x}(\dfrac{43}{24}\cos(2x) + \dfrac{67}{24}\sin ( 2x ) ) + \dfrac{5}{24}e^{x}
 \end{align}
-
 ```
+````
