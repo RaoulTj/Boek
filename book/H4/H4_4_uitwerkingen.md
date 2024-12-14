@@ -1047,6 +1047,50 @@ De waardes voor $C_1$  invullen in de particuliere oplossing geeft:
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  y &= y_h + y_p \\
- y &=  e^{-x}(C_1\cos(2x) + C_2\sin ( 2x ) ) + \dfrac{5}{24}e^{x} \qquad \text{met } C \in \mathbb{R}  
+ y &=  e^{-x}(C_1\cos(2x) + C_2\sin ( 2x ) ) + \dfrac{5}{24}e^{x} \qquad \text{met } C \in \mathbb{R}
 \end{align}
+
+De gegeven voorwaarden gebruiken om $C_1$ en $C_2$ te bepalen.  $y(0) = 2$ en $y'(0) = 4$
+
+Dus invullen voor $y(0) = 2$ geeft:
+\begin{align}
+ y &= e^{-x}(C_1\cos(2x) + C_2\sin ( 2x ) ) + \dfrac{5}{24}e^{x} \\
+ 2 &= e^{-0}(C_1\cos(2\cdot 0) + C_2\sin ( 2\cdot0 ) ) + \dfrac{5}{24}e^{0}\\
+ 0 &= C_1 + \dfrac{5}{24}
+\end{align}
+
+Hieruit volgt:
+\begin{align}
+ C_1 =  -\dfrac{5}{24}
+\end{align}
+
+
+Dus $C_1$ invullen voor $y'(0) = 4$ geeft:
+\begin{align}
+ y' &=  \dfrac{1}{3}C_1e^{\dfrac{1}{3}x} + 2C_2e^{2x} + x + \dfrac{11}{2} \\
+ 0 &= \dfrac{1}{3}C_1e^{\dfrac{1}{3}\cdot0} + 2C_2e^{2\cdot0} + 0 + \dfrac{11}{2} \\
+ 0 &= \dfrac{1}{3} (- C_2 - \dfrac{71}{4}) + 2C_2 + \dfrac{11}{2}
+\end{align}
+
+Hieruit volgt:
+\begin{align}
+ 0 &= -\dfrac{1}{3}C_2 - \dfrac{1}{3} \cdot \dfrac{71}{4}) + 2C_2 + \dfrac{11}{2} \\
+ 0 &= -\dfrac{1}{3}C_2 - \dfrac{71}{12} + 2C_2 + \dfrac{11}{2} \\
+ 0 &= -\dfrac{1}{3}C_2 + 2C_2 - \dfrac{71}{12}  + \dfrac{11}{2} \\
+ 0 &= \dfrac{5}{3}C_2 - \dfrac{5}{12} \\
+ \dfrac{5}{3}C_2 &= \dfrac{5}{12} \\
+ C_2 &= \dfrac{3}{12} = \dfrac{1}{4}
+\end{align}
+
+$C_2$ invullen geeft:
+\begin{align}
+ C_1 = - \dfrac{1}{4} - \dfrac{71}{4}
+ C_1 = - \dfrac{72}{4}
+\end{align}
+
+Dus $C_1$ en $C_2$ invullen in de totale oplossing geeft:
+\begin{align}
+ y &= - \dfrac{72}{4}e^{\dfrac{1}{3}x} + \dfrac{1}{4}e^{2x} + \dfrac{1}{2}x^2 + \dfrac{11}{2}x +\dfrac{71}{4}
+\end{align}
+
 ```
