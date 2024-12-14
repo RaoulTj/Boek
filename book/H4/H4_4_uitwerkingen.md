@@ -957,7 +957,7 @@ Dus $C_1$ en $C_2$ invullen in de totale oplossing geeft:
 De gevraagde oplossing van de differentiaalvergelijking is:
 
 \begin{align*}
- 3\dfrac{d^2y}{dx^2}+6\dfrac{dy}{dx} +15y = 5e^{x}
+ y &=  e^{-x}(\dfrac{43}{24}\cos(2x) + \dfrac{67}{24}\sin ( 2x ) ) + \dfrac{5}{24}e^{x}
 \end{align*}
 
 ```{dropdown} Uitwerking 
@@ -1065,7 +1065,7 @@ Dus invullen voor $y(0) = 2$ geeft:
 \begin{align}
  y &= e^{-x}(C_1\cos(2x) + C_2\sin ( 2x ) ) + \dfrac{5}{24}e^{x} \\
  2 &= e^{-0}(C_1\cos(2\cdot 0) + C_2\sin ( 2\cdot0 ) ) + \dfrac{5}{24}e^{0}\\
- 2 &= C_1 + \dfrac{5}{24}
+ 2 &= C_1 + \dfrac{5}{24} \\
  C_1 &= \dfrac{43}{24}
 \end{align}
 
@@ -1078,10 +1078,10 @@ Dus $C_1$ invullen voor $y'(0) = 4$ geeft:
 \begin{align}
  y' &=  -e^{-x}(C_1\cos(2x) + C_2\sin ( 2x ) ) + e^{-x}(-2C_1\sin(2x) + 2C_2\cos ( 2x ) ) + \dfrac{5}{24}e^{x}\\
  4 &= -e^{-0}(C_1\cos(0) + C_2\sin ( 0 ) ) + e^{-0}(2C_1\cos(0) - 2C_2\sin ( 0 ) ) + \dfrac{5}{24}e^{0} \\
- 4 &= -C_1 + 2C_2 + \dfrac{5}{24}
- 4 &= -\dfrac{43}{24} + 2C_2 + \dfrac{5}{24}
- 2C_2 &= \dfrac{96}{24} + \dfrac{38}{24}
- 2C_2 &= \dfrac{134}{24}
+ 4 &= -C_1 + 2C_2 + \dfrac{5}{24} \\
+ 4 &= -\dfrac{43}{24} + 2C_2 + \dfrac{5}{24} \\
+ 2C_2 &= \dfrac{96}{24} + \dfrac{38}{24} \\
+ 2C_2 &= \dfrac{134}{24} \\
   C_2 &= \dfrac{67}{24}
 \end{align}
 
