@@ -628,9 +628,9 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 :class: dropdown
 
 De algemene oplossing van de differentiaalvergelijking is:
-\begin{align}
+\begin{align*}
  y &= C_1e^{-\dfrac{1}{2}x} + C_2e^{4x} -\dfrac{1}{4}x^2 + \dfrac{7}{8}x -\dfrac{57}{32} + \dfrac{1}{9}e^{4x}x \qquad \text{met } C_{1,2} \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -773,9 +773,9 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 De gevraagde oplossing van de differentiaalvergelijking is:
 
-\begin{align}
+\begin{align*}
  y &= - \dfrac{72}{4}e^{\dfrac{1}{3}x} + \dfrac{1}{4}e^{2x} + \dfrac{1}{2}x^2 + \dfrac{11}{2}x +\dfrac{71}{4}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
