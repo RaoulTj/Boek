@@ -121,6 +121,50 @@ De waardes voor $A$, $B$  invullen in de particuliere oplossing geeft:
   y_p = \dfrac{7}{13}\sin(2x) + \dfrac{4}{13}\cos(2x)
 \end{align}
 
+```{dropdown} Alternatieve methode :
+
+\begin{align*}
+ \dfrac{d^2y}{dx^2} + 7\dfrac{dy}{dx} +12 y = 10\cos(2x)
+\end{align*}
+
+\begin{align*}
+ (D^2 + 7D +12)y = 10\cos(2x)
+\end{align*}
+
+\begin{align}
+ y_p &=  \dfrac{1}{D^2 + 7D +12} \cdot   10\cos(2x)
+ y_p &= 10 \cdot  \dfrac{1}{D^2 + 7D +12} \cdot \cos(2x)
+\end{align}
+
+$\cos(2x)$ dus $-2$ invullen:
+
+\begin{align}
+ y_p &= 10 \cdot \dfrac{1}{D^2 + 7D +12} \cdot \cos(2x)
+ y_p &= 10 \cdot \dfrac{1}{-4 +  7D+ 12} \cdot \cos(2x) \\
+ y_p &= 10 \cdot \dfrac{1}{2D +8} \cdot \cos(2x)
+\end{align}
+
+Merkwaardig product gebruiken dus teller en noemer vermenigvuldigen met $(2D-8)$:
+\begin{align}
+ y_p &= 10 \cdot \dfrac{2D-8}{4D^2-64} \cdot \cos(2x) \\
+\end{align}
+
+$\cos(2x)$ dus $-2$ invullen:
+\begin{align}
+ y_p &= 10 \cdot \dfrac{2D-8}{4\cdot -2^2-64} \cdot \cos(2x) \\
+ y_p &= 10 \cdot  \dfrac{1}{4\cdot -4 -64}(2D-8) \cdot  \cos(2x) \\
+ y_p &= 10 \cdot  \dfrac{1}{-80}\cdot (2D-8) \cdot  \cos(2x) \\
+ y_p &= \dfrac{10}{80}\cdot (2D-8) \cdot  \cos(2x)
+\end{align}
+
+Vermenigvuldigen en differentiëren, de $D$ staat voor afgeleide nemen:
+\begin{align}
+ y_p &= \dfrac{4}{25}\cdot (2 \cdot -2\sin(2x) - 8 \cos(2x)) \\
+ y_p &= -\dfrac{16}{25}\sin(2x) + \dfrac{12}{25} \cos(2x)
+\end{align}
+```
+
+
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  y &= y_h + y_p \\
