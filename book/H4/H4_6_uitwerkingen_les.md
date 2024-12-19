@@ -2,7 +2,7 @@
 
 ## Opgave 1
 
-````{admonition} Antwoord
+`````{admonition} Antwoord
 :class: dropdown
 
 De algemene oplossing van de differentiaalvergelijking is:
@@ -11,7 +11,7 @@ De algemene oplossing van de differentiaalvergelijking is:
  y &= C_1e^{-4 x} + C_2e^{-3 x} + \dfrac{7}{13}\sin(2x) + \dfrac{4}{13}\cos(2x)  \qquad \text{met } C_{1,2} \in \mathbb{R}
 \end{align}
 
-```{dropdown} Uitwerking
+````{dropdown} Uitwerking
 
 \begin{align*}
  \dfrac{d^2y}{dx^2} + 7\dfrac{dy}{dx} +12 y = 10\cos(2x)
@@ -170,8 +170,8 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  y &= y_h + y_p \\
  y &= C_1e^{-4 x} + C_2e^{-3 x} + \dfrac{7}{13}\sin(2x) + \dfrac{4}{13}\cos(2x)  \qquad \text{met } C_{1,2} \in \mathbb{R}
 \end{align}
-```
 ````
+`````
 
 ## Opgave 2
 
