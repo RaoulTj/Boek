@@ -132,14 +132,14 @@ De waardes voor $A$, $B$  invullen in de particuliere oplossing geeft:
 \end{align*}
 
 \begin{align}
- y_p &=  \dfrac{1}{D^2 + 7D +12} \cdot   10\cos(2x)
- y_p &= 10 \cdot  \dfrac{1}{D^2 + 7D +12} \cdot \cos(2x)
+ y_p &=  \dfrac{1}{D^2 + 7D +12} \cdot   10\cos(2x) \\
+ y_p &= 10 \cdot  \dfrac{1}{D^2 + 7D +12} \cdot \cos(2x) \\
 \end{align}
 
 $\cos(2x)$ dus $-2$ invullen:
 
 \begin{align}
- y_p &= 10 \cdot \dfrac{1}{D^2 + 7D +12} \cdot \cos(2x)
+ y_p &= 10 \cdot \dfrac{1}{D^2 + 7D +12} \cdot \cos(2x) \\
  y_p &= 10 \cdot \dfrac{1}{-4 +  7D+ 12} \cdot \cos(2x) \\
  y_p &= 10 \cdot \dfrac{1}{2D +8} \cdot \cos(2x)
 \end{align}
