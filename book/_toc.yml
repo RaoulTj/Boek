@@ -40,8 +40,9 @@ chapters:
   sections:
   - file: H5/H5_1
   - file: H5/H5_2
-  - file: H5/H5_3_opgaven
-  - file: H5/H5_4_uitwerkingen
+  - file: H5/H5_3
+  - file: H5/H5_4_opgaven
+  - file: H5/H5_5_uitwerkingen
 
 - file: H6/H6_0_intro
   sections:
