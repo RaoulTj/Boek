@@ -13,3 +13,9 @@ Bepaal de stroomsterkte $I(t)$ in een RC-netwerk als de volgende parameters zijn
 $R = 50$$\Omega$, $C =0.4$F, $U(t)=200 \cos(t)$V en $I(0)=4.0$A
 
 ## Opgave 3
+
+Bepaal de stroomsterkte $I(t)$ in een RL-netwerk als de volgende parameters zijn gegeven:
+
+$R = 100$$\omega$, $L =15$H, $U(t)=200$V en $I(0)=0.0$A
+
+## Opgave 4
