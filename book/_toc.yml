@@ -78,7 +78,7 @@ parts:
       - file: H4/H4_5_opgaven_les
       - file: H4/H4_6_uitwerkingen_les
 
-    - file: H4/H5_les
+    - file: 5/H5_les
       sections:
       - file: H5/H5_5_opgaven_les
       - file: H5/H5_6_uitwerkingen_les
