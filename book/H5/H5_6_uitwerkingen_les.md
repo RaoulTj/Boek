@@ -103,25 +103,25 @@ Dus C invullen in de totale oplossing geeft:
 De gegeven voorwaarden gebruiken om k te bepalen.  $T(5) = 38$
 Dus invullen geeft:
 \begin{align}
- 38 &=  80e^{-5k}  + 18 \\
- 20 &=  80e^{-5k} \\
- \dfrac{20}{80} &= e^{-5k} \\
- \ln(\dfrac{1}{4} ) &= -5k \\
- k &= -\dfrac{1}{5} \cdot \ln(\dfrac{1}{4} \\
- k &= 0.277
+ 70 &=  65e^{-5k}  + 25 \\
+ 45 &=  65e^{-5k} \\
+ \dfrac{45}{65} &= e^{-5k} \\
+ \ln(\dfrac{9}{13} ) &= -5k \\
+ k &= -\dfrac{1}{5} \cdot \ln(\dfrac{9}{13}) \\
+ k &= 0.074
 \end{align}
 
 Dus k invullen in de totale oplossing geeft:
 \begin{align}
- T &=  80e^{-0.277t}  + 18
+ T &=  65e^{-0.074t}  + 25
 \end{align}
 
-Na hoeveel minuten is de temperatuur 20$^{\circ}$ C:
+Na hoeveel minuten is de temperatuur 35$^{\circ}$ C:
 \begin{align}
- 20 &=  80e^{-0.277t}  + 18 \\
- 2 &=  80e^{-0.277k} \\
- \dfrac{2}{80} &= e^{-0.277t} \\
- \ln(\dfrac{1}{40} ) &= -0.277t \\
- t &= -\dfrac{1}{0.277} \cdot \ln(\dfrac{1}{40}) \\
- t &\approx 13.32 \text{ minuten}
+ 35 &=  65e^{-0.277t}  + 25 \\
+ 10 &=  65e^{-0.074k} \\
+ \dfrac{10}{65} &= e^{-0.074t} \\
+ \ln(\dfrac{2}{13} ) &= -0.074t \\
+ t &= -\dfrac{1}{0.074} \cdot \ln(\dfrac{2}{13}) \\
+ t &\approx 25.29 \text{ minuten}
 \end{align}
