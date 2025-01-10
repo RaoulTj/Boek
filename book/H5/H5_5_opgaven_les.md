@@ -10,7 +10,7 @@ Een kop thee met een temperatuur van 90$^{\circ}$ C wordt op een tafel in een ru
 
 Bepaal de stroomsterkte $I(t)$ in een RC-netwerk als de volgende parameters zijn gegeven:
 
-$R = 50$$\Omega$, $C =0.4$F, $U(t)=200\cos(t)$V en $I(0)=4.0$A
+$R = 50$$\Omega$, $C =0.4$F, $U(t)=200\cos(t)$V en $I(0)=2.0$A
 
 ## Opgave 3
 

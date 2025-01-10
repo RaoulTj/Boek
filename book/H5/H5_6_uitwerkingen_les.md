@@ -135,12 +135,12 @@ Na hoeveel minuten is de temperatuur 35$^{\circ}$ C:
 
 Bepaal de stroomsterkte $I(t)$ in een RC-netwerk als de volgende parameters zijn gegeven:
 
-$R = 50$$\Omega$, $C =0.4$F, $U(t)=200\cos(t)$V en $I(0)=4.0$A
+$R = 50$$\Omega$, $C =0.4$F, $U(t)=200\cos(t)$V en $I(0)=2.0$A
 
 ````{dropdown} Uitwerking
 Bepaal de stroomsterkte $I(t)$ in een RC-netwerk als de volgende parameters zijn gegeven:
 
-$R = 50$$\Omega$, $C =0.4$F, $U(t)=200\cos(t)$V en $I(0)=4.0$A
+$R = 50$$\Omega$, $C =0.4$F, $U(t)=200\cos(t)$V en $I(0)=2.0$A
 
 Voor een RC-kring geldt:
   \begin{align}
@@ -227,36 +227,36 @@ $B $ invullen geeft:
 $A $ invullen geeft:
 \begin{align}
  B &= -20A  \\
- B &= 20 \cdot \dfrac{20}{997.5}  \\
- B &= \dfrac{400}{997.5}
+ B &= 20 \cdot \dfrac{200}{997.5}  \\
+ B &= \dfrac{4000}{997.5}
 \end{align}
 
 De waardes voor $A$, $B$  invullen in de particuliere oplossing geeft:
 \begin{align}
- I_p = -\dfrac{200}{997.5}\sin(t) + \dfrac{400}{997.5}\cos(t)
+ I_p = -\dfrac{200}{997.5}\sin(t) + \dfrac{4000}{997.5}\cos(t)
 \end{align}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  I &= I_h + I_p \\
- I &= Ce^{-\frac{1}{20}t}  -\dfrac{200}{997.5}\sin(t) + \dfrac{400}{997.5}\cos(t) \qquad \text{met } C \in \mathbb{R}  
+ I &= Ce^{-\frac{1}{20}t}  -\dfrac{200}{997.5}\sin(t) + \dfrac{4000}{997.5}\cos(t) \qquad \text{met } C \in \mathbb{R}
 \end{align}
 
-De gegeven voorwaarden gebruiken om C te bepalen.  $I(0) = 4$
+De gegeven voorwaarden gebruiken om C te bepalen.  $I(0) = 2$
 
 Dus invullen geeft:
 \begin{align}
- 4 &= Ce^{-\frac{1}{20} \cdot 0}  -\dfrac{200}{997.5}\sin(0) + \dfrac{400}{997.5}\cos(0) \\
- 4 &= C \cdot 1  -\dfrac{200}{997.5} \cdot 0 + \dfrac{400}{997.5} \cdot 1 \\
+ 2 &= Ce^{-\frac{1}{20} \cdot 0}  -\dfrac{200}{997.5}\sin(0) + \dfrac{4000}{997.5}\cos(0) \\
+ 2 &= C \cdot 1  -\dfrac{200}{997.5} \cdot 0 + \dfrac{4000}{997.5} \cdot 1 \\
 \end{align}
 
 Hieruit volgt:
 \begin{align}
- C &= 4 - \dfrac{400}{997.5} \\
- C &= 1.60
+ C &= 2 - \dfrac{4000}{997.5} \\
+ C &= -2.01
 \end{align}
 
 Dus C invullen in de totale oplossing geeft:
 \begin{align}
- I &=  1.60e^{-\frac{1}{20}t}  -\dfrac{200}{997.5}\sin(t) + \dfrac{400}{997.5}\cos(t) 
+ I &=  -2.01e^{-\frac{1}{20}t}  -\dfrac{200}{997.5}\sin(t) + \dfrac{400}{997.5}\cos(t) 
 \end{align}
