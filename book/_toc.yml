@@ -60,7 +60,7 @@ parts:
       - file: H7/H7_2
       - file: H7/H7_3
       - file: H7/H7_4
-
+  - caption: Gemengde Opgaven
   - caption: Opgaven en Uitwerkingen lessen
     numbered: false
     chapters:
