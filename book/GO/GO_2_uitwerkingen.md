@@ -200,7 +200,7 @@ De waarde voor $\lambda =-\dfrac{7}{4}$ invullen in de algemene oplossing geeft;
 De algemene oplossing van de differentiaalvergelijking is:
 
 \begin{align}
- y  &=  Ce^{-\cos(x)} \qquad \text{met } C \in \mathbb{R}
+ x  &= \sqrt[3]{\ln|x^3| + C} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 
 ```{dropdown} Uitwerking
@@ -232,7 +232,7 @@ De primitieven nemen van beide kanten.
  \dfrac{1}{3}x^3  &=  \ln|x| + C\\
  x^3  &=  3\ln|x| + C\\
  x  &= \sqrt[3]{3\ln|x| + C}\\
- x  &= \sqrt[3]{\ln|x^3| + C}
+ x  &= \sqrt[3]{\ln|x^3| + C} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
 ````
@@ -424,7 +424,6 @@ De waarde voor $\lambda =\dfrac{2}{3}$ invullen in de algemene oplossing geeft;
 De algemene oplossing van de differentiaalvergelijking is:
 
 \begin{align}
- y &= y_h + y_p \\
  y &= Ce^{-\frac{2}{3}x} + 2 \sin(x) + \cos(x)\qquad \text{met } C \in \mathbb{R}
 \end{align}
 
@@ -775,7 +774,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 De algemene oplossing van de differentiaalvergelijking is:
 
 \begin{align}
- y  &=  Ce^{-\cos(x)} \qquad \text{met } C \in \mathbb{R}
+ y &=  (C_1 + C_2x)e^{-3 x}  + 4e^{-2x} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 
 ```{dropdown} Uitwerking
@@ -787,9 +786,9 @@ Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijkin
 \end{align*}
 
 
-De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing. 
+De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
- y = y_h + y_p 
+ y = y_h + y_p
 \end{align}
 
 De homogene D.V. wordt:
@@ -822,44 +821,41 @@ Verder geldt dat $e^{\lambda x} \neq 0 $ dus,
  \lambda^2  +6\lambda +9 &= 0
 \end{align}
 
-De D is groter dan 0 dus, 
-\begin{align}  
- (\lambda -3)(\lambda -3) &= 0  
+De D is groter dan 0 dus,
+\begin{align}
+ (\lambda -3)(\lambda -3) &= 0
 \end{align}
 
 dus $\lambda_1 = -3$ en $\lambda_2 = -3$
 
 
 De waarde voor $\lambda_1$ en $\lambda_2$  invullen in de algemene oplossing, omdat $\lambda_1 = \lambda_2$ gelijk zijn wordt de algemene oplossing; 
-\begin{align*} 
+\begin{align*}
  y_h = C_1e^{\lambda_1 x} + C_2xe^{\lambda_2 x} \qquad \text{met } C \in \mathbb{R}
 \end{align*}
 
-\begin{align} 
+\begin{align}
  y_h = C_1e^{-3 x} + C_2xe^{-3 x} \qquad \text{met } C \in \mathbb{R}
 \end{align}
-
-
 
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.  
 Als vorm voor de particuliere oplossing stel:
 \begin{align}
- y_p =  C_1e^{-2x}  
+ y_p =  C_1e^{-2x}
 \end{align}
 
 Invullen in de D.V. geeft:
-\begin{align} 
+\begin{align}
  4 \cdot (4C_1e^{-2x}) + 24 \cdot (-2C_1e^{-2x}) + 36 \cdot (C_1e^{-2x}) &= 16e^{-2x} \\
  16C_1e^{-2x} - 48C_1e^{-2x} + 36C_1e^{-2x} &= 16e^{-2x} \\
- 4C_1e^{-2x} &= 16e^{-2x} 
+ 4C_1e^{-2x} &= 16e^{-2x}
 \end{align}
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
-\begin{align} 
+\begin{align}
  4C_1 &= 16 \\
-   C_1 &= 4 
+   C_1 &= 4
 \end{align}
-
 
 De waardes voor $C_1$  invullen in de particuliere oplossing geeft:
 \begin{align}
