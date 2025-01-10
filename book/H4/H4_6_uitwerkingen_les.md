@@ -141,17 +141,17 @@ $\cos(2x)$ dus $-2$ invullen:
 \begin{align}
  y_p &= 10 \cdot \dfrac{1}{D^2 + 7D +12} \cdot \cos(2x) \\
  y_p &= 10 \cdot \dfrac{1}{-4 +  7D+ 12} \cdot \cos(2x) \\
- y_p &= 10 \cdot \dfrac{1}{7D +8} \cdot \cos(2x)
+ y_p &= 10 \cdot \dfrac{1}{2D +8} \cdot \cos(2x)
 \end{align}
 
-Merkwaardig product gebruiken dus teller en noemer vermenigvuldigen met $(7D-8)$:
+Merkwaardig product gebruiken dus teller en noemer vermenigvuldigen met $(2D-8)$:
 \begin{align}
- y_p &= 10 \cdot \dfrac{7D-8}{49D^2-64} \cdot \cos(2x) \\
+ y_p &= 10 \cdot \dfrac{2D-8}{4D^2-64} \cdot \cos(2x) \\
 \end{align}
 
 $\cos(2x)$ dus $-2$ invullen:
 \begin{align}
- y_p &= 10 \cdot \dfrac{2D-8}{49\cdot -2^2-64} \cdot \cos(2x) \\
+ y_p &= 10 \cdot \dfrac{2D-8}{4\cdot -2^2-64} \cdot \cos(2x) \\
  y_p &= 10 \cdot  \dfrac{1}{4\cdot -4 -64}(2D-8) \cdot  \cos(2x) \\
  y_p &= 10 \cdot  \dfrac{1}{-80}\cdot (2D-8) \cdot  \cos(2x) \\
  y_p &= \dfrac{10}{80}\cdot (2D-8) \cdot  \cos(2x)
