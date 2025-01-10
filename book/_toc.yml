@@ -83,3 +83,8 @@ parts:
       sections:
       - file: H5/H5_6_opgaven_les
       - file: H5/H5_7_uitwerkingen_les
+
+    - file: H6/H6_les
+      sections:
+      - file: H6/H6_6_opgaven_les
+      - file: H6/H6_7_uitwerkingen_les
