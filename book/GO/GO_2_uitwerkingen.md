@@ -51,6 +51,7 @@ $y = 0$ voldoet aan de dv, dus
 ````
 
 ## Opgave 2
+
 ````{admonition} Antwoord
 :class: dropdown
 
@@ -146,48 +147,52 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 ````
 
 ## Opgave 3
+
 ````{admonition} Antwoord
 :class: dropdown
 
 De algemene oplossing van de differentiaalvergelijking is:
 
 \begin{align}
- y  &=  Ce^{-\cos(x)} \qquad \text{met } C \in \mathbb{R}
+ y = Ce^{-\frac{7}{4}x} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 
 ```{dropdown} Uitwerking
-\begin{align*} 
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
+
+\begin{align*}
  4\dfrac{dy}{dx} = -7y \\
- 4\dfrac{dy}{dx} + 7y = 0 
+ 4\dfrac{dy}{dx} + 7y = 0
 \end{align*}
 
 Als algemene oplossing voor de D.V. stel:
 \begin{align}
- y = Ce^{\lambda x} \text{ met } C \in \mathbb{R} 
+ y = Ce^{\lambda x} \text{ met } C \in \mathbb{R}
 \end{align}
 
 Invullen in de D.V. geeft:
-\begin{align} 
+\begin{align}
  4 \lambda \cdot Ce^{\lambda x} +7 \cdot Ce^{\lambda x} &= 0 \\
  (4\lambda +7 )\cdot Ce^{\lambda x}  &= 0
 \end{align}
 
 De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \\
 Verder geldt dat $e^{\lambda x} \neq 0 $ dus,
-\begin{align} 
- 4\lambda +7   &= 0 \\ 
+\begin{align}
+ 4\lambda +7   &= 0 \\
  4\lambda   &= -7 \\
  \lambda   &= -\frac{7}{4}
 \end{align}
 
 De waarde voor $\lambda =-\dfrac{7}{4}$ invullen in de algemene oplossing geeft;
-\begin{align} 
+\begin{align}
  y = Ce^{-\frac{7}{4}x} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
 ````
 
 ## Opgave 4
+
 ````{admonition} Antwoord
 :class: dropdown
 
@@ -199,118 +204,123 @@ De algemene oplossing van de differentiaalvergelijking is:
 
 ```{dropdown} Uitwerking
 
-\begin{align*} 
- xy^2\dfrac{dy}{dx} = 1 
-\end{align*} 
-   
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
+
+\begin{align*}
+ xy^2\dfrac{dy}{dx} = 1
+\end{align*}
+
 Alle variabelen met een $y$ naar links en variabelen met een $x$ naar rechts.
-\begin{align} 
+\begin{align}
  y^2 \dfrac{dy}{dx} &= \dfrac{1}{x}
-\end{align} 
+\end{align}
 
 Aan beide kanten de integraal nemen naar $dx$.
-\begin{align} 
+\begin{align}
  \int y^2 \dfrac{dy}{dx} dx &= \int \dfrac{1}{x}dx
-\end{align} 
+\end{align}
 
 De integraal $\dfrac{dy}{dx}dx$ vereenvoudigen tot $dy$.
-\begin{align} 
- \int y^2 dy &= \int \dfrac{1}{x}dx 
-\end{align} 
+\begin{align}
+ \int y^2 dy &= \int \dfrac{1}{x}dx
+\end{align}
 
 De primitieven nemen van beide kanten.
-\begin{align}  
+\begin{align}
  \dfrac{1}{3}x^3 + C_1 &=  \ln|x| + C_2\\
  \dfrac{1}{3}x^3  &=  \ln|x| + C\\
  x^3  &=  3\ln|x| + C\\
  x  &= \sqrt[3]{3\ln|x| + C}\\
  x  &= \sqrt[3]{\ln|x^3| + C}
-\end{align} 
+\end{align}
 ```
 ````
 
 ## Opgave 5
+
 ````{admonition} Antwoord
 :class: dropdown
 
 De algemene oplossing van de differentiaalvergelijking is:
 
 \begin{align}
- y  &=  Ce^{-\cos(x)} \qquad \text{met } C \in \mathbb{R}
+ y &= e^{-x}\left(C_1\cos\left(\sqrt{7}x\right) + C_2\sin \left( \sqrt{7}x \right)\right) + \sin(x)  \qquad \text{met } C \in \mathbb{R}
 \end{align}
 
 ```{dropdown} Uitwerking
-\begin{align*} 
+
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
+
+\begin{align*}
  \dfrac{d^2y}{dx}+2\dfrac{dy}{dx} +8y = 2\cos(x) + 7\sin(x)
 \end{align*}
 
-
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing. 
 \begin{align}
- y = y_h + y_p 
+ y = y_h + y_p
 \end{align}
 
 De homogene D.V. wordt:
-\begin{align} 
- \dfrac{d^2y}{dx^2}+2\dfrac{dy}{dx} +8y =  0 
+\begin{align}
+ \dfrac{d^2y}{dx^2}+2\dfrac{dy}{dx} +8y =  0
 \end{align}
 
 Als oplossing voor de homogene D.V. stel:
 \begin{align}
- y_h = Ce^{\lambda x} \text{ met } C \in \mathbb{R} 
+ y_h = Ce^{\lambda x} \text{ met } C \in \mathbb{R}
 \end{align}
 
 Dus,
 \begin{align}
   \dfrac{dy}{dx} &= \lambda Ce^{\lambda x} \text{ met } C \in \mathbb{R} \\
-  \dfrac{d^2y}{dx^2} &= \lambda^2 Ce^{\lambda x} \text{ met } C \in \mathbb{R} 
+  \dfrac{d^2y}{dx^2} &= \lambda^2 Ce^{\lambda x} \text{ met } C \in \mathbb{R}
 \end{align}
 
 
 Invullen in de D.V. geeft:
-\begin{align} 
+\begin{align}
  (\lambda^2 Ce^{\lambda x}) +2(\lambda Ce^{\lambda x}) +8(Ce^{\lambda x}) &= 0 \\
  (\lambda^2+ 2\lambda +8 )\cdot Ce^{\lambda x}  &= 0
 \end{align}
 
 De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \\
 Verder geldt dat $e^{\lambda x} \neq 0 $ dus,
-\begin{align} 
+\begin{align}
  \lambda^2 + 2\lambda +8 &= 0
 \end{align}
 
-Dus de discriminant is, 
-\begin{align}  
- D = (2)^2 - 4 \cdot 1 \cdot 8 = 4-32=-28  
+Dus de discriminant is,
+\begin{align}
+ D = (2)^2 - 4 \cdot 1 \cdot 8 = 4-32=-28
 \end{align}
 
 De oplossingen van de karakteristieke vergelijking zijn:
-\begin{align}  
+\begin{align}
   \lambda_{1,2} &= \dfrac{-2 \pm i\sqrt{28}}{2}\\
   \lambda_{1,2} &= \dfrac{-2 \pm i2\sqrt{7}}{2}\\
   \lambda_{1,2} &= -\dfrac{2}{2} \pm \sqrt{7}i \\
- \lambda_{1,2} &= -1 \pm \sqrt{7}i 
+ \lambda_{1,2} &= -1 \pm \sqrt{7}i
 \end{align}
 
 Hieruit volgt dat $p=-1$ en $q=\sqrt{7}$
 
 De waarde voor $p$ en $q$ invullen in de algemene oplossing geeft;
-\begin{align*} 
+\begin{align*}
  y_h = e^{px}(C_1\cos(qx) + C_2\sin(qx)) \qquad \text{met } C \in \mathbb{R}
 \end{align*}
 
-\begin{align} 
+\begin{align}
  y_h = e^{-x}\left(C_1\cos\left(\sqrt{7}x\right) + C_2\sin \left( \sqrt{7}x \right)\right) \qquad  \text{met } C \in \mathbb{R}
 \end{align}
 
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.  
 Als vorm voor de particuliere oplossing stel:
 \begin{align}
- y_p =  C_1\sin(x) + C_2\cos(x)  
+ y_p =  C_1\sin(x) + C_2\cos(x)
 \end{align}
 
 Invullen in de D.V. geeft:
-\begin{align} 
+\begin{align}
  (-C_1\sin(x) - C_2\cos(x)) + 2 \cdot (C_1\cos(x) - C_2\sin(x)) + 8 \cdot (C_1\sin(x) + C_2\cos(x)) &=  2\cos(x) + 7\sin(x) \\
  -C_1\sin(x) - C_2\cos(x) + 2C_1\cos(x) - 2C_2\sin(x) + 8C_1\sin(x) + 8C_2\cos(x) &=  2\cos(x) + 7\sin(x) \\
  (2C_1 -C_2+8C_2)\cos(x) + (-C_1 - 2C_2+8C_1)\sin(x)&=  2\cos(x) + 7\sin(x)\\
@@ -318,28 +328,27 @@ Invullen in de D.V. geeft:
 \end{align}
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
-\begin{align} 
+\begin{align}
  2C_1 +7C_2 &= 2 \\
-  7C_1- 2C_2 &= 7 
+  7C_1- 2C_2 &= 7
 \end{align}
 
-
 Hieruit volgt:
-\begin{align} 
+\begin{align}
  7C_2 = 2- 2C_1 \\
- C_2 = \dfrac{2}{7}- \dfrac{2}{7}C_1 
+ C_2 = \dfrac{2}{7}- \dfrac{2}{7}C_1
 \end{align}
 
 $C_2 $ invullen geeft:
-\begin{align} 
+\begin{align}
  7C_1 - 2 \cdot (\dfrac{2}{7}- \dfrac{2}{7}C_1) &= 7\\
  7C_1 - \dfrac{4}{7} + \dfrac{4}{7}C_1 &= 7\\
    \dfrac{53}{7}C_1 &= \dfrac{53}{7}\\
- C_1 &= 1 
+ C_1 &= 1
 \end{align}
 
 $C_1 $ invullen geeft:
-\begin{align} 
+\begin{align}
  C_2 &= \dfrac{2}{7}- \dfrac{2}{7}C_1 \\
  C_2 &= \dfrac{2}{7}- \dfrac{2}{7} \cdot 1 \\
  C_2 &= \dfrac{2}{7}- \dfrac{2}{7}  \\
@@ -348,14 +357,14 @@ $C_1 $ invullen geeft:
 
 De waardes voor $C_1$, $C_2$  invullen in de particuliere oplossing geeft:
 \begin{align}
- y_p = \sin(x) 
+ y_p = \sin(x)
 \end{align}
 
 
-De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing. 
+De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  y &= y_h + y_p \\
- y &= e^{-x}\left(C_1\cos\left(\sqrt{7}x\right) + C_2\sin \left( \sqrt{7}x \right)\right) + \sin(x)  \qquad \text{met } C \in \mathbb{R}  
+ y &= e^{-x}\left(C_1\cos\left(\sqrt{7}x\right) + C_2\sin \left( \sqrt{7}x \right)\right) + \sin(x)  \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
 ````
@@ -369,36 +378,39 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 De algemene oplossing van de differentiaalvergelijking is:
 
 \begin{align}
- y  &=  Ce^{-\cos(x)} \qquad \text{met } C \in \mathbb{R}
+ y = Ce^{\frac{2}{5}x} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 
 ```{dropdown} Uitwerking
-\begin{align*} 
+
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
+
+\begin{align*}
  4\dfrac{dy}{dx} = 10y \\
- 4\dfrac{dy}{dx} - 10y = 0 
+ 4\dfrac{dy}{dx} - 10y = 0
 \end{align*}
 
 Als algemene oplossing voor de D.V. stel:
 \begin{align}
- y = Ce^{\lambda x} \text{ met } C \in \mathbb{R} 
+ y = Ce^{\lambda x} \text{ met } C \in \mathbb{R}
 \end{align}
 
 Invullen in de D.V. geeft:
-\begin{align} 
+\begin{align}
  4 \lambda \cdot Ce^{\lambda x} -10 \cdot Ce^{\lambda x} &= 0 \\
  (4\lambda -10 )\cdot Ce^{\lambda x}  &= 0
 \end{align}
 
 De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \\
 Verder geldt dat $e^{\lambda x} \neq 0 $ dus,
-\begin{align} 
- 4\lambda -10   &= 0 \\ 
+\begin{align}
+ 4\lambda -10   &= 0 \\
  4\lambda   &= 10 \\
  \lambda   &= \frac{4}{10} = \frac{2}{5}
 \end{align}
 
 De waarde voor $\lambda =\dfrac{2}{3}$ invullen in de algemene oplossing geeft;
-\begin{align} 
+\begin{align}
  y = Ce^{\frac{2}{5}x} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
