@@ -6,54 +6,80 @@ root: intro
 options:
   numbered: false
 
-chapters:
-- file: H1/H1_0_intro
-  sections:
-  - file: H1/H1_1
-  - file: H1/H1_2
-  - file: H1/H1_3
-  - file: H1/H1_4_opgaven
-  - file: H1/H1_5_uitwerkingen
+parts:
+  - caption: Theorie
+    numbered: false
+    chapters:
+    - file: H1/H1_0_intro
+      sections:
+      - file: H1/H1_1
+      - file: H1/H1_2
+      - file: H1/H1_3
+      - file: H1/H1_4_opgaven
+      - file: H1/H1_5_uitwerkingen
 
-- file: H2/H2_0_intro
-  sections:
-  - file: H2/H2_1
-  - file: H2/H2_2
-  - file: H2/H2_3_opgaven
-  - file: H2/H2_4_uitwerkingen
+    - file: H2/H2_0_intro
+      sections:
+      - file: H2/H2_1
+      - file: H2/H2_2
+      - file: H2/H2_3_opgaven
+      - file: H2/H2_4_uitwerkingen
 
-- file: H3/H3_0_intro
-  sections:
-  - file: H3/H3_1
-  - file: H3/H3_2
-  - file: H3/H3_3_opgaven
-  - file: H3/H3_4_uitwerkingen
+    - file: H3/H3_0_intro
+      sections:
+      - file: H3/H3_1
+      - file: H3/H3_2
+      - file: H3/H3_3_opgaven
+      - file: H3/H3_4_uitwerkingen
 
-- file: H4/H4_0_intro
-  sections:
-  - file: H4/H4_1
-  - file: H4/H4_2
-  - file: H4/H4_3_opgaven
-  - file: H4/H4_4_uitwerkingen
+    - file: H4/H4_0_intro
+      sections:
+      - file: H4/H4_1
+      - file: H4/H4_2
+      - file: H4/H4_3_opgaven
+      - file: H4/H4_4_uitwerkingen
 
-- file: H5/H5_0_intro
-  sections:
-  - file: H5/H5_1
-  - file: H5/H5_2
-  - file: H5/H5_3
-  - file: H5/H5_4_opgaven
-  - file: H5/H5_5_uitwerkingen
+    - file: H5/H5_0_intro
+      sections:
+      - file: H5/H5_1
+      - file: H5/H5_2
+      - file: H5/H5_3
+      - file: H5/H5_4_opgaven
+      - file: H5/H5_5_uitwerkingen
 
-- file: H6/H6_0_intro
-  sections:
-  - file: H6/H6_1
-  - file: H6/H6_2
-  - file: H6/H6_3_opgaven
-  - file: H6/H6_4_uitwerkingen
+    - file: H6/H6_0_intro
+      sections:
+      - file: H6/H6_1
+      - file: H6/H6_2
+      - file: H6/H6_3_opgaven
+      - file: H6/H6_4_uitwerkingen
 
-- file: H7/H7_0_intro
-  sections:
-  - file: H7/H7_1
-  - file: H7/H7_2
-  - file: H7/H7_3
-  - file: H7/H7_4
+    - file: H7/H7_0_intro
+      sections:
+      - file: H7/H7_1
+      - file: H7/H7_2
+      - file: H7/H7_3
+      - file: H7/H7_4
+
+  - caption: Opgaven en Uitwerkingen lessen
+    numbered: false
+    chapters:
+    - file: H2/H2_les
+      sections:
+      - file: H2/H2_5_opgaven_les
+      - file: H2/H2_6_uitwerkingen_les
+
+    - file: H3/H3_les
+      sections:
+      - file: H3/H3_5_opgaven_les
+      - file: H3/H3_6_uitwerkingen_les
+
+    - file: H4/H4_les
+      sections:
+      - file: H4/H4_5_opgaven_les
+      - file: H4/H4_6_uitwerkingen_les
+
+    - file: H5/H5_les
+      sections:
+      - file: H5/H5_6_opgaven_les
+      - file: H5/H5_7_uitwerkingen_les
