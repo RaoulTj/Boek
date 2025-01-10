@@ -373,15 +373,15 @@ dus 42.04 m/s
 `````{admonition} Antwoord
 :class: dropdown
 
-Na hoeveel minuten heeft een kop thee een temperatuur bereikt van 35$^{\circ}$ C als de volgende parameters zijn gegeven:
+Wat is de temperatuur van een warm bad na 15 minuten als de volgende parameters zijn gegeven:
 
-Een kop thee met een temperatuur van 90$^{\circ}$ C wordt op een tafel in een ruimte gelegd waar de  temperatuur 25$^{\circ}$ C is. Na 5 minuten is de thee afgekoelt tot een temperatuur van 70$^{\circ}$ C.
+Een bad met een temperatuur van 65$^{\circ}$ C staat in een ruimte gelegd waar de temperatuur 19$^{\circ}$ C is. Na 2 minuten is het bad afgekoelt tot een temperatuur van 55$^{\circ}$ C.
 
 ````{dropdown} Uitwerking
 
-Na hoeveel minuten heeft een kop thee een temperatuur bereikt van 35$^{\circ}$ C als de volgende parameters zijn gegeven:
+Wat is de temperatuur van een warm bad na 15 minuten als de volgende parameters zijn gegeven:
 
-Een kop thee met een temperatuur van 90$^{\circ}$ C wordt op een tafel in een ruimte gelegd waar de  temperatuur 25$^{\circ}$ C is. Na 5 minuten is de thee afgekoelt tot een temperatuur van 70$^{\circ}$ C.
+Een bad met een temperatuur van 65$^{\circ}$ C staat in een ruimte gelegd waar de temperatuur 19$^{\circ}$ C is. Na 2 minuten is het bad afgekoelt tot een temperatuur van 55$^{\circ}$ C.
 
 
 Voor de afkoelingswet geldt:
@@ -393,7 +393,7 @@ Dit kan omgeschreven worden naar de volgende DV;
 \begin{align}
  \dfrac{dT}{dt} &= -k(T-T_0) \\
  \dfrac{dT}{dt} + kT &= kT_0 \\
- \dfrac{dT}{dt} + kT &= 25k
+ \dfrac{dT}{dt} + kT &= 19k
 \end{align}
 
 De homogene D.V. wordt:
@@ -434,66 +434,143 @@ Als vorm voor de particuliere oplossing stel:
 
 Invullen in de D.V. geeft:
 \begin{align}
- 1 \cdot ( 0 ) +  k ( A ) &=  25k \\
+ 1 \cdot ( 0 ) +  k ( A ) &=  19k \\
 \end{align}
 
 De coëfficiënten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
- kA &= 25k \\
- A &= 25
+ kA &= 19k \\
+ A &= 19
 \end{align}
 
 De waarde voor $A$ invullen in de particuliere oplossing geeft:
 \begin{align}
- T_p = 25
+ T_p = 19
 \end{align}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  T &= T_h + T_p \\
- T &= Ce^{-kt}  + 25 \qquad \text{met } C \in \mathbb{R}
+ T &= Ce^{-kt}  + 19 \qquad \text{met } C \in \mathbb{R}
 \end{align}
 
-De gegeven voorwaarden gebruiken om C te bepalen.  $T(0) = 98$
+De gegeven voorwaarden gebruiken om C te bepalen.  $T(0) = 65$
 
 Dus invullen geeft:
 \begin{align}
- 90 &= Ce^{-k \cdot 0 }  + 25 \\
- 90 &= C \cdot 1  + 25 \\
- C &= 65
+ 65 &= Ce^{-k \cdot 0 }  + 19 \\
+ 65 &= C \cdot 1  + 19 \\
+ C &= 46
 \end{align}
 
 Dus C invullen in de totale oplossing geeft:
 \begin{align}
- T &=  65e^{-kt}  + 25
+ T &=  46e^{-kt}  + 19
 \end{align}
 
-De gegeven voorwaarden gebruiken om k te bepalen.  $T(5) = 38$
+De gegeven voorwaarden gebruiken om k te bepalen.  $T(2) = 55$
 Dus invullen geeft:
 \begin{align}
- 70 &=  65e^{-5k}  + 25 \\
- 45 &=  65e^{-5k} \\
- \dfrac{45}{65} &= e^{-5k} \\
- \ln(\dfrac{9}{13} ) &= -5k \\
- k &= -\dfrac{1}{5} \cdot \ln(\dfrac{9}{13}) \\
- k &= 0.074
+ 55 &=  46e^{-2k}  + 19 \\
+ 36 &=  46e^{-2k} \\
+ \dfrac{36}{46} &= e^{-2k} \\
+ \ln(\dfrac{9}{13} ) &= -2k \\
+ k &= -\dfrac{1}{2} \cdot \ln(\dfrac{36}{46}) \\
+ k &= 0.123
 \end{align}
 
 Dus k invullen in de totale oplossing geeft:
 \begin{align}
- T &=  65e^{-0.074t}  + 25
+ T &=  46e^{-0.123t}  + 19
 \end{align}
 
-Na hoeveel minuten is de temperatuur 35$^{\circ}$ C:
+Wat is de temperatuur na 15 minuten:
 \begin{align}
- 35 &=  65e^{-0.277t}  + 25 \\
- 10 &=  65e^{-0.074k} \\
- \dfrac{10}{65} &= e^{-0.074t} \\
- \ln(\dfrac{2}{13} ) &= -0.074t \\
- t &= -\dfrac{1}{0.074} \cdot \ln(\dfrac{2}{13}) \\
- t &\approx 25.29 \text{ minuten}
+  T &=  46e^{-0.123 \cdot 15}  + 19
+  T &= 
 \end{align}
 ````
 `````
 
 ## Opgave 6
+
+`````{admonition} Antwoord
+:class: dropdown
+
+Bepaal de stroomsterkte $I(t)$ in een RC-netwerk als de volgende parameters zijn gegeven:
+
+$R = 100$$\Omega$, $C =0.1$F, $U(t)=100$V en $I(0)=1.0$A
+
+````{dropdown} Uitwerking
+Bepaal de stroomsterkte $I(t)$ in een RC-netwerk als de volgende parameters zijn gegeven:
+
+$R = 100$$\Omega$, $C =0.1$F, $U(t)=100$V en $I(0)=1.0$A
+
+Voor een RC-kring geldt:
+  \begin{align}
+   U(t) &= U_r + U_c   \\
+     &= R \cdot I + \dfrac{1}{C} \int I dt
+  \end{align}
+
+  Beide zijdes differentiëren geeft de gevraagde DV.:
+  \begin{align}
+   \dfrac{dU(t)}{dt} &= R \cdot \dfrac{dI}{dt} + \dfrac{1}{C} \cdot  I
+  \end{align}
+
+  De gegevens invullen in de DV geeft:
+  \begin{align}
+   \dfrac{dU(t)}{dt} &= 100 \cdot \dfrac{dI}{dt} + \dfrac{1}{0.1} \cdot  I\\
+   \dfrac{d}{dt}(100 ) &= 100 \cdot \dfrac{dI}{dt} + \dfrac{1}{0.1} \cdot  I \\
+   0 &= 100 \cdot \dfrac{dI}{dt} + 10 \cdot  I
+  \end{align}
+
+De homogene D.V. wordt:
+\begin{align}
+ 100\dfrac{dI}{dt} + 10I = 0
+\end{align}
+
+Als oplossing voor de homogene D.V. stel:
+\begin{align}
+ I_h = Ce^{\lambda t} \text{ met } C \in \mathbb{R}
+\end{align}
+
+Invullen in de D.V. geeft:
+\begin{align}
+ 100\lambda \cdot Ce^{\lambda t} + 10\cdot Ce^{\lambda t} &= 0 \\
+ (100\lambda +10 )\cdot Ce^{\lambda t}  &= 0
+\end{align}
+
+De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \
+Verder geldt dat $e^{\lambda t} \neq 0 $ dus,
+\begin{align}
+ 100\lambda + 10   &= 0  \\
+ 100\lambda   &= -10 \\
+ \lambda   &= -\dfrac{10}{100} = -\dfrac{1}{21}
+\end{align}
+
+De waarde voor $\lambda$ invullen in de homogene oplossing geeft;
+\begin{align}
+ I_h = Ce^{-\frac{1}{10}t} \qquad \text{met } C \in \mathbb{R}
+\end{align}
+
+
+De gegeven voorwaarden gebruiken om C te bepalen.  $I(0) = 1$
+
+Dus invullen geeft:
+\begin{align}
+ 1 &= Ce^{-\frac{1}{10} \cdot 0}   \\
+ 2 &= C \cdot 1  \\
+\end{align}
+
+Hieruit volgt:
+\begin{align}
+ C &= 2  \\
+ C &= 2
+\end{align}
+
+Dus C invullen in de totale oplossing geeft:
+\begin{align}
+ I &=  2e^{-\frac{1}{10}t}
+\end{align}
+````
+`````
