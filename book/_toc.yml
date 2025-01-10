@@ -64,10 +64,10 @@ parts:
   - caption: Gemengde Opgaven
     numbered: false
     chapters:
-    - file:
+    - file: GO/Gemengde_Opgave_intro
       sections:
-      - file: H2/H2_5_opgaven_les
-      - file: H2/H2_6_uitwerkingen_les
+      - file: GO/GO_1_opgaven
+      - file: GO/GO_2_uitwerkingen
 
   - caption: Opgaven en Uitwerkingen lessen
     numbered: false
