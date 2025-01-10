@@ -57,45 +57,47 @@ $y = 0$ voldoet aan de dv, dus
 De algemene oplossing van de differentiaalvergelijking is:
 
 \begin{align}
- y  &=  Ce^{-\cos(x)} \qquad \text{met } C \in \mathbb{R}
+ y &= Ce^{3x} +\dfrac{2}{3}x + \dfrac{5}{9} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 
 ```{dropdown} Uitwerking
 
-\begin{align*} 
- \dfrac{dy}{dx} - 3y = -2x -1 
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
+
+\begin{align*}
+ \dfrac{dy}{dx} - 3y = -2x -1
 \end{align*}
 
-De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing. 
+De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
- y = y_h + y_p 
+ y = y_h + y_p
 \end{align}
 
 De homogene D.V. wordt:
-\begin{align} 
- \dfrac{dy}{dx} - 3y = 0 
+\begin{align}
+ \dfrac{dy}{dx} - 3y = 0
 \end{align}
 
 Als oplossing voor de homogene D.V. stel:
 \begin{align}
- y_h = Ce^{\lambda x} \text{ met } C \in \mathbb{R} 
+ y_h = Ce^{\lambda x} \text{ met } C \in \mathbb{R}
 \end{align}
 
 Invullen in de D.V. geeft:
-\begin{align} 
+\begin{align}
  \lambda \cdot Ce^{\lambda x} -3 \cdot Ce^{\lambda x} &= 0 \\
  (\lambda -3 )\cdot Ce^{\lambda x}  &= 0
 \end{align}
 
 De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \\
 Verder geldt dat $e^{\lambda x} \neq 0 $ dus,
-\begin{align} 
- \lambda -3   &= 0 \\ 
+\begin{align}
+ \lambda -3   &= 0 \\
  \lambda   &= 3
 \end{align}
 
 De waarde voor $\lambda =3$ invullen in de homogene oplossing geeft;
-\begin{align} 
+\begin{align}
  y_h = Ce^{3x} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 
@@ -106,40 +108,39 @@ Als vorm voor de particuliere oplossing stel:
 \end{align}
 
 Invullen in de D.V. geeft:
-\begin{align} 
+\begin{align}
  (C_1) - 3 \cdot (C_1x + C_2) &= -2x-1 \\
  C_1 - 3C_1x -3C_2 &= -2x-1 \\
-  (-3C_1)x + (C_1-3C_2) &= -2x-1 
+  (-3C_1)x + (C_1-3C_2) &= -2x-1
 \end{align}
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
-\begin{align} 
+\begin{align}
  -3C_1 &= -2 \\
- C_1-3C_2 &= -1 
+ C_1-3C_2 &= -1
 \end{align}
 
 Hieruit volgt:
-\begin{align} 
- C_1 = \dfrac{2}{3} 
+\begin{align}
+ C_1 = \dfrac{2}{3}
 \end{align}
 
 $C_1 $ invullen geeft:
-\begin{align} 
+\begin{align}
  \dfrac{2}{3} - 3C_2 &= -1\\
   -3C_2 &= -\dfrac{5}{3}\\
-  C_2 &= \dfrac{5}{9} 
+  C_2 &= \dfrac{5}{9}
 \end{align}
-
 
 De waardes voor $C_1$, $C_2$ en invullen in de particuliere oplossing geeft:
 \begin{align}
  y_p = \dfrac{2}{3}x + \dfrac{5}{9}
 \end{align}
 
-De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing. 
+De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  y &= y_h + y_p \\
- y &= Ce^{3x} +\dfrac{2}{3}x + \dfrac{5}{9} \qquad \text{met } C \in \mathbb{R}  
+ y &= Ce^{3x} +\dfrac{2}{3}x + \dfrac{5}{9} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
 ````
