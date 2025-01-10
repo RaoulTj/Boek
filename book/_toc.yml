@@ -96,3 +96,11 @@ parts:
       sections:
       - file: GO/GO_1_opgaven
       - file: GO/GO_2_uitwerkingen
+
+  - caption: Voorbeeld toets
+    numbered: false
+    chapters:
+    - file: VT/Voorbeeld_toets_intro
+      sections:
+      - file: VT/VT_1_opgaven
+      - file: VT/VT_2_uitwerkingen
