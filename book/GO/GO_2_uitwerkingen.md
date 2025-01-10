@@ -1,4 +1,4 @@
-# 1.4 Opgaven
+# Uitwerkingen
 
 ## Opgave 1
 
@@ -870,7 +870,3 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 \end{align}
 ```
 ````
-
-   
-
-

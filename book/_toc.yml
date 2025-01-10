@@ -61,14 +61,6 @@ parts:
       - file: H7/H7_3
       - file: H7/H7_4
 
-  - caption: Gemengde Opgaven
-    numbered: false
-    chapters:
-    - file: GO/Gemengde_Opgave_intro
-      sections:
-      - file: GO/GO_1_opgaven
-      - file: GO/GO_2_uitwerkingen
-
   - caption: Opgaven en Uitwerkingen lessen
     numbered: false
     chapters:
@@ -96,3 +88,11 @@ parts:
       sections:
       - file: H6/H6_6_opgaven_les
       - file: H6/H6_7_uitwerkingen_les
+
+  - caption: Extra Oefenopgaven
+    numbered: false
+    chapters:
+    - file: GO/Gemengde_Opgave_intro
+      sections:
+      - file: GO/GO_1_opgaven
+      - file: GO/GO_2_uitwerkingen
