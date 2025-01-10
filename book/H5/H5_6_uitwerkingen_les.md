@@ -265,6 +265,105 @@ Dus C invullen in de totale oplossing geeft:
 
 ## Opgave 3
 
+`````{admonition} Antwoord
+:class: important, dropdown
+
+Bepaal de stroomsterkte $I(t)$ in een RL-netwerk als de volgende parameters zijn gegeven:
+
+$R = 100$$\Omega$, $L =15$H, $U(t)=200$V en $I(0)=0.0$A
+
+````{dropdown} Uitwerking
+Bepaal de stroomsterkte $I(t)$ in een RL-netwerk als de volgende parameters zijn gegeven:
+
+$R = 100$$\Omega$, $L =15$H, $U(t)=200$V en $I(0)=0.0$A
+
+Voor een RL-kring geldt:
+  \begin{align}
+   U(t) &= U_L + U_c   \\
+     &= L \cdot \dfrac{dI}{dt} +  R \cdot I
+  \end{align}
+
+  De gegevens invullen in de DV geeft:
+  \begin{align}
+    U(t) &= 15 \cdot \dfrac{dI}{dt} + 100 \cdot  I\\
+    200 &= 15 \cdot \dfrac{dI}{dt} + 100 \cdot  I
+  \end{align}
+
+De homogene D.V. wordt:
+\begin{align}
+ 15\dfrac{dI}{dt} + 100I = 0
+\end{align}
+
+Als oplossing voor de homogene D.V. stel:
+\begin{align}
+ I = Ce^{\lambda t} \text{ met } C \in \mathbb{R}
+\end{align}
+
+Invullen in de D.V. geeft:
+\begin{align}
+ 15\lambda \cdot Ce^{\lambda t} + 100\cdot Ce^{\lambda t} &= 0 \\
+ (15\lambda +100 )\cdot Ce^{\lambda t}  &= 0
+\end{align}
+
+De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \
+Verder geldt dat $e^{\lambda t} \neq 0 $ dus,
+\begin{align}
+ 15\lambda + 100   &= 0  \\
+ 15\lambda   &= -100 \\
+ \lambda   &= -\dfrac{100}{15} = -\dfrac{20}{3}
+\end{align}
+
+De waarde voor $\lambda$ invullen in de homogene oplossing geeft;
+\begin{align}
+ I_h = Ce^{-\dfrac{20}{3}t} \qquad \text{met } C \in \mathbb{R}
+\end{align}
+
+Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.
+
+Als vorm voor de particuliere oplossing stel:
+\begin{align}
+ I_p &=  A \\
+ I_p' &= 0
+\end{align}
+
+Invullen in de D.V. geeft:
+\begin{align}
+ 15 \cdot ( 0 ) +  100 ( A ) &=  200 \\
+\end{align}
+
+De coëfficiënten moeten links en rechts gelijk zijn dus volgt:
+\begin{align}
+ 100A &= 200 \\
+ A &= \dfrac{200}{100} = 2
+\end{align}
+
+De waarde voor $A$ invullen in de particuliere oplossing geeft:
+\begin{align}
+ I_p = 2
+\end{align}
+
+De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
+\begin{align}
+ I &= I_h + I_p \\
+ I &= Ce^{-\dfrac{20}{3}t}  + 2 \qquad \text{met } C \in \mathbb{R}
+\end{align}
+
+De gegeven voorwaarden gebruiken om C te bepalen.  $I(0) = 0$
+
+Dus invullen geeft:
+\begin{align}
+ 0 &= Ce^{-\dfrac{20}{3}t}   + 2 \\
+ 0 &= C \cdot 1  + 2 \\
+ C &= - 2
+\end{align}
+
+Dus C invullen in de totale oplossing geeft:
+\begin{align}
+ I &=  - 2e^{-\dfrac{20}{3}t}  + 2
+\end{align}
+````
+`````
+
 ## Opgave 4
 `````{admonition} Antwoord
 :class: dropdown
