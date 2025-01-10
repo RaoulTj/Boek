@@ -378,7 +378,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 De algemene oplossing van de differentiaalvergelijking is:
 
 \begin{align}
- y = Ce^{\frac{2}{5}x} \qquad \text{met } C \in \mathbb{R}
+ y = Ce^{\frac{5}{2}x} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 
 ```{dropdown} Uitwerking
@@ -406,12 +406,12 @@ Verder geldt dat $e^{\lambda x} \neq 0 $ dus,
 \begin{align}
  4\lambda -10   &= 0 \\
  4\lambda   &= 10 \\
- \lambda   &= \frac{4}{10} = \frac{2}{5}
+ \lambda   &= \frac{10}{4} = \frac{5}{2}
 \end{align}
 
 De waarde voor $\lambda =\dfrac{2}{3}$ invullen in de algemene oplossing geeft;
 \begin{align}
- y = Ce^{\frac{2}{5}x} \qquad \text{met } C \in \mathbb{R}
+ y = Ce^{\frac{5}{2}x} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
 ````
@@ -424,7 +424,7 @@ De waarde voor $\lambda =\dfrac{2}{3}$ invullen in de algemene oplossing geeft;
 De algemene oplossing van de differentiaalvergelijking is:
 
 \begin{align}
- y &= Ce^{-\frac{2}{3}x} + 2 \sin(x) + \cos(x)\qquad \text{met } C \in \mathbb{R}
+ y &= Ce^{-\frac{3}{2}x} + 2 \sin(x) + \cos(x)\qquad \text{met } C \in \mathbb{R}
 \end{align}
 
 ```{dropdown} Uitwerking
@@ -518,7 +518,7 @@ De waardes voor $C_1$, $C_2$  invullen in de particuliere oplossing geeft:
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  y &= y_h + y_p \\
- y &= Ce^{-\frac{2}{3}x} + 2 \sin(x) + \cos(x)\qquad \text{met } C \in \mathbb{R}
+ y &= Ce^{-\frac{3}{2}x} + 2 \sin(x) + \cos(x)\qquad \text{met } C \in \mathbb{R}
 \end{align}
 
 %De gegeven voorwaarden gebruiken om C te bepalen.  $y(0) = 0$
