@@ -2,6 +2,17 @@
 
 ## Opgave 1
 
+````{admonition} Antwoord
+:class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
+
+\begin{align}
+ y  &=  Ce^{-\cos(x)} \qquad \text{met } C \in \mathbb{R}
+\end{align}
+
+```{dropdown} Uitwerking
+
 \begin{align*} 
 	\dfrac{dy}{dx} = y\sin(x)
 \end{align*} 
@@ -35,7 +46,20 @@ $y = 0$ voldoet aan de dv, dus
 \begin{align}	
 	y  &=  Ce^{-\cos(x)} \qquad \text{met } C \in \mathbb{R}
 \end{align} 
+```
+````
 
+## Opgave 2
+````{admonition} Antwoord
+:class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
+
+\begin{align}
+ y  &=  Ce^{-\cos(x)} \qquad \text{met } C \in \mathbb{R}
+\end{align}
+
+```{dropdown} Uitwerking
 
 \begin{align*} 
 	\dfrac{dy}{dx} - 3y = -2x -1 
@@ -116,8 +140,20 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 	y &= y_h + y_p \\
 	y &= Ce^{3x} +\dfrac{2}{3}x + \dfrac{5}{9} \qquad \text{met } C \in \mathbb{R}  
 \end{align}
+```
+````
 
-## Opgave 2
+## Opgave 3
+````{admonition} Antwoord
+:class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
+
+\begin{align}
+ y  &=  Ce^{-\cos(x)} \qquad \text{met } C \in \mathbb{R}
+\end{align}
+
+```{dropdown} Uitwerking
 \begin{align*} 
 	4\dfrac{dy}{dx} = -7y \\
 	4\dfrac{dy}{dx} + 7y = 0 
@@ -146,8 +182,20 @@ De waarde voor $\lambda =-\dfrac{7}{4}$ invullen in de algemene oplossing geeft;
 \begin{align} 
 	y = Ce^{-\frac{7}{4}x} \qquad \text{met } C \in \mathbb{R}
 \end{align}
+```
+````
 
-## Opgave 3
+## Opgave 4
+````{admonition} Antwoord
+:class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
+
+\begin{align}
+ y  &=  Ce^{-\cos(x)} \qquad \text{met } C \in \mathbb{R}
+\end{align}
+
+```{dropdown} Uitwerking
 
 \begin{align*} 
 	xy^2\dfrac{dy}{dx} = 1 
@@ -176,8 +224,20 @@ De primitieven nemen van beide kanten.
 	x  &= \sqrt[3]{3\ln|x| + C}\\
 	x  &= \sqrt[3]{\ln|x^3| + C}
 \end{align} 
+```
+````
 
-## Opgave 4
+## Opgave 5
+````{admonition} Antwoord
+:class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
+
+\begin{align}
+ y  &=  Ce^{-\cos(x)} \qquad \text{met } C \in \mathbb{R}
+\end{align}
+
+```{dropdown} Uitwerking
 \begin{align*} 
 	\dfrac{d^2y}{dx}+2\dfrac{dy}{dx} +8y = 2\cos(x) + 7\sin(x)
 \end{align*}
@@ -295,12 +355,22 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 	y &= y_h + y_p \\
 	y &= e^{-x}\left(C_1\cos\left(\sqrt{7}x\right) + C_2\sin \left( \sqrt{7}x \right)\right) + \sin(x)  \qquad \text{met } C \in \mathbb{R}  
 \end{align}
+```
+````
 
 
 
+## Opgave 6
+````{admonition} Antwoord
+:class: dropdown
 
-## Opgave 5
+De algemene oplossing van de differentiaalvergelijking is:
 
+\begin{align}
+ y  &=  Ce^{-\cos(x)} \qquad \text{met } C \in \mathbb{R}
+\end{align}
+
+```{dropdown} Uitwerking
 \begin{align*} 
 	4\dfrac{dy}{dx} = 10y \\
 	4\dfrac{dy}{dx} - 10y = 0 
@@ -329,9 +399,20 @@ De waarde voor $\lambda =\dfrac{2}{3}$ invullen in de algemene oplossing geeft;
 \begin{align} 
 	y = Ce^{\frac{2}{5}x} \qquad \text{met } C \in \mathbb{R}
 \end{align}
+```
+````
 
-## Opgave 6
+## Opgave 7
+````{admonition} Antwoord
+:class: dropdown
 
+De algemene oplossing van de differentiaalvergelijking is:
+
+\begin{align}
+ y  &=  Ce^{-\cos(x)} \qquad \text{met } C \in \mathbb{R}
+\end{align}
+
+```{dropdown} Uitwerking
 \begin{align*} 
 	2\dfrac{dy}{dx} +3y &= 4\sin(x) + 7\cos(x) \\
 \end{align*}
@@ -440,9 +521,20 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 %\begin{align}
 %	y &= \dfrac{9}{17}e^{\frac{1}{2}x} +\dfrac{2}{27}\sin(2x) - \dfrac{9}{17}\cos(2x)\qquad \text{met } C \in \mathbb{R}  
 %\end{align}
+```
+````
 
-## Opgave 7
+## Opgave 8
+````{admonition} Antwoord
+:class: dropdown
 
+De algemene oplossing van de differentiaalvergelijking is:
+
+\begin{align}
+ y  &=  Ce^{-\cos(x)} \qquad \text{met } C \in \mathbb{R}
+\end{align}
+
+```{dropdown} Uitwerking
 \begin{align*} 
 	\dfrac{d^2y}{dx}-2\dfrac{dy}{dx} +10y = 30x - 26
 \end{align*}
@@ -546,11 +638,21 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 	y &= y_h + y_p \\
 	y &= e^{x}\left(C_1\cos\left(3x\right) + C_2\sin \left( 3x \right)\right) + 3x - 2 \qquad \text{met } C \in \mathbb{R}  
 \end{align}
+```
+````
 
 
+## Opgave 9
+````{admonition} Antwoord
+:class: dropdown
 
-## Opgave 8
+De algemene oplossing van de differentiaalvergelijking is:
 
+\begin{align}
+ y  &=  Ce^{-\cos(x)} \qquad \text{met } C \in \mathbb{R}
+\end{align}
+
+```{dropdown} Uitwerking
 \begin{align*} 
 	-4\dfrac{dy}{dx} +3y &= 4e^{\frac{3}{4}x} \\
 \end{align*}
@@ -641,10 +743,20 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 %\begin{align}
 %	y &= -\dfrac{9}{4}e^{-3x} +\dfrac{5}{4}e^x + 2 \qquad \text{met } C \in \mathbb{R}  
 %\end{align}
-
+```
+````
 	
-## Opgave 9
+## Opgave 10
+````{admonition} Antwoord
+:class: dropdown
 
+De algemene oplossing van de differentiaalvergelijking is:
+
+\begin{align}
+ y  &=  Ce^{-\cos(x)} \qquad \text{met } C \in \mathbb{R}
+\end{align}
+
+```{dropdown} Uitwerking
 \begin{align*} 
 	4\dfrac{d^2y}{dx^2}+24\dfrac{dy}{dx} +36y = 16e^{-2x}
 \end{align*}
@@ -735,7 +847,8 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 	y &=  C_1e^{-3 x} + C_2xe^{-3 x}  + 4e^{-2x} \qquad \text{met } C \in \mathbb{R} \\
 	y &=  (C_1 + C_2x)e^{-3 x}  + 4e^{-2x} \qquad \text{met } C \in \mathbb{R}  
 \end{align}
-
+```
+````
 
 			
 
