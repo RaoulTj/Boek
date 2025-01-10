@@ -105,35 +105,35 @@ De waarde voor $\lambda =3$ invullen in de homogene oplossing geeft;
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.  
 Als vorm voor de particuliere oplossing stel:
 \begin{align}
- y_p = C_1x + C_2
+ y_p = Ax + B
 \end{align}
 
 Invullen in de D.V. geeft:
 \begin{align}
- (C_1) - 3 \cdot (C_1x + C_2) &= -2x-1 \\
- C_1 - 3C_1x -3C_2 &= -2x-1 \\
-  (-3C_1)x + (C_1-3C_2) &= -2x-1
+ (A) - 3 \cdot (Ax + B) &= -2x-1 \\
+ A - 3Ax -3B &= -2x-1 \\
+  (-3A)x + (A-3B) &= -2x-1
 \end{align}
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
- -3C_1 &= -2 \\
- C_1-3C_2 &= -1
+ -3A &= -2 \\
+ A-3B &= -1
 \end{align}
 
 Hieruit volgt:
 \begin{align}
- C_1 = \dfrac{2}{3}
+ A = \dfrac{2}{3}
 \end{align}
 
-$C_1 $ invullen geeft:
+$A $ invullen geeft:
 \begin{align}
- \dfrac{2}{3} - 3C_2 &= -1\\
-  -3C_2 &= -\dfrac{5}{3}\\
-  C_2 &= \dfrac{5}{9}
+ \dfrac{2}{3} - 3B &= -1\\
+  -3B &= -\dfrac{5}{3}\\
+  B &= \dfrac{5}{9}
 \end{align}
 
-De waardes voor $C_1$, $C_2$ en invullen in de particuliere oplossing geeft:
+De waardes voor $A$, $B$ en invullen in de particuliere oplossing geeft:
 \begin{align}
  y_p = \dfrac{2}{3}x + \dfrac{5}{9}
 \end{align}
@@ -229,9 +229,9 @@ De integraal $\dfrac{dy}{dx}dx$ vereenvoudigen tot $dy$.
 De primitieven nemen van beide kanten.
 \begin{align}
  \dfrac{1}{3}x^3 + C_1 &=  \ln|x| + C_2\\
- \dfrac{1}{3}x^3  &=  \ln|x| + C\\
- x^3  &=  3\ln|x| + C\\
- x  &= \sqrt[3]{3\ln|x| + C}\\
+ \dfrac{1}{3}x^3  &=  \ln|x| + C_3\\
+ x^3  &=  3\ln|x| + C_3\\
+ x  &= \sqrt[3]{3\ln|x| + C_3}\\
  x  &= \sqrt[3]{\ln|x^3| + C} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
@@ -317,46 +317,46 @@ De waarde voor $p$ en $q$ invullen in de algemene oplossing geeft;
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.  
 Als vorm voor de particuliere oplossing stel:
 \begin{align}
- y_p =  C_1\sin(x) + C_2\cos(x)
+ y_p =  A\sin(x) + B\cos(x)
 \end{align}
 
 Invullen in de D.V. geeft:
 \begin{align}
- (-C_1\sin(x) - C_2\cos(x)) + 2 \cdot (C_1\cos(x) - C_2\sin(x)) + 8 \cdot (C_1\sin(x) + C_2\cos(x)) &=  2\cos(x) + 7\sin(x) \\
- -C_1\sin(x) - C_2\cos(x) + 2C_1\cos(x) - 2C_2\sin(x) + 8C_1\sin(x) + 8C_2\cos(x) &=  2\cos(x) + 7\sin(x) \\
- (2C_1 -C_2+8C_2)\cos(x) + (-C_1 - 2C_2+8C_1)\sin(x)&=  2\cos(x) + 7\sin(x)\\
- (2C_1 +7C_2)\cos(x) + (7C_1- 2C_2)\sin(x)&=  2\cos(x) + 7\sin(x)\\
+ (-A\sin(x) - B\cos(x)) + 2 \cdot (A\cos(x) - B\sin(x)) + 8 \cdot (A\sin(x) + B\cos(x)) &=  2\cos(x) + 7\sin(x) \\
+ -A\sin(x) - B\cos(x) + 2A\cos(x) - 2B\sin(x) + 8A\sin(x) + 8B\cos(x) &=  2\cos(x) + 7\sin(x) \\
+ (2A -B+8B)\cos(x) + (-A - 2B+8A)\sin(x)&=  2\cos(x) + 7\sin(x)\\
+ (2A +7B)\cos(x) + (7A- 2B)\sin(x)&=  2\cos(x) + 7\sin(x)\\
 \end{align}
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
- 2C_1 +7C_2 &= 2 \\
-  7C_1- 2C_2 &= 7
+ 2A +7B &= 2 \\
+  7A- 2B &= 7
 \end{align}
 
 Hieruit volgt:
 \begin{align}
- 7C_2 = 2- 2C_1 \\
- C_2 = \dfrac{2}{7}- \dfrac{2}{7}C_1
+ 7B = 2- 2A \\
+ B = \dfrac{2}{7}- \dfrac{2}{7}A
 \end{align}
 
-$C_2 $ invullen geeft:
+$B $ invullen geeft:
 \begin{align}
- 7C_1 - 2 \cdot (\dfrac{2}{7}- \dfrac{2}{7}C_1) &= 7\\
- 7C_1 - \dfrac{4}{7} + \dfrac{4}{7}C_1 &= 7\\
-   \dfrac{53}{7}C_1 &= \dfrac{53}{7}\\
- C_1 &= 1
+ 7A - 2 \cdot (\dfrac{2}{7}- \dfrac{2}{7}A) &= 7\\
+ 7A - \dfrac{4}{7} + \dfrac{4}{7}A &= 7\\
+   \dfrac{53}{7}A &= \dfrac{53}{7}\\
+ A &= 1
 \end{align}
 
-$C_1 $ invullen geeft:
+$A $ invullen geeft:
 \begin{align}
- C_2 &= \dfrac{2}{7}- \dfrac{2}{7}C_1 \\
- C_2 &= \dfrac{2}{7}- \dfrac{2}{7} \cdot 1 \\
- C_2 &= \dfrac{2}{7}- \dfrac{2}{7}  \\
- C_2 &= 0
+ B &= \dfrac{2}{7}- \dfrac{2}{7}A \\
+ B &= \dfrac{2}{7}- \dfrac{2}{7} \cdot 1 \\
+ B &= \dfrac{2}{7}- \dfrac{2}{7}  \\
+ B &= 0
 \end{align}
 
-De waardes voor $C_1$, $C_2$  invullen in de particuliere oplossing geeft:
+De waardes voor $A$, $B$  invullen in de particuliere oplossing geeft:
 \begin{align}
  y_p = \sin(x)
 \end{align}
@@ -365,7 +365,7 @@ De waardes voor $C_1$, $C_2$  invullen in de particuliere oplossing geeft:
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  y &= y_h + y_p \\
- y &= e^{-x}\left(C_1\cos\left(\sqrt{7}x\right) + C_2\sin \left( \sqrt{7}x \right)\right) + \sin(x)  \qquad \text{met } C \in \mathbb{R}
+ y &= e^{-x}\left(A\cos\left(\sqrt{7}x\right) + B\sin \left( \sqrt{7}x \right)\right) + \sin(x)  \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
 ````
@@ -472,45 +472,45 @@ De waarde voor $\lambda =-\dfrac{3}{2}$ invullen in de homogene oplossing geeft;
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.  
 Als vorm voor de particuliere oplossing stel:
 \begin{align}
- y_p =  C_1\sin(x) + C_2\cos(x)
+ y_p =  A\sin(x) + B\cos(x)
 \end{align}
 
 Invullen in de D.V. geeft:
 \begin{align}
- 2 \cdot (C_1\cos(x) - C_2\sin(x)) +3 (C_1\sin(x) + C_2\cos(x)) &=  4\sin(x) + 7\cos(x) \\
-  2C_1\cos(x) - 2C_2\sin(x)  +3C_1\sin(x) + 3C_2\cos(x)  &=  4\sin(x) + 7\cos(x) \\
- (3C_1-2C_2)\sin(x) + (2C_1+3C_2)\cos(x) &= 4\sin(x) + 7\cos(x)
+ 2 \cdot (A\cos(x) - B\sin(x)) +3 (A\sin(x) + B\cos(x)) &=  4\sin(x) + 7\cos(x) \\
+  2A\cos(x) - 2B\sin(x)  +3A\sin(x) + 3B\cos(x)  &=  4\sin(x) + 7\cos(x) \\
+ (3A-2B)\sin(x) + (2A+3B)\cos(x) &= 4\sin(x) + 7\cos(x)
 \end{align}
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
- 3C_1-2C_2 &= 4 \\
-  2C_1+3C_2 &= 7
+ 3A-2B &= 4 \\
+  2A+3B &= 7
 \end{align}
 
 Hieruit volgt:
 \begin{align}
- 3C_2 = 7- 2C_1 \\
- C_2 = \dfrac{7}{3}- \dfrac{2}{3}C_1
+ 3B = 7- 2A \\
+ B = \dfrac{7}{3}- \dfrac{2}{3}A
 \end{align}
 
-$C_2 $ invullen geeft:
+$B $ invullen geeft:
 \begin{align}
- 3C_1 - 2 \cdot (\dfrac{7}{3}- \dfrac{2}{3}C_1) &= 4\\
- 3C_1 - \dfrac{14}{3} + \dfrac{4}{3}C_1 &= 4\\
-   \dfrac{13}{3}C_1 &= \dfrac{26}{3}\\
- C_1 &= \dfrac{13}{26} =2
+ 3A - 2 \cdot (\dfrac{7}{3}- \dfrac{2}{3}A) &= 4\\
+ 3A - \dfrac{14}{3} + \dfrac{4}{3}A &= 4\\
+   \dfrac{13}{3}A &= \dfrac{26}{3}\\
+ A &= \dfrac{13}{26} =2
 \end{align}
 
-$C_1 $ invullen geeft:
+$A $ invullen geeft:
 \begin{align}
- C_2 &= \dfrac{7}{3}- \dfrac{2}{3}C_1 \\
- C_2 &= \dfrac{7}{3}- \dfrac{2}{3} \cdot 2 \\
- C_2 &= \dfrac{7}{3}- \dfrac{4}{3}  \\
- C_2 &= 1
+ B &= \dfrac{7}{3}- \dfrac{2}{3}A \\
+ B &= \dfrac{7}{3}- \dfrac{2}{3} \cdot 2 \\
+ B &= \dfrac{7}{3}- \dfrac{4}{3}  \\
+ B &= 1
 \end{align}
 
-De waardes voor $C_1$, $C_2$  invullen in de particuliere oplossing geeft:
+De waardes voor $A$, $B$  invullen in de particuliere oplossing geeft:
 \begin{align}
  y_p = 2 \sin(x) + \cos(x)
 \end{align}
@@ -620,34 +620,34 @@ De waarde voor $p$ en $q$ invullen in de algemene oplossing geeft;
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.  
 Als vorm voor de particuliere oplossing stel:
 \begin{align}
- y_p = C_1x + C_2
+ y_p = Ax + B
 \end{align}
 
 Invullen in de D.V. geeft:
 \begin{align}
- 0 - 2\cdot (C_1) + 10 \cdot (C_1x + C_2) &= 30x-26 \\
-  -2C_1 + 10C_1x + 10C_2 &= 30x-26
+ 0 - 2\cdot (A) + 10 \cdot (Ax + B) &= 30x-26 \\
+  -2A + 10Ax + 10B &= 30x-26
 \end{align}
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
- 10C_1 &= 30 \\
- -2C_1+10C_2 &= -26
+ 10A &= 30 \\
+ -2A+10B &= -26
 \end{align}
 
 Hieruit volgt:
 \begin{align}
- C_1 = 3
+ A = 3
 \end{align}
 
-$C_1 $ invullen geeft:
+$A $ invullen geeft:
 \begin{align}
- -2 \cdot 3 + 10C_2 &= -26\\
- 10C_2 &= -20\\
-  C_2 &= -2
+ -2 \cdot 3 + 10B &= -26\\
+ 10B &= -20\\
+  B &= -2
 \end{align}
 
-De waardes voor $C_1$, $C_2$ invullen in de particuliere oplossing geeft:
+De waardes voor $A$, $B$ invullen in de particuliere oplossing geeft:
 \begin{align}
  y_p = 3x - 2
 \end{align}
@@ -716,23 +716,23 @@ De waarde voor $\lambda =\dfrac{3}{4}$ invullen in de homogene oplossing geeft;
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.
 Als vorm voor de particuliere oplossing stel:
 \begin{align}
- y_p =  C_1xe^{\frac{3}{4}x}
+ y_p =  Axe^{\frac{3}{4}x}
 \end{align}
 
 Invullen in de D.V. geeft:
 \begin{align}
- -4(C_1x\dfrac{3}{4}e^{\frac{3}{4}x} + C_1e^{\frac{3}{4}x} ) + 3 \cdot (C_1xe^{\frac{3}{4}x} ) &=  4e^{\frac{3}{4}x} \\
- -3C_1xe^{\frac{3}{4}x} -4C_1e^{\frac{3}{4}x} ) + 3C_1xe^{\frac{3}{4}x}  &=  4e^{\frac{3}{4}x} \\
- -4C_1e^{\frac{3}{4}x} &=  4e^{\frac{3}{4}x}
+ -4(Ax\dfrac{3}{4}e^{\frac{3}{4}x} + Ae^{\frac{3}{4}x} ) + 3 \cdot (Axe^{\frac{3}{4}x} ) &=  4e^{\frac{3}{4}x} \\
+ -3Axe^{\frac{3}{4}x} -4Ae^{\frac{3}{4}x} ) + 3Axe^{\frac{3}{4}x}  &=  4e^{\frac{3}{4}x} \\
+ -4Ae^{\frac{3}{4}x} &=  4e^{\frac{3}{4}x}
 \end{align}
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
- -4C_1 &= 4 \\
-  C_1 &= -1
+ -4A &= 4 \\
+  A &= -1
 \end{align}
 
-De waardes voor $C_1$,   invullen in de particuliere oplossing geeft:
+De waardes voor $A$,   invullen in de particuliere oplossing geeft:
 \begin{align}
  y_p = -xe^{\frac{3}{4}x}
 \end{align}
@@ -841,23 +841,23 @@ De waarde voor $\lambda_1$ en $\lambda_2$  invullen in de algemene oplossing, om
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.  
 Als vorm voor de particuliere oplossing stel:
 \begin{align}
- y_p =  C_1e^{-2x}
+ y_p =  Ae^{-2x}
 \end{align}
 
 Invullen in de D.V. geeft:
 \begin{align}
- 4 \cdot (4C_1e^{-2x}) + 24 \cdot (-2C_1e^{-2x}) + 36 \cdot (C_1e^{-2x}) &= 16e^{-2x} \\
- 16C_1e^{-2x} - 48C_1e^{-2x} + 36C_1e^{-2x} &= 16e^{-2x} \\
- 4C_1e^{-2x} &= 16e^{-2x}
+ 4 \cdot (4Ae^{-2x}) + 24 \cdot (-2Ae^{-2x}) + 36 \cdot (Ae^{-2x}) &= 16e^{-2x} \\
+ 16Ae^{-2x} - 48Ae^{-2x} + 36Ae^{-2x} &= 16e^{-2x} \\
+ 4Ae^{-2x} &= 16e^{-2x}
 \end{align}
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
- 4C_1 &= 16 \\
-   C_1 &= 4
+ 4A &= 16 \\
+   A &= 4
 \end{align}
 
-De waardes voor $C_1$  invullen in de particuliere oplossing geeft:
+De waardes voor $A$  invullen in de particuliere oplossing geeft:
 \begin{align}
   y_p = 4e^{-2x}
 \end{align}
