@@ -263,6 +263,8 @@ Dus C invullen in de totale oplossing geeft:
 ````
 `````
 
+## Opgave 3
+
 ## Opgave 4
 `````{admonition} Antwoord
 :class: dropdown
