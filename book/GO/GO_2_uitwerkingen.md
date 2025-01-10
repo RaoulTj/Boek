@@ -7,9 +7,9 @@
 
 De algemene oplossing van de differentiaalvergelijking is:
 
-\begin{align}
+\begin{align*}
  y  &=  Ce^{-\cos(x)} \qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
@@ -57,9 +57,9 @@ $y = 0$ voldoet aan de dv, dus
 
 De algemene oplossing van de differentiaalvergelijking is:
 
-\begin{align}
+\begin{align*}
  y &= Ce^{3x} +\dfrac{2}{3}x + \dfrac{5}{9} \qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -153,9 +153,9 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 De algemene oplossing van de differentiaalvergelijking is:
 
-\begin{align}
+\begin{align*}
  y = Ce^{-\frac{7}{4}x} \qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -199,9 +199,9 @@ De waarde voor $\lambda =-\dfrac{7}{4}$ invullen in de algemene oplossing geeft;
 
 De algemene oplossing van de differentiaalvergelijking is:
 
-\begin{align}
+\begin{align*}
  x  &= \sqrt[3]{\ln|x^3| + C} \qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -244,9 +244,9 @@ De primitieven nemen van beide kanten.
 
 De algemene oplossing van de differentiaalvergelijking is:
 
-\begin{align}
+\begin{align*}
  y &= e^{-x}\left(C_1\cos\left(\sqrt{7}x\right) + C_2\sin \left( \sqrt{7}x \right)\right) + \sin(x)  \qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -377,9 +377,9 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 De algemene oplossing van de differentiaalvergelijking is:
 
-\begin{align}
+\begin{align*}
  y = Ce^{\frac{5}{2}x} \qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -423,9 +423,9 @@ De waarde voor $\lambda =\dfrac{2}{3}$ invullen in de algemene oplossing geeft;
 
 De algemene oplossing van de differentiaalvergelijking is:
 
-\begin{align}
+\begin{align*}
  y &= Ce^{-\frac{3}{2}x} + 2 \sin(x) + \cos(x)\qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -548,9 +548,9 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 De algemene oplossing van de differentiaalvergelijking is:
 
-\begin{align}
+\begin{align*}
  y &= e^{x}\left(C_1\cos\left(3x\right) + C_2\sin \left( 3x \right)\right) + 3x - 2 \qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -667,9 +667,9 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 De algemene oplossing van de differentiaalvergelijking is:
 
-\begin{align}
+\begin{align*}
  y &= (C -x)e^{\frac{3}{4}x}  \qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -773,9 +773,9 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 De algemene oplossing van de differentiaalvergelijking is:
 
-\begin{align}
+\begin{align*}
  y &=  (C_1 + C_2x)e^{-3 x}  + 4e^{-2x} \qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
