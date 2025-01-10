@@ -158,6 +158,7 @@ De algemene oplossing van de differentiaalvergelijking is:
 \end{align}
 
 ```{dropdown} Uitwerking
+
 Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 
 \begin{align*}
@@ -428,6 +429,9 @@ De algemene oplossing van de differentiaalvergelijking is:
 \end{align}
 
 ```{dropdown} Uitwerking
+
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
+
 \begin{align*}
  2\dfrac{dy}{dx} +3y &= 4\sin(x) + 7\cos(x) \\
 \end{align*}
@@ -539,6 +543,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 ````
 
 ## Opgave 8
+
 ````{admonition} Antwoord
 :class: dropdown
 
@@ -549,6 +554,9 @@ De algemene oplossing van de differentiaalvergelijking is:
 \end{align}
 
 ```{dropdown} Uitwerking
+
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
+
 \begin{align*}
  \dfrac{d^2y}{dx}-2\dfrac{dy}{dx} +10y = 30x - 26
 \end{align*}
@@ -661,10 +669,13 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 De algemene oplossing van de differentiaalvergelijking is:
 
 \begin{align}
- y  &=  Ce^{-\cos(x)} \qquad \text{met } C \in \mathbb{R}
+ y &= (C -x)e^{\frac{3}{4}x}  \qquad \text{met } C \in \mathbb{R}
 \end{align}
 
 ```{dropdown} Uitwerking
+
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
+
 \begin{align*}
  -4\dfrac{dy}{dx} +3y &= 4e^{\frac{3}{4}x} \\
 \end{align*}
@@ -755,8 +766,9 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 %\end{align}
 ```
 ````
- 
+
 ## Opgave 10
+
 ````{admonition} Antwoord
 :class: dropdown
 
@@ -767,7 +779,10 @@ De algemene oplossing van de differentiaalvergelijking is:
 \end{align}
 
 ```{dropdown} Uitwerking
-\begin{align*} 
+
+Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
+
+\begin{align*}
  4\dfrac{d^2y}{dx^2}+24\dfrac{dy}{dx} +36y = 16e^{-2x}
 \end{align*}
 
