@@ -338,19 +338,34 @@ Hoe warm is de koffie na 20 minuten?
 
 Na 20 minuten is de koffie ongeveer 40.38 $^{\circ}$ C
 
-Na hoeveel minuten is de temperatuur 35$^{\circ}$ C:
-\begin{align}
- 35 &=  60e^{-0.069t}  + 20 \\
- 10 &=  65e^{-0.069k} \\
- \dfrac{10}{65} &= e^{-0.069t} \\
- \ln(\dfrac{2}{13} ) &= -0.069t \\
- t &= -\dfrac{1}{0.069} \cdot \ln(\dfrac{2}{13}) \\
- t &\approx 25.29 \text{ minuten}
-\end{align}
 ````
 `````
 
 ## Opgave 5.2b
+
+`````{admonition} Antwoord
+:class: dropdown
+
+Na hoeveel tijd is de koffie nog maar 30$^{\circ}$C?
+
+````{dropdown} Uitwerking
+
+Na hoeveel tijd is de koffie nog maar 30$^{\circ}$C?
+
+\begin{align}
+ T &=  60e^{-0.054t}  + 20
+\end{align}
+
+\begin{align}
+ 30 &=  60e^{-0.054t}  + 20
+ 10 &=  60e^{-0.054t} \\
+ \dfrac{10}{60} &= e^{-0.054t} \\
+ \ln(\dfrac{1}{6} ) &= -0.054t \\
+ t &= -\dfrac{1}{0.054} \cdot \ln(\dfrac{1}{6}) \\
+ t &\approx 33.18 \text{ minuten}
+\end{align}
+
+Na 33.18 minuten is de koffie nog maar 30$^{\circ}$C.
 
 ## Opgave 5.3a
 
