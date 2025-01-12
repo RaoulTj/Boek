@@ -1,26 +1,26 @@
-# 5.3 Opgaven
+# 5.4 Opgaven
 
 ## Opgave 5.1a
 
 Bepaal de stroomsterkte $I(t)$ in een RC-netwerk als de volgende parameters zijn gegeven:
 
-$R = 100$$\omega$, $C =0.1$F, $U(t)=250$V en $I(0)=1.0$A
+$R = 100$$\Omega$, $C =0.1$F, $U(t)=250$V en $I(0)=1.0$A
 
 ## Opgave 5.1b
 
 Bepaal de stroomsterkte $I(t)$ in een RC-netwerk als de volgende parameters zijn gegeven:
 
-$R = 20$$\omega$, $C =0.2$F, $U(t)=100\cos(t)$V en $I(0)=2.0$A
+$R = 20$$\Omega$, $C =0.2$F, $U(t)=100\cos(t)$V en $I(0)=2.0$A
 
 ## Opgave 5.2a
 
-Een kop met koffie van 80 \deg C wordt in een ruimte gezet waar het 20C is. In 10 minuten koelt de koffie 25 graden af.
+Een kop met koffie van 80$^{\circ}$ C wordt in een ruimte gezet waar het 20$^{\circ}$C is. In 10 minuten koelt de koffie 25$^{\circ}$ graden af.
 
 Hoe warm is de koffie na 20 minuten?
 
 ## Opgave 5.2b
 
-Na hoeveel tijd is de koffie nog maar 30C?
+Na hoeveel tijd is de koffie nog maar 30$^{\circ}$C?
 
 ## Opgave 5.3a
 
