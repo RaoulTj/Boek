@@ -2,8 +2,10 @@
 
 ## Opgave 5.1a
 
-```{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
+
+```{dropdown} Uitwerking
 
   Voor een RC-kring geldt:
   \begin{align}
@@ -76,11 +78,14 @@ Dus C invullen in de totale oplossing geeft:
  I &= 1 \cdot e^{-\frac{1}{10}t}
 \end{align}
 ```
+````
 
 ## Opgave 5.1b
 
-```{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
+
+```{dropdown} Uitwerking
 
   Voor een RC-kring geldt:
   \begin{align}
@@ -206,6 +211,7 @@ Dus C invullen in de totale oplossing geeft:
  I &= - \dfrac{46}{17} e^{-\frac{1}{4}t}  +\dfrac{80}{17}\cos(t) - \dfrac{20}{17}\sin(t)
 \end{align}
 ```
+````
 
 ## Opgave 5.2a
 
@@ -310,31 +316,31 @@ Dus C invullen in de totale oplossing geeft:
 De gegeven voorwaarden gebruiken om k te bepalen.  $T(10) = 80-25$
 Dus invullen geeft:
 \begin{align}
- 55 &=  60e^{-10k}  + 25 \\
- 55 &=  60e^{-10k} \\
- \dfrac{30}{60} &= e^{-10k} \\
- \ln(\dfrac{30}{60} ) &= -10k \\
- k &= -\dfrac{1}{10} \cdot \ln(\dfrac{1}{2}) \\
- k &= 0.069
+ 55 &=  60e^{-10k}  + 20 \\
+ 35 &=  60e^{-10k} \\
+ \dfrac{35}{60} &= e^{-10k} \\
+ \ln(\dfrac{35}{60} ) &= -10k \\
+ k &= -\dfrac{1}{10} \cdot \ln(\dfrac{35}{60}) \\
+ k &= 0.054
 \end{align}
 
 Dus k invullen in de totale oplossing geeft:
 \begin{align}
- T &=  60e^{-0.069t}  + 20
+ T &=  60e^{-0.054t}  + 20
 \end{align}
 
 Hoe warm is de koffie na 20 minuten?
 \begin{align}
- T &=  60e^{-0.069 \cdot 20}  + 20
- T &= 15.09 + 20
- T &= 35.09
+ T &=  60e^{-0.054 \cdot 20}  + 20 \\
+ T & \approx 20.38 + 20 \\
+ T & \approx 40.38 \\
 \end{align}
 
-Na 20 minuten is de koffie 35.90 $^{\circ}$ C
+Na 20 minuten is de koffie ongeveer 40.38 $^{\circ}$ C
 
 Na hoeveel minuten is de temperatuur 35$^{\circ}$ C:
 \begin{align}
- 35 &=  65e^{-0.069t}  + 25 \\
+ 35 &=  60e^{-0.069t}  + 20 \\
  10 &=  65e^{-0.069k} \\
  \dfrac{10}{65} &= e^{-0.069t} \\
  \ln(\dfrac{2}{13} ) &= -0.069t \\
@@ -348,9 +354,10 @@ Na hoeveel minuten is de temperatuur 35$^{\circ}$ C:
 
 ## Opgave 5.3a
 
-```{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
+```{dropdown} Uitwerking
   Voor een RL-kring geldt:
   \begin{align}
    U(t) &= U_r + U_s   \\
@@ -368,11 +375,14 @@ Na hoeveel minuten is de temperatuur 35$^{\circ}$ C:
    50 \sin(t) &= \dfrac{1}{2} \cdot \dfrac{dI}{dt} + 10 \cdot  I
   \end{align}
 ```
+````
 
 ## Opgave 5.3b
 
-```{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
+
+```{dropdown} Uitwerking
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
@@ -476,12 +486,14 @@ Dus C invullen in de totale oplossing geeft:
  I &= \dfrac{100}{401} e^{-20t}  -\dfrac{100}{401}\cos(t) + \dfrac{2000}{401}\sin(t)
 \end{align}
 ```
+````
 
 ## Opgave 5.4a
 
-```{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
+```{dropdown} Uitwerking
   Voor een losgelaten kogel geldt:
   \begin{align}
    F_{res} &= F_z - F_w   \\
@@ -513,8 +525,10 @@ Dus C invullen in de totale oplossing geeft:
 
 ## Opgave 5.4b
 
-```{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
+
+```{dropdown} Uitwerking
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
@@ -599,3 +613,4 @@ Dus C invullen in de totale oplossing geeft:
 De eindsnelheid van de kogel is:\
 als $t$ naar $\infty$ nadert dan gaat $V$ naar 19.62 m/s
 ```
+````
