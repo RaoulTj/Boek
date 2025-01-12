@@ -5,6 +5,10 @@
 ````{admonition} Antwoord
 :class: dropdown
 
+\begin{align}
+ I &= 1 \cdot e^{-\frac{1}{10}t}
+\end{align}
+
 ```{dropdown} Uitwerking
 
   Voor een RC-kring geldt:
@@ -84,6 +88,10 @@ Dus C invullen in de totale oplossing geeft:
 
 ````{admonition} Antwoord
 :class: dropdown
+
+\begin{align}
+ I &= - \dfrac{46}{17} e^{-\frac{1}{4}t}  +\dfrac{80}{17}\cos(t) - \dfrac{20}{17}\sin(t)
+\end{align}
 
 ```{dropdown} Uitwerking
 
@@ -218,9 +226,7 @@ Dus C invullen in de totale oplossing geeft:
 `````{admonition} Antwoord
 :class: dropdown
 
-Een kop met koffie van 80$^{\circ}$ C wordt in een ruimte gezet waar het 20$^{\circ}$C is. In 10 minuten koelt de koffie 25$^{\circ}$ graden af.
-
-Hoe warm is de koffie na 20 minuten?
+Na 20 minuten is de koffie ongeveer 40.38 $^{\circ}$ C
 
 ````{dropdown} Uitwerking
 
@@ -346,7 +352,7 @@ Na 20 minuten is de koffie ongeveer 40.38 $^{\circ}$ C
 `````{admonition} Antwoord
 :class: dropdown
 
-Na hoeveel tijd is de koffie nog maar 30$^{\circ}$C?
+Na 33.18 minuten is de koffie nog maar 30$^{\circ}$C.
 
 ````{dropdown} Uitwerking
 
@@ -373,6 +379,10 @@ Na 33.18 minuten is de koffie nog maar 30$^{\circ}$C.
 
 ````{admonition} Antwoord
 :class: dropdown
+
+ \begin{align}
+   50 \sin(t) &= \dfrac{1}{2} \cdot \dfrac{dI}{dt} + 10 \cdot  I
+  \end{align}
 
 ```{dropdown} Uitwerking
   Voor een RL-kring geldt:
