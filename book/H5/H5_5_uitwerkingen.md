@@ -293,43 +293,52 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  T &= Ce^{-kt}  + 20 \qquad \text{met } C \in \mathbb{R}
 \end{align}
 
-De gegeven voorwaarden gebruiken om C te bepalen.  $T(0) = 98$
+De gegeven voorwaarden gebruiken om C te bepalen.  $T(0) = 80$
 
 Dus invullen geeft:
 \begin{align}
- 80 &= Ce^{-k \cdot 0 }  + 25 \\
- 80 &= C \cdot 1  + 25 \\
- C &= 55
+ 80 &= Ce^{-k \cdot 0 }  + 20 \\
+ 80 &= C \cdot 1  + 20 \\
+ C &= 60
 \end{align}
 
 Dus C invullen in de totale oplossing geeft:
 \begin{align}
- T &=  55e^{-kt}  + 25
+ T &=  60e^{-kt}  + 25
 \end{align}
 
-De gegeven voorwaarden gebruiken om k te bepalen.  $T(5) = 38$
+De gegeven voorwaarden gebruiken om k te bepalen.  $T(10) = 80-25$
 Dus invullen geeft:
 \begin{align}
- 70 &=  65e^{-5k}  + 25 \\
- 45 &=  65e^{-5k} \\
- \dfrac{45}{65} &= e^{-5k} \\
- \ln(\dfrac{9}{13} ) &= -5k \\
- k &= -\dfrac{1}{5} \cdot \ln(\dfrac{9}{13}) \\
- k &= 0.074
+ 55 &=  60e^{-10k}  + 25 \\
+ 55 &=  60e^{-10k} \\
+ \dfrac{30}{60} &= e^{-10k} \\
+ \ln(\dfrac{30}{60} ) &= -10k \\
+ k &= -\dfrac{1}{10} \cdot \ln(\dfrac{1}{2}) \\
+ k &= 0.069
 \end{align}
 
 Dus k invullen in de totale oplossing geeft:
 \begin{align}
- T &=  65e^{-0.074t}  + 25
+ T &=  60e^{-0.069t}  + 20
 \end{align}
+
+Hoe warm is de koffie na 20 minuten?
+\begin{align}
+ T &=  60e^{-0.069 \cdot 20}  + 20
+ T &= 15.09 + 20
+ T &= 35.09
+\end{align}
+
+Na 20 minuten is de koffie 35.90 $^{\circ}$ C
 
 Na hoeveel minuten is de temperatuur 35$^{\circ}$ C:
 \begin{align}
- 35 &=  65e^{-0.277t}  + 25 \\
- 10 &=  65e^{-0.074k} \\
- \dfrac{10}{65} &= e^{-0.074t} \\
- \ln(\dfrac{2}{13} ) &= -0.074t \\
- t &= -\dfrac{1}{0.074} \cdot \ln(\dfrac{2}{13}) \\
+ 35 &=  65e^{-0.069t}  + 25 \\
+ 10 &=  65e^{-0.069k} \\
+ \dfrac{10}{65} &= e^{-0.069t} \\
+ \ln(\dfrac{2}{13} ) &= -0.069t \\
+ t &= -\dfrac{1}{0.069} \cdot \ln(\dfrac{2}{13}) \\
  t &\approx 25.29 \text{ minuten}
 \end{align}
 ````
