@@ -82,3 +82,4 @@ parts:
       sections:
       - file: H5/H5_5_opgaven_les
       - file: H5/H5_6_uitwerkingen_les
+      - file: H5/2425_Practicum1_Opdracht2_V1a
