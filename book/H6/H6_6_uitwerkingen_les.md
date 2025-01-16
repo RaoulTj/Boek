@@ -1,10 +1,10 @@
 # 5.5 Uitwerkingen les 7
 
 $
-\newcommand{\R}[100]
+\newcommand{\R}{100}
 $
 
-## Opgave 1e
+## Opgave 1
 
 ````{admonition} Antwoord
 :class: dropdown
