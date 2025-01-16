@@ -76,7 +76,7 @@ Dus de discriminant is,
 
 De oplossingen van de karakteristieke vergelijking zijn:
 \begin{align}
-  \lambda_{1,2} &= \dfrac{-100 \pm \sqrt{9960}}{2 \cdot 10}\\
+  \lambda_{1,2} &= \dfrac{-\R \pm \sqrt{9960}}{2 \cdot \L }\\
   \lambda_{1} &= -9.989\\
  \lambda_{2} &=  -0.010
 \end{align}
