@@ -37,8 +37,8 @@ Voor een RLC-kring geldt:
   De gegevens invullen in de DV geeft:
   \begin{align}
    \dfrac{dU(t)}{dt} &= \L \cdot \dfrac{d^2I}{dt^2} + \R \cdot \dfrac{dI}{dt} + \dfrac{1}{\C} \cdot  I\\
-   -24\sin(t) &= \L \cdot \dfrac{d^2I}{dt^2} + \R \cdot \dfrac{dI}{dt} + \dfrac{1}{2} \cdot  I\\
-   -24\sin(t) &= \L \cdot  \dfrac{d^2I}{dt^2} + \R \cdot \dfrac{dI}{dt} + \dfrac{1}{2} \cdot  I
+   -24\sin(t) &= \L \cdot \dfrac{d^2I}{dt^2} + \R \cdot \dfrac{dI}{dt} + \dfrac{1}{\C} \cdot  I\\
+   -24\sin(t) &= \L \cdot  \dfrac{d^2I}{dt^2} + \R \cdot \dfrac{dI}{dt} + \CC \cdot  I
   \end{align}
 
 %De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
@@ -98,7 +98,7 @@ Als vorm voor de particuliere oplossing stel:
 Invullen in de D.V. geeft:
 \begin{align}
  \L \cdot(-C_1\sin(x) - C_2\cos(x)) + \R \cdot (C_1\cos(x) - C_2\sin(x)) + \CC \cdot (C_1\sin(x) + C_2\cos(x)) &= -48\sin(x) \\
- -10C_1\sin(x) - 10C_2\cos(x)  + 100C_1\cos(x) - 100C_2\sin(x)) +  C_1\sin(x) + C_2\cos(x)  = -48\sin(x) \\
+ -\LC_1\sin(x) - \LC_2\cos(x)  + \R C_1\cos(x) - \R C_2\sin(x)) + \CC C_1\sin(x) + \CC C_2\cos(x)  = -48\sin(x) \\
  (-10C_1 + C_1 - 100C_2) \sin(x) + (100C_1+C_2-10C_2)\cos(x)   = -48\sin(x) \\
   (-9C_1 - 100C_2) \sin(x) + (100C_1-9C_2)\cos(x)   = -48\sin(x)
 \end{align}
