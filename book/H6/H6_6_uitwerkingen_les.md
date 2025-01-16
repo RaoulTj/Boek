@@ -98,8 +98,8 @@ Als vorm voor de particuliere oplossing stel:
 Invullen in de D.V. geeft:
 \begin{align}
  \L \cdot(-C_1\sin(x) - C_2\cos(x)) + \R \cdot (C_1\cos(x) - C_2\sin(x)) + \CC \cdot (C_1\sin(x) + C_2\cos(x)) &= -48\sin(x) \\
- -\LC_1\sin(x) - \LC_2\cos(x)  + \R C_1\cos(x) - \R C_2\sin(x)) + \CC C_1\sin(x) + \CC C_2\cos(x)  = -48\sin(x) \\
- (-10C_1 + C_1 - 100C_2) \sin(x) + (100C_1+C_2-10C_2)\cos(x)   = -48\sin(x) \\
+ - \L C_1\sin(x) - \L C_2\cos(x)  + \R C_1\cos(x) - \R C_2\sin(x)) + \CC C_1\sin(x) + \CC C_2\cos(x)  = -48\sin(x) \\
+ (- \L C_1 + \CC C_1 - \R C_2) \sin(x) + (\R C_1+ \CC C_2- \L C_2)\cos(x)   = -48\sin(x) \\
   (-9C_1 - 100C_2) \sin(x) + (100C_1-9C_2)\cos(x)   = -48\sin(x)
 \end{align}
 
