@@ -6,8 +6,10 @@ $
 \newcommand{\C}{0.2}
 \newcommand{\CC}{5}
 \newcommand{\LC}{3}
-\newcommand{\Labda_een}{-49.95}
-\newcommand{\Labda_twee}{-0.05}
+\newcommand{\Labda1}{-49.95}
+\newcommand{\Labdatwee}{-0.05}
+\newcommand{\Ceen}{-0.05}
+\newcommand{\Ctwee}{-0.05}
 $
 
 ## Opgave 1
