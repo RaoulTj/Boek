@@ -5,6 +5,7 @@ $
 \newcommand{\L}{2}
 \newcommand{\C}{0.2}
 \newcommand{\CC}{5}
+\newcommand{\LC}{3}
 $
 
 ## Opgave 1
@@ -100,25 +101,25 @@ Invullen in de D.V. geeft:
  \L \cdot(-C_1\sin(x) - C_2\cos(x)) + \R \cdot (C_1\cos(x) - C_2\sin(x)) + \CC \cdot (C_1\sin(x) + C_2\cos(x)) &= -48\sin(x) \\
  - \L C_1\sin(x) - \L C_2\cos(x)  + \R C_1\cos(x) - \R C_2\sin(x)) + \CC C_1\sin(x) + \CC C_2\cos(x)  = -48\sin(x) \\
  (- \L C_1 + \CC C_1 - \R C_2) \sin(x) + (\R C_1+ \CC C_2- \L C_2)\cos(x)   = -48\sin(x) \\
-  (-9C_1 - 100C_2) \sin(x) + (100C_1-9C_2)\cos(x)   = -48\sin(x)
+  (-\LC C_1 - \R C_2) \sin(x) + (\R C_1- \LC C_2)\cos(x)   = -48\sin(x)
 \end{align}
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
- -9C_1 - 100C_2 &= -48 \\
- 100C_1-9C_2 &= 0
+ - \LC C_1 - \R C_2 &= -48 \\
+ \R C_1- \LC C_2 &= 0
 \end{align}
 
 Hieruit volgt:
 \begin{align}
-100C_1-9C_2 &= 0 \\
-100C_1 &= 9C_2 \\
+\R C_1- \LC C_2 &= 0 \\
+\R C_1 &= \LC C_2 \\
  C_1 &= 0.09C_2
 \end{align}
 
 $C_1 $ invullen geeft:
 \begin{align}
- -9 \cdot 0.09C_2 - 100C_2 &= -48\\
+ -\LC \cdot 0.09C_2 - \R C_2 &= -48\\
   0.81C_2 + 100 C_2 &= -48\\
   100.81C_2 &= -48\\
   C_2 &= 0.476
