@@ -2,6 +2,9 @@
 
 $
 \newcommand{\R}{100}
+\newcommand{\L}{2}
+\newcommand{\C}{0.2}
+\newcommand{\CC}{5}
 $
 
 ## Opgave 1
@@ -18,7 +21,7 @@ De stroomsterkte, I (t) als functie van tijd is:
 
 Bepaal de stroomsterkte $I(t)$ in een RLC-netwerk als de volgende parameters zijn gegeven:
 
-$R = \R$ $\Omega$, $L=5$H, $$C =2$F, $U(t)=24 \cos(t)$V, $I(0)=0.5$A en $I'(0)=1.0$A/s
+$R = \R$ $\Omega$, $L=\L$H, $$C =\C$F, $U(t)=24 \cos(t)$V, $I(0)=0.5$A en $I'(0)=1.0$A/s
 
 Voor een RLC-kring geldt:
   \begin{align}
@@ -33,9 +36,9 @@ Voor een RLC-kring geldt:
 
   De gegevens invullen in de DV geeft:
   \begin{align}
-   \dfrac{dU(t)}{dt} &= 5 \cdot \dfrac{d^2I}{dt^2} + 50 \cdot \dfrac{dI}{dt} + \dfrac{1}{2} \cdot  I\\
-   -24\sin(t) &= 5 \cdot \dfrac{d^2I}{dt^2} + 50 \cdot \dfrac{dI}{dt} + \dfrac{1}{2} \cdot  I\\
-   -24\sin(t) &=5 \cdot  \dfrac{d^2I}{dt^2} + 50 \cdot \dfrac{dI}{dt} + \dfrac{1}{2} \cdot  I
+   \dfrac{dU(t)}{dt} &= \L \cdot \dfrac{d^2I}{dt^2} + \R \cdot \dfrac{dI}{dt} + \dfrac{1}{\C} \cdot  I\\
+   -24\sin(t) &= \L \cdot \dfrac{d^2I}{dt^2} + \R \cdot \dfrac{dI}{dt} + \dfrac{1}{2} \cdot  I\\
+   -24\sin(t) &= \L \cdot  \dfrac{d^2I}{dt^2} + \R \cdot \dfrac{dI}{dt} + \dfrac{1}{2} \cdot  I
   \end{align}
 
 %De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
@@ -45,7 +48,7 @@ Voor een RLC-kring geldt:
 
 De homogene D.V. wordt:
 \begin{align}
- 5\dfrac{d^2I}{dt^2} + 50\dfrac{dI}{dt} + \dfrac{1}{2}I = 0
+ \L \dfrac{d^2I}{dt^2} + \R \dfrac{dI}{dt} + \CC I = 0
 \end{align}
 
 Als oplossing voor de homogene D.V. stel:
@@ -55,20 +58,20 @@ Als oplossing voor de homogene D.V. stel:
 
 Invullen in de D.V. geeft:
 \begin{align}
- 5\lambda^2 \cdot Ce^{\lambda t} +50\lambda \cdot Ce^{\lambda t} + \dfrac{1}{2} \cdot Ce^{\lambda t} &= 0 \\
- (5\lambda^2 + 50\lambda +\dfrac{1}{2} )\cdot Ce^{\lambda t}  &= 0
+ \L \lambda^2 \cdot Ce^{\lambda t} +\R \lambda \cdot Ce^{\lambda t} + \CC \cdot Ce^{\lambda t} &= 0 \\
+ (\L \lambda^2 + \R \lambda +\CC )\cdot Ce^{\lambda t}  &= 0
 \end{align}
 
 De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \
 Verder geldt dat $e^{\lambda t} \neq 0 $ dus,
 \begin{align}
- 5\lambda^2 + 50\lambda +\dfrac{1}{2}   &= 0 \\
+ \L \lambda^2 + \R \lambda + \CC   &= 0 \\
  10\lambda^2 + 100\lambda +1   &= 0
 \end{align}
 
 Dus de discriminant is,
 \begin{align}
- D = (100)^2 - 4 \cdot 10 \cdot 1 = 10000-40=9960
+ D = (\R)^2 - 4 \cdot \L \cdot \CC = 10000-40=9960
 \end{align}
 
 De oplossingen van de karakteristieke vergelijking zijn:
@@ -94,7 +97,7 @@ Als vorm voor de particuliere oplossing stel:
 
 Invullen in de D.V. geeft:
 \begin{align}
- 10 \cdot(-C_1\sin(x) - C_2\cos(x)) + 100 \cdot (C_1\cos(x) - C_2\sin(x)) + 1 \cdot (C_1\sin(x) + C_2\cos(x)) &= -48\sin(x) \\
+ \L \cdot(-C_1\sin(x) - C_2\cos(x)) + \R \cdot (C_1\cos(x) - C_2\sin(x)) + \CC \cdot (C_1\sin(x) + C_2\cos(x)) &= -48\sin(x) \\
  -10C_1\sin(x) - 10C_2\cos(x)  + 100C_1\cos(x) - 100C_2\sin(x)) +  C_1\sin(x) + C_2\cos(x)  = -48\sin(x) \\
  (-10C_1 + C_1 - 100C_2) \sin(x) + (100C_1+C_2-10C_2)\cos(x)   = -48\sin(x) \\
   (-9C_1 - 100C_2) \sin(x) + (100C_1-9C_2)\cos(x)   = -48\sin(x)
