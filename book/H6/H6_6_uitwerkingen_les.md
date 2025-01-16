@@ -116,12 +116,12 @@ Hieruit volgt:
 \begin{align}
 \R C_1- \LC C_2 &= 0 \\
 \R C_1 &= \LC C_2 \\
- C_1 &= 0.09C_2
+ C_1 &= 0.03C_2
 \end{align}
 
 $C_1 $ invullen geeft:
 \begin{align}
- -\LC \cdot 0.09C_2 - \R C_2 &= -48\\
+ -\LC \cdot 0.03C_2 - \R C_2 &= -48\\
   0.81C_2 + 100 C_2 &= -48\\
   100.81C_2 &= -48\\
   C_2 &= 0.476
@@ -129,8 +129,8 @@ $C_1 $ invullen geeft:
 
 $C_2 $ invullen geeft:
 \begin{align}
- C_1 &= 0.09C_2 \\
- C_1 &= 0.09 \cdot 0.476\\
+ C_1 &= 0.03C_2 \\
+ C_1 &= 0.03 \cdot 0.476\\
  C_1 &= 0.0429
 \end{align}
 
