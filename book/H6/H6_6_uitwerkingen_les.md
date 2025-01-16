@@ -4,7 +4,7 @@ $
 \newcommand{\R}[100]
 $
 
-## Opgave 1
+## Opgave 1e
 
 ````{admonition} Antwoord
 :class: dropdown
