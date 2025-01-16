@@ -6,6 +6,8 @@ $
 \newcommand{\C}{0.2}
 \newcommand{\CC}{5}
 \newcommand{\LC}{3}
+\newcommand{\Labda_een}{-49.95}
+\newcommand{\Labda_twee}{-0.05}
 $
 
 ## Opgave 1
@@ -78,8 +80,8 @@ Dus de discriminant is,
 De oplossingen van de karakteristieke vergelijking zijn:
 \begin{align}
   \lambda_{1,2} &= \dfrac{-\R \pm \sqrt{9960}}{2 \cdot \L }\\
-  \lambda_{1} &= -9.989\\
- \lambda_{2} &=  -0.010
+  \lambda_{1} &= \Labda_een\\
+ \lambda_{2} &=  \Labda_twee
 \end{align}
 
 De waarde voor $\lambda$ invullen in de algemene oplossing geeft;
@@ -87,7 +89,7 @@ De waarde voor $\lambda$ invullen in de algemene oplossing geeft;
  I_h = C_1e^{\lambda_1 x} + C_2e^{\lambda_1 x} \qquad \text{met } C \in \mathbb{R}
 \end{align*}
 \begin{align}
- I_h = C_1e^{-0.010x} + C_2e^{-9.989x} \qquad \text{met } C \in \mathbb{R}
+ I_h = C_1e^{\Labda_een x} + C_2e^{ \Labda_twee x} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.
