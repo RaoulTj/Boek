@@ -4,9 +4,7 @@
 ````{admonition} Antwoord
 :class: dropdown
 De stroomsterkte, I (t) als functie van tijd is:
-\begin{align}
- I &= 0.1199e^{-0.010x} -0.0959e^{-9.989x} + 0.0429\sin(x) + 0.476\cos(x)
-\end{align}
+
 
 ```{admonition} Uitwerkingen
 :class: dropdown
@@ -126,8 +124,20 @@ Dus $C_1$ en $C_2$ invullen in de  oplossing geeft:
 
 ## Opgave 6.1b
 
+
+````{admonition} Antwoord
+:class: dropdown
+De stroomsterkte, I (t) als functie van tijd is:
+\begin{align}
+ I &= 0.1199e^{-0.010x} -0.0959e^{-9.989x} + 0.0429\sin(x) + 0.476\cos(x)
+\end{align}
+
 ```{admonition} Uitwerkingen
 :class: dropdown
+
+Bepaal de stroomsterkte $I(t)$ in een RLC-netwerk als de volgende parameters zijn gegeven:
+
+$R = 50$$\Omega$, $L=5$H, $$C =2$F, $U(t)=24 \cos(t)$V, $I(0)=0.5$A en $I'(0)=1.0$A/s
 
 Voor een RLC-kring geldt:
   \begin{align}
@@ -290,3 +300,4 @@ Dus $C_1$ en $C_2$ invullen in de totale oplossing geeft:
  I &= 0.1199e^{-0.010x} -0.0959e^{-9.989x} + 0.0429\sin(x) + 0.476\cos(x)
 \end{align}
 ```
+````
