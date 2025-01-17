@@ -118,9 +118,9 @@ De coëfficiënten moeten links en rechts gelijk zijn dus volgt:
 
 Hieruit volgt:
 \begin{align}
-\R C_1- \LC C_2 &= 0 \\
-\R C_1 &= \LC C_2 \\
- C_1 &= 0.03C_2
+\R C_1 + \LC C_2 &= 0 \\
+\R C_1 &= -\LC C_2 \\
+ C_1 &= -0.03C_2
 \end{align}
 
 $C_1 $ invullen geeft:
