@@ -107,13 +107,13 @@ Invullen in de D.V. geeft:
  \L \cdot(-C_1\sin(x) - C_2\cos(x)) + \R \cdot (C_1\cos(x) - C_2\sin(x)) + \CC \cdot (C_1\sin(x) + C_2\cos(x)) &= - \U \sin(x) \\
  - \L C_1\sin(x) - \L C_2\cos(x)  + \R C_1\cos(x) - \R C_2\sin(x)) + \CC C_1\sin(x) + \CC C_2\cos(x)  = - \U \sin(x) \\
  (- \L C_1 + \CC C_1 - \R C_2) \sin(x) + (\R C_1+ \CC C_2- \L C_2)\cos(x)   = - \U \sin(x) \\
-  (-\LC C_1 - \R C_2) \sin(x) + (\R C_1- \LC C_2)\cos(x)   = - \U \sin(x)
+  (\LC C_1 - \R C_2) \sin(x) + (\R C_1 + \LC C_2)\cos(x)   = - \U \sin(x)
 \end{align}
 
-De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
+De coëfficiënten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
- - \LC C_1 - \R C_2 &= - \U \\
- \R C_1- \LC C_2 &= 0
+  \LC C_1 - \R C_2 &= - \U \\
+ \R C_1 +  \LC C_2 &= 0
 \end{align}
 
 Hieruit volgt:
@@ -149,7 +149,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  I &= C_1e^{ \Leen x} + C_2e^{ \Ltwee x} + \Ceen \sin(x) + \Ctwee \cos(x)   \qquad \text{met } C \in \mathbb{R}
 \end{align}
 
-De gegevenvoorwaarden gebruiken om $C_1$ en $C_2$ te bepalen.  $I(0) = 0$ en $I'(0) = 1$
+De gegeven voorwaarden gebruiken om $C_1$ en $C_2$ te bepalen.  $I(0) = 0$ en $I'(0) = 1$
 
 Dus invullen geeft voor $I(0) = 0$:
 \begin{align}
