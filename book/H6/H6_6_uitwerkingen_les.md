@@ -11,7 +11,7 @@ $
 \newcommand{\Ltwee}{-0.05}
 \newcommand{\Ceen}{0.007}
 \newcommand{\Ctwee}{0.239}
-\newcommand{\A}{500}
+\newcommand{\A}{-0.02}
 \newcommand{\B}{ -0.219}
 $
 
@@ -188,7 +188,7 @@ $C_2$ invullen geeft:
 
 Dus $C_1$ en $C_2$ invullen in de totale oplossing geeft:
 \begin{align}
- I &= 0.1199e^{ \Leen x} -0.0959e^{\Ltwee x} + \A \sin(x) + \B \cos(x)
+ I &= \A e^{ \Leen x} + \B e^{\Ltwee x} + \Ceen \sin(x) + \Ctwee \cos(x)
 \end{align}
 ```
 ````
