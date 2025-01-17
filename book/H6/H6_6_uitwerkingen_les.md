@@ -9,7 +9,7 @@ $
 \newcommand{\LC}{3}
 \newcommand{\Leen}{-49.95}
 \newcommand{\Ltwee}{-0.05}
-\newcommand{\Ceen}{0.007}
+\newcommand{\Ceen}{-0.007}
 \newcommand{\Ctwee}{0.239}
 \newcommand{\A}{-0.02}
 \newcommand{\B}{ -0.219}
@@ -133,7 +133,7 @@ $C_1 $ invullen geeft:
 
 $C_2 $ invullen geeft:
 \begin{align}
- C_1 &= 0.03C_2 \\
+ C_1 &= -0.03C_2 \\
  C_1 &= 0.03 \cdot \Ctwee \\
  C_1 &= \Ceen
 \end{align}
