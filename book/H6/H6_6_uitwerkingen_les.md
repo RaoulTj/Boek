@@ -21,7 +21,7 @@ $
 :class: dropdown
 De stroomsterkte, I (t) als functie van tijd is:
 \begin{align}
- I &= 0.1199e^{-0.010x} -0.0959e^{-9.989x} + 0.0429\sin(x) + 0.476\cos(x)
+ I &= \A e^{ \Leen x} + \B e^{\Ltwee x} + \Ceen \sin(x) + \Ctwee \cos(x)
 \end{align}
 
 ```{dropdown} Uitwerking
@@ -190,5 +190,129 @@ Dus $C_1$ en $C_2$ invullen in de totale oplossing geeft:
 \begin{align}
  I &= \A e^{ \Leen x} + \B e^{\Ltwee x} + \Ceen \sin(x) + \Ctwee \cos(x)
 \end{align}
+```
+````
+
+## Opgave 2
+
+$
+\newcommand{\m}{10}
+\newcommand{\c}{50}
+\newcommand{\C}{0.2}
+\newcommand{\U}{24}
+\newcommand{\CC}{5}
+\newcommand{\LC}{3}
+\newcommand{\Leen}{-49.95}
+\newcommand{\Ltwee}{-0.05}
+\newcommand{\Ceen}{0.007}
+\newcommand{\Ctwee}{0.239}
+\newcommand{\A}{-0.02}
+\newcommand{\B}{ -0.219}
+$
+
+````{admonition} Antwoord
+:class: dropdown
+De stroomsterkte, I (t) als functie van tijd is:
+\begin{align}
+ I &= 0.1199e^{-0.010x} -0.0959e^{-9.989x} + 0.0429\sin(x) + 0.476\cos(x)
+\end{align}
+
+```{dropdown} Uitwerking
+
+Voor een massa-veer-systeem geldt:
+\begin{align*}
+F_{res} &= - F_v \\
+F_{res}	&=  - c\cdot u\\
+m \cdot a &= - c\cdot u \\
+m \cdot \dfrac{d^2 u}{dt^2} &= - c\cdot u\quad
+\end{align*}
+
+De gegevens invullen in de D.V. geeft:
+\begin{align*}
+ m \cdot \dfrac{d^2 u}{dt^2} &=  - c \cdot u \\
+ \m \cdot \dfrac{d^2 u}{dt^2} &=  -  \c \cdot u
+\end{align*}
+
+De homogene D.V. wordt:
+\begin{align*}
+ \m \dfrac{d^2u}{dt^2} + \c u =  0
+\end{align*}
+
+Als oplossing voor de homogene D.V. stel:
+\begin{align*}
+ u_h = Ce^{\lambda x} \text{ met } C \in \mathbb{R}
+\end{align*}
+
+Dus,
+\begin{align*}
+ \dfrac{dy}{dx} &= \lambda Ce^{\lambda x} \text{ met } C \in \mathbb{R} \\
+ \dfrac{d^2y}{dx^2} &= \lambda^2 Ce^{\lambda x} \text{ met } C \in \mathbb{R} 
+\end{align*}
+
+
+Invullen in de D.V. geeft:
+\begin{align*}
+ \m (\lambda^2 Ce^{\lambda x}) + \c (Ce^{\lambda x}) &= 0 \\
+ ( \m \lambda^2+ \c )\cdot Ce^{\lambda x}  &= 0
+\end{align*}
+
+De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \\
+Verder geldt dat $e^{\lambda x} \neq 0 $ dus,
+\begin{align*}
+ \m \lambda^2 + \c &= 0
+\end{align*}
+
+Dus de discriminant is,
+\begin{align*}
+ D = (0)^2 - 4 \cdot \m \cdot \c = -240
+\end{align*}
+
+De oplossingen van de karakteristieke vergelijking zijn:
+\begin{align*}
+ \lambda_{1,2} &= \dfrac{0 \pm i\sqrt{240}}{2 \cdot 2}\\
+ \lambda_{1,2} &= \dfrac{0 \pm 4\sqrt{15}i}{2 \cdot 2}\\
+ \lambda_{1,2} &= -0 \pm \sqrt{15} \cdot i
+\end{align*}
+
+Hieruit volgt dat $p=0$ en $q=\sqrt{15}$
+
+De waarde voor $p$ en $q$ invullen in de homogene oplossing geeft;
+\begin{align*}
+ u_h &= e^{px}(C_1\cos(qt) + C_2\sin(qt)) \\
+ u_h &= e^{0\cdot x}(C_1\cos(\sqrt{15}t) + C_2\sin (\sqrt{15}t ) ) \\
+ u_h &= C_1\cos(\sqrt{15}t) + C_2\sin (\sqrt{15}t )  \qquad  \text{met } C_{1,2} \in \mathbb{R}
+\end{align*}
+
+De gegeven voorwaarden gebruiken om $C_1$ en $C_2$ te bepalen, $u(0) = 0.1$ en $u'(0) = 0$\\
+
+Dus invullen geeft:
+\begin{align*}
+ u &=  C_1\cos(\sqrt{15}t) + C_2\sin (\sqrt{15}t )  \\
+ 0.1 &=  C_1\cos(\sqrt{15} \cdot 0 ) + C_2\sin (\sqrt{15} \cdot 0) \\
+ 0.1 &= C_1 \cdot 1 + 0
+\end{align*}
+
+Hieruit volgt:
+\begin{align*}
+ C_1 = 0.1
+\end{align*}
+
+$C_1 $ invullen geeft:
+\begin{align*}
+ u' &= -\sqrt{15} C_1\sin(\sqrt{15}t) + \sqrt{15} C_2\cos (\sqrt{15}t )   \\
+ 0 &= -\sqrt{15} C_1\sin(\sqrt{15} \cdot 0) + \sqrt{15} C_2\cos (\sqrt{15} \cdot 0 )   \\
+ 0 &= 0 + \sqrt{15} \cdot C_2 \cdot 1
+\end{align*}
+
+Hieruit volgt:
+\begin{align*}
+ C_2 &=  0
+\end{align*}
+
+Dus $C_1$ en $C_2$ invullen in de totale oplossing geeft:
+\begin{align*}
+ u &=  C_1\cos(\sqrt{15}t) + C_2\sin (\sqrt{15}t ) \\
+ u &= 0.1 \cos(\sqrt{15}t)
+\end{align*}
 ```
 ````
