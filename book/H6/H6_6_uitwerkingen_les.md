@@ -11,7 +11,6 @@ $
 \newcommand{\Labdatwee}{-0.05}
 \newcommand{\Ceen}{0.007}
 \newcommand{\Ctwee}{0.239}
-
 $
 
 ## Opgave 1
@@ -128,14 +127,14 @@ $C_1 $ invullen geeft:
  -\LC \cdot 0.03C_2 - \R C_2 &= - \U\\
 - 0.09C_2 - \R C_2 &= - \U \\
   -100.09C_2 &= - \U\\
-  C_2 &= 0.239
+  C_2 &= \Ctwee
 \end{align}
 
 $C_2 $ invullen geeft:
 \begin{align}
  C_1 &= 0.03C_2 \\
- C_1 &= 0.03 \cdot 0.239\\
- C_1 &= 0.007
+ C_1 &= 0.03 \cdot \Ctwee \\
+ C_1 &= \Ceen
 \end{align}
 
 De waardes voor $C_1$, $C_2$  invullen in de particuliere oplossing geeft:
