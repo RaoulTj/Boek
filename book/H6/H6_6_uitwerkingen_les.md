@@ -150,17 +150,17 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 De gegeven voorwaarden gebruiken om $C_1$ en $C_2$ te bepalen.  $I(0) = 0$ en $I'(0) = 1$
 
-Dus invullen geeft voor $I(0) = 0.5$:
+Dus invullen geeft voor $I(0) = 0$:
 \begin{align}
- 0.5 &= C_1e^{-0.010 \cdot 0} + C_2e^{-9.989 \cdot 0} + 0.0429\sin(0) + 0.476\cos(0)  \\
- 0.5 &= C_1e^{0} + C_2e^{0} + 0 + 0.476\\
- 0.5 &= C_1  + C_2  + 0.476 \\
- 0.024 &= C_1 + C_2
+ 0 &= C_1e^{ \labdaeen \cdot 0} + C_2e^{ \labdatwee \cdot 0} + \Ceen \sin(0) + \Ctwee \cos(0)  \\
+ 0 &= C_1e^{0} + C_2e^{0} + 0 + \Ctwee \\
+ 0 &= C_1  + C_2  + \Ctwee \\
+ - \Ctwee &= C_1 + C_2
 \end{align}
 
 Hieruit volgt:
 \begin{align}
- C_1 &= 0.024 -C_2
+ C_1 &= - \Ctwee -C_2
 \end{align}
 
 Dus invullen geeft voor $I'(0) = 1$:
