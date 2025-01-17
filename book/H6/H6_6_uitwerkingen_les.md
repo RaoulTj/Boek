@@ -7,10 +7,12 @@ $
 \newcommand{\U}{24}
 \newcommand{\CC}{5}
 \newcommand{\LC}{3}
-\newcommand{\Labdaeen}{-49.95}
-\newcommand{\Labdatwee}{-0.05}
+\newcommand{\Leen}{-49.95}
+\newcommand{\Ltwee}{-0.05}
 \newcommand{\Ceen}{0.007}
 \newcommand{\Ctwee}{0.239}
+\newcommand{\A}{500}
+\newcommand{\b}{500}
 $
 
 ## Opgave 1
@@ -82,8 +84,8 @@ Dus de discriminant is,
 De oplossingen van de karakteristieke vergelijking zijn:
 \begin{align}
   \lambda_{1,2} &= \dfrac{-\R \pm \sqrt{9960}}{2 \cdot \L }\\
-  \lambda_{1} &= \Labdaeen\\
- \lambda_{2} &=  \Labdatwee
+  \lambda_{1} &= \Leen\\
+ \lambda_{2} &=  \Ltwee
 \end{align}
 
 De waarde voor $\lambda$ invullen in de algemene oplossing geeft;
@@ -91,7 +93,7 @@ De waarde voor $\lambda$ invullen in de algemene oplossing geeft;
  I_h = C_1e^{\lambda_1 x} + C_2e^{\lambda_1 x} \qquad \text{met } C \in \mathbb{R}
 \end{align*}
 \begin{align}
- I_h = C_1e^{\Labdaeen x} + C_2e^{ \Labdatwee x} \qquad \text{met } C \in \mathbb{R}
+ I_h = C_1e^{\Leen x} + C_2e^{ \Ltwee x} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.
@@ -144,14 +146,14 @@ De waardes voor $C_1$, $C_2$  invullen in de particuliere oplossing geeft:
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  I &= I_h + I_p \\
- I &= C_1e^{ \labdaeen x} + C_2e^{ \labdatwee x} + \Ceen \sin(x) + \Ctwee \cos(x)   \qquad \text{met } C \in \mathbb{R}
+ I &= C_1e^{ \Leen x} + C_2e^{ \Ltwee x} + \Ceen \sin(x) + \Ctwee \cos(x)   \qquad \text{met } C \in \mathbb{R}
 \end{align}
 
 De gegevenvoorwaarden gebruiken om $C_1$ en $C_2$ te bepalen.  $I(0) = 0$ en $I'(0) = 1$
 
 Dus invullen geeft voor $I(0) = 0$:
 \begin{align}
- 0 &= C_1e^{ \labdaeen \cdot 0} + C_2e^{ \labdatwee \cdot 0} + \Ceen \sin(0) + \Ctwee \cos(0)  \\
+ 0 &= C_1e^{ \Leen \cdot 0} + C_2e^{ \Ltwee \cdot 0} + \Ceen \sin(0) + \Ctwee \cos(0)  \\
  0 &= C_1e^{0} + C_2e^{0} + 0 + \Ctwee \\
  0 &= C_1  + C_2  + \Ctwee \\
  - \Ctwee &= C_1 + C_2
@@ -164,29 +166,29 @@ Hieruit volgt:
 
 Dus invullen geeft voor $I'(0) = 1$:
 \begin{align}
- 1 &= \labdaeen C_1e^{ \labdaeen \cdot 0}  \labdatwee e^{ \labdatwee \cdot 0} + \Ceen \cos(0) - \Ctwee \sin(0) \\
- 1 &= \labdaeen C_1e^{0}  \labdatwee C_2e^{0} + \Ceen - 0  \\
- 1 &= \labdaeen C_1  \labdatwee C_2 + \Ceen  \\
- 0.9571 &= -0.010C_1  -9.989C_2
+ 1 &= \Leen C_1e^{ \Leen \cdot 0}  \Ltwee e^{ \Ltwee \cdot 0} + \Ceen \cos(0) - \Ctwee \sin(0) \\
+ 1 &= \Leen C_1e^{0}  \Ltwee C_2e^{0} + \Ceen - 0  \\
+ 1 &= \Leen C_1  \Ltwee C_2 + \Ceen  \\
+ 0.993 &= -0.010C_1  -9.989C_2
 \end{align}
 
 $C_1$ invullen geeft:
 \begin{align}
- 0.9571 &= -0.010(0.024-C_2)  -9.989C_2  \\
- 0.9571 &= 2.4\cdot 10^{-4} + 0.010C_2  -9.989C_2 \\
- 0.95676 &= -9.979C_2\\
- C_2 &=  -0.0959
+ 0.993 &= -0.010(0.024-C_2)  -9.989C_2  \\
+ 0.993 &= 2.4\cdot 10^{-4} + 0.010C_2  -9.989C_2 \\
+ 0.993 &= -9.979C_2\\
+ C_2 &=  \B
 \end{align}
 
 $C_2$ invullen geeft:
 \begin{align}
  C_1 &= 0.024 - -0.0959\\
- C_1 &= 0.1199
+ C_1 &= \A
 \end{align}
 
 Dus $C_1$ en $C_2$ invullen in de totale oplossing geeft:
 \begin{align}
- I &= 0.1199e^{-0.010x} -0.0959e^{-9.989x} + 0.0429\sin(x) + 0.476\cos(x)
+ I &= 0.1199e^{ \Leen x} -0.0959e^{\Ltwee x} + \A \sin(x) + \B \cos(x)
 \end{align}
 ```
 ````
