@@ -19,7 +19,7 @@ $
 
 Bepaal de stroomsterkte $I(t)$ in een RLC-netwerk als de volgende parameters zijn gegeven:
 
-$R = \R$ $\Omega$, $L=\L$H, $$C =\C$F, $U(t)=\U \cos(t)$V, $I(0)=0.0$A en $I'(0)=1.0$A/s
+$R = \R$ $\Omega$, $L=\L$H, $C =\C$F, $U(t)=\U \cos(t)$V, $I(0)=0.0$A en $I'(0)=1.0$A/s
 
 ## Opgave 2
 
