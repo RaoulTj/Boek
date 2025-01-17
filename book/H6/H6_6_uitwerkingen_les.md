@@ -22,8 +22,7 @@ De stroomsterkte, I (t) als functie van tijd is:
  I &= 0.1199e^{-0.010x} -0.0959e^{-9.989x} + 0.0429\sin(x) + 0.476\cos(x)
 \end{align}
 
-```{admonition} Uitwerkingen
-:class: dropdown
+```{dropdown} Uitwerking
 
 Bepaal de stroomsterkte $I(t)$ in een RLC-netwerk als de volgende parameters zijn gegeven:
 
