@@ -4,12 +4,14 @@ $
 \newcommand{\R}{100}
 \newcommand{\L}{2}
 \newcommand{\C}{0.2}
+\newcommand{\U}{24}
 \newcommand{\CC}{5}
 \newcommand{\LC}{3}
 \newcommand{\Labdaeen}{-49.95}
 \newcommand{\Labdatwee}{-0.05}
-\newcommand{\Ceen}{-0.05}
-\newcommand{\Ctwee}{-0.05}
+\newcommand{\Ceen}{0.007}
+\newcommand{\Ctwee}{0.239}
+
 $
 
 ## Opgave 1
@@ -26,7 +28,7 @@ De stroomsterkte, I (t) als functie van tijd is:
 
 Bepaal de stroomsterkte $I(t)$ in een RLC-netwerk als de volgende parameters zijn gegeven:
 
-$R = \R$ $\Omega$, $L=\L$H, $$C =\C$F, $U(t)=24 \cos(t)$V, $I(0)=0.5$A en $I'(0)=1.0$A/s
+$R = \R$ $\Omega$, $L=\L$H, $$C =\C$F, $U(t)=\U \cos(t)$V, $I(0)=0.5$A en $I'(0)=1.0$A/s
 
 Voor een RLC-kring geldt:
   \begin{align}
@@ -82,8 +84,8 @@ Dus de discriminant is,
 De oplossingen van de karakteristieke vergelijking zijn:
 \begin{align}
   \lambda_{1,2} &= \dfrac{-\R \pm \sqrt{9960}}{2 \cdot \L }\\
-  \lambda_{1} &= \Labda_een\\
- \lambda_{2} &=  \Labda_twee
+  \lambda_{1} &= \Labdaeen\\
+ \lambda_{2} &=  \Labdatwee
 \end{align}
 
 De waarde voor $\lambda$ invullen in de algemene oplossing geeft;
@@ -91,7 +93,7 @@ De waarde voor $\lambda$ invullen in de algemene oplossing geeft;
  I_h = C_1e^{\lambda_1 x} + C_2e^{\lambda_1 x} \qquad \text{met } C \in \mathbb{R}
 \end{align*}
 \begin{align}
- I_h = C_1e^{\Labda_een x} + C_2e^{ \Labda_twee x} \qquad \text{met } C \in \mathbb{R}
+ I_h = C_1e^{\Labdaeen x} + C_2e^{ \Labdatwee x} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.
@@ -102,15 +104,15 @@ Als vorm voor de particuliere oplossing stel:
 
 Invullen in de D.V. geeft:
 \begin{align}
- \L \cdot(-C_1\sin(x) - C_2\cos(x)) + \R \cdot (C_1\cos(x) - C_2\sin(x)) + \CC \cdot (C_1\sin(x) + C_2\cos(x)) &= -48\sin(x) \\
- - \L C_1\sin(x) - \L C_2\cos(x)  + \R C_1\cos(x) - \R C_2\sin(x)) + \CC C_1\sin(x) + \CC C_2\cos(x)  = -48\sin(x) \\
- (- \L C_1 + \CC C_1 - \R C_2) \sin(x) + (\R C_1+ \CC C_2- \L C_2)\cos(x)   = -48\sin(x) \\
-  (-\LC C_1 - \R C_2) \sin(x) + (\R C_1- \LC C_2)\cos(x)   = -48\sin(x)
+ \L \cdot(-C_1\sin(x) - C_2\cos(x)) + \R \cdot (C_1\cos(x) - C_2\sin(x)) + \CC \cdot (C_1\sin(x) + C_2\cos(x)) &= - \U \sin(x) \\
+ - \L C_1\sin(x) - \L C_2\cos(x)  + \R C_1\cos(x) - \R C_2\sin(x)) + \CC C_1\sin(x) + \CC C_2\cos(x)  = - \U \sin(x) \\
+ (- \L C_1 + \CC C_1 - \R C_2) \sin(x) + (\R C_1+ \CC C_2- \L C_2)\cos(x)   = - \U \sin(x) \\
+  (-\LC C_1 - \R C_2) \sin(x) + (\R C_1- \LC C_2)\cos(x)   = - \U \sin(x)
 \end{align}
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
- - \LC C_1 - \R C_2 &= -48 \\
+ - \LC C_1 - \R C_2 &= - \U \\
  \R C_1- \LC C_2 &= 0
 \end{align}
 
@@ -123,28 +125,28 @@ Hieruit volgt:
 
 $C_1 $ invullen geeft:
 \begin{align}
- -\LC \cdot 0.03C_2 - \R C_2 &= -48\\
-  0.81C_2 + 100 C_2 &= -48\\
-  100.81C_2 &= -48\\
-  C_2 &= 0.476
+ -\LC \cdot 0.03C_2 - \R C_2 &= - \U\\
+- 0.09C_2 - \R C_2 &= - \U \\
+  -100.09C_2 &= - \U\\
+  C_2 &= 0.239
 \end{align}
 
 $C_2 $ invullen geeft:
 \begin{align}
  C_1 &= 0.03C_2 \\
- C_1 &= 0.03 \cdot 0.476\\
- C_1 &= 0.0429
+ C_1 &= 0.03 \cdot 0.239\\
+ C_1 &= 0.007
 \end{align}
 
 De waardes voor $C_1$, $C_2$  invullen in de particuliere oplossing geeft:
 \begin{align}
-  I_p = 0.0429\sin(x) + 0.476\cos(x)
+  I_p = \Ceen \sin(x) + \Ctwee \cos(x)
 \end{align}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  I &= I_h + I_p \\
- I &= C_1e^{-0.010x} + C_2e^{-9.989x} + 0.0429\sin(x) + 0.476\cos(x)   \qquad \text{met } C \in \mathbb{R}
+ I &= C_1e^{\labdaeen x} + C_2e^{\labdatwee x} + \Ceen \sin(x) + \Ctwee \cos(x)   \qquad \text{met } C \in \mathbb{R}
 \end{align}
 
 De gegeven voorwaarden gebruiken om $C_1$ en $C_2$ te bepalen.  $I(0) = 0$ en $I'(0) = 1$
