@@ -147,7 +147,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  I &= C_1e^{ \labdaeen x} + C_2e^{ \labdatwee x} + \Ceen \sin(x) + \Ctwee \cos(x)   \qquad \text{met } C \in \mathbb{R}
 \end{align}
 
-De gegeven voorwaarden gebruiken om $C_1$ en $C_2$ te bepalen.  $I(0) = 0$ en $I'(0) = 1$
+De gegevenvoorwaarden gebruiken om $C_1$ en $C_2$ te bepalen.  $I(0) = 0$ en $I'(0) = 1$
 
 Dus invullen geeft voor $I(0) = 0$:
 \begin{align}
