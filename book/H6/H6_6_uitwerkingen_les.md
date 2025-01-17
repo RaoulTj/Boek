@@ -282,13 +282,13 @@ De gegeven voorwaarden gebruiken om $C_1$ en $C_2$ te bepalen, $u(0) = 0.1$ en $
 Dus invullen geeft:
 \begin{align*}
  u &=  C_1\cos(\sqrt{ \q }t) + C_2\sin (\sqrt{ \q }t )  \\
- 0.1 &=  C_1\cos(\sqrt{ \q } \cdot 0 ) + C_2\sin (\sqrt{ \q } \cdot 0) \\
- 0.1 &= C_1 \cdot 1 + 0
+ \Unul &=  C_1\cos(\sqrt{ \q } \cdot 0 ) + C_2\sin (\sqrt{ \q } \cdot 0) \\
+ \Unul &= C_1 \cdot 1 + 0
 \end{align*}
 
 Hieruit volgt:
 \begin{align*}
- C_1 = 0.1
+ C_1 = \Unul
 \end{align*}
 
 $C_1 $ invullen geeft:
@@ -306,7 +306,7 @@ Hieruit volgt:
 Dus $C_1$ en $C_2$ invullen in de totale oplossing geeft:
 \begin{align*}
  u &=  C_1\cos(\sqrt{ \q }t) + C_2\sin (\sqrt{ \q  }t ) \\
- u &= 0.1 \cos(\sqrt{ \q }t)
+ u &= \Unul \cos(\sqrt{ \q }t)
 \end{align*}
 ```
 ````
