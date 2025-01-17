@@ -12,7 +12,7 @@ $
 \newcommand{\Ceen}{0.007}
 \newcommand{\Ctwee}{0.239}
 \newcommand{\A}{500}
-\newcommand{\b}{500}
+\newcommand{\B}{500}
 $
 
 ## Opgave 1
@@ -169,12 +169,12 @@ Dus invullen geeft voor $I'(0) = 1$:
  1 &= \Leen C_1e^{ \Leen \cdot 0}  \Ltwee e^{ \Ltwee \cdot 0} + \Ceen \cos(0) - \Ctwee \sin(0) \\
  1 &= \Leen C_1e^{0}  \Ltwee C_2e^{0} + \Ceen - 0  \\
  1 &= \Leen C_1  \Ltwee C_2 + \Ceen  \\
- 0.993 &= -0.010C_1  -9.989C_2
+ 0.993 &= \Leen C_1  \Ltwee C_2
 \end{align}
 
 $C_1$ invullen geeft:
 \begin{align}
- 0.993 &= -0.010(0.024-C_2)  -9.989C_2  \\
+ 0.993 &= \Leen (0.024-C_2)  \Ltwee C_2  \\
  0.993 &= 2.4\cdot 10^{-4} + 0.010C_2  -9.989C_2 \\
  0.993 &= -9.979C_2\\
  C_2 &=  \B
