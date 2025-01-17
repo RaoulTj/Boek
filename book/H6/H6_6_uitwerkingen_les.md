@@ -145,7 +145,7 @@ De waardes voor $C_1$, $C_2$  invullen in de particuliere oplossing geeft:
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  I &= I_h + I_p \\
- I &= C_1e^{\labdaeen x} + C_2e^{\labdatwee x} + \Ceen \sin(x) + \Ctwee \cos(x)   \qquad \text{met } C \in \mathbb{R}
+ I &= C_1e^{ \labdaeen x} + C_2e^{ \labdatwee x} + \Ceen \sin(x) + \Ctwee \cos(x)   \qquad \text{met } C \in \mathbb{R}
 \end{align}
 
 De gegeven voorwaarden gebruiken om $C_1$ en $C_2$ te bepalen.  $I(0) = 0$ en $I'(0) = 1$
@@ -165,9 +165,9 @@ Hieruit volgt:
 
 Dus invullen geeft voor $I'(0) = 1$:
 \begin{align}
- 1 &= -0.010C_1e^{-0.010 \cdot 0}  -9.989C_2e^{-9.989 \cdot 0} + 0.0429\cos(0) - 0.476\sin(0) \\
- 1 &= -0.010C_1e^{0}  -9.989C_2e^{0} + 0.0429 - 0  \\
- 1 &= -0.010C_1  -9.989C_2 + 0.0429  \\
+ 1 &= \labdaeen C_1e^{ \labdaeen \cdot 0}  \labdatwee e^{ \labdatwee \cdot 0} + \Ceen \cos(0) - \Ctwee \sin(0) \\
+ 1 &= \labdaeen C_1e^{0}  \labdatwee C_2e^{0} + \Ceen - 0  \\
+ 1 &= \labdaeen C_1  \labdatwee C_2 + \Ceen  \\
  0.9571 &= -0.010C_1  -9.989C_2
 \end{align}
 
