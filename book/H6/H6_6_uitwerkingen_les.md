@@ -125,7 +125,7 @@ Hieruit volgt:
 
 $C_1 $ invullen geeft:
 \begin{align}
- -\LC \cdot 0.03C_2 - \R C_2 &= - \U\\
+ \LC \cdot -0.03C_2 - \R C_2 &= - \U\\
 - 0.09C_2 - \R C_2 &= - \U \\
   -100.09C_2 &= - \U\\
   C_2 &= \Ctwee
