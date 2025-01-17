@@ -12,7 +12,7 @@ $
 \newcommand{\Ceen}{0.007}
 \newcommand{\Ctwee}{0.239}
 \newcommand{\A}{500}
-\newcommand{\B}{500}
+\newcommand{\B}{ -0.219}
 $
 
 ## Opgave 1
@@ -175,14 +175,14 @@ Dus invullen geeft voor $I'(0) = 1$:
 $C_1$ invullen geeft:
 \begin{align}
  0.993 &= \Leen (- \Ctwee -C_2)  \Ltwee C_2  \\
- 0.993 &= 2.4\cdot 10^{-4} - \Leen C_2  \Ltwee C_2 \\
- 0.993 &= -9.979C_2\\
+ 0.993 &= 11.938 - \Leen C_2  \Ltwee C_2 \\
+ -10.945 &= 49.90C_2\\
  C_2 &=  \B
 \end{align}
 
 $C_2$ invullen geeft:
 \begin{align}
- C_1 &= 0.024 - -0.0959\\
+ C_1 &= - \Ctwee - \B\\
  C_1 &= \A
 \end{align}
 
