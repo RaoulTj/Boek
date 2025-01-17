@@ -99,46 +99,46 @@ De waarde voor $\lambda$ invullen in de algemene oplossing geeft;
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.
 Als vorm voor de particuliere oplossing stel:
 \begin{align}
- y_p =  C_1\sin(x) + C_2\cos(x)
+ y_p =  A\sin(x) + B\cos(x)
 \end{align}
 
 Invullen in de D.V. geeft:
 \begin{align}
- \L \cdot(-C_1\sin(x) - C_2\cos(x)) + \R \cdot (C_1\cos(x) - C_2\sin(x)) + \CC \cdot (C_1\sin(x) + C_2\cos(x)) &= - \U \sin(x) \\
- - \L C_1\sin(x) - \L C_2\cos(x)  + \R C_1\cos(x) - \R C_2\sin(x)) + \CC C_1\sin(x) + \CC C_2\cos(x)  = - \U \sin(x) \\
- (- \L C_1 + \CC C_1 - \R C_2) \sin(x) + (\R C_1+ \CC C_2- \L C_2)\cos(x)   = - \U \sin(x) \\
-  (\LC C_1 - \R C_2) \sin(x) + (\R C_1 + \LC C_2)\cos(x)   = - \U \sin(x)
+ \L \cdot(-A\sin(x) - B\cos(x)) + \R \cdot (A\cos(x) - B\sin(x)) + \CC \cdot (A\sin(x) + B\cos(x)) &= - \U \sin(x) \\
+ - \L A\sin(x) - \L B\cos(x)  + \R A\cos(x) - \R B\sin(x)) + \CC A\sin(x) + \CC B\cos(x)  = - \U \sin(x) \\
+ (- \L A + \CC A - \R B) \sin(x) + (\R A+ \CC B- \L B)\cos(x)   = - \U \sin(x) \\
+  (\LC A - \R B) \sin(x) + (\R A + \LC B)\cos(x)   = - \U \sin(x)
 \end{align}
 
 De coëfficiënten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
-  \LC C_1 - \R C_2 &= - \U \\
- \R C_1 +  \LC C_2 &= 0
+  \LC A - \R B &= - \U \\
+ \R A +  \LC B &= 0
 \end{align}
 
 Hieruit volgt:
 \begin{align}
-\R C_1 + \LC C_2 &= 0 \\
-\R C_1 &= -\LC C_2 \\
- C_1 &= -0.03C_2
+\R A + \LC B &= 0 \\
+\R A &= -\LC B \\
+ A &= -0.03B
 \end{align}
 
-$C_1 $ invullen geeft:
+$A $ invullen geeft:
 \begin{align}
- \LC \cdot -0.03C_2 - \R C_2 &= - \U\\
-- 0.09C_2 - \R C_2 &= - \U \\
-  -100.09C_2 &= - \U\\
-  C_2 &= \Ctwee
+ \LC \cdot -0.03B - \R B &= - \U\\
+- 0.09B - \R B &= - \U \\
+  -100.09B &= - \U\\
+  B &= \Ctwee
 \end{align}
 
-$C_2 $ invullen geeft:
+$B $ invullen geeft:
 \begin{align}
- C_1 &= -0.03C_2 \\
- C_1 &= 0.03 \cdot \Ctwee \\
- C_1 &= \Ceen
+ A &= -0.03B \\
+ A &= 0.03 \cdot \Ctwee \\
+ A &= \Ceen
 \end{align}
 
-De waardes voor $C_1$, $C_2$  invullen in de particuliere oplossing geeft:
+De waardes voor $A$, $B$  invullen in de particuliere oplossing geeft:
 \begin{align}
   I_p = \Ceen \sin(x) + \Ctwee \cos(x)
 \end{align}
