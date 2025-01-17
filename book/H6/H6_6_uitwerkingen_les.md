@@ -169,14 +169,14 @@ Dus invullen geeft voor $I'(0) = 1$:
  1 &= \Leen C_1e^{ \Leen \cdot 0}  \Ltwee e^{ \Ltwee \cdot 0} + \Ceen \cos(0) - \Ctwee \sin(0) \\
  1 &= \Leen C_1e^{0}  \Ltwee C_2e^{0} + \Ceen - 0  \\
  1 &= \Leen C_1  \Ltwee C_2 + \Ceen  \\
- 0.993 &= \Leen C_1  \Ltwee C_2
+ 1.007 &= \Leen C_1  \Ltwee C_2
 \end{align}
 
 $C_1$ invullen geeft:
 \begin{align}
- 0.993 &= \Leen (- \Ctwee -C_2)  \Ltwee C_2  \\
- 0.993 &= 11.938 - \Leen C_2  \Ltwee C_2 \\
- -10.945 &= 49.90C_2\\
+ 1.007 &= \Leen (- \Ctwee -C_2)  \Ltwee C_2  \\
+ 1.007 &= 11.938 - \Leen C_2  \Ltwee C_2 \\
+ -10.931 &= 49.90C_2\\
  C_2 &=  \B
 \end{align}
 
