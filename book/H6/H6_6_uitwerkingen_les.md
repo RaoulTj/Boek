@@ -28,7 +28,7 @@ De stroomsterkte, I (t) als functie van tijd is:
 
 Bepaal de stroomsterkte $I(t)$ in een RLC-netwerk als de volgende parameters zijn gegeven:
 
-$R = \R$ $\Omega$, $L=\L$H, $$C =\C$F, $U(t)=\U \cos(t)$V, $I(0)=0.5$A en $I'(0)=1.0$A/s
+$R = \R$ $\Omega$, $L=\L$H, $$C =\C$F, $U(t)=\U \cos(t)$V, $I(0)=0.0$A en $I'(0)=1.0$A/s
 
 Voor een RLC-kring geldt:
   \begin{align}
@@ -206,10 +206,7 @@ $
 
 ````{admonition} Antwoord
 :class: dropdown
-De stroomsterkte, I (t) als functie van tijd is:
-\begin{align}
- I &= 0.1199e^{-0.010x} -0.0959e^{-9.989x} + 0.0429\sin(x) + 0.476\cos(x)
-\end{align}
+
 
 ```{dropdown} Uitwerking
 
@@ -265,7 +262,7 @@ De oplossingen van de karakteristieke vergelijking zijn:
 \begin{align*}
  \lambda_{1,2} &= \dfrac{0 \pm i\sqrt{2000}}{2 \cdot \m }\\
  \lambda_{1,2} &= \dfrac{0 \pm 4\sqrt{15}i}{2 \cdot \m }\\
- \lambda_{1,2} &= -0 \pm \sqrt{15} \cdot i
+ \lambda_{1,2} &= -0 \pm \sqrt{ \q } \cdot i
 \end{align*}
 
 Hieruit volgt dat $p=0$ en $q=\sqrt{ \q }$
@@ -277,7 +274,7 @@ De waarde voor $p$ en $q$ invullen in de homogene oplossing geeft;
  u_h &= C_1\cos(\sqrt{ \q }t) + C_2\sin (\sqrt{ \q }t )  \qquad  \text{met } C_{1,2} \in \mathbb{R}
 \end{align*}
 
-De gegeven voorwaarden gebruiken om $C_1$ en $C_2$ te bepalen, $u(0) = 0.1$ en $u'(0) = 0$\\
+De gegeven voorwaarden gebruiken om $C_1$ en $C_2$ te bepalen, $u(0) = 0.25$ en $u'(0) = 0$\\
 
 Dus invullen geeft:
 \begin{align*}
