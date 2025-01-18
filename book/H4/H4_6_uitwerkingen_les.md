@@ -64,7 +64,7 @@ De oplossingen van de karakteristieke vergelijking zijn:
 
 De waarde voor $\lambda$ invullen in de algemene oplossing geeft;
 \begin{align}
- y_h &= C_1e^{\lambda_1 x} + C_2e^{\lambda_2 x} \qquad \text{met } C \in \mathbb{R}
+ y_h &= C_1e^{\lambda_1 x} + C_2e^{\lambda_2 x} \qquad \text{met } C \in \mathbb{R} \\
  y_h &= C_1e^{-4 x} + C_2e^{-3 x} \qquad \text{met } C \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
@@ -192,6 +192,16 @@ Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijkin
  4\dfrac{d^2y}{dx^2}+\dfrac{dy}{dx} +4y = 5x
 \end{align*}
 
+De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
+\begin{align}
+ y = y_h + y_p
+\end{align}
+
+De homogene D.V. wordt:
+\begin{align}
+ 4\dfrac{d^2y}{dx^2}+\dfrac{dy}{dx} +4y = 0
+\end{align}
+
 Als algemene oplossing voor de D.V. stel:
 \begin{align}
  y = Ce^{\lambda x} \text{ met } C \in \mathbb{R}
@@ -231,11 +241,11 @@ Hieruit volgt dat $p=-\dfrac{1}{8}$ en $q=\dfrac{3\sqrt{7}}{8}$
 
 De waarde voor $p$ en $q$ invullen in de algemene oplossing geeft;
 \begin{align*}
- y_h = e^{px}(C_1\cos(qx) + C_2\sin(qx)) \qquad \text{met } C \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
+ y_h = e^{px}(C_1\cos(qx) + C_2\sin(qx)) \qquad \text{met } C \in \mathbb{R}
 \end{align*}
 
 \begin{align}
- y_h = e^{-\frac{1}{8}x}\left(C_1\cos\left(\dfrac{3\sqrt{7}}{8}x\right) + C_2\sin \left( \dfrac{3\sqrt{7}}{8}x \right)\right) \qquad  \text{met } C \in \mathbb{R}
+ y_h = e^{-\frac{1}{8}x}\left(C_1\cos\left(\dfrac{3\sqrt{7}}{8}x\right) + C_2\sin \left( \dfrac{3\sqrt{7}}{8}x \right)\right) \qquad  \text{met } C \in \mathbb{R}  \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V. 
@@ -253,7 +263,7 @@ Dus,
 Invullen in de D.V. geeft:
 \begin{align}
  4 \cdot (0) + (A) + 4 \cdot (Ax + B) &= 5x \\
- A + 4Ax + 4B &= 5x
+ A + 4Ax + 4B &= 5x \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
@@ -304,6 +314,16 @@ Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijkin
 \begin{align*}
  \dfrac{d^2y}{dx^2}-3\dfrac{dy}{dx} = 3x-2
 \end{align*}
+
+De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
+\begin{align}
+ y = y_h + y_p
+\end{align}
+
+De homogene D.V. wordt:
+\begin{align}
+ \dfrac{d^2y}{dx^2}-3\dfrac{dy}{dx} = 0 \qquad {\color{blue} \text{(1p)}}
+\end{align}
 
 Als algemene oplossing voor de D.V. stel:
 \begin{align}
@@ -424,6 +444,16 @@ Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijkin
  \dfrac{d^2y}{dx^2}-6\dfrac{dy}{dx} +9y = 5xe^{3x}
 \end{align*}
 
+De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
+\begin{align}
+ y = y_h + y_p
+\end{align}
+
+De homogene D.V. wordt:
+\begin{align}
+ \dfrac{d^2y}{dx^2}-6\dfrac{dy}{dx} +9y = 0 \qquad {\color{blue} \text{(1p)}}
+\end{align}
+
 Als algemene oplossing voor de D.V. stel:
 \begin{align}
  y = Ce^{\lambda x} \text{ met } C \in \mathbb{R}
@@ -444,7 +474,7 @@ Invullen in de D.V. geeft:
 De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \
 Verder geldt dat $e^{\lambda x} \neq 0 $ dus,
 \begin{align}
- \lambda^2 -6 \lambda + 9 &= 0
+ \lambda^2 -6 \lambda + 9 &= 0 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Dus de discriminant is,
@@ -456,7 +486,7 @@ De oplossingen van de karakteristieke vergelijking zijn:
 \begin{align}
   \lambda_{1,2} &= \dfrac{6 \pm i\sqrt{0}}{2 \cdot 1}\\
   \lambda_{1,2} &= \dfrac{6}{2} \pm \dfrac{\sqrt{0}}{2} \\
- \lambda_{1,2} &= \dfrac{6}{2} \pm \dfrac{0}{2}
+ \lambda_{1,2} &= \dfrac{6}{2} \pm \dfrac{0}{2} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Hieruit volgt dat $\lambda_1=3$ en $\lambda_2=3$
@@ -465,7 +495,7 @@ De waarde voor $\lambda_1$ en $\lambda_2$ invullen in de algemene oplossing geef
 \begin{align*}
  y_h &= C_1e^{\lambda_1x} + C_2e^{\lambda_2x} \qquad \text{met } C \in \mathbb{R} \\
  y_h &= C_1e^{3x} + C_2e^{3x}x \qquad \text{met } C \in \mathbb{R} \\
- y_h &= (C_1 + C_2x)e^{3x} \qquad \text{met } C \in \mathbb{R}
+ y_h &= (C_1 + C_2x)e^{3x} \qquad \text{met } C \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
 \end{align*}
 
 
@@ -478,13 +508,13 @@ Als vorm voor de particuliere oplossing stel:
 Axe^{3x} is al een oplossing van de homogene oplossing dus,
 \begin{align}
  y_p &= (Axe^{3x} + Be^{3x})x \\
- y_p &= Ax^2e^{3x} + Bxe^{3x}
+ y_p &= Ax^2e^{3x} + Bxe^{3x} 
 \end{align}
 
 Bxe^{3x} is al een oplossing van de homogene oplossing dus,
 \begin{align}
  y_p &= (Ax^2e^{3x} + Bxe^{3x})x \\
- y_p &= Ax^3e^{3x} + Bx^2e^{3x}
+ y_p &= Ax^3e^{3x} + Bx^2e^{3x} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Dus,
@@ -497,34 +527,34 @@ Dus,
 Invullen in de D.V. geeft:
 \begin{align}
  (9Ax^3e^{3x} + 18Ax^2e^{3x} + 6Axe^{3x} + 9Bx^2e^{3x} + 12Bxe^{3x} + 2Be^{3x}) -6 (3Ax^2e^{3x} + 3Ax^3e^{3x}  + 2Bxe^{3x} + 3Bx^2e^{3x}) + 9(Ax^3e^{3x} + Bx^2e^{3x}) &= 5xe^{3x} \\
- 6Axe^{3x} + 2Be^{3x} &= 5xe^{3x}
+ 6Axe^{3x} + 2Be^{3x} &= 5xe^{3x} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
  6A &= 5 \\
- 2B &= 0
+ 2B &= 0\qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Hieruit volgt:
 \begin{align}
- A = \dfrac{5}{6}
+ A = \dfrac{5}{6} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Hieruit volgt:
 \begin{align}
- B = 0
+ B = 0 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De waardes voor $A$, $B$ invullen in de particuliere oplossing geeft:
 \begin{align}
- y_p = \dfrac{5}{6}x^3e^{3x}
+ y_p = \dfrac{5}{6}x^3e^{3x} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  y &= y_h + y_p \\
- y &= (C_1 + C_2x)e^{3x} + \dfrac{5}{6}x^3e^{3x} \qquad \text{met } C_{1,2} \in \mathbb{R}
+ y &= (C_1 + C_2x)e^{3x} + \dfrac{5}{6}x^3e^{3x} \qquad \text{met } C_{1,2} \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 ```
 ````
@@ -546,6 +576,16 @@ Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijkin
  2\dfrac{d^2y}{dx^2}+8y = 2\sin(2x)
 \end{align*}
 
+De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
+\begin{align}
+ y = y_h + y_p
+\end{align}
+
+De homogene D.V. wordt:
+\begin{align}
+ 2\dfrac{d^2y}{dx^2}+8y = 0 \qquad {\color{blue} \text{(1p)}}
+\end{align}
+
 Als algemene oplossing voor de D.V. stel:
 \begin{align}
  y = Ce^{\lambda x} \text{ met } C \in \mathbb{R}
@@ -566,7 +606,7 @@ Invullen in de D.V. geeft:
 De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \
 Verder geldt dat $e^{\lambda x} \neq 0 $ dus,
 \begin{align}
- 2\lambda^2 +8 &= 0
+ 2\lambda^2 +8 &= 0 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Dus de discriminant is,
@@ -597,7 +637,7 @@ De waarde voor $p$ en $q$ invullen in de algemene oplossing geeft;
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V. 
 Als vorm voor de particuliere oplossing stel:
 \begin{align}
- y_p = A\sin(2x) + B\cos(2x)
+ y_p = A\sin(2x) + B\cos(2x) 
 \end{align}
 
 $A\sin(2x)$ is al een oplossing van de homogene oplossing dus,
@@ -638,13 +678,13 @@ Hieruit volgt:
 
 De waardes voor $A$, $B$ invullen in de particuliere oplossing geeft:
 \begin{align}
- y_p = -\dfrac{1}{4}x\cos(2x)
+ y_p = -\dfrac{1}{4}x\cos(2x) \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  y &= y_h + y_p \\
- y &=  C_1\cos(2x) + C_2\sin(2x) -\dfrac{1}{4}x\cos(2x) \qquad \text{met } C_{1,2} \in \mathbb{R}
+ y &=  C_1\cos(2x) + C_2\sin(2x) -\dfrac{1}{4}x\cos(2x) \qquad \text{met } C_{1,2} \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 ```
 ````
