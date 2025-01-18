@@ -8,9 +8,9 @@
 
 De algemene oplossing van de differentiaalvergelijking is:
 
-\begin{align}
+\begin{align*}
   y  &=  C \cdot e^{-6x}  \qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -58,9 +58,9 @@ y=0 voldoet aan de dv dus,
 
 De algemene oplossing van de differentiaalvergelijking is:
 
-\begin{align}
+\begin{align*}
   y  &=  C \cdot e^{13x}  \qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 \begin{align*}
@@ -107,9 +107,9 @@ y=0 voldoet aan de dv dus,
 
 De algemene oplossing van de differentiaalvergelijking is:
 
-\begin{align}
+\begin{align*}
   y  &=  C \cdot e^{2x}  \qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 \begin{align*}
@@ -156,9 +156,9 @@ y=0 voldoet aan de dv dus,
 
 De algemene oplossing van de differentiaalvergelijking is:
 
-\begin{align}
+\begin{align*}
  y &= Ce^{7x} - \dfrac{2}{7}x^2 - \dfrac{32}{49}x - \dfrac{32}{343} \qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -268,9 +268,9 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 De algemene oplossing van de differentiaalvergelijking is:
 
-\begin{align}
+\begin{align*}
  y &= Ce^{-3x} + \dfrac{4}{3} e^{-3x} x  \qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -366,9 +366,9 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 De algemene oplossing van de differentiaalvergelijking is:
 
-\begin{align}
+\begin{align*}
  y &= Ce^{\dfrac{5}{3}x} -\dfrac{5}{106}\sin(x) -\dfrac{9}{106}\cos(x) - \dfrac{2}{5} \qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 

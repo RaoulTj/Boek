@@ -132,9 +132,9 @@ Na hoeveel minuten is de temperatuur 35$^{\circ}$ C:
 :class: dropdown
 
 De stroomsterkte $I(t)$ in een RC-netwerk is:
-\begin{align}
+\begin{align*}
  I &=  -2.01e^{-\frac{1}{20}t}  -\dfrac{200}{997.5}\sin(t) + \dfrac{400}{997.5}\cos(t) 
-\end{align}
+\end{align*}
 
 ````{dropdown} Uitwerking
 Bepaal de stroomsterkte $I(t)$ in een RC-netwerk als de volgende parameters zijn gegeven:
@@ -268,9 +268,9 @@ Dus C invullen in de totale oplossing geeft:
 :class: dropdown
 
 De stroomsterkte $I(t)$ in een RL-netwerk is:
-\begin{align}
+\begin{align*}
  I &=  - 2e^{-\dfrac{20}{3}t}  + 2
-\end{align}
+\end{align*}
 
 ````{dropdown} Uitwerking
 Bepaal de stroomsterkte $I(t)$ in een RL-netwerk als de volgende parameters zijn gegeven:
@@ -369,9 +369,7 @@ Dus C invullen in de totale oplossing geeft:
 `````{admonition} Antwoord
 :class: dropdown
 
-Bepaal de uiteindelijke valsnelheid van een voorwerp als deze vanaf een hoogte van 3000m naar beneden valt, als de volgende parameters zijn gegeven:
-
-Het voorwerp met een massa van $m = 150 kg$ valt met een beginsnelheid van $0 m/s$. Neem aan dat de luchtweerstand $F_w$ evenredig is met de valsnelheid.  De evenredigheidsconstante $k=35 Ns/m$. Neem voor de gravitatieconstante $g=9.81$ $m/s^2$
+Bepaal de uiteindelijke valsnelheid van het voorwerp is $42.04$ m/s
 
 ````{dropdown} Uitwerking
 Bepaal de uiteindelijke valsnelheid van een voorwerp als deze vanaf een hoogte van 3000m naar beneden valt, als de volgende parameters zijn gegeven:
@@ -475,7 +473,7 @@ dus 42.04 m/s
 `````{admonition} Antwoord
 :class: dropdown
 
-De temperatuur van een warm bad na 15 minuten is 
+De temperatuur van een warm bad na 15 minuten is $26.27^{\circ}$ C.
 
 ````{dropdown} Uitwerking
 
@@ -587,7 +585,7 @@ Dus k invullen in de totale oplossing geeft:
 Wat is de temperatuur na 15 minuten:
 \begin{align}
   T &=  46e^{-0.123 \cdot 15}  + 19 \\
-  T &= 
+  T &= 26.27^{\circ} \text[C]
 \end{align}
 ````
 `````
@@ -598,9 +596,9 @@ Wat is de temperatuur na 15 minuten:
 :class: dropdown
 
 De stroomsterkte $I(t)$ in een RC-netwerk is:
-\begin{align}
+\begin{align*}
  I &=  2e^{-\frac{1}{10}t}
-\end{align}
+\end{align*}
 
 ````{dropdown} Uitwerking
 Bepaal de stroomsterkte $I(t)$ in een RC-netwerk als de volgende parameters zijn gegeven:
