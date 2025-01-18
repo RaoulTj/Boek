@@ -590,7 +590,7 @@ Wat is de temperatuur na 15 minuten:
 ````
 `````
 
-(content:references:labels)=
+(576)=
 ## Opgave 6
 
 `````{admonition} Antwoord
@@ -673,3 +673,5 @@ Dus C invullen in de totale oplossing geeft:
 \end{align}
 ````
 `````
+
+{ref}`565`
