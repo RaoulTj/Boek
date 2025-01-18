@@ -5,6 +5,8 @@
 ````{admonition} Antwoord
 :class: dropdown
 
+De stroomsterkte $I(t)$, in een RC-netwerk is:
+
 \begin{align}
  I &= 1 \cdot e^{-\frac{1}{10}t}
 \end{align}
@@ -92,6 +94,8 @@ Dus C invullen in de totale oplossing geeft:
 
 ````{admonition} Antwoord
 :class: dropdown
+
+De stroomsterkte $I(t)$, in een RC-netwerk is:
 
 \begin{align}
  I &= - \dfrac{46}{17} e^{-\frac{1}{4}t}  +\dfrac{80}{17}\cos(t) - \dfrac{20}{17}\sin(t)
@@ -388,7 +392,7 @@ Na 33.18 minuten is de koffie nog maar 30$^{\circ}$C.
 ````{admonition} Antwoord
 :class: dropdown
 
-
+De stroomsterkte $I(t)$, in een RL-netwerk is:
 
  \begin{align}
    50 \sin(t) &= \dfrac{1}{2} \cdot \dfrac{dI}{dt} + 10 \cdot  I
@@ -423,6 +427,9 @@ Voor een RL-kring geldt:
 
 ````{admonition} Antwoord
 :class: dropdown
+
+De stroomsterkte $I(t)$, in een RC-netwerk is:
+
 
 ```{dropdown} Uitwerking
 
