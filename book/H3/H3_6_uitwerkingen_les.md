@@ -2,8 +2,11 @@
 
 ## Opgave 1
 
-```{admonition} Uitwerkingen
+
+````{admonition} Uitwerkingen
 :class: dropdown
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  \dfrac{dy}{dx} + 6y \\
@@ -40,12 +43,14 @@ y=0 voldoet aan de dv dus,
   y  &=  C \cdot e^{-6x}  \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 2
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
 
+```{dropdown} Uitwerking
 \begin{align*}
  \dfrac{dy}{dx} - 13y \\
  \dfrac{dy}{dx} = 13y\\
@@ -122,11 +127,14 @@ y=0 voldoet aan de dv dus,
   y  &=  C \cdot e^{2x}  \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 4
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  \dfrac{dy}{dx} - 7y = 2x^2 + 4x
@@ -225,11 +233,14 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  y &= Ce^{7x} - \dfrac{2}{7}x^2 - \dfrac{32}{49}x - \dfrac{32}{343} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 5
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  3\dfrac{dy}{dx} +9y &= 4e^{-3x}
@@ -314,11 +325,14 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  y &= Ce^{-3x} + \dfrac{4}{3} e^{-3x} x  \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 6
 
-```{admonition} Uitwerkingen
+````{admonition} Uitwerkingen
 :class: dropdown
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  3\dfrac{dy}{dx} - 5y &= 2 + \sin(3x)\\
@@ -422,3 +436,4 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  y &= Ce^{\dfrac{5}{3}x} -\dfrac{5}{106}\sin(x) -\dfrac{9}{106}\cos(x) - \dfrac{2}{5} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
