@@ -590,6 +590,7 @@ Wat is de temperatuur na 15 minuten:
 ````
 `````
 
+(content:references:labels)=
 ## Opgave 6
 
 `````{admonition} Antwoord
