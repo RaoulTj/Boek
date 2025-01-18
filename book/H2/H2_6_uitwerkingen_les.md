@@ -5,6 +5,8 @@
 ````{admonition} Antwoord
 :class: dropdown
 
+De algemene oplossing van de differentiaalvergelijking is:
+
 ```{dropdown} Uitwerking
 
 Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijkigen.
@@ -40,6 +42,8 @@ De primitieven nemen van beide kanten.
 
 ````{admonition} Antwoord
 :class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
 
 ```{dropdown} Uitwerking
 
@@ -80,6 +84,8 @@ dus,
 
 ````{admonition} Antwoord
 :class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
 
 ```{dropdown} Uitwerking
 
@@ -123,6 +129,8 @@ dus,
 ````{admonition} Antwoord
 :class: dropdown
 
+De algemene oplossing van de differentiaalvergelijking is:
+
 ```{dropdown} Uitwerking
 
 \begin{align*}
@@ -164,6 +172,8 @@ dus,
 
 ````{admonition} Antwoord
 :class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
 
 ```{dropdown} Uitwerking
 
@@ -210,6 +220,8 @@ y=0 voldoet aan de dv dus,
 
 ````{admonition} Antwoord
 :class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
 
 ```{dropdown} Uitwerking
 

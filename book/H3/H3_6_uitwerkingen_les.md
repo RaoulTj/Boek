@@ -6,6 +6,8 @@
 ````{admonition} Antwoord
 :class: dropdown
 
+De algemene oplossing van de differentiaalvergelijking is:
+
 ```{dropdown} Uitwerking
 
 \begin{align*}
@@ -50,6 +52,8 @@ y=0 voldoet aan de dv dus,
 ````{admonition} Antwoord
 :class: dropdown
 
+De algemene oplossing van de differentiaalvergelijking is:
+
 ```{dropdown} Uitwerking
 \begin{align*}
  \dfrac{dy}{dx} - 13y \\
@@ -93,6 +97,8 @@ y=0 voldoet aan de dv dus,
 ````{admonition} Antwoord
 :class: dropdown
 
+De algemene oplossing van de differentiaalvergelijking is:
+
 ```{dropdown} Uitwerking
 \begin{align*}
  3\dfrac{dy}{dx} - 6y \\
@@ -135,6 +141,8 @@ y=0 voldoet aan de dv dus,
 
 ````{admonition} Antwoord
 :class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
 
 ```{dropdown} Uitwerking
 
@@ -242,6 +250,8 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 ````{admonition} Antwoord
 :class: dropdown
 
+De algemene oplossing van de differentiaalvergelijking is:
+
 ```{dropdown} Uitwerking
 
 \begin{align*}
@@ -333,6 +343,8 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 ````{admonition} Antwoord
 :class: dropdown
+
+De algemene oplossing van de differentiaalvergelijking is:
 
 ```{dropdown} Uitwerking
 
