@@ -144,12 +144,12 @@ $R = 50$$\Omega$, $C =0.4$F, $U(t)=200\cos(t)$V en $I(0)=2.0$A
 Voor een RC-kring geldt:
   \begin{align}
    U(t) &= U_r + U_c   \\
-     &= R \cdot I + \dfrac{1}{C} \int I dt \qquad {\color{blue} \text{(1p)}}
+     &= R \cdot I + \dfrac{1}{C} \int I dt 
   \end{align}
 
   Beide zijdes differentiëren geeft de gevraagde DV.:
   \begin{align}
-   \dfrac{dU(t)}{dt} &= R \cdot \dfrac{dI}{dt} + \dfrac{1}{C} \cdot  I
+   \dfrac{dU(t)}{dt} &= R \cdot \dfrac{dI}{dt} + \dfrac{1}{C} \cdot  I \qquad {\color{blue} \text{(1p)}}
   \end{align}
 
   De gegevens invullen in de DV geeft:
@@ -608,19 +608,19 @@ $R = 100$$\Omega$, $C =0.1$F, $U(t)=100$V en $I(0)=1.0$A
 Voor een RC-kring geldt:
   \begin{align}
    U(t) &= U_R + U_C   \\
-     &= R \cdot I + \dfrac{1}{C} \int I dt \qquad {\color{blue} \text{(1p)}}
+     &= R \cdot I + \dfrac{1}{C} \int I dt 
   \end{align}
 
   Beide zijdes differentiëren geeft de gevraagde DV.:
   \begin{align}
-   \dfrac{dU(t)}{dt} &= R \cdot \dfrac{dI}{dt} + \dfrac{1}{C} \cdot  I
+   \dfrac{dU(t)}{dt} &= R \cdot \dfrac{dI}{dt} + \dfrac{1}{C} \cdot  I \qquad {\color{blue} \text{(1p)}}
   \end{align}
 
   De gegevens invullen in de DV geeft:
   \begin{align}
    \dfrac{dU(t)}{dt} &= 100 \cdot \dfrac{dI}{dt} + \dfrac{1}{0.1} \cdot  I\\
    \dfrac{d}{dt}(100 ) &= 100 \cdot \dfrac{dI}{dt} + \dfrac{1}{0.1} \cdot  I \\
-   0 &= 100 \cdot \dfrac{dI}{dt} + 10 \cdot  I
+   0 &= 100 \cdot \dfrac{dI}{dt} + 10 \cdot  I \qquad {\color{blue} \text{(1p)}}
   \end{align}
 
 De homogene D.V. wordt:
@@ -642,7 +642,7 @@ Invullen in de D.V. geeft:
 De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \
 Verder geldt dat $e^{\lambda t} \neq 0 $ dus,
 \begin{align}
- 100\lambda + 10   &= 0  \\
+ 100\lambda + 10   &= 0  \qquad {\color{blue} \text{(1p)}}\\
  100\lambda   &= -10 \\
  \lambda   &= -\dfrac{10}{100} = -\dfrac{1}{21} \qquad {\color{blue} \text{(1p)}}
 \end{align}
@@ -657,19 +657,18 @@ De gegeven voorwaarden gebruiken om C te bepalen.  $I(0) = 1$
 
 Dus invullen geeft:
 \begin{align}
- 1 &= Ce^{-\frac{1}{10} \cdot 0}   \\
+ 1 &= Ce^{-\frac{1}{10} \cdot 0}   \qquad {\color{blue} \text{(1p)}} \\
  2 &= C \cdot 1  \\
 \end{align}
 
 Hieruit volgt:
 \begin{align}
- C &= 2  \\
- C &= 2
+ C &= 2  \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Dus C invullen in de totale oplossing geeft:
 \begin{align}
- I &=  2e^{-\frac{1}{10}t}
+ I &=  2e^{-\frac{1}{10}t} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 ````
 `````
