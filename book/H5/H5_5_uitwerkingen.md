@@ -596,6 +596,82 @@ Neem aan dat de luchtweerstand $F_w$ evenredig is met de valsnelheid. De evenred
    \dfrac{dV}{dt} + \dfrac{0.1}{0.2} \cdot V &= 9.81  \\
    \dfrac{dV}{dt} + \dfrac{1}{2} \cdot V &= 9.81
   \end{align}
+
+De homogene D.V. wordt:
+\begin{align}
+ \dfrac{dV}{dt} + \dfrac{1}{2} \cdot V &= 0
+\end{align}
+
+Als oplossing voor de homogene D.V. stel:
+\begin{align}
+ V_h = Ce^{\lambda t} \text{ met } C \in \mathbb{R}
+\end{align}
+
+Invullen in de D.V. geeft:
+\begin{align}
+  \lambda \cdot Ce^{\lambda t} + \dfrac{1}{2} \cdot Ce^{\lambda t} &= 0 \\
+ (\lambda +\dfrac{1}{2} )\cdot Ce^{\lambda t}  &= 0
+\end{align}
+
+De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \
+Verder geldt dat $e^{\lambda t} \neq 0 $ dus,
+\begin{align}
+ \lambda + \dfrac{1}{2}   &= 0  \\
+ \lambda   &= -\dfrac{1}{2}
+\end{align}
+
+De waarde voor $\lambda $ invullen in de homogene oplossing geeft;
+\begin{align}
+ V_h = Ce^{-\frac{1}{2}t} \qquad \text{met } C \in \mathbb{R}
+\end{align}
+
+Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.  
+Als vorm voor de particuliere oplossing stel:
+\begin{align}
+ V_p &=  C_1 \\
+ V'_p &= 0
+\end{align}
+
+Invullen in de D.V. geeft:
+\begin{align}
+ 0 + \dfrac{1}{2} \cdot C_1 &= 9.81\\
+\end{align}
+
+Hieruit volgt:
+\begin{align}
+ \dfrac{1}{2} \cdot C_1 &= 9.81 \\
+ C_1 &= \dfrac{9.81}{\dfrac{1}{2}} = 19.62
+\end{align}
+
+De waardes voor $C_1$ invullen in de particuliere oplossing geeft:
+\begin{align}
+ V_p = 19.62
+\end{align}
+
+De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
+\begin{align}
+ V &= V_h + V_p \\
+ V &=  Ce^{-\frac{1}{2}t} + 19.62 \qquad \text{met } C \in \mathbb{R}  
+\end{align}
+
+De gegeven voorwaarden gebruiken om C te bepalen.  $V(0) = 0$
+
+Dus invullen geeft:
+\begin{align}
+ 0 &= Ce^{-\frac{1}{2} \cdot 0} + 19.62  \\
+ 0 &= C \cdot 1 + 19.62 \cdot 0
+\end{align}
+
+Hieruit volgt:
+\begin{align}
+ C &= -19.62
+\end{align}
+
+Dus C invullen in de totale oplossing geeft:
+\begin{align}
+ V &= -19.62e^{-\frac{1}{2}t} + 19.62
+\end{align}
+
 ```
 ````
 
