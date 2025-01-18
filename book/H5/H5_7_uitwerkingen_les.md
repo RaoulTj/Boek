@@ -609,7 +609,7 @@ $R = 100$$\Omega$, $C =0.1$F, $U(t)=100$V en $I(0)=1.0$A
 
 Voor een RC-kring geldt:
   \begin{align}
-   U(t) &= U_r + U_c   \\
+   U(t) &= U_R + U_C   \\
      &= R \cdot I + \dfrac{1}{C} \int I dt
   \end{align}
 
