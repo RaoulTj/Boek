@@ -380,15 +380,22 @@ Na 33.18 minuten is de koffie nog maar 30$^{\circ}$C.
 ````{admonition} Antwoord
 :class: dropdown
 
+
+
  \begin{align}
    50 \sin(t) &= \dfrac{1}{2} \cdot \dfrac{dI}{dt} + 10 \cdot  I
   \end{align}
 
 ```{dropdown} Uitwerking
-  Voor een RL-kring geldt:
+
+Bepaal de stroomsterkte $I(t)$ in een RL-netwerk als de volgende parameters zijn gegeven:
+
+$R = 10$$\Omega$, $L =0.5$H, $U(t)=50\sin(t)$V en $I(0)=0.0$A
+
+Voor een RL-kring geldt:
   \begin{align}
-   U(t) &= U_r + U_s   \\
-     &= R \cdot I + L \cdot \dfrac{dI}{dt}
+   U(t) &= U_r + U_c   \\
+     &= L \cdot \dfrac{dI}{dt} +  R \cdot I
   \end{align}
 
   %Beide zijdes differenti\"eren geeft de gevraagde DV.:
