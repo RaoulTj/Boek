@@ -13,7 +13,7 @@
 
   Voor een RC-kring geldt:
   \begin{align}
-   U(t) &= U_r + U_c   \\
+   U(t) &= U_R + U_C   \\
      &= R \cdot I + \dfrac{1}{C} \int I dt
   \end{align}
   
@@ -97,7 +97,7 @@ Dus C invullen in de totale oplossing geeft:
 
   Voor een RC-kring geldt:
   \begin{align}
-   U(t) &= U_r + U_c   \\
+   U(t) &= U_R + U_C   \\
      &= R \cdot I + \dfrac{1}{C} \int I dt
   \end{align}
   
@@ -394,7 +394,7 @@ $R = 10$$\Omega$, $L =0.5$H, $U(t)=50\sin(t)$V en $I(0)=0.0$A
 
 Voor een RL-kring geldt:
   \begin{align}
-   U(t) &= U_r + U_c   \\
+   U(t) &= U_R + U_C   \\
      &= L \cdot \dfrac{dI}{dt} +  R \cdot I
   \end{align}
 
