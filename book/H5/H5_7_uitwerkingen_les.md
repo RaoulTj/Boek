@@ -1,7 +1,5 @@
 # 5.7 Uitwerkingen les 6
 
-# 5.6 Uitwerkingen les 6
-
 ## Opgave 1
 
 `````{admonition} Antwoord
