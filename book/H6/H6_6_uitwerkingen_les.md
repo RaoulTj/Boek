@@ -1,5 +1,7 @@
 # 5.5 Uitwerkingen les 7
 
+## Opgave 1
+
 $
 \newcommand{\R}{100}
 \newcommand{\L}{2}
@@ -14,8 +16,6 @@ $
 \newcommand{\A}{-0.02}
 \newcommand{\B}{ -0.219}
 $
-
-## Opgave 1
 
 ````{admonition} Antwoord
 :class: dropdown
@@ -73,7 +73,7 @@ De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \
 Verder geldt dat $e^{\lambda t} \neq 0 $ dus,
 \begin{align}
  \L \lambda^2 + \R \lambda + \CC   &= 0 \\
- 10\lambda^2 + 100\lambda +1   &= 0
+ 10\lambda^2 + 100\lambda +1   &= 0 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Dus de discriminant is,
@@ -85,7 +85,7 @@ De oplossingen van de karakteristieke vergelijking zijn:
 \begin{align}
   \lambda_{1,2} &= \dfrac{-\R \pm \sqrt{9960}}{2 \cdot \L }\\
   \lambda_{1} &= \Leen\\
- \lambda_{2} &=  \Ltwee
+ \lambda_{2} &=  \Ltwee \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De waarde voor $\lambda$ invullen in de algemene oplossing geeft;
@@ -93,13 +93,13 @@ De waarde voor $\lambda$ invullen in de algemene oplossing geeft;
  I_h = C_1e^{\lambda_1 x} + C_2e^{\lambda_1 x} \qquad \text{met } C \in \mathbb{R}
 \end{align*}
 \begin{align}
- I_h = C_1e^{\Leen x} + C_2e^{ \Ltwee x} \qquad \text{met } C \in \mathbb{R}
+ I_h = C_1e^{\Leen x} + C_2e^{ \Ltwee x} \qquad \text{met } C \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.
 Als vorm voor de particuliere oplossing stel:
 \begin{align}
- y_p =  A\sin(x) + B\cos(x)
+ y_p =  A\sin(x) + B\cos(x) \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Invullen in de D.V. geeft:
@@ -107,13 +107,13 @@ Invullen in de D.V. geeft:
  \L \cdot(-A\sin(x) - B\cos(x)) + \R \cdot (A\cos(x) - B\sin(x)) + \CC \cdot (A\sin(x) + B\cos(x)) &= - \U \sin(x) \\
  - \L A\sin(x) - \L B\cos(x)  + \R A\cos(x) - \R B\sin(x)) + \CC A\sin(x) + \CC B\cos(x)  = - \U \sin(x) \\
  (- \L A + \CC A - \R B) \sin(x) + (\R A+ \CC B- \L B)\cos(x)   = - \U \sin(x) \\
-  (\LC A - \R B) \sin(x) + (\R A + \LC B)\cos(x)   = - \U \sin(x)
+  (\LC A - \R B) \sin(x) + (\R A + \LC B)\cos(x)   = - \U \sin(x) \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De coëfficiënten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
   \LC A - \R B &= - \U \\
- \R A +  \LC B &= 0
+ \R A +  \LC B &= 0 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Hieruit volgt:
@@ -128,25 +128,25 @@ $A $ invullen geeft:
  \LC \cdot -0.03B - \R B &= - \U\\
 - 0.09B - \R B &= - \U \\
   -100.09B &= - \U\\
-  B &= \Ctwee
+  B &= \Ctwee \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 $B $ invullen geeft:
 \begin{align}
  A &= -0.03B \\
  A &= 0.03 \cdot \Ctwee \\
- A &= \Ceen
+ A &= \Ceen \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De waardes voor $A$, $B$  invullen in de particuliere oplossing geeft:
 \begin{align}
-  I_p = \Ceen \sin(x) + \Ctwee \cos(x)
+  I_p = \Ceen \sin(x) + \Ctwee \cos(x) \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  I &= I_h + I_p \\
- I &= C_1e^{ \Leen x} + C_2e^{ \Ltwee x} + \Ceen \sin(x) + \Ctwee \cos(x)   \qquad \text{met } C \in \mathbb{R}
+ I &= C_1e^{ \Leen x} + C_2e^{ \Ltwee x} + \Ceen \sin(x) + \Ctwee \cos(x)   \qquad \text{met } C \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De gegeven voorwaarden gebruiken om $C_1$ en $C_2$ te bepalen.  $I(0) = 0$ en $I'(0) = 1$

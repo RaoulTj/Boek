@@ -618,7 +618,7 @@ De oplossingen van de karakteristieke vergelijking zijn:
 \begin{align}
  \lambda_{1,2} &= \dfrac{0 \pm i\sqrt{64}}{2 \cdot 2}\\
  \lambda_{1,2} &=  \pm \dfrac{\sqrt{64}}{4} \\
- \lambda_{1,2} &=   \pm \dfrac{8}{4}
+ \lambda_{1,2} &=   \pm \dfrac{8}{4} \\
  \lambda_{1,2} &=   \pm 2 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
@@ -630,8 +630,8 @@ De waarde voor $p$ en $q$ invullen in de algemene oplossing geeft;
 \end{align*}
 
 \begin{align}
- y_h = e^{0x}(C_1\cos(2x) + C_2\sin(2x)) \qquad  \text{met } C \in \mathbb{R} \\
- y_h = C_1\cos(2x) + C_2\sin(2x) \qquad  \text{met } C \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
+ y_h &= e^{0x}(C_1\cos(2x) + C_2\sin(2x)) \qquad  \text{met } C \in \mathbb{R} \\
+ y_h $= C_1\cos(2x) + C_2\sin(2x) \qquad  \text{met } C \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V. 
