@@ -395,7 +395,7 @@ Na 33.18 minuten is de koffie nog maar 30$^{\circ}$C.
 de bijbehorende differentiaalvergelijking in een RL-netwerk is:
 
 \begin{align*}
- U(t) &= \dfrac{1}{2}\dfrac{dI}{dt} + 10I(t)
+ U(t) &= L\dfrac{dI}{dt} + RI(t)
 \end{align*}
 
 ```{dropdown} Uitwerking
@@ -411,31 +411,25 @@ Voor een RL-kring geldt:
   \end{align}
 
 De wet van Ohm geeft de spanning over de weerstand:
-\begin{align*}
+\begin{align}
  U_R(t) = RI(t)
-\end{align*}
+\end{align}
 
 De spanning over de speol wordt gegeven door:
-\begin{align*}
+\begin{align}
  U_L(t) = L \cdot \dfrac{dI}{dt}
-\end{align*}
+\end{align}
 
 Er geldt dus:
-\begin{align*}
+\begin{align}
  U(t) &= U_L(t) + U_R(t) \\
  &= L\dfrac{dI}{dt} + RI(t)
-\end{align*}
+\end{align}
 
 Differentiëren van de vergelijking is niet nodig, de gewenste differentiaalvergelijking hebben we al:
-\begin{align*}
+\begin{align}
  U(t) &= L\dfrac{dI}{dt} + RI(t)
-\end{align*}
-
-Invullen van de getallen geeft:
-\begin{align*}
- U(t) &= \dfrac{1}{2}\dfrac{dI}{dt} + 10I(t)
-\end{align*}
-
+\end{align}
 ```
 ````
 
@@ -452,6 +446,15 @@ De stroomsterkte $I(t)$, in een RL-netwerk is:
 ```{dropdown} Uitwerking
 
 Bepaal de formule voor $I(t)$ als gegeven is dat: $R = 10Ω$, $L = 0.5$H, $U (t) = 50 \sin(t)$V , $I (0) = 0$A.
+
+\begin{align*}
+ U(t) &= L\dfrac{dI}{dt} + RI(t)
+\end{align*}
+
+Invullen van de getallen geeft:
+\begin{align*}
+ U(t) &= \dfrac{1}{2}\dfrac{dI}{dt} + 10I(t)
+\end{align*}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
