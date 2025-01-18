@@ -7,9 +7,9 @@
 
 De algemene oplossing van de differentiaalvergelijking is:
 
-\begin{align}
+\begin{align*}
  y &= \pm \sqrt{x^2 + C} \qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -45,9 +45,9 @@ De primitieven nemen van beide kanten.
 
 De algemene oplossing van de differentiaalvergelijking is:
 
-\begin{align}
+\begin{align*}
  y  & = \sqrt[3]{3e^x + C} \qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -90,9 +90,9 @@ De primitieven nemen van beide kanten.
 
 De algemene oplossing van de differentiaalvergelijking is:
 
-\begin{align}
+\begin{align*}
  y  &=  Ce^{-\cos(x)} \qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -141,9 +141,9 @@ $y = 0$ voldoet aan de dv, dus
 
 De algemene oplossing van de differentiaalvergelijking is:
 
-\begin{align}
+\begin{align*}
  y &=  C\cdot  (x+3)^2 - 2 &\qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -195,9 +195,9 @@ $y+2 = 0$ voldoet aan de dv, dus
 
 De gevraagde oplossing van de differentiaalvergelijking is:
 
-\begin{align}
+\begin{align*}
  y &= \frac{1}{\arcsin(x) + 2}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -253,9 +253,9 @@ De constante invullen in de gevonden algemene oplossing geeft;
 
 De gevraagde oplossing van de differentiaalvergelijking is:
 
-\begin{align}
+\begin{align*}
  y &= \pm \sqrt{\dfrac{5}{x^2}  -1}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -333,9 +333,9 @@ De constante invullen in de gevonden algemene oplossing geeft;
 
 De gevraagde oplossing van de differentiaalvergelijking is:
 
-\begin{align}
+\begin{align*}
  \frac{1}{3}y^3 + y &= x^2 + 8
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
