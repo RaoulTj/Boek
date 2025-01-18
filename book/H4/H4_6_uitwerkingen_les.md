@@ -24,7 +24,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 De homogene D.V. wordt:
 \begin{align}
- \dfrac{d^2y}{dx^2} + 7\dfrac{dy}{dx} +12 y = 0
+ \dfrac{d^2y}{dx^2} + 7\dfrac{dy}{dx} +12 y = 0 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Als algemene oplossing voor de D.V. stel:
@@ -47,7 +47,7 @@ Invullen in de D.V. geeft:
 De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \
 Verder geldt dat $e^{\lambda x} \neq 0 $ dus,
 \begin{align}
- \lambda^2 +7 \lambda +12 &= 0
+ \lambda^2 +7 \lambda +12 &= 0 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Dus de discriminant is,
@@ -59,19 +59,19 @@ De oplossingen van de karakteristieke vergelijking zijn:
 \begin{align}
   \lambda_{1,2} &= -\dfrac{7 \pm \sqrt{1}}{2 \cdot 1}\\
   \lambda_{1,2} &= -\dfrac{7 \pm 1}{2}\\
-  \lambda_{1} = -4 &\vee \lambda_{2} = -3
+  \lambda_{1} = -4 &\vee \lambda_{2} = -3 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De waarde voor $\lambda$ invullen in de algemene oplossing geeft;
 \begin{align}
  y_h &= C_1e^{\lambda_1 x} + C_2e^{\lambda_2 x} \qquad \text{met } C \in \mathbb{R}
- y_h &= C_1e^{-4 x} + C_2e^{-3 x} \qquad \text{met } C \in \mathbb{R}
+ y_h &= C_1e^{-4 x} + C_2e^{-3 x} \qquad \text{met } C \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V. 
 Als vorm voor de particuliere oplossing stel:
 \begin{align}
- y_p =  A\sin(2x) + B\cos(2x)
+ y_p =  A\sin(2x) + B\cos(2x) \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Dus,
@@ -85,13 +85,13 @@ Invullen in de D.V. geeft:
   (-4A\sin(2x) - 4B\cos(2x))  +7 \cdot (2A\cos(2x) - 2B\sin(2x)) +12 \cdot (A\sin(2x) + B\cos(2x))  &= 10\cos(2x) \\
  -4C_1\sin(2x) - 4B\cos(2x)  + 14A\cos(2x) - 14B\sin(2x)) +  12 A\sin(2x) +12 B\cos(2x)  &= 10\cos(2x) \\
  (-4A  + 12A - 14B) \sin(2x) + (14A-4B+12B)\cos(2x))   &= 10\cos(2x)\\
-  (8A - 14B) \sin(2x) + (14A+8B)\cos(2x))   &= 10\cos(2x)
+  (8A - 14B) \sin(2x) + (14A+8B)\cos(2x))   &= 10\cos(2x) \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
-De coëfficiënten moeten links en rechts gelijk zijn dus volgt:
+De co\effici\"enten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
  8A - 14B &= 0 \\
- 14A + 8B &= 10
+ 14A + 8B &= 10 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Hieruit volgt:
@@ -106,19 +106,19 @@ $C_1 $ invullen geeft:
  14 \cdot \dfrac{14}{8}B + 8B &= 10\\
   \dfrac{98}{4}B + 8 B &= 10\\
   \dfrac{130}{4}B &= 10\\
-  B &= \dfrac{40}{130} = \dfrac{4}{13}
+  B &= \dfrac{40}{130} = \dfrac{4}{13} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 $B $ invullen geeft:
 \begin{align}
  A &= \dfrac{14}{8}B \\
  A &= \dfrac{14}{8} \cdot \dfrac{4}{13} \\
- A &=  \dfrac{7}{13}
+ A &=  \dfrac{7}{13} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De waardes voor $A$, $B$  invullen in de particuliere oplossing geeft:
 \begin{align}
-  y_p = \dfrac{7}{13}\sin(2x) + \dfrac{4}{13}\cos(2x)
+  y_p = \dfrac{7}{13}\sin(2x) + \dfrac{4}{13}\cos(2x) \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 ```{dropdown} Alternatieve methode :
@@ -168,7 +168,7 @@ Vermenigvuldigen en differentiëren, de $D$ staat voor afgeleide nemen:
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  y &= y_h + y_p \\
- y &= C_1e^{-4 x} + C_2e^{-3 x} + \dfrac{7}{13}\sin(2x) + \dfrac{4}{13}\cos(2x)  \qquad \text{met } C_{1,2} \in \mathbb{R}
+ y &= C_1e^{-4 x} + C_2e^{-3 x} + \dfrac{7}{13}\sin(2x) + \dfrac{4}{13}\cos(2x)  \qquad \text{met } C_{1,2} \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 ````
 `````
@@ -212,7 +212,7 @@ Invullen in de D.V. geeft:
 De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \
 Verder geldt dat $e^{\lambda x} \neq 0 $ dus,
 \begin{align}
- 4\lambda^2 + \lambda +4 &= 0
+ 4\lambda^2 + \lambda +4 &= 0 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Dus de discriminant is,
@@ -224,14 +224,14 @@ De oplossingen van de karakteristieke vergelijking zijn:
 \begin{align}
   \lambda_{1,2} &= \dfrac{-1 \pm i\sqrt{63}}{2 \cdot 4}\\
   \lambda_{1,2} &= -\dfrac{1}{8} \pm \dfrac{3\sqrt{7}}{8} \\
- \lambda_{1,2} &= -\dfrac{1}{8} \pm \dfrac{3\sqrt{7}}{8}
+ \lambda_{1,2} &= -\dfrac{1}{8} \pm \dfrac{3\sqrt{7}}{8} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Hieruit volgt dat $p=-\dfrac{1}{8}$ en $q=\dfrac{3\sqrt{7}}{8}$
 
 De waarde voor $p$ en $q$ invullen in de algemene oplossing geeft;
 \begin{align*}
- y_h = e^{px}(C_1\cos(qx) + C_2\sin(qx)) \qquad \text{met } C \in \mathbb{R}
+ y_h = e^{px}(C_1\cos(qx) + C_2\sin(qx)) \qquad \text{met } C \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
 \end{align*}
 
 \begin{align}
@@ -241,7 +241,7 @@ De waarde voor $p$ en $q$ invullen in de algemene oplossing geeft;
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V. 
 Als vorm voor de particuliere oplossing stel:
 \begin{align}
- y_p = Ax + B
+ y_p = Ax + B \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Dus,
@@ -259,30 +259,30 @@ Invullen in de D.V. geeft:
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
  4A &= 5 \\
- A + 4B &= 0 
+ A + 4B &= 0 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Hieruit volgt:
 \begin{align}
- A = \dfrac{5}{4}
+ A = \dfrac{5}{4} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 $A $ invullen geeft:
 \begin{align}
  \dfrac{5}{4} + 4B &= 0\\
   4B &= -\dfrac{5}{4}\\
-  B &= -\dfrac{5}{16}
+  B &= -\dfrac{5}{16} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De waardes voor $C_1$, $C_2$ en $C_3$ invullen in de particuliere oplossing geeft:
 \begin{align}
- y_p = \dfrac{5}{4}x - \dfrac{5}{16}
+ y_p = \dfrac{5}{4}x - \dfrac{5}{16} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  y &= y_h + y_p \\
- y &= e^{-\frac{1}{8}x}\left(C_1\cos\left(\dfrac{3\sqrt{7}}{8}x\right) + C_2\sin \left( \dfrac{3\sqrt{7}}{8}x \right)\right)   +  \dfrac{5}{4}x - \dfrac{5}{16} \qquad \text{met } C_{1,2} \in \mathbb{R}
+ y &= e^{-\frac{1}{8}x}\left(C_1\cos\left(\dfrac{3\sqrt{7}}{8}x\right) + C_2\sin \left( \dfrac{3\sqrt{7}}{8}x \right)\right)   +  \dfrac{5}{4}x - \dfrac{5}{16} \qquad \text{met } C_{1,2} \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 ```
 ````
@@ -325,7 +325,7 @@ Invullen in de D.V. geeft:
 De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \
 Verder geldt dat $e^{\lambda x} \neq 0 $ dus,
 \begin{align}
- \lambda^2 -3 \lambda &= 0
+ \lambda^2 -3 \lambda &= 0 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Dus de discriminant is,
@@ -337,7 +337,7 @@ De oplossingen van de karakteristieke vergelijking zijn:
 \begin{align}
   \lambda_{1,2} &= \dfrac{3 \pm i\sqrt{9}}{2 \cdot 1}\\
   \lambda_{1,2} &= \dfrac{3}{2} \pm \dfrac{\sqrt{9}}{2} \\
- \lambda_{1,2} &= \dfrac{3}{2} \pm \dfrac{3}{2}
+ \lambda_{1,2} &= \dfrac{3}{2} \pm \dfrac{3}{2} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Hieruit volgt dat $\lambda_1=0$ en $\lambda_2=3$
@@ -346,20 +346,20 @@ De waarde voor $\lambda_1$ en $\lambda_2$ invullen in de algemene oplossing geef
 \begin{align*}
  y_h &= C_1e^{\lambda_1x} + C_2e^{\lambda_2x} \qquad \text{met } C \in \mathbb{R} \\
  y_h &= C_1e^{0 \cdot x} + C_2e^{3x} \qquad \text{met } C \in \mathbb{R} \\
- y_h &= C_1 + C_2e^{3x} \qquad \text{met } C \in \mathbb{R}
+ y_h &= C_1 + C_2e^{3x} \qquad \text{met } C \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
 \end{align*}
 
 
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V. 
 Als vorm voor de particuliere oplossing stel:
 \begin{align}
- y_p = Ax + B
+ y_p = Ax + B 
 \end{align}
 
 B is al een oplossing van de homogene oplossing dus, 
 \begin{align}
  y_p &= (Ax + B)x \\
- y_p &= Ax^2 + Bx
+ y_p &= Ax^2 + Bx \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Dus,
@@ -371,37 +371,37 @@ Dus,
 Invullen in de D.V. geeft:
 \begin{align}
  (2A) -3 (2Ax +B)  &= 3x -2 \\
- - 6Ax + 2A - 3B &= 3x -2
+ - 6Ax + 2A - 3B &= 3x -2 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
  -6A &= 3 \\
- 2A - 3B &= -2
+ 2A - 3B &= -2 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Hieruit volgt:
 \begin{align}
- A = -\dfrac{3}{6} = -\dfrac{1}{2}
+ A = -\dfrac{3}{6} = -\dfrac{1}{2} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 $A $ invullen geeft:
 \begin{align}
  2 \cdot -\dfrac{1}{2} - 3B &= 2 \\
   -3B &= -1 \\
-  B &= \dfrac{1}{3}
+  B &= \dfrac{1}{3} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 
 De waardes voor $A$, $B$ invullen in de particuliere oplossing geeft:
 \begin{align}
- y_p = -\dfrac{1}{2}x^2 + \dfrac{1}{3}x
+ y_p = -\dfrac{1}{2}x^2 + \dfrac{1}{3}x \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  y &= y_h + y_p \\
- y &= C_1 + C_2e^{3x} -\dfrac{1}{2}x^2 + \dfrac{1}{3}x  \qquad \text{met } C_{1,2} \in \mathbb{R}
+ y &= C_1 + C_2e^{3x} -\dfrac{1}{2}x^2 + \dfrac{1}{3}x  \qquad \text{met } C_{1,2} \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 ```
 ````
@@ -579,7 +579,7 @@ De oplossingen van de karakteristieke vergelijking zijn:
  \lambda_{1,2} &= \dfrac{0 \pm i\sqrt{64}}{2 \cdot 2}\\
  \lambda_{1,2} &=  \pm \dfrac{\sqrt{64}}{4} \\
  \lambda_{1,2} &=   \pm \dfrac{8}{4}
- \lambda_{1,2} &=   \pm 2
+ \lambda_{1,2} &=   \pm 2 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Hieruit volgt dat $p=0$ en $q=2$
@@ -591,7 +591,7 @@ De waarde voor $p$ en $q$ invullen in de algemene oplossing geeft;
 
 \begin{align}
  y_h = e^{0x}(C_1\cos(2x) + C_2\sin(2x)) \qquad  \text{met } C \in \mathbb{R} \\
- y_h = C_1\cos(2x) + C_2\sin(2x) \qquad  \text{met } C \in \mathbb{R} \\
+ y_h = C_1\cos(2x) + C_2\sin(2x) \qquad  \text{met } C \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V. 
@@ -603,7 +603,7 @@ Als vorm voor de particuliere oplossing stel:
 $A\sin(2x)$ is al een oplossing van de homogene oplossing dus,
 \begin{align}
  y_p &= (A\sin(2x) + B\cos(2x))x \\
- y_p &= Ax\sin(2x) + Bx\cos(2x)
+ y_p &= Ax\sin(2x) + Bx\cos(2x) \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Dus,
@@ -617,23 +617,23 @@ Invullen in de D.V. geeft:
 \begin{align}
  2 \cdot (4A\cos(2x) - 4Ax\sin(2x) -4B\sin(2x) - 4Bx\cos)  + 8 \cdot (Ax\sin(2x) + Bx\cos(2x)) &= 2\sin(2x) \\
  (8A\cos(2x) - 8Ax\sin(2x) -8B\sin(2x) - 8Bx\cos)  + (8Ax\sin(2x) + 8Bx\cos(2x)) &= 2\sin(2x) \\
- 8A\cos(2x) - 8B\sin(2x) &= 2\sin(2x)
+ 8A\cos(2x) - 8B\sin(2x) &= 2\sin(2x) \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
  8A &= 0 \\
- -8B  &= 2
+ -8B  &= 2 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Hieruit volgt:
 \begin{align}
- B = -\dfrac{2}{8} = -\dfrac{1}{4}
+ B = -\dfrac{2}{8} = -\dfrac{1}{4} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Hieruit volgt:
 \begin{align}
- A = 0
+ A = 0 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De waardes voor $A$, $B$ invullen in de particuliere oplossing geeft:
