@@ -439,9 +439,9 @@ Differentiëren van de vergelijking is niet nodig, de gewenste differentiaalverg
 :class: dropdown
 
 De stroomsterkte $I(t)$, in een RL-netwerk is:
-\begin{align}
+\begin{align*}
  I &= \dfrac{100}{401} e^{-20t}  -\dfrac{100}{401}\cos(t) + \dfrac{2000}{401}\sin(t)
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -565,6 +565,12 @@ Dus C invullen in de totale oplossing geeft:
 ````{admonition} Antwoord
 :class: dropdown
 
+De formule voor de snelheid $v(t)$ van de kogel is:
+\begin{align}
+ V &= -19.62e^{-\frac{1}{2}t} + 19.62
+\end{align}
+
+
 ```{dropdown} Uitwerking
 Een kogel met massa $0.2kg$ valt vrij door de lucht. Op $t = 0$ wordt de kogel losgelaten. Neem voor de gravitatieconstante $g = 9.81m/s^2$.
 
@@ -671,7 +677,6 @@ Dus C invullen in de totale oplossing geeft:
 \begin{align}
  V &= -19.62e^{-\frac{1}{2}t} + 19.62
 \end{align}
-
 ```
 ````
 
@@ -685,10 +690,9 @@ De eindsnelheid van de kogel is $19.62$ m/s
 ```{dropdown} Uitwerking
 Wat is in dit geval de eindsnelheid van de kogel?
 
-  \begin{align}
-   \dfrac{dV}{dt} + \dfrac{0.1}{0.2} \cdot V &= 9.81  \\
-   \dfrac{dV}{dt} + \dfrac{1}{2} \cdot V &= 9.81
-  \end{align}
+\begin{align}
+ V &= -19.62e^{-\frac{1}{2}t} + 19.62
+\end{align}
 
 Dus de eindsnelheid van de kogel is:\
 als $t$ naar $\infty$ nadert dan gaat $V$ naar 19.62 m/s
