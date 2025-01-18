@@ -394,7 +394,7 @@ $R = 10$$\Omega$, $L =0.5$H, $U(t)=50\sin(t)$V en $I(0)=0.0$A
 
 Voor een RL-kring geldt:
   \begin{align}
-   U(t) &= U_R + U_C   \\
+   U(t) &= U_R + U_L   \\
      &= L \cdot \dfrac{dI}{dt} +  R \cdot I
   \end{align}
 
