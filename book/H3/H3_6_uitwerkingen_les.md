@@ -295,7 +295,7 @@ Als oplossing voor de homogene D.V. stel:
 
 Invullen in de D.V. geeft:
 \begin{align}
- 3 \lambda \cdot Ce^{\lambda x} +9 \cdot Ce^{\lambda x} &= 0 \qquad {\color{blue} \text{(1p)}} \\
+ 3 \lambda \cdot Ce^{\lambda x} +9 \cdot Ce^{\lambda x} &= 0  \\
  (3\lambda +9 )\cdot Ce^{\lambda x}  &= 0
 \end{align}
 
@@ -304,7 +304,7 @@ Verder geldt dat $e^{\lambda x} \neq 0 $ dus.
 
 Dus de karakteristieke vergelijking wordt gegeven door:
 \begin{align}
- 3\lambda + 9   &= 0 \\
+ 3\lambda + 9   &= 0 \qquad {\color{blue} \text{(1p)}}\\
  3\lambda   &= -9\\
  \lambda   &= -\dfrac{9}{3} = -3 \qquad {\color{blue} \text{(1p)}}
 \end{align}
@@ -391,7 +391,7 @@ Als oplossing voor de homogene D.V. stel:
 
 Invullen in de D.V. geeft:
 \begin{align}
- 3\lambda \cdot Ce^{\lambda x} -5 \cdot Ce^{\lambda x} &= 0 \\ \qquad {\color{blue} \text{(1p)}}
+ 3\lambda \cdot Ce^{\lambda x} -5 \cdot Ce^{\lambda x} &= 0 \\ 
  (3\lambda -5 )\cdot Ce^{\lambda x}  &= 0
 \end{align}
 
@@ -400,7 +400,7 @@ Verder geldt dat $e^{\lambda x} \neq 0 $.
 
 Dus de karakteristieke vergelijking wordt gegeven door:
 \begin{align}
- 3\lambda -5   &= 0 \\
+ 3\lambda -5   &= 0 \qquad {\color{blue} \text{(1p)}} \\
  3\lambda   &= 5 \\
  \lambda   &= \dfrac{5}{3} \qquad {\color{blue} \text{(1p)}}
 \end{align}
