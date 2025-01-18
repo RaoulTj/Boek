@@ -5,9 +5,7 @@
 `````{admonition} Antwoord
 :class: dropdown
 
-Na hoeveel minuten heeft een kop thee een temperatuur bereikt van 35$^{\circ}$ C als de volgende parameters zijn gegeven:
-
-Een kop thee met een temperatuur van 90$^{\circ}$ C wordt op een tafel in een ruimte gelegd waar de  temperatuur 25$^{\circ}$ C is. Na 5 minuten is de thee afgekoelt tot een temperatuur van 70$^{\circ}$ C.
+De kop thee een temperatuur van 35$^{\circ}$ C bereikt na $25.29$ minuten.
 
 ````{dropdown} Uitwerking
 
@@ -133,9 +131,10 @@ Na hoeveel minuten is de temperatuur 35$^{\circ}$ C:
 `````{admonition} Antwoord
 :class: dropdown
 
-Bepaal de stroomsterkte $I(t)$ in een RC-netwerk als de volgende parameters zijn gegeven:
-
-$R = 50$$\Omega$, $C =0.4$F, $U(t)=200\cos(t)$V en $I(0)=2.0$A
+De stroomsterkte $I(t)$ in een RC-netwerk is:
+\begin{align}
+ I &=  -2.01e^{-\frac{1}{20}t}  -\dfrac{200}{997.5}\sin(t) + \dfrac{400}{997.5}\cos(t) 
+\end{align}
 
 ````{dropdown} Uitwerking
 Bepaal de stroomsterkte $I(t)$ in een RC-netwerk als de volgende parameters zijn gegeven:
@@ -268,9 +267,10 @@ Dus C invullen in de totale oplossing geeft:
 `````{admonition} Antwoord
 :class: dropdown
 
-Bepaal de stroomsterkte $I(t)$ in een RL-netwerk als de volgende parameters zijn gegeven:
-
-$R = 100$$\Omega$, $L =15$H, $U(t)=200$V en $I(0)=0.0$A
+De stroomsterkte $I(t)$ in een RL-netwerk is:
+\begin{align}
+ I &=  - 2e^{-\dfrac{20}{3}t}  + 2
+\end{align}
 
 ````{dropdown} Uitwerking
 Bepaal de stroomsterkte $I(t)$ in een RL-netwerk als de volgende parameters zijn gegeven:
@@ -475,9 +475,7 @@ dus 42.04 m/s
 `````{admonition} Antwoord
 :class: dropdown
 
-Wat is de temperatuur van een warm bad na 15 minuten als de volgende parameters zijn gegeven:
-
-Een bad met een temperatuur van 65$^{\circ}$ C staat in een ruimte gelegd waar de temperatuur 19$^{\circ}$ C is. Na 2 minuten is het bad afgekoelt tot een temperatuur van 55$^{\circ}$ C.
+De temperatuur van een warm bad na 15 minuten is 
 
 ````{dropdown} Uitwerking
 
@@ -588,7 +586,7 @@ Dus k invullen in de totale oplossing geeft:
 
 Wat is de temperatuur na 15 minuten:
 \begin{align}
-  T &=  46e^{-0.123 \cdot 15}  + 19
+  T &=  46e^{-0.123 \cdot 15}  + 19 \\
   T &= 
 \end{align}
 ````
@@ -600,8 +598,9 @@ Wat is de temperatuur na 15 minuten:
 :class: dropdown
 
 De stroomsterkte $I(t)$ in een RC-netwerk is:
-
-$R = 100$$\Omega$, $C =0.1$F, $U(t)=100$V en $I(0)=1.0$A
+\begin{align}
+ I &=  2e^{-\frac{1}{10}t}
+\end{align}
 
 ````{dropdown} Uitwerking
 Bepaal de stroomsterkte $I(t)$ in een RC-netwerk als de volgende parameters zijn gegeven:
