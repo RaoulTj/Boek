@@ -2,8 +2,10 @@
 
 ## Opgave 1
 
-```{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
+
+```{dropdown} Uitwerking
 
 Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijkigen.
 \begin{align*}
@@ -32,11 +34,14 @@ De primitieven nemen van beide kanten.
  y &= \pm \sqrt{x^2 + C} \qquad \text{met } C \in \mathbb{R} \quad {\color{blue}   \text{(1p)}}
 \end{align}
 ```
+````
 
 ## Opgave 2
 
-```{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  \dfrac{dy}{dx} = \dfrac{y^2}{x-3}
@@ -69,11 +74,14 @@ dus,
  y &=  \dfrac{-1}{\ln|x-3|  + C} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 3
 
-```{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  \dfrac{dy}{dx} = y^3
@@ -108,11 +116,14 @@ dus,
  y  &= \pm \sqrt{\dfrac{1}{-2x  + C}} \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 4
 
-```{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  \dfrac{dy}{dx} = 3x^2e^{-y}
@@ -147,11 +158,14 @@ dus,
  y &= \ln( x^3  + C) \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 5
 
-```{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  ydx + xdy = 0
@@ -190,11 +204,14 @@ y=0 voldoet aan de dv dus,
  y &= C \cdot \dfrac{1}{x}  \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 6
 
-```{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
+
+```{dropdown} Uitwerking
 
 \begin{align*}
  \dfrac{dy}{dx} = 6x^5y+y\\
@@ -231,3 +248,4 @@ y=0 voldoet aan de dv dus,
   y  &=  C \cdot e^{x^6 + x}  \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````

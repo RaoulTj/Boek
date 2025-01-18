@@ -3,7 +3,7 @@
 ## Opgave 1
 
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 ```{dropdown} Uitwerking
@@ -47,7 +47,7 @@ y=0 voldoet aan de dv dus,
 
 ## Opgave 2
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 ```{dropdown} Uitwerking
@@ -86,12 +86,14 @@ y=0 voldoet aan de dv dus,
   y  &=  C \cdot e^{13x}  \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
+````
 
 ## Opgave 3
 
-```{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
+```{dropdown} Uitwerking
 \begin{align*}
  3\dfrac{dy}{dx} - 6y \\
  3\dfrac{dy}{dx} = 6y\\
@@ -131,7 +133,7 @@ y=0 voldoet aan de dv dus,
 
 ## Opgave 4
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 ```{dropdown} Uitwerking
@@ -237,7 +239,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 ## Opgave 5
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 ```{dropdown} Uitwerking
@@ -329,7 +331,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 
 ## Opgave 6
 
-````{admonition} Uitwerkingen
+````{admonition} Antwoord
 :class: dropdown
 
 ```{dropdown} Uitwerking
