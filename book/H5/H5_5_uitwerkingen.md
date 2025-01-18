@@ -7,9 +7,9 @@
 
 De stroomsterkte $I(t)$, in een RC-netwerk is:
 
-\begin{align}
+\begin{align*}
  I &= 1 \cdot e^{-\frac{1}{10}t}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -97,9 +97,9 @@ Dus C invullen in de totale oplossing geeft:
 
 De stroomsterkte $I(t)$, in een RC-netwerk is:
 
-\begin{align}
+\begin{align*}
  I &= - \dfrac{46}{17} e^{-\frac{1}{4}t}  +\dfrac{80}{17}\cos(t) - \dfrac{20}{17}\sin(t)
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -392,17 +392,17 @@ Na 33.18 minuten is de koffie nog maar 30$^{\circ}$C.
 ````{admonition} Antwoord
 :class: dropdown
 
-De stroomsterkte $I(t)$, in een RL-netwerk is:
+de bijbehorende differentiaalvergelijking in een RL-netwerk is:
 
- \begin{align}
-   50 \sin(t) &= \dfrac{1}{2} \cdot \dfrac{dI}{dt} + 10 \cdot  I
-  \end{align}
+\begin{align*}
+ U(t) &= \dfrac{1}{2}\dfrac{dI}{dt} + 10I(t)
+\end{align*}
 
 ```{dropdown} Uitwerking
 
-Bepaal de stroomsterkte $I(t)$ in een RL-netwerk als de volgende parameters zijn gegeven:
+In een RL-netwerk zijn een spanningsbron, een weerstand en een spoel met zelfinductie L in serie geschakeld.
 
-$R = 10$$\Omega$, $L =0.5$H, $U(t)=50\sin(t)$V en $I(0)=0.0$A
+Stel met behulp van de tweede wet van Kirchhoff de bijbehorende differentiaalvergelijking op.
 
 Voor een RL-kring geldt:
   \begin{align}
@@ -410,16 +410,32 @@ Voor een RL-kring geldt:
      &= L \cdot \dfrac{dI}{dt} +  R \cdot I
   \end{align}
 
-  %Beide zijdes differenti\"eren geeft de gevraagde DV.:
-  %\begin{align*}
-  % \dfrac{dU(t)}{dt} &= R \cdot \dfrac{dI}{dt} + \dfrac{1}{C} \cdot  I
-  %\end{align*}
+De wet van Ohm geeft de spanning over de weerstand:
+\begin{align*}
+ U_R(t) = RI(t)
+\end{align*}
 
-  De gegevens invullen in de DV geeft:
-  \begin{align}
-   U(t) &=  \dfrac{1}{2} \cdot \dfrac{dI}{dt}  + 10 \cdot I \\
-   50 \sin(t) &= \dfrac{1}{2} \cdot \dfrac{dI}{dt} + 10 \cdot  I
-  \end{align}
+De spanning over de speol wordt gegeven door:
+\begin{align*}
+ U_L(t) = L \cdot \dfrac{dI}{dt}
+\end{align*}
+
+Er geldt dus:
+\begin{align*}
+ U(t) &= U_L(t) + U_R(t) \\
+ &= L\dfrac{dI}{dt} + RI(t)
+\end{align*}
+
+Differentiëren van de vergelijking is niet nodig, de gewenste differentiaalvergelijking hebben we al:
+\begin{align*}
+ U(t) &= L\dfrac{dI}{dt} + RI(t)
+\end{align*}
+
+Invullen van de getallen geeft:
+\begin{align*}
+ U(t) &= \dfrac{1}{2}\dfrac{dI}{dt} + 10I(t)
+\end{align*}
+
 ```
 ````
 
@@ -428,10 +444,14 @@ Voor een RL-kring geldt:
 ````{admonition} Antwoord
 :class: dropdown
 
-De stroomsterkte $I(t)$, in een RC-netwerk is:
-
+De stroomsterkte $I(t)$, in een RL-netwerk is:
+\begin{align}
+ I &= \dfrac{100}{401} e^{-20t}  -\dfrac{100}{401}\cos(t) + \dfrac{2000}{401}\sin(t)
+\end{align}
 
 ```{dropdown} Uitwerking
+
+Bepaal de formule voor $I(t)$ als gegeven is dat: $R = 10Ω$, $L = 0.5$H, $U (t) = 50 \sin(t)$V , $I (0) = 0$A.
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
@@ -543,6 +563,10 @@ Dus C invullen in de totale oplossing geeft:
 :class: dropdown
 
 ```{dropdown} Uitwerking
+Een kogel met massa $0.2kg$ valt vrij door de lucht. Op $t = 0$ wordt de kogel losgelaten. Neem voor de gravitatieconstante $g = 9.81m/s^2$.
+
+Neem aan dat de luchtweerstand $F_w$ evenredig is met de valsnelheid. De evenredigheidsconstante $k = 0.1$Ns/m. Bepaal de formule voor de snelheid $v$ van de kogel als functie van de tijd $t$.
+
   Voor een losgelaten kogel geldt:
   \begin{align}
    F_{res} &= F_z - F_w   \\
@@ -564,7 +588,6 @@ Dus C invullen in de totale oplossing geeft:
   % \dfrac{dU(t)}{dt} &= R \cdot \dfrac{dI}{dt} + \dfrac{1}{C} \cdot  I
   %\end{align*}
 
-  
   De gegevens invullen in de DV geeft:
   \begin{align}
    \dfrac{dV}{dt} + \dfrac{0.1}{0.2} \cdot V &= 9.81  \\
@@ -578,89 +601,17 @@ Dus C invullen in de totale oplossing geeft:
 ````{admonition} Antwoord
 :class: dropdown
 
+De eindsnelheid van de kogel is $19.62$ m/s
+
 ```{dropdown} Uitwerking
+Wat is in dit geval de eindsnelheid van de kogel?
 
-De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
-\begin{align}
- V = V_h + V_p
-\end{align}
+  \begin{align}
+   \dfrac{dV}{dt} + \dfrac{0.1}{0.2} \cdot V &= 9.81  \\
+   \dfrac{dV}{dt} + \dfrac{1}{2} \cdot V &= 9.81
+  \end{align}
 
-De homogene D.V. wordt:
-\begin{align}
- \dfrac{dV}{dt} + \dfrac{1}{2} \cdot V &= 0
-\end{align}
-
-Als oplossing voor de homogene D.V. stel:
-\begin{align}
- V_h = Ce^{\lambda t} \text{ met } C \in \mathbb{R}
-\end{align}
-
-Invullen in de D.V. geeft:
-\begin{align}
-  \lambda \cdot Ce^{\lambda t} + \dfrac{1}{2} \cdot Ce^{\lambda t} &= 0 \\
- (\lambda +\dfrac{1}{2} )\cdot Ce^{\lambda t}  &= 0
-\end{align}
-
-De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \
-Verder geldt dat $e^{\lambda t} \neq 0 $ dus,
-\begin{align}
- \lambda + \dfrac{1}{2}   &= 0  \\
- \lambda   &= -\dfrac{1}{2}
-\end{align}
-
-De waarde voor $\lambda $ invullen in de homogene oplossing geeft;
-\begin{align}
- V_h = Ce^{-\frac{1}{2}t} \qquad \text{met } C \in \mathbb{R}
-\end{align}
-
-Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.  
-Als vorm voor de particuliere oplossing stel:
-\begin{align}
- V_p &=  C_1 \\
- V'_p &= 0
-\end{align}
-
-Invullen in de D.V. geeft:
-\begin{align}
- 0 + \dfrac{1}{2} \cdot C_1 &= 9.81\\
-\end{align}
-
-Hieruit volgt:
-\begin{align}
- \dfrac{1}{2} \cdot C_1 &= 9.81 \\
- C_1 &= \dfrac{9.81}{\dfrac{1}{2}} = 19.62
-\end{align}
-
-De waardes voor $C_1$ invullen in de particuliere oplossing geeft:
-\begin{align}
- V_p = 19.62
-\end{align}
-
-De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
-\begin{align}
- V &= V_h + V_p \\
- V &=  Ce^{-\frac{1}{2}t} + 19.62 \qquad \text{met } C \in \mathbb{R}  
-\end{align}
-
-De gegeven voorwaarden gebruiken om C te bepalen.  $V(0) = 0$
-
-Dus invullen geeft:
-\begin{align}
- 0 &= Ce^{-\frac{1}{2} \cdot 0} + 19.62  \\
- 0 &= C \cdot 1 + 19.62 \cdot 0
-\end{align}
-
-Hieruit volgt:
-\begin{align}
- C &= -19.62
-\end{align}
-
-Dus C invullen in de totale oplossing geeft:
-\begin{align}
- V &= -19.62e^{-\frac{1}{2}t} + 19.62
-\end{align}
-
-De eindsnelheid van de kogel is:\
+Dus de eindsnelheid van de kogel is:\
 als $t$ naar $\infty$ nadert dan gaat $V$ naar 19.62 m/s
 ```
 ````

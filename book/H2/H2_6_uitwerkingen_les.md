@@ -6,9 +6,9 @@
 :class: dropdown
 
 De algemene oplossing van de differentiaalvergelijking is:
-\begin{align}
+\begin{align*}
  y &= \pm \sqrt{x^2 + C} \qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -47,9 +47,9 @@ De primitieven nemen van beide kanten.
 :class: dropdown
 
 De algemene oplossing van de differentiaalvergelijking is:
-\begin{align}
+\begin{align*}
  y &=  \dfrac{-1}{\ln|x-3|  + C} \qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -92,9 +92,9 @@ dus,
 :class: dropdown
 
 De algemene oplossing van de differentiaalvergelijking is:
-\begin{align}
+\begin{align*}
  y  &= \pm \sqrt{\dfrac{1}{-2x  + C}} \qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -139,9 +139,9 @@ dus,
 :class: dropdown
 
 De algemene oplossing van de differentiaalvergelijking is:
-\begin{align}
+\begin{align*}
  y &= \ln( x^3  + C) \qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -186,9 +186,9 @@ dus,
 :class: dropdown
 
 De algemene oplossing van de differentiaalvergelijking is:
-\begin{align}
+\begin{align*}
  y &= C \cdot \dfrac{1}{x}  \qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -237,9 +237,9 @@ y=0 voldoet aan de dv dus,
 :class: dropdown
 
 De algemene oplossing van de differentiaalvergelijking is:
-\begin{align}
+\begin{align*}
   y  &=  C \cdot e^{x^6 + x}  \qquad \text{met } C \in \mathbb{R}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
