@@ -11,12 +11,16 @@
 
 ```{dropdown} Uitwerking
 
+Bepaal de stroomsterkte $I(t)$ in een RC-netwerk als de volgende parameters zijn gegeven:
+
+$R = 100$$\Omega$, $C =0.1$F, $U(t)=250$V en $I(0)=1.0$A
+
   Voor een RC-kring geldt:
   \begin{align}
    U(t) &= U_R + U_C   \\
      &= R \cdot I + \dfrac{1}{C} \int I dt
   \end{align}
-  
+
   Beide zijdes differenti\"eren geeft de gevraagde DV.:
   \begin{align}
    \dfrac{dU(t)}{dt} &= R \cdot \dfrac{dI}{dt} + \dfrac{1}{C} \cdot  I
@@ -29,7 +33,7 @@
    0 &= 100 \cdot \dfrac{dI}{dt} + \dfrac{1}{0.1} \cdot  I \\
    0 &= 100 \cdot \dfrac{dI}{dt} + 10 \cdot  I
   \end{align}
-  
+
 %De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 %\begin{align*}
 % I = I_h + I_p
@@ -94,6 +98,10 @@ Dus C invullen in de totale oplossing geeft:
 \end{align}
 
 ```{dropdown} Uitwerking
+
+Bepaal de stroomsterkte $I(t)$ in een RC-netwerk als de volgende parameters zijn gegeven:
+
+$R = 20$$\Omega$, $C =0.2$F, $U(t)=100\cos(t)$V en $I(0)=2.0$A
 
   Voor een RC-kring geldt:
   \begin{align}
