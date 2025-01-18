@@ -144,7 +144,7 @@ $R = 50$$\Omega$, $C =0.4$F, $U(t)=200\cos(t)$V en $I(0)=2.0$A
 Voor een RC-kring geldt:
   \begin{align}
    U(t) &= U_r + U_c   \\
-     &= R \cdot I + \dfrac{1}{C} \int I dt
+     &= R \cdot I + \dfrac{1}{C} \int I dt \qquad {\color{blue} \text{(1p)}}
   \end{align}
 
   Beide zijdes differentiëren geeft de gevraagde DV.:
@@ -156,12 +156,12 @@ Voor een RC-kring geldt:
   \begin{align}
    \dfrac{dU(t)}{dt} &= 50 \cdot \dfrac{dI}{dt} + \dfrac{1}{0.4} \cdot  I\\
    \dfrac{d}{dt}(200 \cos(t)) &= 50 \cdot \dfrac{dI}{dt} + \dfrac{1}{0.4} \cdot  I \\
-   -200 \sin(t) &= 50 \cdot \dfrac{dI}{dt} + 2.5 \cdot  I
+   -200 \sin(t) &= 50 \cdot \dfrac{dI}{dt} + 2.5 \cdot  I \qquad {\color{blue} \text{(1p)}}
   \end{align}
 
 De homogene D.V. wordt:
 \begin{align}
- 50\dfrac{dI}{dt} + 2.5I = 0
+ 50\dfrac{dI}{dt} + 2.5I = 0 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Als oplossing voor de homogene D.V. stel:
@@ -178,34 +178,34 @@ Invullen in de D.V. geeft:
 De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \
 Verder geldt dat $e^{\lambda t} \neq 0 $ dus,
 \begin{align}
- 50\lambda + 2.5   &= 0  \\
+ 50\lambda + 2.5   &= 0  \qquad {\color{blue} \text{(1p)}}\\
  50\lambda   &= -2.5 \\
- \lambda   &= -\dfrac{2.5}{50} = -\dfrac{1}{20}
+ \lambda   &= -\dfrac{2.5}{50} = -\dfrac{1}{20} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De waarde voor $\lambda$ invullen in de homogene oplossing geeft;
 \begin{align}
- I_h = Ce^{-\frac{1}{20}t} \qquad \text{met } C \in \mathbb{R}
+ I_h = Ce^{-\frac{1}{20}t} \qquad \text{met } C \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.
 
 Als vorm voor de particuliere oplossing stel:
 \begin{align}
- I_p &=  A \sin(t) + B \cos(t) \\
+ I_p &=  A \sin(t) + B \cos(t) \qquad {\color{blue} \text{(1p)}}\\
  I_p' &= A \cos(t) - B \sin(t)
 \end{align}
 
 Invullen in de D.V. geeft:
 \begin{align}
  50 \cdot (A \cos(t) - B \sin(t)) +  2.5 (A \sin(t) + B \cos(t)) &=  100\cos(t) \\
- (50A+2.5B)\cos(t) + (2.5A -50B)\sin(t) &= -200\sin(t)
+ (50A+2.5B)\cos(t) + (2.5A -50B)\sin(t) &= -200\sin(t) \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De coëfficiënten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
  2.5A-50B &= -200 \\
- 50A+2.5B &= 0
+ 50A+2.5B &= 0 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 
@@ -219,7 +219,7 @@ $B $ invullen geeft:
 \begin{align}
  2.5A  - 50 \cdot (-20A)  &= -200\\
  997.5A  &= -200\\
-  A &= -\dfrac{200}{997.5} 
+  A &= -\dfrac{200}{997.5} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 
@@ -227,37 +227,37 @@ $A $ invullen geeft:
 \begin{align}
  B &= -20A  \\
  B &= 20 \cdot \dfrac{200}{997.5}  \\
- B &= \dfrac{4000}{997.5}
+ B &= \dfrac{4000}{997.5} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De waardes voor $A$, $B$  invullen in de particuliere oplossing geeft:
 \begin{align}
- I_p = -\dfrac{200}{997.5}\sin(t) + \dfrac{4000}{997.5}\cos(t)
+ I_p = -\dfrac{200}{997.5}\sin(t) + \dfrac{4000}{997.5}\cos(t) \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  I &= I_h + I_p \\
- I &= Ce^{-\frac{1}{20}t}  -\dfrac{200}{997.5}\sin(t) + \dfrac{4000}{997.5}\cos(t) \qquad \text{met } C \in \mathbb{R}
+ I &= Ce^{-\frac{1}{20}t}  -\dfrac{200}{997.5}\sin(t) + \dfrac{4000}{997.5}\cos(t) \qquad \text{met } C \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De gegeven voorwaarden gebruiken om C te bepalen.  $I(0) = 2$
 
 Dus invullen geeft:
 \begin{align}
- 2 &= Ce^{-\frac{1}{20} \cdot 0}  -\dfrac{200}{997.5}\sin(0) + \dfrac{4000}{997.5}\cos(0) \\
+ 2 &= Ce^{-\frac{1}{20} \cdot 0}  -\dfrac{200}{997.5}\sin(0) + \dfrac{4000}{997.5}\cos(0) \qquad {\color{blue} \text{(1p)}} \\
  2 &= C \cdot 1  -\dfrac{200}{997.5} \cdot 0 + \dfrac{4000}{997.5} \cdot 1 \\
 \end{align}
 
 Hieruit volgt:
 \begin{align}
  C &= 2 - \dfrac{4000}{997.5} \\
- C &= -2.01
+ C &= -2.01 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Dus C invullen in de totale oplossing geeft:
 \begin{align}
- I &=  -2.01e^{-\frac{1}{20}t}  -\dfrac{200}{997.5}\sin(t) + \dfrac{400}{997.5}\cos(t) 
+ I &=  -2.01e^{-\frac{1}{20}t}  -\dfrac{200}{997.5}\sin(t) + \dfrac{400}{997.5}\cos(t) \qquad {\color{blue} \text{(1p)}}
 \end{align}
 ````
 `````
@@ -280,18 +280,18 @@ $R = 100$$\Omega$, $L =15$H, $U(t)=200$V en $I(0)=0.0$A
 Voor een RL-kring geldt:
   \begin{align}
    U(t) &= U_L + U_c   \\
-     &= L \cdot \dfrac{dI}{dt} +  R \cdot I
+     &= L \cdot \dfrac{dI}{dt} +  R \cdot I \qquad {\color{blue} \text{(1p)}}
   \end{align}
 
   De gegevens invullen in de DV geeft:
   \begin{align}
     U(t) &= 15 \cdot \dfrac{dI}{dt} + 100 \cdot  I\\
-    200 &= 15 \cdot \dfrac{dI}{dt} + 100 \cdot  I
+    200 &= 15 \cdot \dfrac{dI}{dt} + 100 \cdot  I \qquad {\color{blue} \text{(1p)}}
   \end{align}
 
 De homogene D.V. wordt:
 \begin{align}
- 15\dfrac{dI}{dt} + 100I = 0
+ 15\dfrac{dI}{dt} + 100I = 0 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Als oplossing voor de homogene D.V. stel:
@@ -308,21 +308,21 @@ Invullen in de D.V. geeft:
 De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \
 Verder geldt dat $e^{\lambda t} \neq 0 $ dus,
 \begin{align}
- 15\lambda + 100   &= 0  \\
+ 15\lambda + 100   &= 0  \qquad {\color{blue} \text{(1p)}}\\
  15\lambda   &= -100 \\
- \lambda   &= -\dfrac{100}{15} = -\dfrac{20}{3}
+ \lambda   &= -\dfrac{100}{15} = -\dfrac{20}{3} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De waarde voor $\lambda$ invullen in de homogene oplossing geeft;
 \begin{align}
- I_h = Ce^{-\dfrac{20}{3}t} \qquad \text{met } C \in \mathbb{R}
+ I_h = Ce^{-\dfrac{20}{3}t} \qquad \text{met } C \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.
 
 Als vorm voor de particuliere oplossing stel:
 \begin{align}
- I_p &=  A \\
+ I_p &=  A \qquad {\color{blue} \text{(1p)}}\\
  I_p' &= 0
 \end{align}
 
@@ -334,32 +334,32 @@ Invullen in de D.V. geeft:
 De coëfficiënten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
  100A &= 200 \\
- A &= \dfrac{200}{100} = 2
+ A &= \dfrac{200}{100} = 2 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De waarde voor $A$ invullen in de particuliere oplossing geeft:
 \begin{align}
- I_p = 2
+ I_p = 2 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  I &= I_h + I_p \\
- I &= Ce^{-\dfrac{20}{3}t}  + 2 \qquad \text{met } C \in \mathbb{R}
+ I &= Ce^{-\dfrac{20}{3}t}  + 2 \qquad \text{met } C \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De gegeven voorwaarden gebruiken om C te bepalen.  $I(0) = 0$
 
 Dus invullen geeft:
 \begin{align}
- 0 &= Ce^{-\dfrac{20}{3}t}   + 2 \\
+ 0 &= Ce^{-\dfrac{20}{3}t}   + 2 \qquad {\color{blue} \text{(1p)}}\\
  0 &= C \cdot 1  + 2 \\
- C &= - 2
+ C &= - 2 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Dus C invullen in de totale oplossing geeft:
 \begin{align}
- I &=  - 2e^{-\dfrac{20}{3}t}  + 2
+ I &=  - 2e^{-\dfrac{20}{3}t}  + 2 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 ````
 `````
@@ -380,19 +380,19 @@ Volgens de tweede wet van Newton geldt:
 \begin{align}
  F_{res} &= F_z - F_w\\
  m \cdot a &= m \cdot g - k \cdot v\\
- a &=   g - \dfrac{k}{m} \cdot v
+ a &=   g - \dfrac{k}{m} \cdot v \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Dit kan omgeschreven worden naar de volgende DV;
 \begin{align}
  \dfrac{dV}{dt} &= g - \dfrac{k}{m} \cdot v \\
  \dfrac{dV}{dt} + \dfrac{k}{m} \cdot v &= g \\
- \dfrac{dV}{dt} + \dfrac{35}{150} \cdot v &= 9.81
+ \dfrac{dV}{dt} + \dfrac{35}{150} \cdot v &= 9.81 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De homogene D.V. wordt:
 \begin{align}
-  \dfrac{dV}{dt} + \dfrac{7}{30} \cdot v &= 0 \\
+  \dfrac{dV}{dt} + \dfrac{7}{30} \cdot v &= 0 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Als oplossing voor de homogene D.V. stel:
@@ -409,20 +409,20 @@ Invullen in de D.V. geeft:
 De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \
 Verder geldt dat $e^{\lambda t} \neq 0 $ dus,
 \begin{align}
- \lambda + \dfrac{7}{30}   &= 0  \\
- \lambda   &= -\dfrac{7}{30}
+ \lambda + \dfrac{7}{30}   &= 0  \qquad {\color{blue} \text{(1p)}}\\
+ \lambda   &= -\dfrac{7}{30} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De waarde voor $\lambda$ invullen in de homogene oplossing geeft;
 \begin{align}
- V_h = Ce^{-\dfrac{7}{30}t} \qquad \text{met } C \in \mathbb{R}
+ V_h = Ce^{-\dfrac{7}{30}t} \qquad \text{met } C \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.
 
 Als vorm voor de particuliere oplossing stel:
 \begin{align}
- V_p &=  A \\
+ V_p &=  A \qquad {\color{blue} \text{(1p)}}\\
  V_p' &= 0
 \end{align}
 
@@ -435,33 +435,33 @@ De coëfficiënten moeten links en rechts gelijk zijn dus volgt:
 \begin{align}
  \dfrac{7}{30}A &= 9.81 \\
  A &= 9.81 \cdot \dfrac{30}{7} \\
- A &= 42.04
+ A &= 42.04 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De waarde voor $A$ invullen in de particuliere oplossing geeft:
 \begin{align}
- V_p = 42.04
+ V_p = 42.04 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
 \begin{align}
  V &= V_h + V_p \\
- V &= Ce^{-\dfrac{7}{30}t} + 42.04 \qquad \text{met } C \in \mathbb{R}
+ V &= Ce^{-\dfrac{7}{30}t} + 42.04 \qquad \text{met } C \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De gegeven voorwaarden gebruiken om C te bepalen.  $V(0) = 0$
 
 Dus invullen geeft:
 \begin{align}
- 0 &= Ce^{-\dfrac{7}{30} \cdot 0} + 42.04 \\
+ 0 &= Ce^{-\dfrac{7}{30} \cdot 0} + 42.04 \qquad {\color{blue} \text{(1p)}}\\
  0 &= C \cdot 1  + 42.04 \\
  C &= 0 - 42.04 \\
- C &= -42.04
+ C &= -42.04 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Dus C invullen in de totale oplossing geeft:
 \begin{align}
- V &=  -42.04e^{-\dfrac{7}{30}t} + 42.04
+ V &=  -42.04e^{-\dfrac{7}{30}t} + 42.04 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 dus 42.04 m/s
@@ -608,7 +608,7 @@ $R = 100$$\Omega$, $C =0.1$F, $U(t)=100$V en $I(0)=1.0$A
 Voor een RC-kring geldt:
   \begin{align}
    U(t) &= U_R + U_C   \\
-     &= R \cdot I + \dfrac{1}{C} \int I dt
+     &= R \cdot I + \dfrac{1}{C} \int I dt \qquad {\color{blue} \text{(1p)}}
   \end{align}
 
   Beide zijdes differentiëren geeft de gevraagde DV.:
@@ -625,7 +625,7 @@ Voor een RC-kring geldt:
 
 De homogene D.V. wordt:
 \begin{align}
- 100\dfrac{dI}{dt} + 10I = 0
+ 100\dfrac{dI}{dt} + 10I = 0 \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Als oplossing voor de homogene D.V. stel:
@@ -644,12 +644,12 @@ Verder geldt dat $e^{\lambda t} \neq 0 $ dus,
 \begin{align}
  100\lambda + 10   &= 0  \\
  100\lambda   &= -10 \\
- \lambda   &= -\dfrac{10}{100} = -\dfrac{1}{21}
+ \lambda   &= -\dfrac{10}{100} = -\dfrac{1}{21} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De waarde voor $\lambda$ invullen in de homogene oplossing geeft;
 \begin{align}
- I_h = Ce^{-\frac{1}{10}t} \qquad \text{met } C \in \mathbb{R}
+ I_h = Ce^{-\frac{1}{10}t} \qquad \text{met } C \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 
