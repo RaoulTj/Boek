@@ -266,7 +266,7 @@ Dus C invullen in de totale oplossing geeft:
 ## Opgave 3
 
 `````{admonition} Antwoord
-:class: important, dropdown
+:class: dropdown
 
 Bepaal de stroomsterkte $I(t)$ in een RL-netwerk als de volgende parameters zijn gegeven:
 
@@ -365,6 +365,7 @@ Dus C invullen in de totale oplossing geeft:
 `````
 
 ## Opgave 4
+
 `````{admonition} Antwoord
 :class: dropdown
 
@@ -598,7 +599,7 @@ Wat is de temperatuur na 15 minuten:
 `````{admonition} Antwoord
 :class: dropdown
 
-Bepaal de stroomsterkte $I(t)$ in een RC-netwerk als de volgende parameters zijn gegeven:
+De stroomsterkte $I(t)$ in een RC-netwerk is:
 
 $R = 100$$\Omega$, $C =0.1$F, $U(t)=100$V en $I(0)=1.0$A
 

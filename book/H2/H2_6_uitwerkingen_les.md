@@ -59,29 +59,29 @@ De algemene oplossing van de differentiaalvergelijking is:
 
 Alle variabelen met een $y$ naar links en variabelen met een $x$ naar rechts.
 \begin{align}
- \dfrac{1}{y^2}\dfrac{dy}{dx} &= \dfrac{1}{x-3}
+ \dfrac{1}{y^2}\dfrac{dy}{dx} &= \dfrac{1}{x-3} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Aan beide kanten de integraal nemen naar $dx$.
 \begin{align}
- \int \dfrac{1}{y^2}\dfrac{dy}{dx} dx &= \int \dfrac{1}{x-3} dx
+ \int \dfrac{1}{y^2}\dfrac{dy}{dx} dx &= \int \dfrac{1}{x-3} dx \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De integraal $\dfrac{dy}{dx}dx$ vereenvoudigen tot $dy$.
 \begin{align}
- \int \dfrac{1}{y^2} dy &= \int \dfrac{1}{x-3} dx
+ \int \dfrac{1}{y^2} dy &= \int \dfrac{1}{x-3} dx \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 De primitieven nemen van beide kanten.
 \begin{align}
- -\dfrac{1}{y}  + C_1 &=  \ln|x-3|  + C_2\\
+ -\dfrac{1}{y}  + C_1 &=  \ln|x-3|  + C_2\\ \qquad {\color{blue} \text{(2p)}}
  -\dfrac{1}{y}  &=  \ln|x-3| + C_3\\
  y &=  \dfrac{-1}{\ln|x-3|  + C_3}
 \end{align}
 
 dus,
 \begin{align}
- y &=  \dfrac{-1}{\ln|x-3|  + C} \qquad \text{met } C \in \mathbb{R}
+ y &=  \dfrac{-1}{\ln|x-3|  + C} \qquad \text{met } C \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 ```
 ````
