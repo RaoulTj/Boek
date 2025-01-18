@@ -631,7 +631,7 @@ De waarde voor $p$ en $q$ invullen in de algemene oplossing geeft;
 
 \begin{align}
  y_h &= e^{0x}(C_1\cos(2x) + C_2\sin(2x)) \qquad  \text{met } C \in \mathbb{R} \\
- y_h $= C_1\cos(2x) + C_2\sin(2x) \qquad  \text{met } C \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
+ y_h &= C_1\cos(2x) + C_2\sin(2x) \qquad  \text{met } C \in \mathbb{R} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V. 

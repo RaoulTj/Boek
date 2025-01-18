@@ -214,14 +214,14 @@ Aan beide kanten de integraal nemen.
 
 De primitieven nemen van beide kanten.
 \begin{align}
- -\ln|y| + C_1 &=  \ln|x|  + C_2 \qquad {\color{blue} \text{(1p)}} \\
+ -\ln|y| + C_1 &=  \ln|x|  + C_2 \qquad {\color{blue} \text{(2p)}} \\
  -\ln|y| &=  \ln|x|  + C_3\\
  \ln|y| &=  -\ln|x|  + C_3\\
  |y| &= e^{-\ln|x|  + C_3}\\
  |y| &= e^{-\ln|x|} \cdot   e^{C_3}\\
  |y| &= e^{\ln|x^{-1}|} \cdot   e^{C_3}\\
  y &= \pm e^{\ln|x^{-1}|} \cdot   e^{C_3}\\
- y &= \pm \dfrac{1}{x} \cdot   e^{C_3}\\
+ y &= \pm \dfrac{1}{x} \cdot   e^{C_3} \qquad {\color{blue} \text{(1p)}}
 \end{align}
 
 y=0 voldoet aan de dv dus,
