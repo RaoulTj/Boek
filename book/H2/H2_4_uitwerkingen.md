@@ -38,6 +38,7 @@ De primitieven nemen van beide kanten.
 ```
 ````
 
+(2:4:2)=
 ## Opgave 2.1b
 
 ````{admonition} Antwoord
