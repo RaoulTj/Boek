@@ -35,7 +35,7 @@ Wat is de temperatuur van een warm bad na 15 minuten als de volgende parameters 
 
 Een bad met een temperatuur van 65$^{\circ}$ C staat in een ruimte gelegd waar de temperatuur 19$^{\circ}$ C is. Na 2 minuten is het bad afgekoelt tot een temperatuur van 55$^{\circ}$ C.
 
-(565)=
+(5:6:5)=
 ## Opgave 6
 
 Bepaal de stroomsterkte $I(t)$ in een RC-netwerk als de volgende parameters zijn gegeven:
