@@ -364,6 +364,7 @@ Dus C invullen in de totale oplossing geeft:
 ````
 `````
 
+(5:7:4)=
 ## Opgave 4
 
 `````{admonition} Antwoord
@@ -673,5 +674,3 @@ Dus C invullen in de totale oplossing geeft:
 \end{align}
 ````
 `````
-
-{ref}`5:6:5`

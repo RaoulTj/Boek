@@ -559,6 +559,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 ```
 ````
 
+(4:6:5)=
 ## Opgave 5
 
 ````{admonition} Antwoord

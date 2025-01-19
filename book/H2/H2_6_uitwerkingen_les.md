@@ -180,6 +180,7 @@ dus,
 ```
 ````
 
+(2:6:5)=
 ## Opgave 5
 
 ````{admonition} Antwoord

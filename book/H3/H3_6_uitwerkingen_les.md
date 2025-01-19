@@ -149,6 +149,7 @@ y=0 voldoet aan de dv dus,
 ```
 ````
 
+(3:6:4)=
 ## Opgave 4
 
 ````{admonition} Antwoord
