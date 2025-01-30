@@ -239,107 +239,107 @@ De algemene oplossing van de differentiaalvergelijking is:
 \end{align*}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
-\begin{align*}
+\begin{align}
  y = y_h + y_p
-\end{align*}
+\end{align}
 
 De homogene D.V. wordt:
-\begin{align*}
+\begin{align}
  2\dfrac{d^2y}{dx^2} +10y =  0 \quad {\color{blue}   \text{(1p)}}
-\end{align*}
+\end{align}
 
 Als oplossing voor de homogene D.V. stel:
-\begin{align*}
+\begin{align}
  y_h = Ce^{\lambda x} \text{ met } C \in \mathbb{R}
-\end{align*}
+\end{align}
 
 Dus,
-\begin{align*}
+\begin{align}
   \dfrac{dy_h}{dx} &= \lambda Ce^{\lambda x} \text{ met } C \in \mathbb{R} \\
   \dfrac{d^2y_h}{dx^2} &= \lambda^2 Ce^{\lambda x} \text{ met } C \in \mathbb{R}
-\end{align*}
+\end{align}
 
 
 Invullen in de D.V. geeft:
-\begin{align*}
+\begin{align}
  2(\lambda^2 Ce^{\lambda x}) +10(Ce^{\lambda x}) &= 0 \\
  (2\lambda^2 +10 )\cdot Ce^{\lambda x}  &= 0
-\end{align*}
+\end{align}
 
 De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \\
 Verder geldt dat $e^{\lambda x} \neq 0 $ dus,
-\begin{align*}
+\begin{align}
  2\lambda^2 +10 &= 0 \quad {\color{blue}   \text{(1p)}}
-\end{align*}
+\end{align}
 
 Dus de discriminant is,
-\begin{align*}
+\begin{align}
  D = (0)^2 - 4 \cdot 2 \cdot 10 = - 80 = -80
-\end{align*}
+\end{align}
 
 De oplossingen van de karakteristieke vergelijking zijn:
-\begin{align*}
+\begin{align}
   \lambda_{1,2} &= \dfrac{0 \pm i\sqrt{80}}{2 \cdot 2}\\
   \lambda_{1,2} &= \dfrac{0 \pm 4\sqrt{5}i}{4}\\
   \lambda_{1,2} &= 0 \pm \sqrt{5}\cdot i \quad {\color{blue}   \text{(1p)}}
-\end{align*}
+\end{align}
 
 Hieruit volgt dat $p=0$ en $q=\sqrt{5}$
 
 De waarde voor $p$ en $q$ invullen in de algemene oplossing geeft;
-\begin{align*}
+\begin{align}
  y_h &= e^{px}(C_1\cos(qx) + C_2\sin(qx)) \\
  y_h &= e^{0x}(C_1\cos(\sqrt{5}x) + C_2\sin ( \sqrt{5}x ) ) \\
  y_h &= C_1\cos(\sqrt{5}x) + C_2\sin ( \sqrt{5}x ) \qquad  \text{met } C_{1,2} \in \mathbb{R} \quad {\color{blue}   \text{(1p)}}
-\end{align*}
+\end{align}
 
 
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.
 Als vorm voor de particuliere oplossing stel:
-\begin{align*}
+\begin{align}
  y_p =  Ae^{4x} + B  \quad {\color{blue}   \text{(1p)}}
-\end{align*}
+\end{align}
 
 Dus,
-\begin{align*}
+\begin{align}
   \dfrac{dy_p}{dx} &= 4Ae^{4x}  \\
   \dfrac{d^2y_p}{dx^2} &= 16Ae^{4x} \\
-\end{align*}
+\end{align}
 
 Invullen in de D.V. geeft:
-\begin{align*}
+\begin{align}
  2 \cdot (16Ae^{4x})  + 10 \cdot (Ae^{4x} + B)  &= e^{4x} + 1\\
  32Ae^{x}  + 10Ae^{x} + 10B   &= e^{4x} +1 \\
  42Ae^{x} +10B  &= e^{4x} +1 \quad {\color{blue}   \text{(1p)}}
-\end{align*}
+\end{align}
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
-\begin{align*}
+\begin{align}
  52A &= 1 \\
  10B &= 1 \quad {\color{blue}   \text{(1p) voor beide samen}}
-\end{align*}
+\end{align}
 
 Hieruit volgt:
-\begin{align*}
+\begin{align}
  52A &= 1 \\
  A &= \dfrac{1}{42} \quad {\color{blue}   \text{(1p)}}
-\end{align*}
+\end{align}
 
-\begin{align*}
+\begin{align}
  10B &= 1 \\
  B &= \dfrac{1}{10} \quad {\color{blue}   \text{(1p)}}
-\end{align*}
+\end{align}
 
 De waardes voor $C_1$ en $C_2$  invullen in de particuliere oplossing geeft:
-\begin{align*}
+\begin{align}
   y_p = \dfrac{1}{42}e^{4x} +  \dfrac{1}{10} \quad {\color{blue}   \text{(1p)}}
-\end{align*}
+\end{align}
 
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
-\begin{align*}
+\begin{align}
  y &= y_h + y_p \\
  y &=  C_1\cos(\sqrt{5}x) + C_2\sin ( \sqrt{5}x ) + \dfrac{1}{42}e^{4x} +  \dfrac{1}{10}  \qquad \text{met } C_{1,2} \in \mathbb{R}  \quad {\color{blue}   \text{(1p) alleen als beide goed}}
-\end{align*}
+\end{align}
 ````
 `````
 
@@ -348,83 +348,81 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 `````{admonition} Antwoord
 :class: dropdown
 
-
-
 \begin{align*}
  I &= \dfrac{217}{101}e^{-10t} + \dfrac{150}{101}\sin(t) - \dfrac{15}{101}\cos(t)
 \end{align*}
 
 ````{dropdown} Uitwerking
   Voor een RL-kring geldt:
-  \begin{align*}
+  \begin{align}
    U(t) &= U_L + U_r  \quad {\color{blue}   \text{(1p)}} \\
      &= L \cdot \dfrac{dI}{dt} + R \cdot I  \quad {\color{blue}   \text{(1p)}}
-  \end{align*}
+  \end{align}
 
   De gegevens invullen in de DV geeft:
-  \begin{align*}
+  \begin{align}
    U(t) &= 2 \cdot \dfrac{dI}{dt} + 20 \cdot  I\\
    30 \sin(t) &= 2 \cdot \dfrac{dI}{dt} + 20 \cdot  I \\
    30 \sin(t) &= 2 \cdot \dfrac{dI}{dt} + 20 \cdot  I \quad {\color{blue}   \text{(1p)}}
-  \end{align*}
+  \end{align}
 De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
-\begin{align*}
+\begin{align}
  I = I_h + I_p
-\end{align*}
+\end{align}
 
 De homogene D.V. wordt:
-\begin{align*}
+\begin{align}
  2\dfrac{dI}{dt} + 20I = 0 \quad {\color{blue}   \text{(1p)}}
-\end{align*}
+\end{align}
 
 Als oplossing voor de homogene D.V. stel:
-\begin{align*}
+\begin{align}
  I_h = Ce^{\lambda t} \text{ met } C \in \mathbb{R}
-\end{align*}
+\end{align}
 
 Invullen in de D.V. geeft:
-\begin{align*}
+\begin{align}
  2\lambda \cdot Ce^{\lambda t} + 20\cdot Ce^{\lambda t} &= 0 \\
  (2\lambda +20 )\cdot Ce^{\lambda t}  &= 0
-\end{align*}
+\end{align}
 
 De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \\
 Verder geldt dat $e^{\lambda t} \neq 0 $ dus,
-\begin{align*}
+\begin{align}
  2\lambda +20   &= 0 \quad {\color{blue}   \text{(1p)}} \\
  2\lambda   &= -20 \\
  \lambda   &= -10 \quad {\color{blue}   \text{(1p)}}
-\end{align*}
+\end{align}
 
 De waarde voor $\lambda =-10$ invullen in de homogene oplossing geeft;
-\begin{align*}
+\begin{align}
  I_h = Ce^{-10t} \qquad \text{met } C \in \mathbb{R} \quad {\color{blue}   \text{(1p)}}
-\end{align*}
+\end{align}
 
 Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.
 Als vorm voor de particuliere oplossing stel:
-\begin{align*}
+\begin{align}
  I_p &=  C_1\cos(t) + C_2\sin(t) \quad {\color{blue}   \text{(1p)}}\\
  I'_p &= -C_1\sin(t) + C_2\cos(t) \\
-\end{align*}
+\end{align}
 
 Invullen in de D.V. geeft:
-\begin{align*}
+\begin{align}
  2 \cdot (-C_1\sin(t) + C_2\cos(t)) +  20 (C_1 \cos(t)+C_2 \sin(t)) &=  30\sin(t) \\
  (20C_1+2C_2)\cos(t) + (-2C_1+20C_2)\sin(t) &= 30\sin(t) \quad {\color{blue}   \text{(1p)}}
-\end{align*}
+\end{align}
 
 De co\"effici\"enten moeten links en rechts gelijk zijn dus volgt:
-\begin{align*}
+\begin{align}
  20C_1+2C_2 &= 0 \\
  -2C_1+20C_2 &= 30  \quad {\color{blue}   \text{(1p) voor beide samen}} \\
-\end{align*}
+\end{align}
 
 Hieruit volgt:
-\begin{align*}
+\begin{align}
  2C_2 &= -20C_1 \\
  C_2 &= -10C_1
-\end{align*}
+\end{align}
 
 $C_2 $ invullen geeft:
 \begin{align}
