@@ -151,6 +151,24 @@ Bereken de afgeleiden van functie $g(x)$.
  \end{align*}
 
  Het oppervlak heeft de eenheid $N/m \cdot m = N$, dus kracht. \quad {\color{blue}   \text{(1p)}}
+
+  Gegeven de verdeelde belasting:
+ \begin{align*}
+  q(x) &= 3 \cdot \cos \left (\dfrac{\pi}{4}x \right)
+ \end{align*}
+ 
+ Bereken exact met behulp van een integraal het oppervlak onder de verdeelde belasting, $q(x)$.
+
+ Beredeneer welke grootheid dit oppervlak voorstelt. 
+ 
+ \begin{align*}
+  F &= \int_{0}^{2} q(x) dx \quad {\color{blue}   \text{(1p)}} \\
+    &= \int_{0}^{2} 3 \cdot \cos \left( \dfrac{\pi}{4}x \right) dx \quad {\color{blue}   \text{(1p)}} \\
+    &= \left[ \dfrac{12}{\pi} \sin \left( \dfrac{\pi}{4}x \right) \right]^2_0 \quad {\color{blue}   \text{(1p)}}  \\
+    &= \dfrac{12}{\pi} - 0  \\
+    &= \dfrac{12}{\pi} \quad {\color{blue}   \text{(1p)}}
+ \end{align*}
+
 ````
 `````
 
