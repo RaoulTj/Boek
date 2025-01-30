@@ -2,14 +2,28 @@
 
 ## Opgave 1 (2 punten)
 
+`````{admonition} Antwoord
+:class: dropdown
+
+
+````{dropdown} Uitwerking
+
 \begin{align*}
  - 5t^2\dfrac{d^5x}{dt^5} + \dfrac{d^3x}{dt^3} + \cos(2t)\dfrac{d^2x}{dt^2} - 3\dfrac{dx}{dt} + \dfrac{x}{t^2} = e^{3t}
 \end{align*}
 
-De orde van de DV is de grootste afgeleide van $x$ naar $t$. \quad {\color{blue}   \text{(1p)}} \\
-Dat is $\dfrac{d^5x}{dt^5}$, dus de DV is van de 5e orde.   \quad {\color{blue}   \text{(1p)}}\\
+De orde van de DV is de grootste afgeleide van $x$ naar $t$. $\quad {\color{blue}   \text{(1p)}}$ \\
+Dat is $\dfrac{d^5x}{dt^5}$, dus de DV is van de 5e orde.  $ \quad {\color{blue}   \text{(1p)}}$\\
+````
+`````
 
 ## Opgave 2 (3 punten)
+
+`````{admonition} Antwoord
+:class: dropdown
+
+
+````{dropdown} Uitwerking
 
 Omschrijven naar de standaard vorm levert:
 
@@ -19,6 +33,8 @@ Omschrijven naar de standaard vorm levert:
 
 Deze vorm komt overeen met de standaardvorm voor een lineaire DV. \quad {\color{blue}   \text{(1p)}} \\
 De lineaire DV is ongelijk aan 0 dus inhomogeen. \quad {\color{blue}   \text{(1p)}}
+````
+`````
 
 ## Opgave 3 (8 punten)
 
@@ -477,9 +493,9 @@ Dus C invullen in de totale oplossing geeft:
 
 
 
-\begin{align}
+\begin{align*}
  u &= 0.05 \cos(8t)
-\end{align}
+\end{align*}
 
 ````{dropdown} Uitwerking
 Voor een massa-veer-systeem geldt:
