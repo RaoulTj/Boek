@@ -2,23 +2,23 @@
 
 ## Opgave 1 (2 punten)
 
-	\begin{align*}
-		- 5t^2\dfrac{d^5x}{dt^5} + \dfrac{d^3x}{dt^3} + \cos(2t)\dfrac{d^2x}{dt^2} - 3\dfrac{dx}{dt} + \dfrac{x}{t^2} = e^{3t}
-	\end{align*}
+\begin{align*}
+ - 5t^2\dfrac{d^5x}{dt^5} + \dfrac{d^3x}{dt^3} + \cos(2t)\dfrac{d^2x}{dt^2} - 3\dfrac{dx}{dt} + \dfrac{x}{t^2} = e^{3t}
+\end{align*}
 
 De orde van de DV is de grootste afgeleide van $x$ naar $t$. \quad {\color{blue}   \text{(1p)}} \\
 Dat is $\dfrac{d^5x}{dt^5}$, dus de DV is van de 5e orde.   \quad {\color{blue}   \text{(1p)}}\\
 
-
 ## Opgave 2 (3 punten)
 
-	Omschrijven naar de standaard vorm levert:
-	\begin{align*}
-	  - 5x^2\dfrac{d^5y}{dx^5} +e^{5x}\dfrac{d^3y}{dx^3} + \dfrac{d^2y}{dx^2} - cos(4x)\dfrac{dy}{dx} + \dfrac{y}{x^2}= 3x \quad {\color{blue}   \text{(1p)}}
-	\end{align*}		
+Omschrijven naar de standaard vorm levert:
 
-	Deze vorm komt overeen met de standaardvorm voor een lineaire DV. \quad {\color{blue}   \text{(1p)}} \\
-	De lineaire DV is ongelijk aan 0 dus inhomogeen. \quad {\color{blue}   \text{(1p)}}
+\begin{align*}
+- 5x^2\dfrac{d^5y}{dx^5} +e^{5x}\dfrac{d^3y}{dx^3} + \dfrac{d^2y}{dx^2} - cos(4x)\dfrac{dy}{dx} + \dfrac{y}{x^2}= 3x \quad {\color{blue}   \text{(1p)}}
+\end{align*}
+
+Deze vorm komt overeen met de standaardvorm voor een lineaire DV. \quad {\color{blue}   \text{(1p)}} \\
+De lineaire DV is ongelijk aan 0 dus inhomogeen. \quad {\color{blue}   \text{(1p)}}
 
 ## Opgave 3 (8 punten)
 
