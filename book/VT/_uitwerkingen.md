@@ -53,7 +53,7 @@ De integraal $\dfrac{dy}{dx}dx$ vereenvoudigen tot $dy$.
 \end{align*}
 
 De primitieven nemen van beide kanten.
-\begin{align*}  
+\begin{align*}
  \ln|y-3| + C_1 &=  2\ln|x-5| + C_2 \quad {\color{blue}   \text{(2p)}} \\
  \ln|y-3|  &=  2\ln|x-5| + C_3\\
  e^{\ln|y-3|} &=  e^{2\ln|x-5| + c_3}\\
@@ -273,12 +273,12 @@ Verder geldt dat $e^{\lambda x} \neq 0 $ dus,
 \end{align*}
 
 Dus de discriminant is,
-\begin{align*}  
+\begin{align*}
  D = (0)^2 - 4 \cdot 2 \cdot 10 = - 80 = -80
 \end{align*}
 
 De oplossingen van de karakteristieke vergelijking zijn:
-\begin{align*}  
+\begin{align*}
   \lambda_{1,2} &= \dfrac{0 \pm i\sqrt{80}}{2 \cdot 2}\\
   \lambda_{1,2} &= \dfrac{0 \pm 4\sqrt{5}i}{4}\\
   \lambda_{1,2} &= 0 \pm \sqrt{5}\cdot i \quad {\color{blue}   \text{(1p)}}
@@ -294,7 +294,7 @@ De waarde voor $p$ en $q$ invullen in de algemene oplossing geeft;
 \end{align*}
 
 
-Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.  
+Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.
 Als vorm voor de particuliere oplossing stel:
 \begin{align*}
  y_p =  Ae^{4x} + B  \quad {\color{blue}   \text{(1p)}}
@@ -401,7 +401,7 @@ De waarde voor $\lambda =-10$ invullen in de homogene oplossing geeft;
  I_h = Ce^{-10t} \qquad \text{met } C \in \mathbb{R} \quad {\color{blue}   \text{(1p)}}
 \end{align*}
 
-Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.  
+Kies als vorm voor de particuliere oplossing een vorm die gelijk is aan het rechterlid van de D.V.
 Als vorm voor de particuliere oplossing stel:
 \begin{align*}
  I_p &=  C_1\cos(t) + C_2\sin(t) \quad {\color{blue}   \text{(1p)}}\\
