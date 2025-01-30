@@ -104,3 +104,5 @@ parts:
       sections:
       - file: VT/VT_1_opgaven
       - file: VT/VT_2_uitwerkingen
+      - file: VT/_opgaven
+      - file: VT/_uitwerkingen
