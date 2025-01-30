@@ -7,6 +7,13 @@
 
 ## Opgave 3 (8 punten)
 
+`````{admonition} Antwoord
+:class: dropdown
+
+Bepaal de uiteindelijke valsnelheid van het voorwerp is $42.04$ m/s
+
+````{dropdown} Uitwerking
+
 \begin{align*}
  (x-5)\dfrac{dy}{dx} = 2(y-3)
 \end{align*}
@@ -42,9 +49,18 @@ $y-3 = 0$ voldoet aan de dv, dus
 \begin{align*}
  y-3 &=  C\cdot  (x-5)^2  &\qquad \text{met } C \in \mathbb{R} \\
  y &=  C\cdot  (x-5)^2 + 3 &\qquad \text{met } C \in \mathbb{R} \quad {\color{blue}   \text{(1p)}}
+\end{align*}
+````
+`````
 
 ## Opgave 4 (6 punten)
 
+`````{admonition} Antwoord
+:class: dropdown
+
+Bepaal de uiteindelijke valsnelheid van het voorwerp is $42.04$ m/s
+
+````{dropdown} Uitwerking
 \begin{align*}
  \dfrac{dy}{dx} = \dfrac{4^x}{y^2}
 \end{align*}
@@ -65,51 +81,60 @@ De integraal $\dfrac{dy}{dx}dx$ vereenvoudigen tot $dy$.
 \end{align*}
 
 De primitieven nemen van beide kanten.
-\begin{align*}  
+\begin{align*}
  \dfrac{1}{3} y^3 + C_1 &=  \dfrac{1}{\ln(4)} 4^x + C_2 \quad {\color{blue}   \text{(2p)}} \\
  \dfrac{1}{3} y^3  &=  \dfrac{1}{\ln(4)} 4^x + C_3\\
   y^3 &=  \dfrac{3}{\ln(4)} 4^x + C_3 \\
-   y &= \sqrt[3]{\dfrac{3}{\ln(4)} 4^x + C_3}  
+   y &= \sqrt[3]{\dfrac{3}{\ln(4)} 4^x + C_3}
 \end{align*}
 
 dus,
-\begin{align*}  
-   y &= \sqrt[3]{\dfrac{3}{\ln(4)} 4^x + C} \qquad \text{met } C \in \mathbb{R} \quad {\color{blue}   \text{(1p)}}\end{align*}
+\begin{align*}
+   y &= \sqrt[3]{\dfrac{3}{\ln(4)} 4^x + C} \qquad \text{met } C \in \mathbb{R} \quad {\color{blue}   \text{(1p)}}
+\end{align*}
+````
+`````
 
 ## Opgave 5 (11 punten)
 
+`````{admonition} Antwoord
+:class: dropdown
+
+Bepaal de uiteindelijke valsnelheid van het voorwerp is $42.04$ m/s
+
+````{dropdown} Uitwerking
 \begin{align*}
-  7\dfrac{dy}{dx} +6y &= 8\cos(3x)
- \end{align*}
+ 7\dfrac{dy}{dx} +6y &= 8\cos(3x)
+\end{align*}
 
- De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
- \begin{align*}
-  y = y_h + y_p
- \end{align*}
+De algemene oplossing bestaat uit een optelling van de homogene oplossing en de particuliere oplossing.
+\begin{align*}
+ y = y_h + y_p
+\end{align*}
 
- De homogene D.V. wordt:
- \begin{align*}
-  7\dfrac{dy}{dx} + 6y = 0 \quad {\color{blue}   \text{(1p)}}
- \end{align*}
+De homogene D.V. wordt:
+\begin{align*}
+ 7\dfrac{dy}{dx} + 6y = 0 \quad {\color{blue}   \text{(1p)}}
+\end{align*}
 
- Als oplossing voor de homogene D.V. stel:
- \begin{align*}
-  y_h = Ce^{\lambda x} \text{ met } C \in \mathbb{R}
- \end{align*}
+Als oplossing voor de homogene D.V. stel:
+\begin{align*}
+ y_h = Ce^{\lambda x} \text{ met } C \in \mathbb{R}
+\end{align*}
 
- Invullen in de D.V. geeft:
- \begin{align*}
-  7\lambda \cdot Ce^{\lambda x} - 6\cdot Ce^{\lambda x} &= 0 \\
-  (7\lambda +6 )\cdot Ce^{\lambda x}  &= 0
- \end{align*}
+Invullen in de D.V. geeft:
+\begin{align*}
+ 7\lambda \cdot Ce^{\lambda x} - 6\cdot Ce^{\lambda x} &= 0 \\
+ (7\lambda +6 )\cdot Ce^{\lambda x}  &= 0
+\end{align*}
 
- De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \\
- Verder geldt dat $e^{\lambda x} \neq 0 $ dus,
- \begin{align*}
-  7\lambda +6   &= 0 \quad {\color{blue}   \text{(1p)}} \\
-  7\lambda   &= -6 \\
-  \lambda   &= -\dfrac{6}{7} \quad {\color{blue}   \text{(1p)}}
- \end{align*}
+De vergelijking moet gelden voor alle waardes van C dus ook voor $C \neq 0$. \\
+Verder geldt dat $e^{\lambda x} \neq 0 $ dus,
+\begin{align*}
+ 7\lambda +6   &= 0 \quad {\color{blue}   \text{(1p)}} \\
+ 7\lambda   &= -6 \\
+ \lambda   &= -\dfrac{6}{7} \quad {\color{blue}   \text{(1p)}}
+\end{align*}
 
  De waarde voor $\lambda =-\dfrac{6}{7}$ invullen in de homogene oplossing geeft;
  \begin{align*}
@@ -167,9 +192,17 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  y &= y_h + y_p \\
  y &= Ce^{-\frac{6}{7}x} + \dfrac{56}{159}\sin(3x) + \dfrac{16}{159}\cos(3x)\qquad \text{met } C \in \mathbb{R}   \quad {\color{blue}   \text{(1p) alleen als beide goed}}
 \end{align*}
+````
+`````
 
 ## Opgave 6 (11 punten)
 
+`````{admonition} Antwoord
+:class: dropdown
+
+Bepaal de uiteindelijke valsnelheid van het voorwerp is $42.04$ m/s
+
+````{dropdown} Uitwerking
 \begin{align*}
  2\dfrac{d^2y}{dx^2} +10y = e^{4x}+1
 \end{align*}
@@ -276,9 +309,17 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  y &= y_h + y_p \\
  y &=  C_1\cos(\sqrt{5}x) + C_2\sin ( \sqrt{5}x ) + \dfrac{1}{42}e^{4x} +  \dfrac{1}{10}  \qquad \text{met } C_{1,2} \in \mathbb{R}  \quad {\color{blue}   \text{(1p) alleen als beide goed}}
 \end{align*}
+````
+`````
 
 ## Opgave 7 (17 punten)
 
+`````{admonition} Antwoord
+:class: dropdown
+
+Bepaal de uiteindelijke valsnelheid van het voorwerp is $42.04$ m/s
+
+````{dropdown} Uitwerking
   Voor een RL-kring geldt:
   \begin{align*}
    U(t) &= U_L + U_r  \quad {\color{blue}   \text{(1p)}} \\
@@ -393,10 +434,17 @@ Dus C invullen in de totale oplossing geeft:
 \begin{align*}
  I &= \dfrac{217}{101}e^{-10t} + \dfrac{150}{101}\sin(t) - \dfrac{15}{101}\cos(t)  \quad {\color{blue}   \text{(1p) goed of fout}}
 \end{align*}
-
+````
+`````
 
 ## Opgave 8 (10 punten)
 
+`````{admonition} Antwoord
+:class: dropdown
+
+Bepaal de uiteindelijke valsnelheid van het voorwerp is $42.04$ m/s
+
+````{dropdown} Uitwerking
 Voor een massa-veer-systeem geldt:
 \begin{align*}
 F_{res} &= - F_v \quad {\color{blue}   \text{(1p)}}
@@ -494,4 +542,6 @@ Dus $C_1$ en $C_2$ invullen in de totale oplossing geeft:
  u &=  C_1\cos(8t) + C_2\sin (8t ) \\
  u &= 0.05 \cos(8t)  \quad {\color{blue}   \text{(1p)}}
 \end{align*}
+````
+`````
 
