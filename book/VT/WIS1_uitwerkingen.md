@@ -2,6 +2,30 @@
 
 ## Opgave 1 (4 punten)
 
+`````{admonition} Antwoord
+:class: dropdown
+
+
+````{dropdown} Uitwerking
+
+ \begin{align*}
+  S(t) &= b \cdot g^t \quad {\color{blue}   \text{(1p)}} \\
+     &= 500 \cdot 1.05^{t/12} \quad {\color{blue}   \text{(1p)}} \\
+     &= 500 \cdot 1.004^{t} \quad {\color{blue}   \text{(1p)}}
+ \end{align*}
+ \begin{align*}
+  S(5) &= 500 \cdot 1.004^{5}\\
+     &= 510.27  
+ \end{align*}
+ 
+ Dus na 5 maanden is er $510.27$ euro aan spaargeld. \quad {\color{blue}   \text{(1p)}}
+ 
+ Of $510.08$ bij vroegtijdige afronding
+````
+`````
+
+
+
 ## Opgave 2 (9 punten)
 
 `````{admonition} Antwoord
@@ -9,6 +33,7 @@
 
 
 ````{dropdown} Uitwerking
+
 Los de volgende vergelijking op:
 \begin{align*}
   \log \left( \sqrt{x}+6 \right) &= \log \left (\dfrac{x}{4} \right )+ 2 \cdot \log \left(2 \right) \\
@@ -23,7 +48,7 @@ Los de volgende vergelijking op:
 Oplossen geeft:
 \begin{align*}
   (x-9)&(x+4) =0 \quad {\color{blue}   \text{(1p)}}\\
-  x=9 &\vee x=-4 \quad {\color{blue}   \text{(2p) voor ieder 1p }} \\
+  x=9 &\vee x=-4 \quad {\color{blue}   \text{(1p + 1p) }} \\
   \text{voldoet} &\vee \text{voldoet niet}  \quad {\color{blue}   \text{niet gecontroleerd is (-1p)}}
 \end{align*}
 ````
@@ -45,7 +70,7 @@ Gegeven de functie:
 Bereken de afgeleiden van functie $f(x)$.
 
 \begin{align*}
-  \dfrac{df(x)}{dx} &= e^{\sin(x)} \cdot \cos(x) \quad {\color{blue}   \text{(2p)}}
+  \dfrac{df(x)}{dx} &= e^{\sin(x)} \cdot \cos(x) \quad {\color{blue}   \text{(1p + 1p)}}
 \end{align*}
 ````
 `````
@@ -84,8 +109,8 @@ Bereken de afgeleiden van functie $g(x)$.
   q(x)=a \cdot \cos(cx)
  \end{align*}
 
- beginwaarde: $a=3$ \quad {\color{blue}   \text{(1p)}}\\
- periode: $\dfrac{2\pi}{c} = 8$ geeft $c = \dfrac{\pi}{4}$ \quad {\color{blue}   \text{(1p)}}
+ beginwaarde: $a=3$ $\quad {\color{blue}   \text{(1p)}}$
+ periode: $\dfrac{2\pi}{c} = 8$ geeft $c = \dfrac{\pi}{4}$ $\quad {\color{blue}   \text{(1p)}}$
 
  \begin{align*}
   q(x)=3 \cdot \cos(\dfrac{\pi}{4}x)
@@ -169,3 +194,40 @@ Bereken de afgeleiden van functie $g(x)$.
 `````
 
 ## Opgave 8 (4 punten)
+
+`````{admonition} Antwoord
+:class: dropdown
+
+
+````{dropdown} Uitwerking
+
+Bereken de volgende onbepaalde integraal: 
+\begin{align*}
+  \int sin(x) \cdot \cos^3(x) dx
+\end{align*}
+
+Herschrijven tot;
+\begin{align*}
+  \int \cos^3(x) \cdot sin(x)  dx
+\end{align*}
+
+\begin{align*}
+\dfrac{d \cos(x)}{dx} &= -\sin(x)\\
+ d \cos(x)&=-\sin(x) dx\\
+ -d \cos(x) &= \sin(x) dx
+\end{align*}
+
+Dus,
+\begin{align*}
+  &\int \cos^3(x) \cdot sin(x)  dx  \\
+  &=\int -\cos^3(x) d \cos(x) \quad {\color{blue}   \text{(1p)}}
+\end{align*}
+
+Stel: $\cos(x)=u$
+\begin{align*}
+  &\int -u^3 du  \quad {\color{blue}   \text{(1p)}} \\
+  &= -\dfrac{1}{4}u^4 + C \quad {\color{blue}   \text{(1p)}}\\
+  &= -\dfrac{1}{4}\cos^4(x) + C \quad {\color{blue}   \text{(1p)}}
+\end{align*}
+````
+`````
