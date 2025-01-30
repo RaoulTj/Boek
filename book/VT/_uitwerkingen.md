@@ -2,15 +2,34 @@
 
 ## Opgave 1 (2 punten)
 
+	\begin{align*}
+		- 5t^2\dfrac{d^5x}{dt^5} + \dfrac{d^3x}{dt^3} + \cos(2t)\dfrac{d^2x}{dt^2} - 3\dfrac{dx}{dt} + \dfrac{x}{t^2} = e^{3t}
+	\end{align*}
+
+De orde van de DV is de grootste afgeleide van $x$ naar $t$. \quad {\color{blue}   \text{(1p)}} \\
+Dat is $\dfrac{d^5x}{dt^5}$, dus de DV is van de 5e orde.   \quad {\color{blue}   \text{(1p)}}\\
+
 
 ## Opgave 2 (3 punten)
+
+	Omschrijven naar de standaard vorm levert:
+	\begin{align*}
+	  - 5x^2\dfrac{d^5y}{dx^5} +e^{5x}\dfrac{d^3y}{dx^3} + \dfrac{d^2y}{dx^2} - cos(4x)\dfrac{dy}{dx} + \dfrac{y}{x^2}= 3x \quad {\color{blue}   \text{(1p)}}
+	\end{align*}		
+
+	Deze vorm komt overeen met de standaardvorm voor een lineaire DV. \quad {\color{blue}   \text{(1p)}} \\
+	De lineaire DV is ongelijk aan 0 dus inhomogeen. \quad {\color{blue}   \text{(1p)}}
 
 ## Opgave 3 (8 punten)
 
 `````{admonition} Antwoord
 :class: dropdown
 
-Bepaal de uiteindelijke valsnelheid van het voorwerp is $42.04$ m/s
+De algemene oplossing van de differentiaalvergelijking is:
+
+\begin{align*}
+ y &=  C\cdot  (x-5)^2 + 3 &\qquad \text{met } C \in \mathbb{R}
+\end{align*}
 
 ````{dropdown} Uitwerking
 
@@ -58,7 +77,11 @@ $y-3 = 0$ voldoet aan de dv, dus
 `````{admonition} Antwoord
 :class: dropdown
 
-Bepaal de uiteindelijke valsnelheid van het voorwerp is $42.04$ m/s
+De algemene oplossing van de differentiaalvergelijking is:
+
+\begin{align*}
+   y &= \sqrt[3]{\dfrac{3}{\ln(4)} 4^x + C} \qquad \text{met } C \in \mathbb{R} 
+\end{align*}
 
 ````{dropdown} Uitwerking
 \begin{align*}
@@ -100,7 +123,11 @@ dus,
 `````{admonition} Antwoord
 :class: dropdown
 
-Bepaal de uiteindelijke valsnelheid van het voorwerp is $42.04$ m/s
+De algemene oplossing van de differentiaalvergelijking is:
+
+\begin{align*}
+ y &= Ce^{-\frac{6}{7}x} + \dfrac{56}{159}\sin(3x) + \dfrac{16}{159}\cos(3x)\qquad \text{met } C \in \mathbb{R}
+\end{align*}
 
 ````{dropdown} Uitwerking
 \begin{align*}
@@ -200,7 +227,11 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 `````{admonition} Antwoord
 :class: dropdown
 
-Bepaal de uiteindelijke valsnelheid van het voorwerp is $42.04$ m/s
+De algemene oplossing van de differentiaalvergelijking is:
+
+\begin{align*}
+ y &=  C_1\cos(\sqrt{5}x) + C_2\sin ( \sqrt{5}x ) + \dfrac{1}{42}e^{4x} +  \dfrac{1}{10}  \qquad \text{met } C_{1,2} \in \mathbb{R}
+\end{align*}
 
 ````{dropdown} Uitwerking
 \begin{align*}
@@ -318,6 +349,10 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 :class: dropdown
 
 Bepaal de uiteindelijke valsnelheid van het voorwerp is $42.04$ m/s
+
+\begin{align*}
+ I &= \dfrac{217}{101}e^{-10t} + \dfrac{150}{101}\sin(t) - \dfrac{15}{101}\cos(t)
+\end{align*}
 
 ````{dropdown} Uitwerking
   Voor een RL-kring geldt:
@@ -443,6 +478,10 @@ Dus C invullen in de totale oplossing geeft:
 :class: dropdown
 
 Bepaal de uiteindelijke valsnelheid van het voorwerp is $42.04$ m/s
+
+\begin{align*}
+ u &= 0.05 \cos(8t)
+\end{align*}
 
 ````{dropdown} Uitwerking
 Voor een massa-veer-systeem geldt:
