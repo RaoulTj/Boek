@@ -18,7 +18,7 @@
      &= 510.27  
  \end{align*}
  
- Dus na 5 maanden is er $510.27$ euro aan spaargeld. \quad {\color{blue}   \text{(1p)}}
+ Dus na 5 maanden is er $510.27$ euro aan spaargeld. $\quad {\color{blue}   \text{(1p)}}$
  
  Of $510.08$ bij vroegtijdige afronding
 ````
@@ -152,15 +152,15 @@ Bereken de afgeleiden van functie $g(x)$.
 
  Het oppervlak heeft de eenheid $N/m \cdot m = N$, dus kracht. \quad {\color{blue}   \text{(1p)}}
 
-  Gegeven de verdeelde belasting:
+Gegeven de verdeelde belasting:
  \begin{align*}
   q(x) &= 3 \cdot \cos \left (\dfrac{\pi}{4}x \right)
  \end{align*}
  
- Bereken exact met behulp van een integraal het oppervlak onder de verdeelde belasting, $q(x)$.
+Bereken exact met behulp van een integraal het oppervlak onder de verdeelde belasting, $q(x)$.
 
- Beredeneer welke grootheid dit oppervlak voorstelt. 
- 
+Beredeneer welke grootheid dit oppervlak voorstelt. 
+
  \begin{align*}
   F &= \int_{0}^{2} q(x) dx \quad {\color{blue}   \text{(1p)}} \\
     &= \int_{0}^{2} 3 \cdot \cos \left( \dfrac{\pi}{4}x \right) dx \quad {\color{blue}   \text{(1p)}} \\
@@ -168,7 +168,6 @@ Bereken de afgeleiden van functie $g(x)$.
     &= \dfrac{12}{\pi} - 0  \\
     &= \dfrac{12}{\pi} \quad {\color{blue}   \text{(1p)}}
  \end{align*}
-
 ````
 `````
 
