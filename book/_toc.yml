@@ -106,3 +106,4 @@ parts:
       - file: VT/VT_2_uitwerkingen
       - file: VT/_opgaven
       - file: VT/_uitwerkingen
+      - file: VT/WIS1_uitwerkingen
