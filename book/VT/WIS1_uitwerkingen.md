@@ -24,8 +24,6 @@
 ````
 `````
 
-
-
 ## Opgave 2 (9 punten)
 
 `````{admonition} Antwoord
