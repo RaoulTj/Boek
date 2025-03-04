@@ -633,6 +633,8 @@ fig
 ```
 
 ```{code-cell} ipython3
+:tags: ["hide-output","remove-input"]
+
 import numpy as np 
 import matplotlib.pyplot as plt 
 from myst_nb import glue
