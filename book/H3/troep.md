@@ -208,7 +208,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
 \end{align}
 ```
 
-<!-- ````{admonition} Oefening 1
+````{admonition} Oefening 1
 :class: important, dropdown
 
 Bepaal de oplossing van de volgende differentiaalvergelijking:
@@ -295,9 +295,9 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  y &= Ce^{3x}  -\dfrac{1}{2} e^{2x} - \dfrac{1}{3}  \qquad \text{met } C \in \mathbb{R}
 \end{align}
 ```
-```` -->
+```` 
 
-<!-- ````{admonition} Oefening 2
+````{admonition} Oefening 2
 :class: important, dropdown
 
 Bepaal de oplossing van de volgende differentiaalvergelijking:
@@ -383,7 +383,7 @@ De algemene oplossing bestaat uit een optelling van de homogene oplossing en de 
  y &= y_h + y_p \\
  y &= Ce^{3x}  -\dfrac{1}{2} e^{2x} - \dfrac{1}{3}  \qquad \text{met } C \in \mathbb{R}
 \end{align}
-``` -->
+```
 ````
 
 ## 3.2.3 $f(x) = a\sin(x) + b\cos(x)$
@@ -677,6 +677,7 @@ ax.grid()
 
 #fig.savefig("test.png")
 glue("voorbeeld1", fig, display=False)
-
 ```
 
+```{glue:} voorbeeld1
+```
